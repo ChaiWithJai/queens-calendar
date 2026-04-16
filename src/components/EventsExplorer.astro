@@ -1,0 +1,511 @@
+---
+import { events as allEvents, getNeighborhoods } from '../data/site';
+import type { Event } from '../data/site';
+import { formatDateLabel, formatLabels, formatLongDateLabel, formatTimeRange, getSpotsLabel, groupEventsByDate, verticalLabels } from '../lib/format';
+import EventCard from './EventCard.astro';
+import VenueMap from './VenueMap.astro';
+
+interface Props {
+	events?: Event[];
+}
+
+const { events = allEvents } = Astro.props;
+
+const days = [...new Set(events.map((event) => event.date))];
+const verticals = [...new Set(events.map((event) => event.vertical))];
+const formats = [...new Set(events.map((event) => event.format))];
+const neighborhoods = getNeighborhoods();
+const grouped = groupEventsByDate(events);
+
+const venueGroups = Object.values(
+	events.reduce<Record<string, { venue: Event['venue']; events: Event[] }>>((accumulator, event) => {
+		accumulator[event.venue.id] ??= {
+			venue: event.venue,
+			events: [],
+		};
+		accumulator[event.venue.id].events.push(event);
+		return accumulator;
+	}, {}),
+);
+---
+
+<section class="section" data-events-explorer>
+	<div class="container stack-list" style="gap: 1.6rem;">
+		<div class="split-grid section-band">
+			<div class="stack-list" style="gap: 1rem;">
+				<div class="eyebrow">Directory</div>
+				<h1 class="headline-display" style="font-size: clamp(2.9rem, 4vw + 1rem, 4.75rem);">
+					Find the right room without tab-sprawl.
+				</h1>
+				<p class="body-lg" style="max-width: 42rem;">
+					Search once, filter with intent, and flip between list, agenda, and venue views
+					without leaving the page.
+				</p>
+			</div>
+
+			<div class="surface-panel">
+				<div class="stack-list">
+					<strong style="font-family: var(--font-headline); font-size: 1.2rem;">
+						What this screen is solving
+					</strong>
+					<div class="chip-row">
+						<span class="chip is-positive">Search filters</span>
+						<span class="chip">Adaptable view</span>
+						<span class="chip">Favorites</span>
+						<span class="chip is-secondary">URL sync</span>
+					</div>
+					<p class="body-lg">
+						A16Z buried discovery behind separate flows. This version keeps faceted filters
+						and the week view in one place.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="filter-layout">
+			<aside class="filter-panel">
+				<div class="field-group">
+					<label for="event-search">Search the week</label>
+					<input
+						id="event-search"
+						class="input-field"
+						name="search"
+						type="search"
+						placeholder="Title, host, speaker, tag"
+						data-search
+					/>
+				</div>
+
+				<div class="filter-group">
+					<strong>Day</strong>
+					<div class="filter-options">
+						{
+							days.map((day) => (
+								<button class="chip-button filter-option" type="button" data-filter-key="day" data-filter-value={day}>
+									{formatDateLabel(day)} ({events.filter((event) => event.date === day).length})
+								</button>
+							))
+						}
+					</div>
+				</div>
+
+				<div class="filter-group">
+					<strong>Vertical</strong>
+					<div class="filter-options">
+						{
+							verticals.map((vertical) => (
+								<button class="chip-button filter-option" type="button" data-filter-key="vertical" data-filter-value={vertical}>
+									{verticalLabels[vertical]} ({events.filter((event) => event.vertical === vertical).length})
+								</button>
+							))
+						}
+					</div>
+				</div>
+
+				<div class="filter-group">
+					<strong>Format</strong>
+					<div class="filter-options">
+						{
+							formats.map((format) => (
+								<button class="chip-button filter-option" type="button" data-filter-key="format" data-filter-value={format}>
+									{formatLabels[format]} ({events.filter((event) => event.format === format).length})
+								</button>
+							))
+						}
+					</div>
+				</div>
+
+				<div class="filter-group">
+					<strong>Neighborhood</strong>
+					<div class="filter-options">
+						{
+							neighborhoods.map((neighborhood) => (
+								<button
+									class="chip-button filter-option"
+									type="button"
+									data-filter-key="neighborhood"
+									data-filter-value={neighborhood}
+								>
+									{neighborhood}
+								</button>
+							))
+						}
+					</div>
+				</div>
+
+				<div class="button-row">
+					<button class="button-ghost" type="button" data-clear-filters>Clear all</button>
+					<a class="button-secondary" href="/schedule">Open saved plan</a>
+				</div>
+			</aside>
+
+			<div class="stack-list" style="gap: 1.1rem;">
+				<div class="surface-panel split-grid" style="align-items: center;">
+					<div class="stack-list" style="gap: 0.4rem;">
+						<strong style="font-size: 1.2rem;"><span data-result-count>{events.length}</span> events in view</strong>
+						<div class="body-lg" data-active-summary>
+							Start broad, then narrow by day, neighborhood, or track.
+						</div>
+					</div>
+					<div class="view-switcher">
+						<button class="chip-button view-toggle is-active" type="button" data-view-switch="list">List</button>
+						<button class="chip-button view-toggle" type="button" data-view-switch="calendar">Agenda</button>
+						<button class="chip-button view-toggle" type="button" data-view-switch="map">Map</button>
+					</div>
+				</div>
+
+				<div class="chip-row" data-active-filters hidden></div>
+				<div class="blank-slate" data-empty-state hidden>
+					<strong style="display: block; margin-bottom: 0.5rem;">No events match that exact slice.</strong>
+					Try clearing a neighborhood, or widen the search beyond one vertical.
+				</div>
+
+				<section class="card-grid" data-view-panel="list">
+					{
+						events.map((event) => {
+							const searchText = [
+								event.title,
+								event.subtitle,
+								event.description,
+								event.tags.join(' '),
+								event.track?.name,
+								event.venue.name,
+								event.venue.neighborhood,
+							]
+								.filter(Boolean)
+								.join(' ')
+								.toLowerCase();
+
+							return (
+								<div
+									class="span-6"
+									data-event-item
+									data-day={event.date}
+									data-vertical={event.vertical}
+									data-format={event.format}
+									data-neighborhood={event.venue.neighborhood}
+									data-search={searchText}
+								>
+									<EventCard event={event} />
+								</div>
+							);
+						})
+					}
+				</section>
+
+				<section class="stack-list" data-view-panel="calendar" hidden>
+					{
+						days.map((day) => (
+							<div class="surface-panel" data-day-group>
+								<div class="button-row" style="justify-content: space-between; align-items: baseline;">
+									<h2 style="font-size: 1.45rem;">{formatLongDateLabel(day)}</h2>
+									<span class="chip">{grouped[day].length} sessions</span>
+								</div>
+								<div class="agenda-list" style="margin-top: 1rem;">
+									{
+										grouped[day].map((event) => {
+											const searchText = [
+												event.title,
+												event.subtitle,
+												event.description,
+												event.tags.join(' '),
+												event.track?.name,
+												event.venue.name,
+												event.venue.neighborhood,
+											]
+												.filter(Boolean)
+												.join(' ')
+												.toLowerCase();
+
+											return (
+												<article
+													class="timeline-card"
+													data-agenda-item
+													data-day={event.date}
+													data-vertical={event.vertical}
+													data-format={event.format}
+													data-neighborhood={event.venue.neighborhood}
+													data-search={searchText}
+												>
+													<div class="button-row" style="justify-content: space-between; align-items: flex-start;">
+														<div class="stack-list" style="gap: 0.4rem;">
+															<span class="eyebrow">{formatTimeRange(event.startTime, event.endTime)}</span>
+															<h3>{event.title}</h3>
+															<p class="body-lg">{event.shortDescription}</p>
+															<div class="mini-meta">
+																{event.venue.name} · {event.venue.neighborhood} · {getSpotsLabel(event)}
+															</div>
+														</div>
+														<div class="button-row">
+															<a class="button-ghost" href={`/events/${event.slug}`}>View</a>
+															<button class="button-secondary save-toggle" type="button" data-save-event={event.id} data-saved="false">
+																<span data-save-label>Save</span>
+															</button>
+														</div>
+													</div>
+												</article>
+											);
+										})
+									}
+								</div>
+							</div>
+						))
+					}
+				</section>
+
+				<section class="stack-list" data-view-panel="map" hidden>
+					<VenueMap groups={venueGroups} />
+					<div class="agenda-grid">
+						{
+							venueGroups.map((group) => {
+								const searchText = group.events
+									.flatMap((event) => [
+										event.title,
+										event.description,
+										event.tags.join(' '),
+										event.vertical,
+										event.format,
+										event.venue.neighborhood,
+									])
+									.join(' ')
+									.toLowerCase();
+
+								const daysForVenue = [...new Set(group.events.map((event) => event.date))].join('|');
+								const verticalsForVenue = [...new Set(group.events.map((event) => event.vertical))].join('|');
+								const formatsForVenue = [...new Set(group.events.map((event) => event.format))].join('|');
+
+								return (
+									<article
+										class="venue-card"
+										id={`venue-${group.venue.id}`}
+										data-venue-item
+										data-day={daysForVenue}
+										data-vertical={verticalsForVenue}
+										data-format={formatsForVenue}
+										data-neighborhood={group.venue.neighborhood}
+										data-search={searchText}
+									>
+										<div class="stack-list">
+											<div class="eyebrow">{group.events.length} events</div>
+											<h3>{group.venue.name}</h3>
+											<p class="body-lg">
+												{group.venue.neighborhood} · {group.venue.address}
+											</p>
+											<div class="chip-row">
+												{group.venue.amenities.slice(0, 3).map((amenity) => <span class="chip">{amenity}</span>)}
+											</div>
+											<div class="stack-list">
+												{group.events.slice(0, 3).map((event) => <a href={`/events/${event.slug}`}>{event.title}</a>)}
+											</div>
+										</div>
+									</article>
+								);
+							})
+						}
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+
+	<script is:inline>
+		// @ts-nocheck
+		const root = document.querySelector('[data-events-explorer]');
+
+		if (root) {
+			const searchInput = root.querySelector('[data-search]');
+			const clearButton = root.querySelector('[data-clear-filters]');
+			const resultCount = root.querySelector('[data-result-count]');
+			const summary = root.querySelector('[data-active-summary]');
+			const activeFilters = root.querySelector('[data-active-filters]');
+			const blankState = root.querySelector('[data-empty-state]');
+			const filterButtons = [...root.querySelectorAll('[data-filter-key]')];
+			const viewButtons = [...root.querySelectorAll('[data-view-switch]')];
+			const panels = [...root.querySelectorAll('[data-view-panel]')];
+			const eventItems = [...root.querySelectorAll('[data-event-item]')];
+			const agendaItems = [...root.querySelectorAll('[data-agenda-item]')];
+			const agendaGroups = [...root.querySelectorAll('[data-day-group]')];
+			const venueItems = [...root.querySelectorAll('[data-venue-item]')];
+
+			const state = {
+				day: '',
+				vertical: new Set(),
+				format: new Set(),
+				neighborhood: new Set(),
+				search: '',
+				view: 'list',
+			};
+
+			const parseList = (value) => new Set((value || '').split(',').filter(Boolean));
+			const inSet = (datasetValue, selection) => !selection.size || selection.has(datasetValue);
+			const inMultiValue = (datasetValue, selection) => {
+				if (!selection.size) {
+					return true;
+				}
+				return (datasetValue || '').split('|').some((value) => selection.has(value));
+			};
+
+			const syncButtons = () => {
+				filterButtons.forEach((button) => {
+					const key = button.dataset.filterKey;
+					const value = button.dataset.filterValue;
+					const active =
+						key === 'day' ? state.day === value : state[key] instanceof Set && state[key].has(value);
+					button.classList.toggle('is-active', active);
+				});
+
+				viewButtons.forEach((button) => {
+					button.classList.toggle('is-active', button.dataset.viewSwitch === state.view);
+				});
+			};
+
+			const syncUrl = () => {
+				const params = new URLSearchParams(window.location.search);
+
+				state.day ? params.set('day', state.day) : params.delete('day');
+				state.vertical.size ? params.set('vertical', [...state.vertical].join(',')) : params.delete('vertical');
+				state.format.size ? params.set('format', [...state.format].join(',')) : params.delete('format');
+				state.neighborhood.size
+					? params.set('neighborhood', [...state.neighborhood].join(','))
+					: params.delete('neighborhood');
+				state.search ? params.set('search', state.search) : params.delete('search');
+				state.view !== 'list' ? params.set('view', state.view) : params.delete('view');
+
+				const next = params.toString();
+				const href = next ? `${window.location.pathname}?${next}` : window.location.pathname;
+				window.history.replaceState({}, '', href);
+			};
+
+			const matches = (item) => {
+				const matchesSearch =
+					!state.search || (item.dataset.search || '').includes(state.search.toLowerCase());
+				const matchesDay = !state.day || inMultiValue(item.dataset.day, new Set([state.day]));
+				const matchesVertical = inMultiValue(item.dataset.vertical, state.vertical);
+				const matchesFormat = inMultiValue(item.dataset.format, state.format);
+				const matchesNeighborhood = inMultiValue(item.dataset.neighborhood, state.neighborhood);
+
+				return matchesSearch && matchesDay && matchesVertical && matchesFormat && matchesNeighborhood;
+			};
+
+			const renderActiveFilters = () => {
+				const pills = [];
+				if (state.day) pills.push(`Day: ${state.day}`);
+				[...state.vertical].forEach((value) => pills.push(`Vertical: ${value.replaceAll('-', ' ')}`));
+				[...state.format].forEach((value) => pills.push(`Format: ${value.replaceAll('-', ' ')}`));
+				[...state.neighborhood].forEach((value) => pills.push(`Neighborhood: ${value}`));
+				if (state.search) pills.push(`Search: ${state.search}`);
+
+				activeFilters.hidden = pills.length === 0;
+				activeFilters.innerHTML = pills.map((pill) => `<span class="chip">${pill}</span>`).join('');
+			};
+
+			const applyView = () => {
+				panels.forEach((panel) => {
+					panel.hidden = panel.dataset.viewPanel !== state.view;
+				});
+			};
+
+			const applyFilters = () => {
+				let visibleEventCount = 0;
+				eventItems.forEach((item) => {
+					const show = matches(item);
+					item.hidden = !show;
+					if (show) visibleEventCount += 1;
+				});
+
+				agendaItems.forEach((item) => {
+					item.hidden = !matches(item);
+				});
+
+				agendaGroups.forEach((group) => {
+					group.hidden = ![...group.querySelectorAll('[data-agenda-item]')].some((item) => !item.hidden);
+				});
+
+				venueItems.forEach((item) => {
+					item.hidden = !matches(item);
+				});
+
+				resultCount.textContent = String(visibleEventCount);
+				blankState.hidden = visibleEventCount > 0;
+				summary.textContent =
+					visibleEventCount > 0
+						? `${visibleEventCount} sessions fit this exact slice of the week.`
+						: 'This combination is too narrow right now. Clear one filter and widen the room.';
+
+				renderActiveFilters();
+				applyView();
+				syncButtons();
+			};
+
+			const loadFromUrl = () => {
+				const params = new URLSearchParams(window.location.search);
+				state.day = params.get('day') || '';
+				state.vertical = parseList(params.get('vertical'));
+				state.format = parseList(params.get('format'));
+				state.neighborhood = parseList(params.get('neighborhood'));
+				state.search = params.get('search') || '';
+				state.view = ['list', 'calendar', 'map'].includes(params.get('view') || '') ? params.get('view') : 'list';
+
+				if (searchInput) {
+					searchInput.value = state.search;
+				}
+			};
+
+			let timer;
+			searchInput?.addEventListener('input', () => {
+				window.clearTimeout(timer);
+				timer = window.setTimeout(() => {
+					state.search = searchInput.value.trim();
+					syncUrl();
+					applyFilters();
+				}, 180);
+			});
+
+			filterButtons.forEach((button) => {
+				button.addEventListener('click', () => {
+					const key = button.dataset.filterKey;
+					const value = button.dataset.filterValue;
+
+					if (key === 'day') {
+						state.day = state.day === value ? '' : value;
+					} else {
+						const bucket = state[key];
+						if (bucket.has(value)) {
+							bucket.delete(value);
+						} else {
+							bucket.add(value);
+						}
+					}
+
+					syncUrl();
+					applyFilters();
+				});
+			});
+
+			viewButtons.forEach((button) => {
+				button.addEventListener('click', () => {
+					state.view = button.dataset.viewSwitch;
+					syncUrl();
+					applyFilters();
+				});
+			});
+
+			clearButton?.addEventListener('click', () => {
+				state.day = '';
+				state.vertical.clear();
+				state.format.clear();
+				state.neighborhood.clear();
+				state.search = '';
+				state.view = 'list';
+				if (searchInput) {
+					searchInput.value = '';
+				}
+				syncUrl();
+				applyFilters();
+			});
+
+			loadFromUrl();
+			applyFilters();
+		}
+	</script>
+</section>

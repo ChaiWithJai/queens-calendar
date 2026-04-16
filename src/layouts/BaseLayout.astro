@@ -1,0 +1,136 @@
+---
+import '@fontsource-variable/plus-jakarta-sans';
+import '@fontsource/be-vietnam-pro/400.css';
+import '@fontsource/be-vietnam-pro/500.css';
+import '@fontsource/be-vietnam-pro/600.css';
+import '@fontsource/be-vietnam-pro/700.css';
+import '../styles/global.css';
+import SiteFooter from '../components/SiteFooter.astro';
+import SiteNav from '../components/SiteNav.astro';
+
+interface Props {
+	title: string;
+	description: string;
+	path?: string;
+}
+
+const { title, description, path = Astro.url.pathname } = Astro.props;
+const canonical = new URL(path, Astro.site).toString();
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" href="/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+		<meta name="description" content={description} />
+		<link rel="canonical" href={canonical} />
+	</head>
+	<body>
+		<SiteNav currentPath={path} />
+		<slot />
+		<SiteFooter />
+
+		<script is:inline>
+			// @ts-nocheck
+			const STORAGE_KEY = 'build-week-saved-events';
+
+			const getSavedEvents = () => {
+				try {
+					const raw = localStorage.getItem(STORAGE_KEY);
+					const parsed = raw ? JSON.parse(raw) : [];
+					return Array.isArray(parsed) ? parsed : [];
+				} catch {
+					return [];
+				}
+			};
+
+			const setSavedEvents = (ids) => {
+				localStorage.setItem(STORAGE_KEY, JSON.stringify([...new Set(ids)]));
+			};
+
+			const syncSavedUI = () => {
+				const saved = new Set(getSavedEvents());
+				document.querySelectorAll('[data-save-event]').forEach((button) => {
+					const id = button.dataset.saveEvent;
+					const active = saved.has(id);
+					button.dataset.saved = String(active);
+					button.setAttribute('aria-pressed', String(active));
+					const label = button.querySelector('[data-save-label]');
+					if (label) {
+						label.textContent = active ? 'Saved' : 'Save';
+					}
+				});
+
+				document.querySelectorAll('[data-saved-count]').forEach((node) => {
+					node.textContent = String(saved.size);
+				});
+			};
+
+			const toggleSavedEvent = (eventId) => {
+				const saved = new Set(getSavedEvents());
+				if (saved.has(eventId)) {
+					saved.delete(eventId);
+				} else {
+					saved.add(eventId);
+				}
+				const next = [...saved];
+				setSavedEvents(next);
+				syncSavedUI();
+				window.dispatchEvent(new CustomEvent('saved-events:updated', { detail: next }));
+			};
+
+			const setDrawerState = (element, backdrop, open) => {
+				if (!element || !backdrop) {
+					return;
+				}
+				element.classList.toggle('is-open', open);
+				element.setAttribute('aria-hidden', String(!open));
+				backdrop.classList.toggle('is-open', open);
+				document.body.dataset.drawerOpen = String(open);
+			};
+
+			document.addEventListener('click', (event) => {
+				const saveButton = event.target.closest('[data-save-event]');
+				if (saveButton instanceof HTMLButtonElement) {
+					event.preventDefault();
+					toggleSavedEvent(saveButton.dataset.saveEvent);
+					return;
+				}
+
+				const navToggle = event.target.closest('[data-nav-toggle]');
+				const navClose = event.target.closest('[data-close-nav]');
+				const navPanel = document.querySelector('[data-mobile-nav]');
+				const navBackdrop = document.querySelector('[data-nav-backdrop]');
+
+				if (navToggle) {
+					const next = !navPanel?.classList.contains('is-open');
+					setDrawerState(navPanel, navBackdrop, next);
+					navToggle.setAttribute('aria-expanded', String(next));
+				}
+
+				if (navClose || event.target === navBackdrop) {
+					setDrawerState(navPanel, navBackdrop, false);
+					document.querySelector('[data-nav-toggle]')?.setAttribute('aria-expanded', 'false');
+				}
+			});
+
+			document.addEventListener('keydown', (event) => {
+				if (event.key !== 'Escape') {
+					return;
+				}
+				const navPanel = document.querySelector('[data-mobile-nav]');
+				const navBackdrop = document.querySelector('[data-nav-backdrop]');
+				setDrawerState(navPanel, navBackdrop, false);
+				document.querySelector('[data-nav-toggle]')?.setAttribute('aria-expanded', 'false');
+			});
+
+			window.addEventListener('storage', syncSavedUI);
+			window.addEventListener('DOMContentLoaded', syncSavedUI);
+		</script>
+	</body>
+</html>

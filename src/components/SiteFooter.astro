@@ -1,0 +1,62 @@
+---
+const year = new Date().getFullYear();
+---
+
+<footer class="footer-shell">
+	<div class="container">
+		<div class="footer-panel">
+			<div class="footer-grid">
+				<div class="stack-list">
+					<div class="brand-lockup">
+						<span class="brand-mark">BW</span>
+						<span>Build Week NYC</span>
+					</div>
+					<p class="body-lg" style="max-width: 34rem;">
+						A builder-first directory for the week. Find the right rooms, save the sessions you
+						actually care about, and move through the city without calendar chaos.
+					</p>
+					<div class="button-row">
+						<a class="button-primary" href="/events">Open the directory</a>
+						<a class="button-secondary" href="/events/submit">List your event</a>
+					</div>
+				</div>
+
+				<div>
+					<h3>Explore</h3>
+					<ul class="list-reset stack-list" style="margin-top: 1rem;">
+						<li><a href="/events">All events</a></li>
+						<li><a href="/tracks">Tracks</a></li>
+						<li><a href="/schedule">My schedule</a></li>
+						<li><a href="/map">Venue map</a></li>
+					</ul>
+				</div>
+
+				<div>
+					<h3>Build Week</h3>
+					<ul class="list-reset stack-list" style="margin-top: 1rem;">
+						<li><a href="/about">About</a></li>
+						<li><a href="/sponsors">Sponsorships</a></li>
+						<li><a href="/events/submit">Submit an event</a></li>
+						<li><a href="/api/events">Public API</a></li>
+					</ul>
+				</div>
+
+				<div>
+					<h3>Notes</h3>
+					<ul class="list-reset stack-list" style="margin-top: 1rem;">
+						<li>Platform-agnostic RSVPs</li>
+						<li>URL-synced filters</li>
+						<li>Local-first saved schedule</li>
+						<li>Netlify-ready static build</li>
+					</ul>
+				</div>
+			</div>
+
+			<div
+				style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--outline-variant); color: var(--on-surface-variant);"
+			>
+				© {year} Build Week NYC. Designed in editorial neo-brutalism for community-first discovery.
+			</div>
+		</div>
+	</div>
+</footer>

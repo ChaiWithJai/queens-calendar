@@ -1,0 +1,150 @@
+---
+import EventCard from '../components/EventCard.astro';
+import TrackCard from '../components/TrackCard.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { events, getFeaturedEvents, getFlagshipEvents, siteStats, tracks } from '../data/site';
+import { formatLongDateLabel, groupEventsByDate } from '../lib/format';
+
+const featuredEvents = getFeaturedEvents().slice(0, 4);
+const flagshipEvents = getFlagshipEvents().slice(0, 3);
+const groupedEvents = groupEventsByDate(events);
+const previewDays = Object.entries(groupedEvents).slice(0, 4);
+---
+
+<BaseLayout
+	title="Build Week NYC"
+	description="A builder-first, Astro-powered directory for NYC tech week with filters, schedule saving, and track-driven discovery."
+>
+	<main>
+		<section class="section">
+			<div class="container stack-list" style="gap: 1.5rem;">
+				<div class="hero-grid section-band">
+					<div class="stack-list" style="gap: 1.1rem;">
+						<div class="eyebrow">Builder-first discovery</div>
+						<h1 class="headline-display">
+							One city. One week. Zero calendar chaos.
+						</h1>
+						<p class="body-lg" style="max-width: 40rem;">
+							Build Week NYC pulls flagship tracks, community sessions, and platform-agnostic RSVP
+							links into one warm, mobile-first surface. No sponsor maze. No hidden search modal.
+						</p>
+						<div class="button-row">
+							<a class="button-primary" href="/events">Open the directory</a>
+							<a class="button-secondary" href="/tracks">Browse curated tracks</a>
+						</div>
+					</div>
+
+					<div class="stack-list">
+						<div class="surface-panel" style="background: linear-gradient(160deg, rgba(255,255,255,0.55), rgba(240,231,214,0.94));">
+							<div class="eyebrow">Week at a glance</div>
+							<div class="stack-list" style="margin-top: 1rem;">
+								{previewDays.map(([day, dayEvents]) => (
+									<div class="comparison-card">
+										<strong>{formatLongDateLabel(day)}</strong>
+										<div class="body-lg">{dayEvents.length} sessions live across the city.</div>
+									</div>
+								))}
+							</div>
+						</div>
+						<div class="stats-grid">
+							{siteStats.map((stat) => (
+								<div class="stat-card">
+									<strong>{stat.value}</strong>
+									<span>{stat.label}</span>
+								</div>
+							))}
+						</div>
+					</div>
+				</div>
+
+				<section class="stack-list" style="gap: 1rem;">
+					<div class="button-row" style="justify-content: space-between; align-items: flex-end;">
+						<div class="stack-list" style="gap: 0.4rem;">
+							<div class="eyebrow">Flagship events</div>
+							<h2 class="headline-section">Open the week with the rooms that define it.</h2>
+						</div>
+						<a class="button-ghost" href="/events">See all events</a>
+					</div>
+
+					<div class="card-grid">
+						{flagshipEvents.map((event) => (
+							<div class="span-4">
+								<EventCard event={event} />
+							</div>
+						))}
+					</div>
+				</section>
+
+				<section class="stack-list" style="gap: 1rem;">
+					<div class="button-row" style="justify-content: space-between; align-items: flex-end;">
+						<div class="stack-list" style="gap: 0.4rem;">
+							<div class="eyebrow">Tracks</div>
+							<h2 class="headline-section">Narrative-led curation, not one giant flat list.</h2>
+						</div>
+						<a class="button-ghost" href="/tracks">All tracks</a>
+					</div>
+
+					<div class="track-grid">
+						{tracks.map((track) => <TrackCard track={track} />)}
+					</div>
+				</section>
+
+				<section class="stack-list" style="gap: 1rem;">
+					<div class="button-row" style="justify-content: space-between; align-items: flex-end;">
+						<div class="stack-list" style="gap: 0.4rem;">
+							<div class="eyebrow">Featured this week</div>
+							<h2 class="headline-section">A few more rooms worth your attention.</h2>
+						</div>
+						<a class="button-ghost" href="/schedule">View saved schedule</a>
+					</div>
+
+					<div class="card-grid">
+						{featuredEvents.map((event) => (
+							<div class="span-6">
+								<EventCard event={event} />
+							</div>
+						))}
+					</div>
+				</section>
+
+				<section class="comparison-grid">
+					<div class="comparison-card">
+						<strong>Events are visible immediately</strong>
+						<div class="body-lg">No homepage-to-city-to-calendar hop. Discovery starts on page load.</div>
+					</div>
+					<div class="comparison-card">
+						<strong>Filters stay in the open</strong>
+						<div class="body-lg">Day, vertical, format, and neighborhood all live in URL-synced state.</div>
+					</div>
+					<div class="comparison-card">
+						<strong>Your schedule is yours</strong>
+						<div class="body-lg">Save events, catch overlaps, and export an `.ics` file without making an account.</div>
+					</div>
+				</section>
+
+				<section class="section-band split-grid">
+					<div class="stack-list">
+						<div class="eyebrow">Sponsors and partners</div>
+						<h2 class="headline-section">Community first. Partners visible, but never louder than the builders.</h2>
+						<p class="body-lg">
+							Sponsorship exists to amplify the week, not dominate the hierarchy. The sponsor page
+							explains the tiers without hijacking the event flow.
+						</p>
+					</div>
+					<div class="stack-list">
+						<div class="chip-row">
+							<span class="chip is-secondary">Presenting</span>
+							<span class="chip">Gold</span>
+							<span class="chip">Silver</span>
+							<span class="chip is-positive">Community</span>
+						</div>
+						<div class="button-row">
+							<a class="button-primary" href="/sponsors">Sponsor build week</a>
+							<a class="button-ghost" href="/about">Why this architecture wins</a>
+						</div>
+					</div>
+				</section>
+			</div>
+		</section>
+	</main>
+</BaseLayout>

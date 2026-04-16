@@ -1,0 +1,229 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+	title="Submit an Event | Build Week NYC"
+	description="Submit a Build Week NYC event with a platform link or manual details using the Vercel-ready intake flow."
+	path="/events/submit"
+>
+	<main>
+		<section class="section">
+			<div class="container stack-list" style="gap: 1.4rem;">
+				<div class="split-grid section-band">
+					<div class="stack-list">
+						<div class="eyebrow">Host submission</div>
+						<h1 class="headline-display" style="font-size: clamp(2.8rem, 4vw, 4.5rem);">
+							Paste a link, or fill it by hand.
+						</h1>
+						<p class="body-lg">
+							The intake is platform-agnostic by design. Start with a Luma, Partiful, or Eventbrite
+							URL when you have one. If not, the manual fields below still get the event into review.
+						</p>
+					</div>
+
+					<div class="surface-panel stack-list">
+						<strong style="font-size: 1.2rem;">What happens after submission</strong>
+						<div class="comparison-card">
+							<strong>1. Intake</strong>
+							<div class="body-lg">We grab the provider link and essential metadata first.</div>
+						</div>
+						<div class="comparison-card">
+							<strong>2. Review</strong>
+							<div class="body-lg">Events are approved against curation standards and venue clarity.</div>
+						</div>
+						<div class="comparison-card">
+							<strong>3. Publish</strong>
+							<div class="body-lg">Approved events land in the directory with saved-schedule support.</div>
+						</div>
+					</div>
+				</div>
+
+				<form
+					class="surface-panel stack-list"
+					name="event-submission"
+					method="POST"
+					action="/api/event-submission"
+					data-submission-form
+				>
+					<input type="hidden" name="form_name" value="event-submission" />
+
+					<div class="field-group">
+						<label for="provider-url">Provider link</label>
+						<input
+							id="provider-url"
+							class="input-field"
+							type="url"
+							name="provider_url"
+							placeholder="https://lu.ma/your-event or https://partiful.com/e/..."
+							data-provider-url
+						/>
+						<small data-provider-copy>
+							We detect Luma, Partiful, Eventbrite, or a manual flow from the link you paste.
+						</small>
+					</div>
+
+					<div class="split-grid">
+						<div class="field-group">
+							<label for="title">Event title</label>
+							<input id="title" class="input-field" type="text" name="title" required />
+						</div>
+						<div class="field-group">
+							<label for="host">Host or organizing team</label>
+							<input id="host" class="input-field" type="text" name="host" required />
+						</div>
+					</div>
+
+					<div class="split-grid">
+						<div class="field-group">
+							<label for="date">Date</label>
+							<input id="date" class="input-field" type="date" name="date" required />
+						</div>
+						<div class="field-group">
+							<label for="time">Time window</label>
+							<input id="time" class="input-field" type="text" name="time_window" placeholder="6:30 PM to 9:00 PM" required />
+						</div>
+					</div>
+
+					<div class="split-grid">
+						<div class="field-group">
+							<label for="vertical">Vertical</label>
+							<select id="vertical" class="select-field" name="vertical">
+								<option>Civic tech</option>
+								<option>South Asian builders</option>
+								<option>Immigrant founders</option>
+								<option>AI agents</option>
+								<option>Fintech</option>
+								<option>Community</option>
+							</select>
+						</div>
+						<div class="field-group">
+							<label for="format">Format</label>
+							<select id="format" class="select-field" name="format">
+								<option>Hackathon</option>
+								<option>Demo night</option>
+								<option>Workshop</option>
+								<option>Panel</option>
+								<option>Happy hour</option>
+								<option>Office hours</option>
+							</select>
+						</div>
+					</div>
+
+					<div class="field-group">
+						<label for="venue">Venue</label>
+						<input id="venue" class="input-field" type="text" name="venue" placeholder="Name, neighborhood, and borough" required />
+					</div>
+
+					<div class="field-group">
+						<label for="description">Short description</label>
+						<textarea
+							id="description"
+							class="textarea-field"
+							name="description"
+							placeholder="Tell us who this is for, why it matters, and any attendee constraints."
+							required
+						></textarea>
+					</div>
+
+					<div class="field-group">
+						<label for="email">Contact email</label>
+						<input id="email" class="input-field" type="email" name="email" required />
+					</div>
+
+					<div class="button-row">
+						<button class="button-primary" type="submit" data-submit-button>Let&apos;s go</button>
+						<a class="button-ghost" href="/events">Back to the directory</a>
+					</div>
+					<div class="surface-panel" data-submit-status hidden></div>
+				</form>
+			</div>
+		</section>
+	</main>
+
+	<script is:inline>
+		// @ts-nocheck
+		const input = document.querySelector('[data-provider-url]');
+		const copy = document.querySelector('[data-provider-copy]');
+		const form = document.querySelector('[data-submission-form]');
+		const status = document.querySelector('[data-submit-status]');
+		const submitButton = document.querySelector('[data-submit-button]');
+
+		const setStatus = (message, fallbackLink) => {
+			if (!status) return;
+			status.hidden = false;
+			status.innerHTML = '';
+			const text = document.createElement('div');
+			text.className = 'body-lg';
+			text.textContent = message;
+			status.append(text);
+			if (fallbackLink) {
+				const link = document.createElement('a');
+				link.className = 'button-ghost';
+				link.href = fallbackLink;
+				link.textContent = 'Open email draft';
+				link.style.marginTop = '0.8rem';
+				status.append(link);
+			}
+		};
+
+		input?.addEventListener('input', () => {
+			const value = input.value.toLowerCase();
+			if (value.includes('lu.ma')) {
+				copy.textContent = 'Luma link detected. Great. We can usually normalize that cleanly.';
+			} else if (value.includes('partiful.com')) {
+				copy.textContent = 'Partiful link detected. We will preserve the RSVP destination and review the details manually if needed.';
+			} else if (value.includes('eventbrite.com')) {
+				copy.textContent = 'Eventbrite link detected. Ticketing metadata should map cleanly.';
+			} else if (value.trim().length > 0) {
+				copy.textContent = 'Custom link detected. We will treat this as a manual import during review.';
+			} else {
+				copy.textContent = 'We detect Luma, Partiful, Eventbrite, or a manual flow from the link you paste.';
+			}
+		});
+
+		form?.addEventListener('submit', async (event) => {
+			event.preventDefault();
+			if (!(form instanceof HTMLFormElement)) return;
+			if (submitButton instanceof HTMLButtonElement) {
+				submitButton.disabled = true;
+				submitButton.textContent = 'Sending...';
+			}
+			setStatus('Submitting your intake...');
+
+			try {
+				const payload = Object.fromEntries(new FormData(form).entries());
+				const response = await fetch('/api/event-submission', {
+					method: 'POST',
+					headers: {
+						'Content-Type': 'application/json',
+					},
+					body: JSON.stringify(payload),
+				});
+
+				const result = await response.json().catch(() => ({}));
+				if (!response.ok) {
+					throw new Error(result?.error || 'Something’s not right, let’s try again.');
+				}
+
+				if (result.delivery === 'mailto' && result.mailto) {
+					setStatus(
+						'The intake backend is not wired yet, so we opened an email draft with your event details.',
+						result.mailto,
+					);
+					window.location.href = result.mailto;
+					return;
+				}
+
+				window.location.href = '/events/submit/success';
+			} catch (error) {
+				setStatus(error.message || 'Something’s not right, let’s try again.');
+			} finally {
+				if (submitButton instanceof HTMLButtonElement) {
+					submitButton.disabled = false;
+					submitButton.textContent = "Let's go";
+				}
+			}
+		});
+	</script>
+</BaseLayout>

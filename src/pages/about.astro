@@ -1,0 +1,70 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+	title="About | Build Week NYC"
+	description="Why Build Week NYC is structured as a fast, community-first event directory instead of a sponsor maze."
+	path="/about"
+>
+	<main>
+		<section class="section">
+			<div class="container stack-list" style="gap: 1.4rem;">
+				<div class="split-grid section-band">
+					<div class="stack-list">
+						<div class="eyebrow">About Build Week NYC</div>
+						<h1 class="headline-display" style="font-size: clamp(2.9rem, 4vw, 4.5rem);">
+							Designed to beat the sponsor-first calendar hop.
+						</h1>
+						<p class="body-lg">
+							This frontend architecture treats discovery as the core job: bring events forward,
+							keep filters visible, make saved schedules obvious, and avoid locking hosts into one RSVP
+							platform.
+						</p>
+					</div>
+					<div class="surface-panel">
+						<h2 style="font-size: 1.3rem;">Stack choice</h2>
+						<p class="body-lg" style="margin-top: 0.8rem;">
+							Astro keeps the first render lean, lets most of the site stay static, and only adds
+							JavaScript where the UX materially improves: filters, saved schedules, and export.
+						</p>
+					</div>
+				</div>
+
+				<div class="comparison-grid">
+					<div class="comparison-card">
+						<strong>Discovery</strong>
+						<div class="body-lg">Homepage and directory surface events immediately instead of pushing users through extra city pages.</div>
+					</div>
+					<div class="comparison-card">
+						<strong>Platform policy</strong>
+						<div class="body-lg">Hosts can bring Luma, Partiful, Eventbrite, or a manual RSVP flow without breaking the directory.</div>
+					</div>
+					<div class="comparison-card">
+						<strong>Performance</strong>
+						<div class="body-lg">Static-first pages, lightweight SVG visuals, and small interactive islands keep the site fast on mobile.</div>
+					</div>
+				</div>
+
+				<div class="story-grid">
+					<div class="surface-panel">
+						<h2 style="font-size: 1.35rem;">What ships in this version</h2>
+						<div class="stack-list" style="margin-top: 1rem;">
+							<div class="comparison-card"><strong>Typed local event model</strong><div class="body-lg">Enough structure to validate routes, filter state, and content design before a CMS arrives.</div></div>
+							<div class="comparison-card"><strong>Netlify-backed submission form</strong><div class="body-lg">A structured intake flow that works on static hosting from day one.</div></div>
+							<div class="comparison-card"><strong>Saved schedule and `.ics` export</strong><div class="body-lg">Local-first persistence now, sync later if the product proves useful.</div></div>
+						</div>
+					</div>
+					<div class="surface-panel">
+						<h2 style="font-size: 1.35rem;">What comes next</h2>
+						<div class="stack-list" style="margin-top: 1rem;">
+							<div class="comparison-card"><strong>Provider sync jobs</strong><div class="body-lg">Luma and Eventbrite imports can promote this from curated seed data to live inventory.</div></div>
+							<div class="comparison-card"><strong>Real map provider</strong><div class="body-lg">Mapbox can slot in later without replacing the venue-first information architecture.</div></div>
+							<div class="comparison-card"><strong>User accounts only if earned</strong><div class="body-lg">Accounts should follow value, not block it. Local-first remains the right opening move.</div></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+</BaseLayout>

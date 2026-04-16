@@ -1,0 +1,60 @@
+---
+import EventCard from '../../components/EventCard.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getTrackEvents, hostsById, tracks } from '../../data/site';
+
+export function getStaticPaths() {
+	return tracks.map((track) => ({
+		params: { slug: track.slug },
+		props: { track },
+	}));
+}
+
+const { track } = Astro.props;
+const curator = hostsById[track.curatorId];
+const trackEvents = getTrackEvents(track.id);
+---
+
+<BaseLayout
+	title={`${track.name} | Build Week NYC`}
+	description={track.description}
+	path={`/tracks/${track.slug}`}
+>
+	<main>
+		<section class="section">
+			<div class="container stack-list" style="gap: 1.4rem;">
+				<div class="detail-grid section-band">
+					<div class="stack-list">
+						<div class="eyebrow">Track detail</div>
+						<h1 class="headline-display" style="font-size: clamp(2.9rem, 4vw, 4.6rem);">{track.name}</h1>
+						<p class="body-lg">{track.description}</p>
+						<div class="chip-row">
+							<span class="chip is-secondary">Curated by {curator?.name}</span>
+							<span class="chip">{trackEvents.length} events</span>
+						</div>
+					</div>
+
+					<div class="surface-panel" style={`background: linear-gradient(180deg, ${track.color}30, rgba(255,255,255,0.6));`}>
+						<h2 style="font-size: 1.3rem;">Why this track exists</h2>
+						<p class="body-lg" style="margin-top: 0.8rem;">
+							Each track is meant to compress discovery. Instead of scanning everything, attendees
+							can lock into a theme and follow a curator with taste.
+						</p>
+						<div class="button-row" style="margin-top: 1rem;">
+							<a class="button-primary" href="/events">See the full directory</a>
+							<a class="button-ghost" href="/schedule">Open my schedule</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="card-grid">
+					{trackEvents.map((event) => (
+						<div class="span-4">
+							<EventCard event={event} />
+						</div>
+					))}
+				</div>
+			</div>
+		</section>
+	</main>
+</BaseLayout>

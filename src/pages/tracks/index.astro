@@ -1,0 +1,31 @@
+---
+import TrackCard from '../../components/TrackCard.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { tracks } from '../../data/site';
+---
+
+<BaseLayout
+	title="Tracks | Build Week NYC"
+	description="Curated Build Week NYC tracks for civic tech, immigrant founders, AI agents, and more."
+	path="/tracks"
+>
+	<main>
+		<section class="section">
+			<div class="container stack-list" style="gap: 1.4rem;">
+				<div class="section-band stack-list">
+					<div class="eyebrow">Curated tracks</div>
+					<h1 class="headline-display" style="font-size: clamp(2.9rem, 4vw, 4.6rem);">
+						Tracks give the week a point of view.
+					</h1>
+					<p class="body-lg" style="max-width: 42rem;">
+						Tracks turn a crowded city calendar into a few coherent narratives: public-interest
+						building, South Asian operator energy, immigrant founder strategy, and agentic product work.
+					</p>
+				</div>
+				<div class="track-grid">
+					{tracks.map((track) => <TrackCard track={track} />)}
+				</div>
+			</div>
+		</section>
+	</main>
+</BaseLayout>

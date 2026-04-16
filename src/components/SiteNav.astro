@@ -1,0 +1,74 @@
+---
+interface Props {
+	currentPath: string;
+}
+
+const { currentPath } = Astro.props;
+
+const navItems = [
+	{ href: '/', label: 'Home' },
+	{ href: '/events', label: 'Events' },
+	{ href: '/tracks', label: 'Tracks' },
+	{ href: '/schedule', label: 'My schedule' },
+	{ href: '/map', label: 'Map' },
+];
+
+const isActive = (href: string) =>
+	href === '/' ? currentPath === href : currentPath === href || currentPath.startsWith(`${href}/`);
+---
+
+<header class="site-header">
+	<div class="container">
+		<div class="site-header__shell glass-shell">
+			<a class="brand-lockup" href="/">
+				<span class="brand-mark">BW</span>
+				<span>Build Week NYC</span>
+			</a>
+
+			<nav class="site-nav" aria-label="Primary">
+				{
+					navItems.map((item) => (
+						<a class={isActive(item.href) ? 'is-active' : undefined} href={item.href}>
+							{item.label}
+						</a>
+					))
+				}
+			</nav>
+
+			<div class="nav-actions">
+				<a class="count-pill" href="/schedule">
+					Saved <span data-saved-count>0</span>
+				</a>
+				<a class="button-primary" href="/events/submit">Submit event</a>
+				<button
+					class="nav-toggle glass-shell"
+					type="button"
+					aria-expanded="false"
+					aria-controls="mobile-nav-panel"
+					data-nav-toggle
+				>
+					Menu
+				</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="backdrop" data-nav-backdrop></div>
+	<div class="mobile-nav-panel" id="mobile-nav-panel" aria-hidden="true" data-mobile-nav>
+		<div class="button-row" style="justify-content: space-between; align-items: center;">
+			<strong style="font-family: var(--font-headline);">Move through the week</strong>
+			<button class="button-ghost" type="button" data-close-nav>Close</button>
+		</div>
+		<nav class="mobile-nav" aria-label="Mobile">
+			{
+				navItems.map((item) => (
+					<a class={isActive(item.href) ? 'is-active' : undefined} href={item.href}>
+						{item.label}
+					</a>
+				))
+			}
+			<a href="/events/submit">Submit event</a>
+			<a href="/sponsors">Sponsor build week</a>
+		</nav>
+	</div>
+</header>

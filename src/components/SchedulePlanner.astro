@@ -1,0 +1,207 @@
+---
+import { events as allEvents } from '../data/site';
+
+const events = allEvents.map((event) => ({
+	id: event.id,
+	slug: event.slug,
+	title: event.title,
+	date: event.date,
+	startTime: event.startTime,
+	endTime: event.endTime,
+	venue: event.venue.name,
+	neighborhood: event.venue.neighborhood,
+	shortDescription: event.shortDescription,
+	externalUrl: event.externalUrl,
+}));
+---
+
+<section class="section">
+	<div class="container stack-list" style="gap: 1.4rem;" data-schedule-planner>
+		<div class="split-grid section-band">
+			<div class="stack-list">
+				<div class="eyebrow">My schedule</div>
+				<h1 class="headline-display" style="font-size: clamp(2.9rem, 4vw + 1rem, 4.5rem);">
+					Build a week you can actually keep.
+				</h1>
+				<p class="body-lg">
+					Saved events live in local storage for now. That keeps the first release fast, private,
+					and exportable without an account wall.
+				</p>
+			</div>
+
+			<div class="surface-panel">
+				<div class="stack-list">
+					<strong style="font-size: 1.2rem;">
+						<span data-schedule-count>0</span> sessions saved
+					</strong>
+					<div class="button-row">
+						<button class="button-primary" type="button" data-export-ics>Export calendar</button>
+						<button class="button-ghost" type="button" data-clear-saved>Clear schedule</button>
+					</div>
+					<p class="body-lg" data-conflict-copy>
+						No overlaps yet. Save a few events from the directory to start shaping the week.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="blank-slate" data-empty-schedule>
+			<strong style="display: block; margin-bottom: 0.5rem;">Nothing saved yet.</strong>
+			Open the directory, tap save on a few events, then come back here for conflict checks and
+			calendar export.
+		</div>
+
+		<div class="stack-list" data-schedule-groups hidden></div>
+	</div>
+
+	<script is:inline define:vars={{ events }}>
+		// @ts-nocheck
+		const STORAGE_KEY = 'build-week-saved-events';
+		const root = document.querySelector('[data-schedule-planner]');
+
+		if (root) {
+			const countNode = root.querySelector('[data-schedule-count]');
+			const emptyState = root.querySelector('[data-empty-schedule]');
+			const groupsNode = root.querySelector('[data-schedule-groups]');
+			const conflictCopy = root.querySelector('[data-conflict-copy]');
+			const exportButton = root.querySelector('[data-export-ics]');
+			const clearButton = root.querySelector('[data-clear-saved]');
+
+			const getSaved = () => {
+				try {
+					const raw = localStorage.getItem(STORAGE_KEY);
+					const parsed = raw ? JSON.parse(raw) : [];
+					return Array.isArray(parsed) ? parsed : [];
+				} catch {
+					return [];
+				}
+			};
+
+			const byDate = (items) =>
+				items.reduce((groups, item) => {
+					groups[item.date] ??= [];
+					groups[item.date].push(item);
+					return groups;
+				}, {});
+
+			const formatDate = (date) =>
+				new Intl.DateTimeFormat('en-US', { weekday: 'long', month: 'long', day: 'numeric' }).format(
+					new Date(`${date}T00:00:00-04:00`),
+				);
+
+			const formatTime = (value) =>
+				new Intl.DateTimeFormat('en-US', { hour: 'numeric', minute: '2-digit' }).format(new Date(value));
+
+			const formatRange = (start, end) => `${formatTime(start)} to ${formatTime(end)}`;
+
+			const findConflicts = (items) => {
+				const conflicts = [];
+				const sorted = [...items].sort((a, b) => new Date(a.startTime).getTime() - new Date(b.startTime).getTime());
+				for (let index = 0; index < sorted.length - 1; index += 1) {
+					const current = sorted[index];
+					const next = sorted[index + 1];
+					if (current.date === next.date && new Date(current.endTime) > new Date(next.startTime)) {
+						conflicts.push(`${current.title} overlaps with ${next.title}`);
+					}
+				}
+				return conflicts;
+			};
+
+			const toICS = (items) => {
+				const formatICSDate = (value) => new Date(value).toISOString().replace(/[-:]/g, '').replace('.000', '');
+				return [
+					'BEGIN:VCALENDAR',
+					'VERSION:2.0',
+					'PRODID:-//Build Week NYC//Schedule//EN',
+					...items.flatMap((item) => [
+						'BEGIN:VEVENT',
+						`UID:${item.id}@buildweeknyc`,
+						`DTSTAMP:${formatICSDate(new Date().toISOString())}`,
+						`DTSTART:${formatICSDate(item.startTime)}`,
+						`DTEND:${formatICSDate(item.endTime)}`,
+						`SUMMARY:${item.title}`,
+						`LOCATION:${item.venue}, ${item.neighborhood}`,
+						`DESCRIPTION:${item.shortDescription} RSVP: ${item.externalUrl}`,
+						'END:VEVENT',
+					]),
+					'END:VCALENDAR',
+				].join('\r\n');
+			};
+
+			const render = () => {
+				const savedIds = new Set(getSaved());
+				const savedEvents = events.filter((event) => savedIds.has(event.id));
+				const groups = byDate(savedEvents);
+				const conflicts = findConflicts(savedEvents);
+
+				countNode.textContent = String(savedEvents.length);
+				emptyState.hidden = savedEvents.length > 0;
+				groupsNode.hidden = savedEvents.length === 0;
+
+				conflictCopy.textContent = conflicts.length
+					? `Watch these overlaps: ${conflicts.join(' · ')}`
+					: 'No overlaps yet. This schedule fits cleanly so far.';
+
+				groupsNode.innerHTML = Object.entries(groups)
+					.sort(([a], [b]) => a.localeCompare(b))
+					.map(
+						([date, items]) => `
+							<section class="surface-panel">
+								<div class="button-row" style="justify-content: space-between; align-items: baseline;">
+									<h2 style="font-size: 1.4rem;">${formatDate(date)}</h2>
+									<span class="chip">${items.length} saved</span>
+								</div>
+								<div class="agenda-list" style="margin-top: 1rem;">
+									${items
+										.map(
+											(item) => `
+												<article class="timeline-card">
+													<div class="stack-list">
+														<div class="eyebrow">${formatRange(item.startTime, item.endTime)}</div>
+														<h3>${item.title}</h3>
+														<p class="body-lg">${item.shortDescription}</p>
+														<div class="mini-meta">${item.venue} · ${item.neighborhood}</div>
+														<div class="button-row">
+															<a class="button-ghost" href="/events/${item.slug}">View event</a>
+															<a class="button-primary" href="${item.externalUrl}" target="_blank" rel="noreferrer">RSVP</a>
+														</div>
+													</div>
+												</article>
+											`,
+										)
+										.join('')}
+								</div>
+							</section>
+						`,
+					)
+					.join('');
+
+				exportButton.disabled = savedEvents.length === 0;
+				exportButton.dataset.ics = toICS(savedEvents);
+			};
+
+			exportButton?.addEventListener('click', () => {
+				const payload = exportButton.dataset.ics;
+				if (!payload) {
+					return;
+				}
+				const blob = new Blob([payload], { type: 'text/calendar;charset=utf-8' });
+				const url = URL.createObjectURL(blob);
+				const link = document.createElement('a');
+				link.href = url;
+				link.download = 'build-week-nyc-schedule.ics';
+				link.click();
+				URL.revokeObjectURL(url);
+			});
+
+			clearButton?.addEventListener('click', () => {
+				localStorage.setItem(STORAGE_KEY, JSON.stringify([]));
+				window.dispatchEvent(new CustomEvent('saved-events:updated', { detail: [] }));
+				render();
+			});
+
+			window.addEventListener('saved-events:updated', render);
+			window.addEventListener('DOMContentLoaded', render);
+		}
+	</script>
+</section>

@@ -1,0 +1,71 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { sponsors } from '../data/site';
+
+const tiers = ['presenting', 'gold', 'silver', 'community'] as const;
+---
+
+<BaseLayout
+	title="Sponsors | Build Week NYC"
+	description="Sponsor Build Week NYC without overpowering the community-first event flow."
+	path="/sponsors"
+>
+	<main>
+		<section class="section">
+			<div class="container stack-list" style="gap: 1.4rem;">
+				<div class="split-grid section-band">
+					<div class="stack-list">
+						<div class="eyebrow">Sponsor build week</div>
+						<h1 class="headline-display" style="font-size: clamp(2.8rem, 4vw, 4.5rem);">
+							Support the rooms that matter.
+						</h1>
+						<p class="body-lg">
+							Sponsorship is visible, useful, and intentionally secondary to the attendee experience.
+							That keeps the directory trustworthy while still giving partners clear value.
+						</p>
+					</div>
+					<div class="surface-panel">
+						<h2 style="font-size: 1.3rem;">Tier snapshot</h2>
+						<div class="stack-list" style="margin-top: 1rem;">
+							<div class="comparison-card"><strong>Presenting</strong><div class="body-lg">Week-level branding, flagship placement, and closing-night stage moments.</div></div>
+							<div class="comparison-card"><strong>Gold</strong><div class="body-lg">Track-aligned support, host intros, and neighborhood-level visibility.</div></div>
+							<div class="comparison-card"><strong>Community</strong><div class="body-lg">Small-budget support that still shows up cleanly in the product.</div></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="agenda-grid">
+					{tiers.map((tier) => (
+						<section class="surface-card">
+							<h2 style="font-size: 1.35rem; text-transform: capitalize;">{tier}</h2>
+							<div class="stack-list" style="margin-top: 1rem;">
+								{sponsors.filter((sponsor) => sponsor.tier === tier).map((sponsor) => (
+									<div class="comparison-card">
+										<strong>{sponsor.name}</strong>
+										<div class="body-lg">{sponsor.description}</div>
+									</div>
+								))}
+							</div>
+						</section>
+					))}
+				</div>
+
+				<div class="section-band split-grid">
+					<div class="stack-list">
+						<h2 class="headline-section" style="font-size: clamp(1.9rem, 3vw, 2.8rem);">
+							Need a custom package?
+						</h2>
+						<p class="body-lg">
+							If your team wants to back one specific track, venue cluster, or closing-night moment,
+							we can shape a package around that without making the product feel like ad inventory.
+						</p>
+					</div>
+					<div class="button-row" style="align-items: center;">
+						<a class="button-primary" href="mailto:partners@buildweeknyc.com">Talk partnerships</a>
+						<a class="button-ghost" href="/events">Return to the directory</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+</BaseLayout>

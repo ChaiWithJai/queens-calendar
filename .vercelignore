@@ -1,0 +1,7 @@
+output/
+.playwright-cli/
+playwright-report/
+test-results/
+node_modules/
+.git/
+.DS_Store

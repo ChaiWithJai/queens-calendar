@@ -1,0 +1,79 @@
+---
+import type { Event, Venue } from '../data/site';
+
+interface VenueGroup {
+	venue: Venue;
+	events: Event[];
+}
+
+interface Props {
+	groups: VenueGroup[];
+}
+
+const { groups } = Astro.props;
+
+const latitudes = groups.map((group) => group.venue.coordinates.lat);
+const longitudes = groups.map((group) => group.venue.coordinates.lng);
+const minLat = Math.min(...latitudes);
+const maxLat = Math.max(...latitudes);
+const minLng = Math.min(...longitudes);
+const maxLng = Math.max(...longitudes);
+
+const getPosition = (venue: Venue) => {
+	const x = ((venue.coordinates.lng - minLng) / (maxLng - minLng || 1)) * 480 + 60;
+	const y = ((maxLat - venue.coordinates.lat) / (maxLat - minLat || 1)) * 260 + 50;
+	return { x, y };
+};
+---
+
+<div class="surface-panel" style="background: linear-gradient(180deg, var(--surface-container-lowest), var(--surface-container));">
+	<h3 style="font-size: 1.3rem;">Venue pulse</h3>
+	<p class="body-lg" style="margin-top: 0.6rem;">
+		Every marker is a live venue cluster. The first release keeps the map token-free and fast by
+		rendering a lightweight SVG atlas.
+	</p>
+
+	<svg
+		viewBox="0 0 600 380"
+		role="img"
+		aria-label="Stylized map of Build Week NYC venue clusters"
+		style="margin-top: 1rem; width: 100%; height: auto; border-radius: 1.5rem; background: linear-gradient(180deg, rgba(255,255,255,0.56), rgba(248,240,224,0.9));"
+	>
+		<defs>
+			<linearGradient id="atlas-grid" x1="0%" y1="0%" x2="100%" y2="100%">
+				<stop offset="0%" stop-color="#d5cbff" stop-opacity="0.6"></stop>
+				<stop offset="100%" stop-color="#f9873e" stop-opacity="0.3"></stop>
+			</linearGradient>
+		</defs>
+		<rect x="18" y="18" width="564" height="344" rx="30" fill="url(#atlas-grid)"></rect>
+		<path
+			d="M130 78C174 58 235 64 284 98C335 132 372 132 439 110C486 94 521 102 544 142C568 182 558 245 520 290C468 352 403 326 338 308C291 296 231 311 183 286C124 256 84 173 96 127C102 104 110 90 130 78Z"
+			fill="#fef6e7"
+			fill-opacity="0.78"
+		></path>
+		{
+			groups.map((group) => {
+				const { x, y } = getPosition(group.venue);
+				return (
+					<a href={`#venue-${group.venue.id}`}>
+						<g>
+							<circle cx={x} cy={y} r="16" fill="#964300"></circle>
+							<circle cx={x} cy={y} r="8" fill="#fff0e9"></circle>
+							<text
+								x={x}
+								y={y - 24}
+								text-anchor="middle"
+								font-size="13"
+								font-family="Be Vietnam Pro, sans-serif"
+								font-weight="700"
+								fill="#322e25"
+							>
+								{group.venue.neighborhood}
+							</text>
+						</g>
+					</a>
+				);
+			})
+		}
+	</svg>
+</div>

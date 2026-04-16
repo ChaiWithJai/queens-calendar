@@ -1,0 +1,70 @@
+---
+import type { Event } from '../data/site';
+import { formatDateLabel, formatLabels, formatTimeRange, getEventStatusCopy, getSpotsLabel, verticalLabels } from '../lib/format';
+
+interface Props {
+	event: Event;
+}
+
+const { event } = Astro.props;
+
+const posterThemes: Record<Event['vertical'], { a: string; b: string; text: string }> = {
+	'civic-tech': { a: '#f7d4b1', b: '#f9873e', text: '#451b00' },
+	'south-asian': { a: '#d5cbff', b: '#8f73ff', text: '#27145e' },
+	immigrant: { a: '#d3fbda', b: '#78d38b', text: '#24462d' },
+	'ai-agents': { a: '#ffcfb4', b: '#d67138', text: '#3d1800' },
+	fintech: { a: '#d7f0de', b: '#92c59e', text: '#24422d' },
+	healthtech: { a: '#ffd8ca', b: '#f99476', text: '#5f1600' },
+	climate: { a: '#d3fbda', b: '#86bf7a', text: '#22412b' },
+	devtools: { a: '#d7ddff', b: '#8088d8', text: '#202658' },
+	creative: { a: '#ffe7b8', b: '#ffb85d', text: '#4b2300' },
+	community: { a: '#f5d9cf', b: '#d29685', text: '#4d2217' },
+	general: { a: '#eadbc4', b: '#cfa16a', text: '#412302' },
+};
+
+const theme = posterThemes[event.vertical];
+---
+
+<article class="surface-card event-card">
+	<a
+		class="poster"
+		href={`/events/${event.slug}`}
+		style={`--poster-a:${theme.a}; --poster-b:${theme.b}; color:${theme.text};`}
+	>
+		<span class="poster__label">{event.track?.name ?? verticalLabels[event.vertical]}</span>
+		<h3 class="poster__title">{event.title}</h3>
+	</a>
+
+	<div class="event-card__content">
+		<div class="meta-row">
+			<span class="chip is-positive">{getEventStatusCopy(event)}</span>
+			<span class="chip">{formatDateLabel(event.date)}</span>
+			<span class="chip">{formatLabels[event.format]}</span>
+			{event.isFlagship && <span class="chip is-secondary">Flagship</span>}
+		</div>
+
+		<div>
+			<h3 style="font-size: 1.45rem;">{event.title}</h3>
+			{event.subtitle && <p class="body-lg" style="margin: 0.45rem 0 0;">{event.subtitle}</p>}
+			<p class="body-lg" style="margin: 0.85rem 0 0;">{event.shortDescription}</p>
+		</div>
+
+		<div class="stack-list" style="gap: 0.55rem;">
+			<div class="mini-meta">{formatTimeRange(event.startTime, event.endTime)}</div>
+			<div class="mini-meta">{event.venue.name} · {event.venue.neighborhood}</div>
+			<div class="mini-meta">{getSpotsLabel(event)}</div>
+		</div>
+
+		<div class="event-card__actions">
+			<div class="button-row">
+				<a class="button-primary" href={event.externalUrl} target="_blank" rel="noreferrer">
+					RSVP
+				</a>
+				<a class="button-ghost" href={`/events/${event.slug}`}>Details</a>
+			</div>
+			<button class="button-ghost save-toggle" type="button" data-save-event={event.id} data-saved="false">
+				<span data-save-label>Save</span>
+			</button>
+		</div>
+	</div>
+</article>

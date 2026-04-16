@@ -1,0 +1,14 @@
+---
+import SchedulePlanner from '../components/SchedulePlanner.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+	title="My Schedule | Build Week NYC"
+	description="Saved Build Week NYC events with overlap checks and calendar export."
+	path="/schedule"
+>
+	<main>
+		<SchedulePlanner />
+	</main>
+</BaseLayout>

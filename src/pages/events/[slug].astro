@@ -1,0 +1,143 @@
+---
+import EventCard from '../../components/EventCard.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { events, hostsById, sponsorsById } from '../../data/site';
+import { formatDateLabel, formatLabels, formatLongDateLabel, formatTimeRange, getSpotsLabel, verticalLabels } from '../../lib/format';
+
+export function getStaticPaths() {
+	return events.map((event) => ({
+		params: { slug: event.slug },
+		props: { event },
+	}));
+}
+
+const { event } = Astro.props;
+const host = hostsById[event.hostId];
+const speakers = event.speakerIds.map((speakerId) => hostsById[speakerId]).filter(Boolean);
+const eventSponsors = event.sponsorIds.map((sponsorId) => sponsorsById[sponsorId]).filter(Boolean);
+const relatedEvents = events
+	.filter((candidate) => candidate.id !== event.id && (candidate.track?.id === event.track?.id || candidate.vertical === event.vertical))
+	.slice(0, 3);
+
+const schema = {
+	'@context': 'https://schema.org',
+	'@type': 'Event',
+	name: event.title,
+	description: event.description,
+	startDate: event.startTime,
+	endDate: event.endTime,
+	eventAttendanceMode: event.isVirtual
+		? 'https://schema.org/MixedEventAttendanceMode'
+		: 'https://schema.org/OfflineEventAttendanceMode',
+	eventStatus: 'https://schema.org/EventScheduled',
+	location: {
+		'@type': 'Place',
+		name: event.venue.name,
+		address: event.venue.address,
+	},
+	organizer: {
+		'@type': 'Organization',
+		name: host?.name,
+	},
+	offers: {
+		'@type': 'Offer',
+		url: event.externalUrl,
+		availability: 'https://schema.org/InStock',
+	},
+};
+---
+
+<BaseLayout
+	title={`${event.title} | Build Week NYC`}
+	description={event.shortDescription}
+	path={`/events/${event.slug}`}
+>
+	<main>
+		<section class="section">
+			<div class="container stack-list" style="gap: 1.5rem;">
+				<div class="detail-grid section-band">
+					<div class="stack-list">
+						<div class="chip-row">
+							<span class="eyebrow">{event.track?.name ?? verticalLabels[event.vertical]}</span>
+							<span class="chip is-secondary">{formatLabels[event.format]}</span>
+							{event.isFlagship && <span class="chip is-positive">Flagship</span>}
+						</div>
+						<h1 class="headline-display" style="font-size: clamp(3rem, 4vw, 4.6rem);">{event.title}</h1>
+						{event.subtitle && <p class="body-lg">{event.subtitle}</p>}
+						<p class="body-lg">{event.description}</p>
+						<div class="button-row">
+							<a class="button-primary" href={event.externalUrl} target="_blank" rel="noreferrer">RSVP now</a>
+							<button class="button-ghost save-toggle" type="button" data-save-event={event.id} data-saved="false">
+								<span data-save-label>Save</span>
+							</button>
+						</div>
+					</div>
+
+					<div class="stack-list">
+						<div class="surface-panel">
+							<div class="stack-list">
+								<div class="eyebrow">{formatDateLabel(event.date)}</div>
+								<h2 style="font-size: 1.4rem;">{formatLongDateLabel(event.date)}</h2>
+								<div class="mini-meta">{formatTimeRange(event.startTime, event.endTime)}</div>
+								<div class="mini-meta">{event.venue.name} · {event.venue.neighborhood}</div>
+								<div class="mini-meta">{getSpotsLabel(event)}</div>
+								<div class="chip-row">
+									{event.tags.map((tag) => <span class="chip">{tag}</span>)}
+								</div>
+							</div>
+						</div>
+						<div class="surface-panel">
+							<h2 style="font-size: 1.2rem;">Hosted by</h2>
+							<p class="body-lg" style="margin-top: 0.6rem;">
+								<strong style="color: var(--on-surface);">{host?.name}</strong> · {host?.bio}
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="split-grid">
+					<div class="surface-panel stack-list">
+						<h2 style="font-size: 1.45rem;">Venue and logistics</h2>
+						<div class="body-lg">
+							{event.venue.name} · {event.venue.address} · {event.venue.neighborhood}, {event.venue.borough}
+						</div>
+						<div class="chip-row">
+							{event.venue.amenities.map((amenity) => <span class="chip">{amenity}</span>)}
+						</div>
+						{event.isVirtual && event.virtualUrl && (
+							<p class="body-lg">Includes a virtual stream link for remote attendees.</p>
+						)}
+					</div>
+
+					<div class="surface-panel stack-list">
+						<h2 style="font-size: 1.45rem;">Speakers and partners</h2>
+						<div class="stack-list">
+							{speakers.map((speaker) => <div class="comparison-card"><strong>{speaker.name}</strong><div class="body-lg">{speaker.bio}</div></div>)}
+						</div>
+						{eventSponsors.length > 0 && (
+							<div class="chip-row">
+								{eventSponsors.map((sponsor) => <span class="chip is-secondary">{sponsor.name}</span>)}
+							</div>
+						)}
+					</div>
+				</div>
+
+				<section class="stack-list" style="gap: 1rem;">
+					<div class="button-row" style="justify-content: space-between; align-items: flex-end;">
+						<h2 class="headline-section" style="font-size: clamp(1.9rem, 3vw, 2.8rem);">Related rooms</h2>
+						<a class="button-ghost" href="/events">Back to the directory</a>
+					</div>
+					<div class="card-grid">
+						{relatedEvents.map((related) => (
+							<div class="span-4">
+								<EventCard event={related} />
+							</div>
+						))}
+					</div>
+				</section>
+			</div>
+		</section>
+	</main>
+
+	<script is:inline type="application/ld+json" set:html={JSON.stringify(schema)}></script>
+</BaseLayout>

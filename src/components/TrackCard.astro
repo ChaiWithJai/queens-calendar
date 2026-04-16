@@ -1,0 +1,39 @@
+---
+import type { Track } from '../data/site';
+import { getTrackEvents, hostsById } from '../data/site';
+
+interface Props {
+	track: Track;
+}
+
+const { track } = Astro.props;
+const curator = hostsById[track.curatorId];
+const trackEvents = getTrackEvents(track.id);
+---
+
+<article class="surface-card" style={`background: linear-gradient(180deg, ${track.color}20, var(--surface-container-lowest) 46%);`}>
+	<div class="eyebrow">{trackEvents.length} events</div>
+	<h3 class="headline-section" style="font-size: clamp(1.65rem, 2vw, 2.35rem); margin-top: 1rem;">
+		{track.name}
+	</h3>
+	<p class="body-lg" style="margin-top: 0.8rem;">{track.description}</p>
+	<div class="chip-row" style="margin-top: 0.8rem;">
+		<span class="chip is-secondary">Curated by {curator?.name}</span>
+		<span class="chip">{trackEvents[0]?.dayOfWeek} start</span>
+	</div>
+	<div class="stack-list" style="margin-top: 1rem;">
+		{
+			trackEvents.slice(0, 3).map((event) => (
+				<a class="comparison-card" href={`/events/${event.slug}`}>
+					<strong>{event.title}</strong>
+					<span class="mini-meta">
+						{event.dayOfWeek} · {event.venue.neighborhood}
+					</span>
+				</a>
+			))
+		}
+	</div>
+	<div class="button-row" style="margin-top: 1rem;">
+		<a class="button-primary" href={`/tracks/${track.slug}`}>Open track</a>
+	</div>
+</article>

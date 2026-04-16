@@ -1,0 +1,72 @@
+---
+import VenueMap from '../components/VenueMap.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { events } from '../data/site';
+
+const venueGroups = Object.values(
+	events.reduce<Record<string, { venue: (typeof events)[number]['venue']; events: typeof events }>>((accumulator, event) => {
+		accumulator[event.venue.id] ??= {
+			venue: event.venue,
+			events: [],
+		};
+		accumulator[event.venue.id].events.push(event);
+		return accumulator;
+	}, {}),
+);
+---
+
+<BaseLayout
+	title="Map | Build Week NYC"
+	description="A venue-first view of Build Week NYC clusters across Manhattan, Brooklyn, and Queens."
+	path="/map"
+>
+	<main>
+		<section class="section">
+			<div class="container stack-list" style="gap: 1.5rem;">
+				<div class="section-band split-grid">
+					<div class="stack-list">
+						<div class="eyebrow">Venue atlas</div>
+						<h1 class="headline-display" style="font-size: clamp(2.9rem, 4vw, 4.5rem);">
+							Where the week is actually happening.
+						</h1>
+						<p class="body-lg">
+							The first release uses a token-free SVG map to keep page weight down while still
+							surfacing borough-level clusters and venue density.
+						</p>
+					</div>
+					<div class="surface-panel">
+						<div class="chip-row">
+							<span class="chip is-positive">Brooklyn</span>
+							<span class="chip is-secondary">Queens</span>
+							<span class="chip">Manhattan</span>
+						</div>
+						<p class="body-lg" style="margin-top: 1rem;">
+							Every venue card below links back into the event directory so the map stays useful,
+							not decorative.
+						</p>
+					</div>
+				</div>
+
+				<VenueMap groups={venueGroups} />
+
+				<div class="agenda-grid">
+					{venueGroups.map((group) => (
+						<article class="venue-card">
+							<div class="stack-list">
+								<div class="eyebrow">{group.events.length} events</div>
+								<h2 style="font-size: 1.35rem;">{group.venue.name}</h2>
+								<p class="body-lg">{group.venue.address} · {group.venue.neighborhood}</p>
+								<div class="chip-row">
+									{group.venue.amenities.slice(0, 3).map((amenity) => <span class="chip">{amenity}</span>)}
+								</div>
+								<div class="stack-list">
+									{group.events.slice(0, 3).map((event) => <a href={`/events/${event.slug}`}>{event.title}</a>)}
+								</div>
+							</div>
+						</article>
+					))}
+				</div>
+			</div>
+		</section>
+	</main>
+</BaseLayout>
