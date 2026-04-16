@@ -1,6 +1,6 @@
 # Build Week NYC
 
-An Astro-based frontend architecture for Build Week NYC, designed around fast event discovery, curated tracks, local-first saved schedules, and Vercel deployment.
+An Astro-based frontend architecture for Build Week NYC, designed around fast event discovery, curated tracks, local-first saved schedules, and Netlify deployment.
 
 ## What ships in this repo
 
@@ -8,7 +8,7 @@ An Astro-based frontend architecture for Build Week NYC, designed around fast ev
 - Full `/events` directory with client-side search, faceted filters, URL syncing, and list / agenda / map views.
 - Dynamic event and track detail pages generated from typed local data.
 - `/schedule` page with localStorage-backed saved events and `.ics` calendar export.
-- `/events/submit` Vercel-ready host submission flow with webhook or mail fallback.
+- `/events/submit` Netlify Forms-backed host submission flow.
 - Static JSON endpoint at `/api/events`.
 
 ## Stack
@@ -16,8 +16,8 @@ An Astro-based frontend architecture for Build Week NYC, designed around fast ev
 - Astro 6
 - TypeScript
 - Self-hosted font packages for Plus Jakarta Sans and Be Vietnam Pro
-- Static Astro output deployed on Vercel
-- Optional Vercel Function at `/api/event-submission` for event intake forwarding
+- Static Astro output deployed on Netlify
+- Netlify Forms for event submission intake
 
 ## Run locally
 
@@ -34,50 +34,46 @@ npm run build
 npm run preview -- --port 4323
 ```
 
-## Vercel
+## Netlify
 
-The site is ready for Vercel CLI deployment. Astro static output works on Vercel with zero adapter configuration, and the custom submission endpoint lives in the root `api/` directory for Vercel Functions.
+The site is ready for Netlify static deployment. Astro outputs to `dist/`, and the event intake form is configured for Netlify Forms with AJAX submission plus a no-JS fallback.
 
 Recommended CLI flow:
 
 ```bash
-npx vercel login
-npx vercel link
-npx vercel env pull .env.local
-npx vercel deploy
-npx vercel deploy --prod
+npx netlify status
+npx netlify deploy --create-site --prod
 ```
 
-To attach the custom domain after the project exists:
+If the site is already linked, later deploys are:
 
 ```bash
-npx vercel domains add techweeknyc.com <project-name>
-npx vercel domains add www.techweeknyc.com <project-name>
-npx vercel domains inspect techweeknyc.com
+npx netlify deploy
+npx netlify deploy --prod
 ```
 
-If DNS stays with an external registrar, point the apex and `www` records based on `vercel domains inspect`. If you move DNS to Vercel, use:
+## Custom Domain with Vercel DNS
+
+`techweeknyc.com` can stay registered and DNS-managed at Vercel while the site is hosted on Netlify.
+
+1. Add `techweeknyc.com` to the Netlify site as the custom domain.
+2. In Vercel DNS, point the apex domain to Netlify.
+3. Point `www` to the Netlify subdomain.
+
+Recommended records for standard Netlify external DNS:
 
 ```bash
-npx vercel dns add techweeknyc.com @ A 76.76.21.21
-npx vercel dns add techweeknyc.com www CNAME cname.vercel-dns.com
+# apex
+ALIAS/ANAME @ apex-loadbalancer.netlify.com
+
+# fallback if ALIAS/ANAME is unavailable
+A @ 75.2.60.5
+
+# www
+CNAME www <your-netlify-site>.netlify.app
 ```
 
-## Submission Intake Environment
-
-The `/events/submit` flow can forward submissions to any webhook that accepts JSON.
-
-Optional environment variables:
-
-```bash
-EVENT_SUBMISSION_WEBHOOK_URL=
-SUBMISSION_INBOX_EMAIL=hello@techweeknyc.com
-```
-
-Behavior:
-
-- If `EVENT_SUBMISSION_WEBHOOK_URL` is set, submissions post there and redirect to the success page.
-- If it is not set, the UI falls back to opening a prefilled email draft using `SUBMISSION_INBOX_EMAIL`.
+After the DNS records propagate, Netlify provisions TLS automatically. Keep only one apex A/ALIAS target for the site to avoid certificate issues.
 
 ## Routes
 

@@ -28,6 +28,9 @@ pnpm-debug.log*
 # vercel local project linkage
 .vercel/
 
+# netlify local project linkage
+.netlify/
+
 # local tooling artifacts
 .playwright-cli/
 .vscode/

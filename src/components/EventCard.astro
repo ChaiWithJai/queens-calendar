@@ -1,70 +1,113 @@
 ---
 import type { Event } from '../data/site';
-import { formatDateLabel, formatLabels, formatTimeRange, getEventStatusCopy, getSpotsLabel, verticalLabels } from '../lib/format';
+import {
+	formatLabels,
+	formatWeekdayLabel,
+	formatTimeRange,
+	getSpotsLabel,
+	verticalLabels,
+} from '../lib/format';
 
 interface Props {
 	event: Event;
+	variant?: 'compact' | 'featured';
 }
 
-const { event } = Astro.props;
+const { event, variant = 'compact' } = Astro.props;
 
-const posterThemes: Record<Event['vertical'], { a: string; b: string; text: string }> = {
-	'civic-tech': { a: '#f7d4b1', b: '#f9873e', text: '#451b00' },
-	'south-asian': { a: '#d5cbff', b: '#8f73ff', text: '#27145e' },
-	immigrant: { a: '#d3fbda', b: '#78d38b', text: '#24462d' },
-	'ai-agents': { a: '#ffcfb4', b: '#d67138', text: '#3d1800' },
-	fintech: { a: '#d7f0de', b: '#92c59e', text: '#24422d' },
-	healthtech: { a: '#ffd8ca', b: '#f99476', text: '#5f1600' },
-	climate: { a: '#d3fbda', b: '#86bf7a', text: '#22412b' },
-	devtools: { a: '#d7ddff', b: '#8088d8', text: '#202658' },
-	creative: { a: '#ffe7b8', b: '#ffb85d', text: '#4b2300' },
-	community: { a: '#f5d9cf', b: '#d29685', text: '#4d2217' },
-	general: { a: '#eadbc4', b: '#cfa16a', text: '#412302' },
+const verticalColorMap: Record<Event['vertical'], string> = {
+	'civic-tech': '#f9873e',
+	'south-asian': '#8f73ff',
+	immigrant: '#78d38b',
+	'ai-agents': '#d67138',
+	fintech: '#6aa67a',
+	healthtech: '#f99476',
+	climate: '#86bf7a',
+	devtools: '#8088d8',
+	creative: '#ffb85d',
+	community: '#d29685',
+	general: '#cfa16a',
 };
 
-const theme = posterThemes[event.vertical];
+const verticalImageMap: Partial<Record<Event['vertical'], string>> = {
+	'civic-tech': '/images/verticals/civic-tech.png',
+	'south-asian': '/images/verticals/south-asian.png',
+	immigrant: '/images/verticals/immigrant.png',
+	'ai-agents': '/images/verticals/ai-agents.png',
+	fintech: '/images/verticals/fintech.png',
+	healthtech: '/images/verticals/healthtech.png',
+	climate: '/images/verticals/climate.png',
+	devtools: '/images/verticals/devtools.png',
+	creative: '/images/verticals/creative.png',
+	community: '/images/verticals/community.png',
+};
+
+const accent = verticalColorMap[event.vertical] || '#cfa16a';
+const image = verticalImageMap[event.vertical] || '/images/verticals/default.png';
+const fillingUp = Boolean(event.capacity && event.rsvpCount >= event.capacity * 0.8);
+const soldOut = Boolean(event.capacity && event.rsvpCount >= event.capacity);
 ---
 
-<article class="surface-card event-card">
-	<a
-		class="poster"
-		href={`/events/${event.slug}`}
-		style={`--poster-a:${theme.a}; --poster-b:${theme.b}; color:${theme.text};`}
-	>
-		<span class="poster__label">{event.track?.name ?? verticalLabels[event.vertical]}</span>
-		<h3 class="poster__title">{event.title}</h3>
-	</a>
+<article class:list={['event-card', variant === 'featured' && 'event-card-featured', variant === 'featured' && 'card-stack']}>
+	{variant === 'featured' && (
+		<div class="event-card-image" style={`background: linear-gradient(135deg, ${accent}44, ${accent}18);`}>
+			<img src={image} alt={`${verticalLabels[event.vertical]} illustration`} loading="lazy" width="600" height="400" />
+		</div>
+	)}
 
-	<div class="event-card__content">
-		<div class="meta-row">
-			<span class="chip is-positive">{getEventStatusCopy(event)}</span>
-			<span class="chip">{formatDateLabel(event.date)}</span>
+	<div class="event-card-body">
+		<div class="event-card-meta">
+			<span class="chip chip-nurture" style={`background:${accent}26; color:${accent};`}>
+				{event.track?.name ?? verticalLabels[event.vertical]}
+			</span>
 			<span class="chip">{formatLabels[event.format]}</span>
 			{event.isFlagship && <span class="chip is-secondary">Flagship</span>}
+			{fillingUp && !soldOut && <span class="badge-filling">Filling up</span>}
+			{soldOut && <span class="chip chip-danger">Sold out</span>}
 		</div>
 
-		<div>
-			<h3 style="font-size: 1.45rem;">{event.title}</h3>
-			{event.subtitle && <p class="body-lg" style="margin: 0.45rem 0 0;">{event.subtitle}</p>}
-			<p class="body-lg" style="margin: 0.85rem 0 0;">{event.shortDescription}</p>
-		</div>
+		<h3 class="event-card-title">
+			<a href={`/events/${event.slug}`}>{event.title}</a>
+		</h3>
+		{event.subtitle && <p class="event-card-subtitle">{event.subtitle}</p>}
+		<p class="event-card-desc">{event.shortDescription}</p>
 
-		<div class="stack-list" style="gap: 0.55rem;">
-			<div class="mini-meta">{formatTimeRange(event.startTime, event.endTime)}</div>
-			<div class="mini-meta">{event.venue.name} · {event.venue.neighborhood}</div>
-			<div class="mini-meta">{getSpotsLabel(event)}</div>
-		</div>
-
-		<div class="event-card__actions">
-			<div class="button-row">
-				<a class="button-primary" href={event.externalUrl} target="_blank" rel="noreferrer">
-					RSVP
-				</a>
-				<a class="button-ghost" href={`/events/${event.slug}`}>Details</a>
+		<div class="event-card-footer">
+			<div class="event-card-details">
+				<div class="event-card-time">
+					<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+						<circle cx="12" cy="12" r="10"></circle>
+						<path d="M12 6v6l4 2"></path>
+					</svg>
+					{formatWeekdayLabel(event.date)} · {formatTimeRange(event.startTime, event.endTime)}
+				</div>
+				<div class="event-card-venue">
+					<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+						<path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+						<circle cx="12" cy="10" r="3"></circle>
+					</svg>
+					{event.venue.name} · {event.venue.neighborhood}
+				</div>
+				<div class="event-card-capacity">{getSpotsLabel(event)}</div>
 			</div>
-			<button class="button-ghost save-toggle" type="button" data-save-event={event.id} data-saved="false">
-				<span data-save-label>Save</span>
-			</button>
+
+			<div class="event-card-actions">
+				<button
+					class="save-btn"
+					type="button"
+					data-save-event={event.id}
+					data-saved="false"
+					aria-pressed="false"
+					aria-label="Save event"
+				>
+					<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+						<path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+					</svg>
+					<span class="sr-only" data-save-label>Save</span>
+				</button>
+				<a class="button-ghost" href={`/events/${event.slug}`}>Details</a>
+				<a class="button-primary" href={event.externalUrl} target="_blank" rel="noreferrer">RSVP</a>
+			</div>
 		</div>
 	</div>
 </article>

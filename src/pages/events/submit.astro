@@ -4,7 +4,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
 <BaseLayout
 	title="Submit an Event | Build Week NYC"
-	description="Submit a Build Week NYC event with a platform link or manual details using the Vercel-ready intake flow."
+	description="Submit a Build Week NYC event with a platform link or manual details using the Netlify-backed intake flow."
 	path="/events/submit"
 >
 	<main>
@@ -43,10 +43,18 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 					class="surface-panel stack-list"
 					name="event-submission"
 					method="POST"
-					action="/api/event-submission"
+					action="/events/submit/success"
+					data-netlify="true"
+					netlify-honeypot="bot-field"
 					data-submission-form
 				>
-					<input type="hidden" name="form_name" value="event-submission" />
+					<input type="hidden" name="form-name" value="event-submission" />
+					<p hidden>
+						<label>
+							Don&apos;t fill this out if you&apos;re human:
+							<input name="bot-field" />
+						</label>
+					</p>
 
 					<div class="field-group">
 						<label for="provider-url">Provider link</label>
@@ -150,6 +158,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 		const submitButton = document.querySelector('[data-submit-button]');
 
 		const setStatus = (message, fallbackLink) => {
+			void fallbackLink;
 			if (!status) return;
 			status.hidden = false;
 			status.innerHTML = '';
@@ -157,14 +166,6 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 			text.className = 'body-lg';
 			text.textContent = message;
 			status.append(text);
-			if (fallbackLink) {
-				const link = document.createElement('a');
-				link.className = 'button-ghost';
-				link.href = fallbackLink;
-				link.textContent = 'Open email draft';
-				link.style.marginTop = '0.8rem';
-				status.append(link);
-			}
 		};
 
 		input?.addEventListener('input', () => {
@@ -192,30 +193,24 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 			setStatus('Submitting your intake...');
 
 			try {
-				const payload = Object.fromEntries(new FormData(form).entries());
-				const response = await fetch('/api/event-submission', {
+				const payload = new URLSearchParams();
+				for (const [key, value] of new FormData(form).entries()) {
+					if (typeof value === 'string') payload.append(key, value);
+				}
+
+				const response = await fetch('/', {
 					method: 'POST',
 					headers: {
-						'Content-Type': 'application/json',
+						'Content-Type': 'application/x-www-form-urlencoded',
 					},
-					body: JSON.stringify(payload),
+					body: payload.toString(),
 				});
 
-				const result = await response.json().catch(() => ({}));
 				if (!response.ok) {
-					throw new Error(result?.error || 'Something’s not right, let’s try again.');
+					throw new Error('Something’s not right, let’s try again.');
 				}
 
-				if (result.delivery === 'mailto' && result.mailto) {
-					setStatus(
-						'The intake backend is not wired yet, so we opened an email draft with your event details.',
-						result.mailto,
-					);
-					window.location.href = result.mailto;
-					return;
-				}
-
-				window.location.href = '/events/submit/success';
+				window.location.href = form.action;
 			} catch (error) {
 				setStatus(error.message || 'Something’s not right, let’s try again.');
 			} finally {
