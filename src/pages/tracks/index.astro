@@ -1,31 +1,26 @@
 ---
-import TrackCard from '../../components/TrackCard.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import TrackCard from '../../components/TrackCard.astro';
 import { tracks } from '../../data/site';
 ---
 
 <BaseLayout
-	title="Tracks | Build Week NYC"
-	description="Curated Build Week NYC tracks for civic tech, immigrant founders, AI agents, and more."
-	path="/tracks"
+	title="Curated Tracks"
+	description="Explore curated event tracks for Build Week NYC: Great Civilization, South Asian Builders, O-1 Builders, and more."
+	currentPath="/tracks"
 >
-	<main>
-		<section class="section">
-			<div class="container stack-list" style="gap: 1.4rem;">
-				<div class="section-band stack-list">
-					<div class="eyebrow">Curated tracks</div>
-					<h1 class="headline-display" style="font-size: clamp(2.9rem, 4vw, 4.6rem);">
-						Tracks give the week a point of view.
-					</h1>
-					<p class="body-lg" style="max-width: 42rem;">
-						Tracks turn a crowded city calendar into a few coherent narratives: public-interest
-						building, South Asian operator energy, immigrant founder strategy, and agentic product work.
-					</p>
-				</div>
-				<div class="track-grid">
-					{tracks.map((track) => <TrackCard track={track} />)}
-				</div>
+	<section style="padding-top:var(--space-2xl);">
+		<div class="container">
+			<div style="margin-bottom:var(--space-2xl);max-width:60ch;">
+				<h1 class="display-sm" style="margin-bottom:var(--space-sm);">Curated Tracks</h1>
+				<p class="body-lg text-muted">
+					Tracks compress the week into coherent narratives. Follow one when you want signal, not just a giant undifferentiated calendar.
+				</p>
 			</div>
-		</section>
-	</main>
+
+			<div style="display:flex;flex-direction:column;gap:var(--space-xl);">
+				{tracks.map((track) => <TrackCard track={track} />)}
+			</div>
+		</div>
+	</section>
 </BaseLayout>

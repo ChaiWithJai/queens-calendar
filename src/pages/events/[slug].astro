@@ -1,143 +1,243 @@
 ---
-import EventCard from '../../components/EventCard.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import EventCard from '../../components/EventCard.astro';
+import type { Event } from '../../data/site';
 import { events, hostsById, sponsorsById } from '../../data/site';
-import { formatDateLabel, formatLabels, formatLongDateLabel, formatTimeRange, getSpotsLabel, verticalLabels } from '../../lib/format';
+import { formatLabels, verticalLabels } from '../../lib/format';
 
 export function getStaticPaths() {
-	return events.map((event) => ({
-		params: { slug: event.slug },
-		props: { event },
-	}));
+	return events.map((event) => ({ params: { slug: event.slug }, props: { event } }));
 }
 
 const { event } = Astro.props;
 const host = hostsById[event.hostId];
-const speakers = event.speakerIds.map((speakerId) => hostsById[speakerId]).filter(Boolean);
-const eventSponsors = event.sponsorIds.map((sponsorId) => sponsorsById[sponsorId]).filter(Boolean);
+const coHosts = event.coHostIds.map((id) => hostsById[id]).filter(Boolean);
+const track = event.track ?? null;
+const eventSponsors = event.sponsorIds.map((id) => sponsorsById[id]).filter(Boolean);
 const relatedEvents = events
-	.filter((candidate) => candidate.id !== event.id && (candidate.track?.id === event.track?.id || candidate.vertical === event.vertical))
+	.filter((candidate) => candidate.id !== event.id && (candidate.vertical === event.vertical || candidate.date === event.date))
 	.slice(0, 3);
 
-const schema = {
-	'@context': 'https://schema.org',
-	'@type': 'Event',
-	name: event.title,
-	description: event.description,
-	startDate: event.startTime,
-	endDate: event.endTime,
-	eventAttendanceMode: event.isVirtual
-		? 'https://schema.org/MixedEventAttendanceMode'
-		: 'https://schema.org/OfflineEventAttendanceMode',
-	eventStatus: 'https://schema.org/EventScheduled',
-	location: {
-		'@type': 'Place',
-		name: event.venue.name,
-		address: event.venue.address,
-	},
-	organizer: {
-		'@type': 'Organization',
-		name: host?.name,
-	},
-	offers: {
-		'@type': 'Offer',
-		url: event.externalUrl,
-		availability: 'https://schema.org/InStock',
-	},
+const verticalColorMap: Record<Event['vertical'], string> = {
+	'civic-tech': '#f9873e',
+	'south-asian': '#8f73ff',
+	immigrant: '#78d38b',
+	'ai-agents': '#d67138',
+	fintech: '#6aa67a',
+	healthtech: '#f99476',
+	climate: '#86bf7a',
+	devtools: '#8088d8',
+	creative: '#ffb85d',
+	community: '#d29685',
+	general: '#cfa16a',
 };
+
+const verticalImageMap: Partial<Record<Event['vertical'], string>> = {
+	'civic-tech': '/images/verticals/civic-tech.png',
+	'south-asian': '/images/verticals/south-asian.png',
+	immigrant: '/images/verticals/immigrant.png',
+	'ai-agents': '/images/verticals/ai-agents.png',
+	fintech: '/images/verticals/fintech.png',
+	healthtech: '/images/verticals/healthtech.png',
+	climate: '/images/verticals/climate.png',
+	devtools: '/images/verticals/devtools.png',
+	creative: '/images/verticals/creative.png',
+	community: '/images/verticals/community.png',
+};
+
+const startDate = new Date(event.startTime);
+const endDate = new Date(event.endTime);
+const dateStr = startDate.toLocaleDateString('en-US', {
+	weekday: 'long',
+	month: 'long',
+	day: 'numeric',
+	year: 'numeric',
+});
+const timeStr = `${startDate.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true })} – ${endDate.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true })}`;
+
+const fillingUp = Boolean(event.capacity && event.rsvpCount >= event.capacity * 0.8);
+const soldOut = Boolean(event.capacity && event.rsvpCount >= event.capacity);
+const spotsLeft = event.capacity ? Math.max(0, event.capacity - event.rsvpCount) : null;
+const verticalColor = verticalColorMap[event.vertical] || '#cfa16a';
+const eventImage = verticalImageMap[event.vertical] || '/images/verticals/default.png';
+
+const icsStart = startDate.toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
+const icsEnd = endDate.toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
+const icsContent = `BEGIN:VCALENDAR\nVERSION:2.0\nBEGIN:VEVENT\nDTSTART:${icsStart}\nDTEND:${icsEnd}\nSUMMARY:${event.title}\nLOCATION:${event.venue.name}, ${event.venue.address}\nDESCRIPTION:${event.shortDescription}\nURL:${event.externalUrl}\nEND:VEVENT\nEND:VCALENDAR`;
+const formattedDescription = event.description
+	.replace(/\n{2,}/g, '</p><p>')
+	.replace(/^/, '<p>')
+	.replace(/$/, '</p>')
+	.replace(/## (.*?)(<\/p>|$)/g, '</p><h2>$1</h2><p>')
+	.replace(/### (.*?)(<\/p>|$)/g, '</p><h3 style="font-size:var(--text-title-md);margin-top:var(--space-lg);margin-bottom:var(--space-xs);">$1</h3><p>')
+	.replace(/- \*\*(.*?)\*\*: (.*?)(<\/p>|$)/g, '</p><ul><li><strong>$1</strong>: $2</li></ul><p>')
+	.replace(/- (.*?)(<\/p>|$)/g, '</p><ul><li>$1</li></ul><p>')
+	.replace(/<p><\/p>/g, '');
 ---
 
-<BaseLayout
-	title={`${event.title} | Build Week NYC`}
-	description={event.shortDescription}
-	path={`/events/${event.slug}`}
->
-	<main>
-		<section class="section">
-			<div class="container stack-list" style="gap: 1.5rem;">
-				<div class="detail-grid section-band">
-					<div class="stack-list">
-						<div class="chip-row">
-							<span class="eyebrow">{event.track?.name ?? verticalLabels[event.vertical]}</span>
-							<span class="chip is-secondary">{formatLabels[event.format]}</span>
-							{event.isFlagship && <span class="chip is-positive">Flagship</span>}
+<BaseLayout title={event.title} description={event.shortDescription} currentPath={`/events/${event.slug}`}>
+	<section style="padding-top:var(--space-2xl);">
+		<div class="container">
+			<nav style="margin-bottom:var(--space-lg);display:flex;gap:var(--space-xs);align-items:center;" aria-label="Breadcrumb">
+				<a href="/events" class="label-md text-muted" style="text-decoration:none;">Events</a>
+				<span class="text-muted">→</span>
+				<span class="label-md">{event.title}</span>
+			</nav>
+
+			<div class="event-detail-hero" style="background: var(--surface-container-low);">
+				<img src={eventImage} alt={`${verticalLabels[event.vertical]} event header`} />
+			</div>
+
+			<div class="event-detail-header">
+				<div class="event-detail-meta">
+					<span class="chip chip-nurture" style={`background:${verticalColor}33;color:${verticalColor};`}>
+						{verticalLabels[event.vertical]}
+					</span>
+					<span class="chip" style="background:var(--surface-container-low);">{formatLabels[event.format]}</span>
+					{event.isFlagship && <span class="chip" style="background:var(--primary-container);color:var(--on-primary-fixed);">Flagship Event</span>}
+					{track && <a href={`/tracks/${track.slug}`} class="chip" style={`background:${track.color}22;color:${track.color};`}>{track.name} Track</a>}
+					{fillingUp && !soldOut && <span class="badge-filling">Filling up</span>}
+					{soldOut && <span class="chip" style="background:var(--error);color:white;">Sold out</span>}
+				</div>
+
+				<h1 class="event-detail-title">{event.title}</h1>
+				{event.subtitle && <p style="font-size:var(--text-title-md);color:var(--on-surface-variant);font-style:italic;">{event.subtitle}</p>}
+			</div>
+
+			<div class="event-detail-info">
+				<div>
+					<div class="event-detail-description" set:html={formattedDescription} />
+				</div>
+
+				<div class="event-detail-sidebar">
+					<div class="event-detail-sidebar-card" style="background:var(--surface-container);">
+						<div style="display:flex;align-items:center;justify-content:space-between;">
+							<div>
+								<div class="title-md" style="margin-bottom:var(--space-2xs);">Join this event</div>
+								{event.capacity && (
+									<div class="label-sm text-muted">
+										{event.rsvpCount} / {event.capacity} registered
+										{spotsLeft !== null && spotsLeft > 0 && ` · ${spotsLeft} spots left`}
+									</div>
+								)}
+							</div>
 						</div>
-						<h1 class="headline-display" style="font-size: clamp(3rem, 4vw, 4.6rem);">{event.title}</h1>
-						{event.subtitle && <p class="body-lg">{event.subtitle}</p>}
-						<p class="body-lg">{event.description}</p>
-						<div class="button-row">
-							<a class="button-primary" href={event.externalUrl} target="_blank" rel="noreferrer">RSVP now</a>
-							<button class="button-ghost save-toggle" type="button" data-save-event={event.id} data-saved="false">
-								<span data-save-label>Save</span>
+
+						{event.capacity && (
+							<div style="height:6px;background:var(--surface-container-highest);border-radius:var(--radius-full);overflow:hidden;">
+								<div
+									style={`height:100%;background:${fillingUp ? 'var(--error-container)' : 'var(--primary-container)'};border-radius:var(--radius-full);width:${Math.min(100, (event.rsvpCount / event.capacity) * 100)}%;transition:width 0.5s ease;`}
+								></div>
+							</div>
+						)}
+
+						<div style="display:flex;gap:var(--space-sm);">
+							<a href={event.externalUrl} target="_blank" rel="noopener" class="btn btn-primary" style="flex:1;">
+								{soldOut ? 'Join waitlist' : 'RSVP now'}
+							</a>
+							<button class="save-btn" type="button" data-save-event={event.id} aria-pressed="false" aria-label="Save event" style="width:44px;height:44px;">
+								<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" /></svg>
+								<span class="sr-only" data-save-label>Save</span>
 							</button>
 						</div>
+
+						<div class="label-sm text-muted">
+							via {event.externalProvider === 'luma' ? 'Luma' : event.externalProvider === 'partiful' ? 'Partiful' : event.externalProvider === 'eventbrite' ? 'Eventbrite' : 'Direct'}
+						</div>
 					</div>
 
-					<div class="stack-list">
-						<div class="surface-panel">
-							<div class="stack-list">
-								<div class="eyebrow">{formatDateLabel(event.date)}</div>
-								<h2 style="font-size: 1.4rem;">{formatLongDateLabel(event.date)}</h2>
-								<div class="mini-meta">{formatTimeRange(event.startTime, event.endTime)}</div>
-								<div class="mini-meta">{event.venue.name} · {event.venue.neighborhood}</div>
-								<div class="mini-meta">{getSpotsLabel(event)}</div>
-								<div class="chip-row">
-									{event.tags.map((tag) => <span class="chip">{tag}</span>)}
+					<div class="event-detail-sidebar-card">
+						<div class="event-detail-sidebar-card-title">When</div>
+						<div class="info-row">
+							<svg class="info-row-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2" /><line x1="16" y1="2" x2="16" y2="6" /><line x1="8" y1="2" x2="8" y2="6" /><line x1="3" y1="10" x2="21" y2="10" /></svg>
+							<div class="info-row-content">
+								<span class="info-row-value">{dateStr}</span>
+								<span class="info-row-label">{timeStr} ET</span>
+							</div>
+						</div>
+						<button class="btn btn-ghost btn-sm" id="add-to-cal" style="align-self:flex-start;">Add to calendar</button>
+					</div>
+
+					<div class="event-detail-sidebar-card">
+						<div class="event-detail-sidebar-card-title">Where</div>
+						<div class="info-row">
+							<svg class="info-row-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" /><circle cx="12" cy="10" r="3" /></svg>
+							<div class="info-row-content">
+								<span class="info-row-value">{event.venue.name}</span>
+								<span class="info-row-label">{event.venue.address}, {event.venue.neighborhood}</span>
+								<span class="info-row-label">{event.venue.city}</span>
+							</div>
+						</div>
+						<a href={`https://maps.google.com/?q=${encodeURIComponent(`${event.venue.address}, ${event.venue.city}`)}`} target="_blank" rel="noopener" class="btn btn-ghost btn-sm" style="align-self:flex-start;">
+							Open in Maps
+						</a>
+					</div>
+
+					{host && (
+						<div class="event-detail-sidebar-card">
+							<div class="event-detail-sidebar-card-title">Hosted by</div>
+							<div class="info-row">
+								<div style="width:36px;height:36px;border-radius:var(--radius-full);background:var(--primary-container);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-family:var(--font-display);font-weight:var(--weight-bold);font-size:var(--text-label-md);color:var(--on-primary-fixed);">
+									{host.name.charAt(0)}
+								</div>
+								<div class="info-row-content">
+									<span class="info-row-value">{host.name}</span>
+									{host.bio && <span class="info-row-label" style="display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;">{host.bio}</span>}
 								</div>
 							</div>
+							{coHosts.length > 0 && (
+								<div style="margin-top:var(--space-xs);">
+									<span class="label-sm text-muted">Co-hosted by: {coHosts.map((coHost) => coHost.name).join(', ')}</span>
+								</div>
+							)}
 						</div>
-						<div class="surface-panel">
-							<h2 style="font-size: 1.2rem;">Hosted by</h2>
-							<p class="body-lg" style="margin-top: 0.6rem;">
-								<strong style="color: var(--on-surface);">{host?.name}</strong> · {host?.bio}
-							</p>
-						</div>
-					</div>
-				</div>
+					)}
 
-				<div class="split-grid">
-					<div class="surface-panel stack-list">
-						<h2 style="font-size: 1.45rem;">Venue and logistics</h2>
-						<div class="body-lg">
-							{event.venue.name} · {event.venue.address} · {event.venue.neighborhood}, {event.venue.borough}
-						</div>
-						<div class="chip-row">
-							{event.venue.amenities.map((amenity) => <span class="chip">{amenity}</span>)}
-						</div>
-						{event.isVirtual && event.virtualUrl && (
-							<p class="body-lg">Includes a virtual stream link for remote attendees.</p>
-						)}
-					</div>
-
-					<div class="surface-panel stack-list">
-						<h2 style="font-size: 1.45rem;">Speakers and partners</h2>
-						<div class="stack-list">
-							{speakers.map((speaker) => <div class="comparison-card"><strong>{speaker.name}</strong><div class="body-lg">{speaker.bio}</div></div>)}
-						</div>
-						{eventSponsors.length > 0 && (
-							<div class="chip-row">
-								{eventSponsors.map((sponsor) => <span class="chip is-secondary">{sponsor.name}</span>)}
+					{eventSponsors.length > 0 && (
+						<div class="event-detail-sidebar-card">
+							<div class="event-detail-sidebar-card-title">Partners</div>
+							<div style="display:flex;flex-wrap:wrap;gap:var(--space-2xs);">
+								{eventSponsors.map((sponsor) => (
+									<span class="chip" style="background:var(--surface-container-low);">{sponsor.name}</span>
+								))}
 							</div>
-						)}
-					</div>
-				</div>
+						</div>
+					)}
 
-				<section class="stack-list" style="gap: 1rem;">
-					<div class="button-row" style="justify-content: space-between; align-items: flex-end;">
-						<h2 class="headline-section" style="font-size: clamp(1.9rem, 3vw, 2.8rem);">Related rooms</h2>
-						<a class="button-ghost" href="/events">Back to the directory</a>
-					</div>
-					<div class="card-grid">
-						{relatedEvents.map((related) => (
-							<div class="span-4">
-								<EventCard event={related} />
+					{event.tags.length > 0 && (
+						<div class="event-detail-sidebar-card">
+							<div class="event-detail-sidebar-card-title">Tags</div>
+							<div style="display:flex;flex-wrap:wrap;gap:var(--space-2xs);">
+								{event.tags.map((tag) => (
+									<a href={`/events?search=${encodeURIComponent(tag)}`} class="chip" style="background:var(--surface-container-low);">#{tag}</a>
+								))}
 							</div>
-						))}
-					</div>
-				</section>
+						</div>
+					)}
+				</div>
 			</div>
-		</section>
-	</main>
 
-	<script is:inline type="application/ld+json" set:html={JSON.stringify(schema)}></script>
+			{relatedEvents.length > 0 && (
+				<div class="related-events">
+					<div class="section-header">
+						<h2 class="section-title">You might also like</h2>
+					</div>
+					<div class="grid grid-auto-fill" style="gap:var(--space-md);">
+						{relatedEvents.map((related) => <EventCard event={related} variant="compact" />)}
+					</div>
+				</div>
+			)}
+		</div>
+	</section>
+
+	<script is:inline define:vars={{ icsContent }}>
+		document.getElementById('add-to-cal')?.addEventListener('click', () => {
+			const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
+			const link = document.createElement('a');
+			link.href = URL.createObjectURL(blob);
+			link.download = 'buildweek-event.ics';
+			link.click();
+			URL.revokeObjectURL(link.href);
+		});
+	</script>
 </BaseLayout>

@@ -3,68 +3,98 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
 <BaseLayout
-	title="About | Build Week NYC"
-	description="Why Build Week NYC is structured as a fast, community-first event directory instead of a sponsor maze."
-	path="/about"
+	title="About"
+	description="Build Week NYC is the builder-first alternative to sponsor-maze tech weeks. Community-driven, platform-agnostic, and designed for real discovery."
+	currentPath="/about"
 >
-	<main>
-		<section class="section">
-			<div class="container stack-list" style="gap: 1.4rem;">
-				<div class="split-grid section-band">
-					<div class="stack-list">
-						<div class="eyebrow">About Build Week NYC</div>
-						<h1 class="headline-display" style="font-size: clamp(2.9rem, 4vw, 4.5rem);">
-							Designed to beat the sponsor-first calendar hop.
-						</h1>
-						<p class="body-lg">
-							This frontend architecture treats discovery as the core job: bring events forward,
-							keep filters visible, make saved schedules obvious, and avoid locking hosts into one RSVP
-							platform.
-						</p>
+	<section style="padding-top:var(--space-2xl);">
+		<div class="container">
+			<div style="max-width:720px;">
+				<div style="margin-bottom:var(--space-4xl);">
+					<div class="hero-badge" style="margin-bottom:var(--space-lg);">
+						Built by builders, for builders
 					</div>
-					<div class="surface-panel">
-						<h2 style="font-size: 1.3rem;">Stack choice</h2>
-						<p class="body-lg" style="margin-top: 0.8rem;">
-							Astro keeps the first render lean, lets most of the site stay static, and only adds
-							JavaScript where the UX materially improves: filters, saved schedules, and export.
-						</p>
+
+					<h1 class="display-sm" style="margin-bottom:var(--space-lg);">
+						What is <em style="font-style:normal;background:var(--gradient-cta);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">Build Week NYC</em>?
+					</h1>
+
+					<p class="body-lg" style="color:var(--on-surface-variant);line-height:var(--leading-relaxed);margin-bottom:var(--space-lg);">
+						Build Week NYC is a community-powered directory of tech events happening across New York City during the first week of June 2026. We make it effortless to find, filter, and save events whether you are into civic tech, AI agents, fintech, healthtech, or just the right room at the right time.
+					</p>
+
+					<p class="body-lg" style="color:var(--on-surface-variant);line-height:var(--leading-relaxed);">
+						Unlike sponsor-first tech weeks, Build Week is deliberately community-first. Every event gets a real shot at discovery. Every RSVP platform can plug in. Every builder belongs.
+					</p>
+				</div>
+
+				<div style="background:var(--surface-container-low);border-radius:var(--radius-xl);padding:var(--space-2xl);margin-bottom:var(--space-3xl);">
+					<h2 class="headline-md" style="margin-bottom:var(--space-xl);">How we are different</h2>
+
+					<div style="display:flex;flex-direction:column;gap:var(--space-xl);">
+						<div style="display:flex;gap:var(--space-md);align-items:flex-start;">
+							<div style="width:40px;height:40px;border-radius:var(--radius-lg);background:var(--primary-container);display:flex;align-items:center;justify-content:center;flex-shrink:0;">1</div>
+							<div>
+								<h3 class="title-md" style="margin-bottom:var(--space-2xs);">Real discovery, not click mazes</h3>
+								<p class="body-md text-muted">Events are visible on the homepage. Filters stay present. The directory is the product, not a buried secondary flow.</p>
+							</div>
+						</div>
+
+						<div style="display:flex;gap:var(--space-md);align-items:flex-start;">
+							<div style="width:40px;height:40px;border-radius:var(--radius-lg);background:var(--secondary-container);display:flex;align-items:center;justify-content:center;flex-shrink:0;">2</div>
+							<div>
+								<h3 class="title-md" style="margin-bottom:var(--space-2xs);">Platform-agnostic hosting</h3>
+								<p class="body-md text-muted">Bring a Luma, Partiful, Eventbrite, or manual RSVP link. We are not forcing organizers onto a single stack.</p>
+							</div>
+						</div>
+
+						<div style="display:flex;gap:var(--space-md);align-items:flex-start;">
+							<div style="width:40px;height:40px;border-radius:var(--radius-lg);background:var(--tertiary-fixed);display:flex;align-items:center;justify-content:center;flex-shrink:0;">3</div>
+							<div>
+								<h3 class="title-md" style="margin-bottom:var(--space-2xs);">Personal schedule that actually helps</h3>
+								<p class="body-md text-muted">Save events, detect conflicts, and export your agenda to calendar without creating an account wall first.</p>
+							</div>
+						</div>
+
+						<div style="display:flex;gap:var(--space-md);align-items:flex-start;">
+							<div style="width:40px;height:40px;border-radius:var(--radius-lg);background:var(--surface-container-highest);display:flex;align-items:center;justify-content:center;flex-shrink:0;">4</div>
+							<div>
+								<h3 class="title-md" style="margin-bottom:var(--space-2xs);">Narrative curation, not a flat dump</h3>
+								<p class="body-md text-muted">Tracks give the week a point of view so attendees can move with context instead of opening twenty tabs.</p>
+							</div>
+						</div>
 					</div>
 				</div>
 
-				<div class="comparison-grid">
-					<div class="comparison-card">
-						<strong>Discovery</strong>
-						<div class="body-lg">Homepage and directory surface events immediately instead of pushing users through extra city pages.</div>
-					</div>
-					<div class="comparison-card">
-						<strong>Platform policy</strong>
-						<div class="body-lg">Hosts can bring Luma, Partiful, Eventbrite, or a manual RSVP flow without breaking the directory.</div>
-					</div>
-					<div class="comparison-card">
-						<strong>Performance</strong>
-						<div class="body-lg">Static-first pages, lightweight SVG visuals, and small interactive islands keep the site fast on mobile.</div>
+				<div style="background:var(--surface-container);border-radius:var(--radius-xl);padding:var(--space-2xl);margin-bottom:var(--space-3xl);position:relative;overflow:hidden;">
+					<div style="display:flex;gap:var(--space-2xl);align-items:flex-start;">
+						<div style="flex:1;">
+							<h2 class="headline-md" style="margin-bottom:var(--space-md);">Built by Chai With Jai</h2>
+							<p class="body-lg" style="color:var(--on-surface-variant);line-height:var(--leading-relaxed);margin-bottom:var(--space-md);">
+								Build Week NYC is a project by <strong>Jai Bhagat</strong> and the <strong>Chai With Jai</strong> community. The core bet is simple: tech weeks should help builders find the right rooms, not just amplify whoever bought the biggest logo placement.
+							</p>
+							<p class="body-lg" style="color:var(--on-surface-variant);line-height:var(--leading-relaxed);">
+								Whether you are an immigrant founder navigating an O-1, a civic hacker building public tools, or a South Asian operator looking for your people, this week is designed to make discovery feel intentional.
+							</p>
+							<div style="margin-top:var(--space-xl);display:flex;gap:var(--space-sm);flex-wrap:wrap;">
+								<a href="/events" class="btn btn-primary btn-sm">Browse events</a>
+								<a href="/events/submit" class="btn btn-ghost btn-sm">Submit your event</a>
+							</div>
+						</div>
+						<div class="character-inline character--hide-mobile" style="width:160px;flex-shrink:0;" aria-hidden="true">
+							<img src="/characters/jai/waving.png" alt="" width="160" height="160" loading="lazy" />
+						</div>
 					</div>
 				</div>
 
-				<div class="story-grid">
-					<div class="surface-panel">
-						<h2 style="font-size: 1.35rem;">What ships in this version</h2>
-						<div class="stack-list" style="margin-top: 1rem;">
-							<div class="comparison-card"><strong>Typed local event model</strong><div class="body-lg">Enough structure to validate routes, filter state, and content design before a CMS arrives.</div></div>
-							<div class="comparison-card"><strong>Netlify-backed submission form</strong><div class="body-lg">A structured intake flow that works on static hosting from day one.</div></div>
-							<div class="comparison-card"><strong>Saved schedule and `.ics` export</strong><div class="body-lg">Local-first persistence now, sync later if the product proves useful.</div></div>
-						</div>
-					</div>
-					<div class="surface-panel">
-						<h2 style="font-size: 1.35rem;">What comes next</h2>
-						<div class="stack-list" style="margin-top: 1rem;">
-							<div class="comparison-card"><strong>Provider sync jobs</strong><div class="body-lg">Luma and Eventbrite imports can promote this from curated seed data to live inventory.</div></div>
-							<div class="comparison-card"><strong>Real map provider</strong><div class="body-lg">Mapbox can slot in later without replacing the venue-first information architecture.</div></div>
-							<div class="comparison-card"><strong>User accounts only if earned</strong><div class="body-lg">Accounts should follow value, not block it. Local-first remains the right opening move.</div></div>
-						</div>
-					</div>
+				<div style="text-align:center;padding:var(--space-3xl) 0;">
+					<h2 class="headline-md" style="margin-bottom:var(--space-md);">Hosting during Build Week?</h2>
+					<p class="body-lg text-muted" style="margin-bottom:var(--space-xl);max-width:45ch;margin-inline:auto;">
+						Submit your event for review and plug into the builder-first directory.
+					</p>
+					<a href="/events/submit" class="btn btn-primary btn-lg">Submit your event</a>
 				</div>
 			</div>
-		</section>
-	</main>
+		</div>
+	</section>
 </BaseLayout>

@@ -1,60 +1,94 @@
 ---
-import EventCard from '../../components/EventCard.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import EventCard from '../../components/EventCard.astro';
 import { getTrackEvents, hostsById, tracks } from '../../data/site';
 
 export function getStaticPaths() {
-	return tracks.map((track) => ({
-		params: { slug: track.slug },
-		props: { track },
-	}));
+	return tracks.map((track) => ({ params: { slug: track.slug }, props: { track } }));
 }
 
 const { track } = Astro.props;
-const curator = hostsById[track.curatorId];
 const trackEvents = getTrackEvents(track.id);
+const curator = hostsById[track.curatorId];
+
+const trackCharacterMap: Record<string, { src: string; alt: string }> = {
+	'great-civilization': { src: '/characters/asha/coding.png', alt: '' },
+	'south-asian-builders': { src: '/characters/ravi/presenting.png', alt: '' },
+	'o1-builders': { src: '/characters/mei/reading.png', alt: '' },
+};
+
+const trackChar = trackCharacterMap[track.slug];
 ---
 
 <BaseLayout
-	title={`${track.name} | Build Week NYC`}
-	description={track.description}
-	path={`/tracks/${track.slug}`}
+	title={`${track.name} Track`}
+	description={track.description.slice(0, 160)}
+	currentPath={`/tracks/${track.slug}`}
 >
-	<main>
-		<section class="section">
-			<div class="container stack-list" style="gap: 1.4rem;">
-				<div class="detail-grid section-band">
-					<div class="stack-list">
-						<div class="eyebrow">Track detail</div>
-						<h1 class="headline-display" style="font-size: clamp(2.9rem, 4vw, 4.6rem);">{track.name}</h1>
-						<p class="body-lg">{track.description}</p>
-						<div class="chip-row">
-							<span class="chip is-secondary">Curated by {curator?.name}</span>
-							<span class="chip">{trackEvents.length} events</span>
-						</div>
-					</div>
+	<section style="padding-top:var(--space-2xl);">
+		<div class="container">
+			<div style={`background: linear-gradient(135deg, ${track.color}22, ${track.color}08);border-radius:var(--radius-xl);padding:var(--space-3xl);margin-bottom:var(--space-2xl);position:relative;overflow:hidden;`}>
+				<nav style="margin-bottom:var(--space-lg);display:flex;gap:var(--space-xs);align-items:center;" aria-label="Breadcrumb">
+					<a href="/tracks" class="label-md text-muted" style="text-decoration:none;">Tracks</a>
+					<span class="text-muted">→</span>
+					<span class="label-md">{track.name}</span>
+				</nav>
 
-					<div class="surface-panel" style={`background: linear-gradient(180deg, ${track.color}30, rgba(255,255,255,0.6));`}>
-						<h2 style="font-size: 1.3rem;">Why this track exists</h2>
-						<p class="body-lg" style="margin-top: 0.8rem;">
-							Each track is meant to compress discovery. Instead of scanning everything, attendees
-							can lock into a theme and follow a curator with taste.
+				<div style={`display:inline-block;width:48px;height:6px;background:${track.color};border-radius:var(--radius-full);margin-bottom:var(--space-md);`}></div>
+
+				<div style="display:flex;gap:var(--space-2xl);align-items:flex-start;">
+					<div style="flex:1;">
+						<h1 class="display-sm" style="margin-bottom:var(--space-md);">{track.name}</h1>
+
+						<p class="body-lg" style="max-width:60ch;line-height:var(--leading-relaxed);margin-bottom:var(--space-xl);">
+							{track.description}
 						</p>
-						<div class="button-row" style="margin-top: 1rem;">
-							<a class="button-primary" href="/events">See the full directory</a>
-							<a class="button-ghost" href="/schedule">Open my schedule</a>
+
+						<div style="display:flex;align-items:center;gap:var(--space-md);flex-wrap:wrap;">
+							<span class="chip" style={`background:${track.color}33;color:${track.color};`}>
+								{trackEvents.length} events
+							</span>
+							{curator && (
+								<span class="label-md text-muted">
+									Curated by <strong style="color:var(--on-surface);">{curator.name}</strong>
+								</span>
+							)}
 						</div>
 					</div>
-				</div>
-
-				<div class="card-grid">
-					{trackEvents.map((event) => (
-						<div class="span-4">
-							<EventCard event={event} />
+					{trackChar && (
+						<div class="character-inline character--hide-mobile" style="width:180px;flex-shrink:0;" aria-hidden="true">
+							<img src={trackChar.src} alt={trackChar.alt} width="180" height="180" loading="eager" />
 						</div>
-					))}
+					)}
 				</div>
 			</div>
-		</section>
-	</main>
+
+			<div style="margin-bottom:var(--space-2xl);">
+				<h2 class="headline-md" style="margin-bottom:var(--space-xl);">Track Schedule</h2>
+
+				<div style="display:flex;flex-direction:column;gap:var(--space-md);">
+					{trackEvents.map((event, index) => {
+						const startDate = new Date(event.startTime);
+						const dateStr = startDate.toLocaleDateString('en-US', { weekday: 'long', month: 'short', day: 'numeric' });
+
+						return (
+							<div style="display:flex;gap:var(--space-lg);align-items:flex-start;">
+								<div style="display:flex;flex-direction:column;align-items:center;flex-shrink:0;padding-top:var(--space-lg);">
+									<div style={`width:12px;height:12px;border-radius:50%;background:${track.color};`}></div>
+									{index < trackEvents.length - 1 && (
+										<div style={`width:2px;flex:1;min-height:80px;background:${track.color}33;`}></div>
+									)}
+								</div>
+
+								<div style="flex:1;">
+									<div class="label-sm text-muted" style="margin-bottom:var(--space-xs);">{dateStr}</div>
+									<EventCard event={event} variant="compact" />
+								</div>
+							</div>
+						);
+					})}
+				</div>
+			</div>
+		</div>
+	</section>
 </BaseLayout>

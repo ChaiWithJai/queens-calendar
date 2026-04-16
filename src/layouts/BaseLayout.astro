@@ -4,36 +4,155 @@ import '@fontsource/be-vietnam-pro/400.css';
 import '@fontsource/be-vietnam-pro/500.css';
 import '@fontsource/be-vietnam-pro/600.css';
 import '@fontsource/be-vietnam-pro/700.css';
+import '../styles/tokens.css';
 import '../styles/global.css';
-import SiteFooter from '../components/SiteFooter.astro';
-import SiteNav from '../components/SiteNav.astro';
+import '../styles/components.css';
+import '../styles/characters.css';
+import '../styles/compat.css';
 
 interface Props {
 	title: string;
-	description: string;
+	description?: string;
+	ogImage?: string;
+	currentPath?: string;
 	path?: string;
 }
 
-const { title, description, path = Astro.url.pathname } = Astro.props;
-const canonical = new URL(path, Astro.site).toString();
+const {
+	title,
+	description = "NYC's builder-first tech week directory. Find events, build your schedule, and discover your community. June 1–7, 2026.",
+	ogImage = '/images/social/og-image.png',
+	currentPath: explicitCurrentPath,
+	path,
+} = Astro.props;
+
+const currentPath = explicitCurrentPath ?? path ?? Astro.url.pathname;
+const canonical = new URL(currentPath, Astro.site).toString();
+const fullTitle = title === 'Build Week NYC' ? title : `${title} — Build Week NYC`;
 ---
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
 		<meta name="description" content={description} />
 		<link rel="canonical" href={canonical} />
+
+		<meta property="og:title" content={fullTitle} />
+		<meta property="og:description" content={description} />
+		<meta property="og:image" content={ogImage} />
+		<meta property="og:type" content="website" />
+		<meta property="og:site_name" content="Build Week NYC" />
+
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content={fullTitle} />
+		<meta name="twitter:description" content={description} />
+		<meta name="twitter:image" content={ogImage} />
+
+		<title>{fullTitle}</title>
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" href="/favicon.ico" />
 	</head>
 	<body>
-		<SiteNav currentPath={path} />
+		<nav class="nav" id="main-nav" aria-label="Main navigation">
+			<div class="container nav-inner">
+				<a href="/" class="nav-logo" id="nav-logo">
+					<span class="nav-logo-icon">BW</span>
+					Build Week NYC
+				</a>
+
+				<div class="nav-links" id="nav-links">
+					<a
+						href="/events"
+						class={`nav-link ${currentPath === '/events' || currentPath === '/events/' ? 'active' : ''}`}
+						id="nav-events"
+					>
+						Events
+					</a>
+					<a
+						href="/tracks"
+						class={`nav-link ${currentPath.startsWith('/tracks') ? 'active' : ''}`}
+						id="nav-tracks"
+					>
+						Tracks
+					</a>
+					<a
+						href="/schedule"
+						class={`nav-link nav-schedule-link ${currentPath === '/schedule' || currentPath === '/schedule/' ? 'active' : ''}`}
+						id="nav-schedule"
+					>
+						My Schedule
+						<span class="nav-schedule-count" id="nav-schedule-count" style="display:none;">0</span>
+					</a>
+					<a
+						href="/about"
+						class={`nav-link ${currentPath === '/about' || currentPath === '/about/' ? 'active' : ''}`}
+						id="nav-about"
+					>
+						About
+					</a>
+				</div>
+
+				<button class="nav-hamburger" id="nav-hamburger" aria-label="Open menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+			</div>
+		</nav>
+
+		<div class="mobile-drawer" id="mobile-drawer">
+			<div class="mobile-drawer-backdrop" id="drawer-backdrop" aria-hidden="true"></div>
+			<div class="mobile-drawer-content" role="dialog" aria-modal="true" aria-label="Navigation menu">
+				<button class="mobile-drawer-close" id="drawer-close" aria-label="Close menu">✕</button>
+				<a href="/events" class="mobile-drawer-link">Events</a>
+				<a href="/tracks" class="mobile-drawer-link">Tracks</a>
+				<a href="/schedule" class="mobile-drawer-link">My Schedule</a>
+				<a href="/about" class="mobile-drawer-link">About</a>
+				<a href="/map" class="mobile-drawer-link">Map</a>
+				<a href="/events/submit" class="mobile-drawer-link">Submit event</a>
+			</div>
+		</div>
+
 		<slot />
-		<SiteFooter />
+
+		<footer class="footer" id="site-footer" role="contentinfo">
+			<div class="container">
+				<div class="footer-inner">
+					<div class="footer-brand">
+						<div class="footer-brand-name">Build Week NYC</div>
+						<p class="footer-brand-desc">
+							The builder-first tech week directory. Find events, build your schedule, discover your
+							community.
+						</p>
+					</div>
+					<div class="footer-col">
+						<div class="footer-col-title">Explore</div>
+						<a href="/events">All Events</a>
+						<a href="/tracks">Tracks</a>
+						<a href="/schedule">My Schedule</a>
+						<a href="/map">Map</a>
+					</div>
+					<div class="footer-col">
+						<div class="footer-col-title">Build Week</div>
+						<a href="/about">About</a>
+						<a href="/sponsors">Sponsors</a>
+						<a href="/events/submit">Submit event</a>
+					</div>
+					<div class="footer-col">
+						<div class="footer-col-title">Tracks</div>
+						<a href="/tracks/great-civilization">Great Civilization</a>
+						<a href="/tracks/south-asian-builders">South Asian Builders</a>
+						<a href="/tracks/o1-builders">O-1 Builders</a>
+					</div>
+				</div>
+				<div class="footer-bottom">
+					<div class="footer-copyright">© 2026 Build Week NYC. Built with community-first intent.</div>
+				</div>
+			</div>
+		</footer>
 
 		<script is:inline>
 			// @ts-nocheck
@@ -59,12 +178,27 @@ const canonical = new URL(path, Astro.site).toString();
 					const id = button.dataset.saveEvent;
 					const active = saved.has(id);
 					button.dataset.saved = String(active);
+					button.classList.toggle('saved', active);
 					button.setAttribute('aria-pressed', String(active));
 					const label = button.querySelector('[data-save-label]');
 					if (label) {
 						label.textContent = active ? 'Saved' : 'Save';
 					}
+					const icon = button.querySelector('svg');
+					if (icon) {
+						icon.setAttribute('fill', active ? 'currentColor' : 'none');
+					}
 				});
+
+				const countNode = document.getElementById('nav-schedule-count');
+				if (countNode) {
+					if (saved.size > 0) {
+						countNode.textContent = String(saved.size);
+						countNode.style.display = 'inline-flex';
+					} else {
+						countNode.style.display = 'none';
+					}
+				}
 
 				document.querySelectorAll('[data-saved-count]').forEach((node) => {
 					node.textContent = String(saved.size);
@@ -84,14 +218,19 @@ const canonical = new URL(path, Astro.site).toString();
 				window.dispatchEvent(new CustomEvent('saved-events:updated', { detail: next }));
 			};
 
-			const setDrawerState = (element, backdrop, open) => {
-				if (!element || !backdrop) {
-					return;
-				}
-				element.classList.toggle('is-open', open);
-				element.setAttribute('aria-hidden', String(!open));
-				backdrop.classList.toggle('is-open', open);
-				document.body.dataset.drawerOpen = String(open);
+			const hamburger = document.getElementById('nav-hamburger');
+			const drawer = document.getElementById('mobile-drawer');
+			const backdrop = document.getElementById('drawer-backdrop');
+			const closeBtn = document.getElementById('drawer-close');
+
+			const openDrawer = () => {
+				drawer?.classList.add('open');
+				document.body.dataset.drawerOpen = 'true';
+			};
+
+			const closeDrawer = () => {
+				drawer?.classList.remove('open');
+				document.body.dataset.drawerOpen = 'false';
 			};
 
 			document.addEventListener('click', (event) => {
@@ -99,38 +238,38 @@ const canonical = new URL(path, Astro.site).toString();
 				if (saveButton instanceof HTMLButtonElement) {
 					event.preventDefault();
 					toggleSavedEvent(saveButton.dataset.saveEvent);
-					return;
-				}
-
-				const navToggle = event.target.closest('[data-nav-toggle]');
-				const navClose = event.target.closest('[data-close-nav]');
-				const navPanel = document.querySelector('[data-mobile-nav]');
-				const navBackdrop = document.querySelector('[data-nav-backdrop]');
-
-				if (navToggle) {
-					const next = !navPanel?.classList.contains('is-open');
-					setDrawerState(navPanel, navBackdrop, next);
-					navToggle.setAttribute('aria-expanded', String(next));
-				}
-
-				if (navClose || event.target === navBackdrop) {
-					setDrawerState(navPanel, navBackdrop, false);
-					document.querySelector('[data-nav-toggle]')?.setAttribute('aria-expanded', 'false');
 				}
 			});
 
+			hamburger?.addEventListener('click', openDrawer);
+			backdrop?.addEventListener('click', closeDrawer);
+			closeBtn?.addEventListener('click', closeDrawer);
+
 			document.addEventListener('keydown', (event) => {
-				if (event.key !== 'Escape') {
-					return;
+				if (event.key === 'Escape' && drawer?.classList.contains('open')) {
+					closeDrawer();
+					hamburger?.focus();
 				}
-				const navPanel = document.querySelector('[data-mobile-nav]');
-				const navBackdrop = document.querySelector('[data-nav-backdrop]');
-				setDrawerState(navPanel, navBackdrop, false);
-				document.querySelector('[data-nav-toggle]')?.setAttribute('aria-expanded', 'false');
+			});
+
+			const charObserver = new IntersectionObserver(
+				(entries) => {
+					entries.forEach((entry) => {
+						if (entry.isIntersecting) {
+							entry.target.classList.add('visible');
+						}
+					});
+				},
+				{ threshold: 0.2, rootMargin: '0px 0px -5% 0px' },
+			);
+
+			document.querySelectorAll('.character, .character-inline').forEach((element) => {
+				charObserver.observe(element);
 			});
 
 			window.addEventListener('storage', syncSavedUI);
 			window.addEventListener('DOMContentLoaded', syncSavedUI);
+			window.addEventListener('saved-events:updated', syncSavedUI);
 		</script>
 	</body>
 </html>
