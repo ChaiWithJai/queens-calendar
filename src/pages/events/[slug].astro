@@ -44,12 +44,13 @@ const verticalImageMap: Partial<Record<Event['vertical'], string>> = {
 const startDate = new Date(event.startTime);
 const endDate = new Date(event.endTime);
 const dateStr = startDate.toLocaleDateString('en-US', {
+	timeZone: 'America/New_York',
 	weekday: 'long',
 	month: 'long',
 	day: 'numeric',
 	year: 'numeric',
 });
-const timeStr = `${startDate.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true })} – ${endDate.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true })}`;
+const timeStr = `${startDate.toLocaleTimeString('en-US', { timeZone: 'America/New_York', hour: 'numeric', minute: '2-digit', hour12: true })} – ${endDate.toLocaleTimeString('en-US', { timeZone: 'America/New_York', hour: 'numeric', minute: '2-digit', hour12: true })}`;
 
 const fillingUp = Boolean(event.capacity && event.rsvpCount >= event.capacity * 0.8);
 const soldOut = Boolean(event.capacity && event.rsvpCount >= event.capacity);

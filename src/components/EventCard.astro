@@ -43,9 +43,9 @@ const soldOut = Boolean(event.capacity && event.rsvpCount >= event.capacity);
 
 const startDate = new Date(event.startTime);
 const endDate = new Date(event.endTime);
-const timeFormat: Intl.DateTimeFormatOptions = { hour: 'numeric', minute: '2-digit', hour12: true };
+const timeFormat: Intl.DateTimeFormatOptions = { timeZone: 'America/New_York', hour: 'numeric', minute: '2-digit', hour12: true };
 const timeStr = `${startDate.toLocaleTimeString('en-US', timeFormat)} – ${endDate.toLocaleTimeString('en-US', timeFormat)}`;
-const dateStr = startDate.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+const dateStr = startDate.toLocaleDateString('en-US', { timeZone: 'America/New_York', weekday: 'short', month: 'short', day: 'numeric' });
 ---
 
 {variant === 'featured' ? (

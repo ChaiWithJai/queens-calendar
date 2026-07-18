@@ -49,6 +49,8 @@ const twoWeeks = new Date(now.getTime() + 14 * 86400000);
 const nearTerm = events.filter((event) => new Date(event.endDate) >= now && new Date(event.startDate) < twoWeeks);
 assert.ok(nearTerm.length >= 6, `weekly product needs at least 6 events in the next 14 days; found ${nearTerm.length}`);
 assert.ok(new Set(events.map((event) => event.source?.name).filter(Boolean)).size >= 3, 'catalog needs at least 3 reporting sources');
+const expectedEasternTime = new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', hour: 'numeric', minute: '2-digit' }).format(new Date(nearTerm[0].startDate));
+assert.ok(home.includes(expectedEasternTime), `homepage must render event times in Eastern Time; expected ${expectedEasternTime}`);
 assert.equal(eventSchema.title, 'Queens Calendar Event');
 for (const event of events) {
 	assert.ok(event.source?.canonicalUrl, `${event.title} lacks source provenance`);

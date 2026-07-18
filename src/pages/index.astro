@@ -28,10 +28,10 @@ for (const event of [...nextSeven].sort((a, b) => score(b) - score(a))) {
 const planIds = shortList.map((event) => event.id).join(',');
 const planUrl = `/schedule?plan=${encodeURIComponent(planIds)}`;
 const dateRange = nextSeven.length
-	? `${new Intl.DateTimeFormat('en-US', { month:'short', day:'numeric' }).format(new Date(nextSeven[0].startTime))}–${new Intl.DateTimeFormat('en-US', { month:'short', day:'numeric' }).format(new Date(nextSeven.at(-1)!.startTime))}`
+	? `${new Intl.DateTimeFormat('en-US', { timeZone:'America/New_York', month:'short', day:'numeric' }).format(new Date(nextSeven[0].startTime))}–${new Intl.DateTimeFormat('en-US', { timeZone:'America/New_York', month:'short', day:'numeric' }).format(new Date(nextSeven.at(-1)!.startTime))}`
 	: 'This week';
 const clean = (value: string) => value.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
-const day = (value: string) => new Intl.DateTimeFormat('en-US', { weekday:'short', month:'short', day:'numeric' }).format(new Date(value));
+const day = (value: string) => new Intl.DateTimeFormat('en-US', { timeZone:'America/New_York', weekday:'short', month:'short', day:'numeric' }).format(new Date(value));
 const moodFor = (event: typeof events[number]) => [
 	event.price === '0' || /free|volunteer|open hours/i.test(event.title) ? 'free' : '',
 	event.categories.includes('parks-outdoors') || /park|garden|farm|outdoor/i.test(event.title) ? 'outside' : '',
@@ -105,7 +105,7 @@ const moodFor = (event: typeof events[number]) => [
 				<div class="week-feed">
 					{nextSeven.map((event) => (
 						<article class="week-row" data-week-event data-moods={moodFor(event)}>
-							<div class="date-tile"><strong>{new Intl.DateTimeFormat('en-US',{day:'2-digit'}).format(new Date(event.startTime))}</strong><span>{new Intl.DateTimeFormat('en-US',{weekday:'short'}).format(new Date(event.startTime))}</span></div>
+							<div class="date-tile"><strong>{new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',day:'2-digit'}).format(new Date(event.startTime))}</strong><span>{new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',weekday:'short'}).format(new Date(event.startTime))}</span></div>
 							<div class="row-main"><p>{formatTimeRange(event.startTime,event.endTime)} · {event.venue.neighborhood}</p><h3><a href={`/events/${event.slug}`}>{event.title}</a></h3><span>{clean(event.description).slice(0, 150)}</span></div>
 							<div class="row-actions"><button type="button" data-save-event={event.id} aria-pressed="false"><span data-save-label>Save</span></button><button type="button" data-share-event data-event-title={event.title} data-event-url={`/events/${event.slug}`}>Share</button></div>
 						</article>

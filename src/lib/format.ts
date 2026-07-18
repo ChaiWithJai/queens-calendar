@@ -1,23 +1,27 @@
 import type { Event, EventFormat, EventVertical } from '../data/site';
 
 const shortDayFormatter = new Intl.DateTimeFormat('en-US', {
+	timeZone: 'America/New_York',
 	month: 'short',
 	day: 'numeric',
 });
 
 const longDayFormatter = new Intl.DateTimeFormat('en-US', {
+	timeZone: 'America/New_York',
 	weekday: 'long',
 	month: 'long',
 	day: 'numeric',
 });
 
 const weekdayFormatter = new Intl.DateTimeFormat('en-US', {
+	timeZone: 'America/New_York',
 	weekday: 'short',
 	month: 'short',
 	day: 'numeric',
 });
 
 const timeFormatter = new Intl.DateTimeFormat('en-US', {
+	timeZone: 'America/New_York',
 	hour: 'numeric',
 	minute: '2-digit',
 });

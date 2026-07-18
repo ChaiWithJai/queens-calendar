@@ -26,7 +26,7 @@ export function weekStory(_weekKey: string, weekEvents: Event[]) {
 	const sorted = [...weekEvents].sort((a, b) => +new Date(a.startTime) - +new Date(b.startTime));
 	const first = sorted[0] ? new Date(sorted[0].startTime) : new Date();
 	const last = sorted.at(-1) ? new Date(sorted.at(-1)!.startTime) : first;
-	const range = `${new Intl.DateTimeFormat('en-US', { month:'long', day:'numeric' }).format(first)}–${new Intl.DateTimeFormat('en-US', { month:first.getMonth() === last.getMonth() ? undefined : 'long', day:'numeric' }).format(last)}`;
+	const range = `${new Intl.DateTimeFormat('en-US', { timeZone:'America/New_York', month:'long', day:'numeric' }).format(first)}–${new Intl.DateTimeFormat('en-US', { timeZone:'America/New_York', month:first.getMonth() === last.getMonth() ? undefined : 'long', day:'numeric' }).format(last)}`;
 	return {
 		headline: `${weekEvents.length} ${weekEvents.length === 1 ? 'thing' : 'things'} to do in Queens, ${range}`,
 		dek: `A sendable week plan across ${neighborhoods.join(', ') || 'Queens'}—with every time, place, and registration link checked against the original organizer.`,
