@@ -1,0 +1,55 @@
+[
+  {
+    "id": "qc_9310cbd00c5a8a9d",
+    "slug": "information-session-2-2027-28-qm-jerome-foundation-fellowship-for-emerging-artists",
+    "title": "Information Session 2: 2027–28 QM-Jerome Foundation Fellowship for Emerging Artists",
+    "description": "This Information Session will provide an overview of the 2027-28 Queens Museum-Jerome Foundation Fellowship for Emerging Artists and provide information about the eligibility requirements and the fellowship experience. We’ll discuss the details of the program, now in its eighth cycle. You’ll have the opportunity to participate in a Q+A with QM staff for all fellowship, application, and experience questions.",
+    "startDate": "2026-09-09T22:00:00.000Z",
+    "endDate": "2026-09-09T23:30:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "online",
+    "categories": [
+      "arts-culture",
+      "community"
+    ],
+    "tags": [],
+    "image": null,
+    "price": null,
+    "registrationUrl": "https://www.eventbrite.com/e/info-session2-202728-qm-jerome-foundation-fellowship-for-emerging-artists-tickets-1990509336007",
+    "venue": {
+      "name": "Queens Museum",
+      "address": "New York City Building, Flushing Meadows Corona Park, Queens, NY 11368",
+      "neighborhood": "Flushing Meadows–Corona Park",
+      "latitude": 40.7458,
+      "longitude": -73.8467
+    },
+    "organizer": {
+      "name": "Queens Museum",
+      "url": "https://queensmuseum.org/"
+    },
+    "source": {
+      "name": "Queens Museum",
+      "listingUrl": "https://queensmuseum.org/event/",
+      "canonicalUrl": "https://queensmuseum.org/event/information-session-2-2027-28-qm-jerome-foundation-fellowship-for-emerging-artists/",
+      "retrievedAt": "2026-07-18T18:52:42.786Z",
+      "method": "html"
+    },
+    "weekKey": "2026-W37",
+    "answerSummary": "Information Session 2: 2027–28 QM-Jerome Foundation Fellowship for Emerging Artists is happening Wednesday, September 9 at 6:00 PM online. This Information Session will provide an overview of the 2027-28 Queens Museum-Jerome Foundation Fellowship for Emerging Artists and provide information about the eligibility requirements and the fellowship experience. We",
+    "faqs": [
+      {
+        "question": "When is Information Session 2: 2027–28 QM-Jerome Foundation Fellowship for Emerging Artists?",
+        "answer": "Information Session 2: 2027–28 QM-Jerome Foundation Fellowship for Emerging Artists starts Wednesday, September 9 at 6:00 PM."
+      },
+      {
+        "question": "Where is Information Session 2: 2027–28 QM-Jerome Foundation Fellowship for Emerging Artists?",
+        "answer": "This event is online."
+      },
+      {
+        "question": "How do I register for Information Session 2: 2027–28 QM-Jerome Foundation Fellowship for Emerging Artists?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Museum, the event source."
+      }
+    ]
+  }
+]

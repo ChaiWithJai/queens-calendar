@@ -1,0 +1,56 @@
+[
+  {
+    "id": "queens-museum",
+    "name": "Queens Museum",
+    "listingUrl": "https://queensmuseum.org/event/",
+    "adapter": "detail-links",
+    "maxDetails": 35,
+    "linkPattern": "/event/",
+    "organizerUrl": "https://queensmuseum.org/",
+    "venue": { "name": "Queens Museum", "address": "New York City Building, Flushing Meadows Corona Park, Queens, NY 11368", "neighborhood": "Flushing Meadows–Corona Park", "latitude": 40.7458, "longitude": -73.8467 },
+    "defaultCategories": ["arts-culture", "community"]
+  },
+  {
+    "id": "city-parks-foundation",
+    "name": "City Parks Foundation",
+    "listingUrl": "https://cityparksfoundation.org/calendar/month/",
+    "adapter": "detail-links",
+    "maxDetails": 24,
+    "linkPattern": "/events/",
+    "includeText": "Queens",
+    "organizerUrl": "https://cityparksfoundation.org/",
+    "defaultCategories": ["community", "arts-culture"]
+  },
+  {
+    "id": "museum-moving-image",
+    "name": "Museum of the Moving Image",
+    "listingUrl": "https://movingimage.org/events/month/",
+    "adapter": "detail-links",
+    "maxDetails": 40,
+    "linkPattern": "/event/",
+    "organizerUrl": "https://movingimage.org/",
+    "venue": { "name": "Museum of the Moving Image", "address": "36-01 35th Ave, Astoria, NY 11106", "neighborhood": "Astoria", "latitude": 40.7563, "longitude": -73.9239 },
+    "defaultCategories": ["arts-culture", "technology"]
+  },
+  {
+    "id": "queens-public-library",
+    "name": "Queens Public Library",
+    "listingUrl": "https://queens.libnet.info/events",
+    "adapter": "detail-links",
+    "maxDetails": 40,
+    "linkPattern": "/event/",
+    "organizerUrl": "https://www.queenslibrary.org/",
+    "defaultCategories": ["community", "family"]
+  },
+  {
+    "id": "flushing-town-hall",
+    "name": "Flushing Town Hall",
+    "listingUrl": "https://www.flushingtownhall.org/calendar?short=calendar",
+    "adapter": "detail-links",
+    "maxDetails": 40,
+    "linkPattern": "/event/",
+    "organizerUrl": "https://www.flushingtownhall.org/",
+    "venue": { "name": "Flushing Town Hall", "address": "137-35 Northern Blvd, Flushing, NY 11354", "neighborhood": "Flushing", "latitude": 40.7639, "longitude": -73.8302 },
+    "defaultCategories": ["arts-culture", "community"]
+  }
+]

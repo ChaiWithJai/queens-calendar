@@ -46,6 +46,10 @@ export const formatLabels: Record<EventFormat, string> = {
 	'office-hours': 'Office hours',
 	keynote: 'Keynote',
 	'build-day': 'Build day',
+	performance: 'Performance',
+	exhibition: 'Exhibition',
+	screening: 'Screening',
+	'community-meetup': 'Community meetup',
 };
 
 export function formatDateLabel(date: string) {

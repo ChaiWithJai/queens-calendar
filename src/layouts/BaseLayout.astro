@@ -20,7 +20,7 @@ interface Props {
 
 const {
 	title,
-	description = "NYC's builder-first tech week directory. Find events, build your schedule, and discover your community. June 1–7, 2026.",
+	description = "A community-powered calendar for arts, culture, technology, and neighborhood events across Queens.",
 	ogImage = '/images/social/og-image.png',
 	currentPath: explicitCurrentPath,
 	path,
@@ -28,7 +28,7 @@ const {
 
 const currentPath = explicitCurrentPath ?? path ?? Astro.url.pathname;
 const canonical = new URL(currentPath, Astro.site).toString();
-const fullTitle = title === 'Build Week NYC' ? title : `${title} — Build Week NYC`;
+const fullTitle = title === 'Queens Calendar' ? title : `${title} — Queens Calendar`;
 ---
 
 <!DOCTYPE html>
@@ -39,12 +39,13 @@ const fullTitle = title === 'Build Week NYC' ? title : `${title} — Build Week 
 		<meta name="generator" content={Astro.generator} />
 		<meta name="description" content={description} />
 		<link rel="canonical" href={canonical} />
+		<link rel="alternate" type="application/rss+xml" title="Queens Calendar stories" href="/feed.xml" />
 
 		<meta property="og:title" content={fullTitle} />
 		<meta property="og:description" content={description} />
 		<meta property="og:image" content={ogImage} />
 		<meta property="og:type" content="website" />
-		<meta property="og:site_name" content="Build Week NYC" />
+		<meta property="og:site_name" content="Queens Calendar" />
 
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta name="twitter:title" content={fullTitle} />
@@ -59,8 +60,8 @@ const fullTitle = title === 'Build Week NYC' ? title : `${title} — Build Week 
 		<nav class="nav" id="main-nav" aria-label="Main navigation">
 			<div class="container nav-inner">
 				<a href="/" class="nav-logo" id="nav-logo">
-					<span class="nav-logo-icon">BW</span>
-					Build Week NYC
+					<span class="nav-logo-icon">QC</span>
+					Queens Calendar
 				</a>
 
 				<div class="nav-links" id="nav-links">
@@ -69,21 +70,33 @@ const fullTitle = title === 'Build Week NYC' ? title : `${title} — Build Week 
 						class={`nav-link ${currentPath === '/events' || currentPath === '/events/' ? 'active' : ''}`}
 						id="nav-events"
 					>
-						Events
+						Calendar
 					</a>
 					<a
-						href="/tracks"
-						class={`nav-link ${currentPath.startsWith('/tracks') ? 'active' : ''}`}
+						href="/sources"
+						class={`nav-link ${currentPath.startsWith('/sources') ? 'active' : ''}`}
 						id="nav-tracks"
 					>
-						Tracks
+						Sources
+					</a>
+					<a
+						href="/map"
+						class={`nav-link ${currentPath.startsWith('/map') ? 'active' : ''}`}
+					>
+						Map
+					</a>
+					<a
+						href="/stories"
+						class={`nav-link ${currentPath.startsWith('/stories') ? 'active' : ''}`}
+					>
+						Stories
 					</a>
 					<a
 						href="/schedule"
 						class={`nav-link nav-schedule-link ${currentPath === '/schedule' || currentPath === '/schedule/' ? 'active' : ''}`}
 						id="nav-schedule"
 					>
-						My Schedule
+						Saved
 						<span class="nav-schedule-count" id="nav-schedule-count" style="display:none;">0</span>
 					</a>
 					<a
@@ -107,9 +120,10 @@ const fullTitle = title === 'Build Week NYC' ? title : `${title} — Build Week 
 			<div class="mobile-drawer-backdrop" id="drawer-backdrop" aria-hidden="true"></div>
 			<div class="mobile-drawer-content" role="dialog" aria-modal="true" aria-label="Navigation menu">
 				<button class="mobile-drawer-close" id="drawer-close" aria-label="Close menu">✕</button>
-				<a href="/events" class="mobile-drawer-link">Events</a>
-				<a href="/tracks" class="mobile-drawer-link">Tracks</a>
-				<a href="/schedule" class="mobile-drawer-link">My Schedule</a>
+				<a href="/events" class="mobile-drawer-link">Calendar</a>
+				<a href="/sources" class="mobile-drawer-link">Sources</a>
+				<a href="/stories" class="mobile-drawer-link">Stories</a>
+				<a href="/schedule" class="mobile-drawer-link">Saved</a>
 				<a href="/about" class="mobile-drawer-link">About</a>
 				<a href="/map" class="mobile-drawer-link">Map</a>
 				<a href="/events/submit" class="mobile-drawer-link">Submit event</a>
@@ -122,41 +136,35 @@ const fullTitle = title === 'Build Week NYC' ? title : `${title} — Build Week 
 			<div class="container">
 				<div class="footer-inner">
 					<div class="footer-brand">
-						<div class="footer-brand-name">Build Week NYC</div>
+						<div class="footer-brand-name">Queens Calendar</div>
 						<p class="footer-brand-desc">
-							The builder-first tech week directory. Find events, build your schedule, discover your
-							community.
+							Arts, culture, technology, and community-organized events from across the borough.
 						</p>
 					</div>
 					<div class="footer-col">
 						<div class="footer-col-title">Explore</div>
 						<a href="/events">All Events</a>
-						<a href="/tracks">Tracks</a>
+						<a href="/sources">Sources</a>
 						<a href="/schedule">My Schedule</a>
 						<a href="/map">Map</a>
+						<a href="/stories">Stories</a>
 					</div>
 					<div class="footer-col">
-						<div class="footer-col-title">Build Week</div>
+						<div class="footer-col-title">Community</div>
 						<a href="/about">About</a>
-						<a href="/sponsors">Sponsors</a>
+						<a href="/feed.xml">RSS feed</a>
 						<a href="/events/submit">Submit event</a>
-					</div>
-					<div class="footer-col">
-						<div class="footer-col-title">Tracks</div>
-						<a href="/tracks/great-civilization">Great Civilization</a>
-						<a href="/tracks/south-asian-builders">South Asian Builders</a>
-						<a href="/tracks/o1-builders">O-1 Builders</a>
 					</div>
 				</div>
 				<div class="footer-bottom">
-					<div class="footer-copyright">© 2026 Build Week NYC. Built with community-first intent.</div>
+					<div class="footer-copyright">© 2026 Queens Calendar. Built with and for the borough.</div>
 				</div>
 			</div>
 		</footer>
 
 		<script is:inline>
 			// @ts-nocheck
-			const STORAGE_KEY = 'build-week-saved-events';
+			const STORAGE_KEY = 'queens-calendar-saved-events';
 
 			const getSavedEvents = () => {
 				try {

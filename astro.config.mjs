@@ -3,6 +3,6 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://techweeknyc.com',
+	site: 'https://queens-calendar.netlify.app',
 	trailingSlash: 'never',
 });

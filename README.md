@@ -1,90 +1,39 @@
-# Build Week NYC
+# Queens Calendar
 
-An Astro-based frontend architecture for Build Week NYC, designed around fast event discovery, curated tracks, local-first saved schedules, and Netlify deployment.
+A source-transparent community calendar for Queens. It ingests official event listings into a canonical schema, deduplicates them, places them on a real map, supports search and saved schedules, and publishes answer-first event and weekly editorial pages.
 
-## What ships in this repo
+## System
 
-- Homepage with flagship events, curated tracks, and editorial neo-brutalist styling.
-- Full `/events` directory with client-side search, faceted filters, URL syncing, and list / agenda / map views.
-- Dynamic event and track detail pages generated from typed local data.
-- `/schedule` page with localStorage-backed saved events and `.ics` calendar export.
-- `/events/submit` Netlify Forms-backed host submission flow.
-- Static JSON endpoint at `/api/events`.
+- `config/sources.json` — official source registry and adapter settings
+- `scripts/ingest-events.mjs` — discovery, extraction, normalization, Queens filtering, and deduplication
+- `schemas/event.schema.json` — public canonical event contract
+- `src/data/generated/` — reproducible catalog and ingest health report
+- `src/components/VenueMap.astro` — Leaflet/OpenStreetMap exploration
+- `src/pages/stories/` — event guides and weekly roundup pages with structured data
+- `.github/workflows/ingest-events.yml` — daily refresh, validation, and catalog commit
 
-## Stack
+The site never substitutes demo events when ingestion fails. `/sources` exposes failures and every published event retains its canonical URL, retrieval time, and extraction method.
 
-- Astro 6
-- TypeScript
-- Self-hosted font packages for Plus Jakarta Sans and Be Vietnam Pro
-- Static Astro output deployed on Netlify
-- Netlify Forms for event submission intake
-
-## Run locally
+## Commands
 
 ```bash
-npm install
+npm ci
+npm run ingest
+npm run check:release
 npm run dev
 ```
 
-Useful checks:
+The release check has three layers documented in `docs/release-test-matrix.md`: acceptance/E2E, built-site integration, and pipeline unit checks.
 
-```bash
-npm run check
-npm run build
-npm run preview -- --port 4323
-```
+## Public surfaces
 
-## Netlify
+- `/events` — searchable calendar
+- `/map` — interactive venue map
+- `/schedule` — local saved-event agenda and calendar export
+- `/stories` — answer-first event and weekly guides
+- `/sources` — source provenance and pipeline health
+- `/events/submit` — Netlify Forms community intake
+- `/api/events`, `/api/schema`, `/api/ingest-report` — public JSON
+- `/feed.xml`, `/sitemap.xml` — publishing feeds
 
-The site is ready for Netlify static deployment. Astro outputs to `dist/`, and the event intake form is configured for Netlify Forms with AJAX submission plus a no-JS fallback.
-
-Recommended CLI flow:
-
-```bash
-npx netlify status
-npx netlify deploy --create-site --prod
-```
-
-If the site is already linked, later deploys are:
-
-```bash
-npx netlify deploy
-npx netlify deploy --prod
-```
-
-## Custom Domain with Vercel DNS
-
-`techweeknyc.com` can stay registered and DNS-managed at Vercel while the site is hosted on Netlify.
-
-1. Add `techweeknyc.com` to the Netlify site as the custom domain.
-2. In Vercel DNS, point the apex domain to Netlify.
-3. Point `www` to the Netlify subdomain.
-
-Recommended records for standard Netlify external DNS:
-
-```bash
-# apex
-ALIAS/ANAME @ apex-loadbalancer.netlify.com
-
-# fallback if ALIAS/ANAME is unavailable
-A @ 75.2.60.5
-
-# www
-CNAME www <your-netlify-site>.netlify.app
-```
-
-After the DNS records propagate, Netlify provisions TLS automatically. Keep only one apex A/ALIAS target for the site to avoid certificate issues.
-
-## Routes
-
-- `/`
-- `/events`
-- `/events/[slug]`
-- `/events/submit`
-- `/tracks`
-- `/tracks/[slug]`
-- `/schedule`
-- `/map`
-- `/sponsors`
-- `/about`
-- `/api/events`
+Production: <https://queens-calendar.netlify.app>

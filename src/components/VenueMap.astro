@@ -1,79 +1,60 @@
 ---
 import type { Event, Venue } from '../data/site';
 
-interface VenueGroup {
-	venue: Venue;
-	events: Event[];
-}
-
-interface Props {
-	groups: VenueGroup[];
-}
-
+interface VenueGroup { venue: Venue; events: Event[]; }
+interface Props { groups: VenueGroup[]; }
 const { groups } = Astro.props;
-
-const latitudes = groups.map((group) => group.venue.coordinates.lat);
-const longitudes = groups.map((group) => group.venue.coordinates.lng);
-const minLat = Math.min(...latitudes);
-const maxLat = Math.max(...latitudes);
-const minLng = Math.min(...longitudes);
-const maxLng = Math.max(...longitudes);
-
-const getPosition = (venue: Venue) => {
-	const x = ((venue.coordinates.lng - minLng) / (maxLng - minLng || 1)) * 480 + 60;
-	const y = ((maxLat - venue.coordinates.lat) / (maxLat - minLat || 1)) * 260 + 50;
-	return { x, y };
-};
+const points = groups.map((group) => ({
+	id: group.venue.id,
+	name: group.venue.name,
+	address: group.venue.address,
+	neighborhood: group.venue.neighborhood,
+	lat: group.venue.coordinates.lat,
+	lng: group.venue.coordinates.lng,
+	events: group.events.map((event) => ({ title: event.title, slug: event.slug, start: event.startTime, mode: event.isVirtual ? 'Online' : 'In person' })),
+}));
 ---
 
-<div class="surface-panel" style="background: linear-gradient(180deg, var(--surface-container-lowest), var(--surface-container));">
-	<h3 style="font-size: 1.3rem;">Venue pulse</h3>
-	<p class="body-lg" style="margin-top: 0.6rem;">
-		Every marker is a live venue cluster. The first release keeps the map token-free and fast by
-		rendering a lightweight SVG atlas.
-	</p>
+<section class="real-map-shell" aria-labelledby="map-title">
+	<div class="map-heading">
+		<div>
+			<p class="eyebrow">Geographic discovery</p>
+			<h2 id="map-title">Explore events by place</h2>
+		</div>
+		<p>{points.length} mapped {points.length === 1 ? 'venue' : 'venues'} · OpenStreetMap</p>
+	</div>
+	<div class="event-map" data-event-map data-points={JSON.stringify(points)} aria-label="Interactive map of Queens events"></div>
+	<noscript><p class="map-fallback">Enable JavaScript for the interactive map. Venue links remain available below.</p></noscript>
+</section>
 
-	<svg
-		viewBox="0 0 600 380"
-		role="img"
-		aria-label="Stylized map of Build Week NYC venue clusters"
-		style="margin-top: 1rem; width: 100%; height: auto; border-radius: 1.5rem; background: linear-gradient(180deg, rgba(255,255,255,0.56), rgba(248,240,224,0.9));"
-	>
-		<defs>
-			<linearGradient id="atlas-grid" x1="0%" y1="0%" x2="100%" y2="100%">
-				<stop offset="0%" stop-color="#d5cbff" stop-opacity="0.6"></stop>
-				<stop offset="100%" stop-color="#f9873e" stop-opacity="0.3"></stop>
-			</linearGradient>
-		</defs>
-		<rect x="18" y="18" width="564" height="344" rx="30" fill="url(#atlas-grid)"></rect>
-		<path
-			d="M130 78C174 58 235 64 284 98C335 132 372 132 439 110C486 94 521 102 544 142C568 182 558 245 520 290C468 352 403 326 338 308C291 296 231 311 183 286C124 256 84 173 96 127C102 104 110 90 130 78Z"
-			fill="#fef6e7"
-			fill-opacity="0.78"
-		></path>
-		{
-			groups.map((group) => {
-				const { x, y } = getPosition(group.venue);
-				return (
-					<a href={`#venue-${group.venue.id}`}>
-						<g>
-							<circle cx={x} cy={y} r="16" fill="#964300"></circle>
-							<circle cx={x} cy={y} r="8" fill="#fff0e9"></circle>
-							<text
-								x={x}
-								y={y - 24}
-								text-anchor="middle"
-								font-size="13"
-								font-family="Be Vietnam Pro, sans-serif"
-								font-weight="700"
-								fill="#322e25"
-							>
-								{group.venue.neighborhood}
-							</text>
-						</g>
-					</a>
-				);
-			})
-		}
-	</svg>
-</div>
+<script>
+	import L from 'leaflet';
+	import 'leaflet/dist/leaflet.css';
+
+	const escapeHtml = (value: string) => value.replace(/[&<>'"]/g, (character) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[character] ?? character);
+	document.querySelectorAll<HTMLElement>('[data-event-map]').forEach((element) => {
+		if (element.dataset.initialized === 'true') return;
+		element.dataset.initialized = 'true';
+		const points = JSON.parse(element.dataset.points || '[]');
+		const map = L.map(element, { scrollWheelZoom: false }).setView([40.7282, -73.7949], 11);
+		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+			maxZoom: 19,
+			attribution: '&copy; OpenStreetMap contributors',
+		}).addTo(map);
+		const bounds: L.LatLngTuple[] = [];
+		points.forEach((point: any) => {
+			if (!Number.isFinite(point.lat) || !Number.isFinite(point.lng)) return;
+			bounds.push([point.lat, point.lng]);
+			const marker = L.circleMarker([point.lat, point.lng], { radius: 9, color: '#159bff', weight: 2, fillColor: '#53d8a0', fillOpacity: 0.9 }).addTo(map);
+			const eventLinks = point.events.map((event: any) => `<li><a href="/events/${encodeURIComponent(event.slug)}">${escapeHtml(event.title)}</a> <small>${escapeHtml(event.mode)}</small></li>`).join('');
+			marker.bindPopup(`<div class="qc-map-popup"><strong>${escapeHtml(point.name)}</strong><p>${escapeHtml(point.address)} · ${escapeHtml(point.neighborhood)}</p><ul>${eventLinks}</ul></div>`, { maxWidth: 320 });
+		});
+		if (bounds.length > 1) map.fitBounds(bounds, { padding: [34, 34], maxZoom: 14 });
+		else if (bounds.length === 1) map.setView(bounds[0], 14);
+		setTimeout(() => map.invalidateSize(), 50);
+	});
+</script>
+
+<style>
+	.real-map-shell{border:1px solid var(--outline-variant);border-radius:12px;background:var(--surface-container);overflow:hidden}.map-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:1rem;padding:1rem 1.15rem;border-bottom:1px solid var(--outline-variant)}.map-heading h2{font-size:1.35rem;margin-top:.25rem}.map-heading>p{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.7rem;color:var(--on-surface-variant)}.event-map{height:min(65vh,620px);min-height:430px;background:#111315;z-index:1}.map-fallback{padding:1rem}.event-map :global(.leaflet-popup-content-wrapper),.event-map :global(.leaflet-popup-tip){background:#111315;color:#f3f5f7}.event-map :global(.leaflet-popup-content){margin:1rem;min-width:230px}.event-map :global(.qc-map-popup p){color:#9ba2a9;margin:.4rem 0 .65rem;font-size:.78rem}.event-map :global(.qc-map-popup ul){display:grid;gap:.45rem}.event-map :global(.qc-map-popup a){color:#41acff}.event-map :global(.qc-map-popup small){color:#7d858c}@media(max-width:620px){.map-heading{align-items:flex-start;flex-direction:column}.event-map{min-height:58vh}}
+</style>

@@ -167,3 +167,37 @@
   --z-modal: 500;
   --z-toast: 600;
 }
+
+/* Queens Calendar: visual alignment with the MBIQ Research Hub. */
+:root {
+  --primary: #159bff;
+  --primary-container: #0d6fae;
+  --on-primary: #03131e;
+  --secondary: #53d8a0;
+  --secondary-container: #123225;
+  --on-secondary-container: #7be7b8;
+  --tertiary: #53d8a0;
+  --tertiary-container: #123225;
+  --tertiary-fixed: #123225;
+  --on-tertiary-container: #7be7b8;
+  --background: #080a0b;
+  --surface-container-low: #0d0f10;
+  --surface-container: #111315;
+  --surface-container-high: #171a1c;
+  --surface-container-highest: #1d2023;
+  --surface-container-lowest: #111315;
+  --surface-variant: #171a1c;
+  --on-surface: #f3f5f7;
+  --on-surface-variant: #9ba2a9;
+  --outline: #626970;
+  --outline-variant: #2b3034;
+  --glass-bg: rgba(8, 10, 11, 0.88);
+  --glass-border: 1px solid rgba(76, 84, 91, 0.35);
+  --gradient-cta: linear-gradient(135deg, #159bff, #53d8a0);
+  --gradient-hero: linear-gradient(180deg, #080a0b, #111315);
+  --gradient-warm: linear-gradient(135deg, #080a0b, #111c22, #101715);
+  --shadow-sm: none;
+  --shadow-md: none;
+  --shadow-lg: none;
+  --shadow-xl: none;
+}

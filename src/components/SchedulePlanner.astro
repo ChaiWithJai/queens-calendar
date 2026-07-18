@@ -56,7 +56,7 @@ const events = allEvents.map((event) => ({
 
 	<script is:inline define:vars={{ events }}>
 		// @ts-nocheck
-		const STORAGE_KEY = 'build-week-saved-events';
+		const STORAGE_KEY = 'queens-calendar-saved-events';
 		const root = document.querySelector('[data-schedule-planner]');
 
 		if (root) {
@@ -112,7 +112,7 @@ const events = allEvents.map((event) => ({
 				return [
 					'BEGIN:VCALENDAR',
 					'VERSION:2.0',
-					'PRODID:-//Build Week NYC//Schedule//EN',
+					'PRODID:-//Queens Calendar//Saved Events//EN',
 					...items.flatMap((item) => [
 						'BEGIN:VEVENT',
 						`UID:${item.id}@buildweeknyc`,
@@ -189,7 +189,7 @@ const events = allEvents.map((event) => ({
 				const url = URL.createObjectURL(blob);
 				const link = document.createElement('a');
 				link.href = url;
-				link.download = 'build-week-nyc-schedule.ics';
+				link.download = 'queens-calendar.ics';
 				link.click();
 				URL.revokeObjectURL(url);
 			});

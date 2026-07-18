@@ -4,7 +4,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
 <BaseLayout
 	title="Submit an Event"
-	description="Submit a Build Week NYC event with a platform link or manual details using the Netlify-backed intake flow."
+	description="Submit a Queens Calendar event with a platform link or manual details using the Netlify-backed intake flow."
 	path="/events/submit"
 >
 	<main>
@@ -34,7 +34,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 						</div>
 						<div class="comparison-card">
 							<strong>3. Publish</strong>
-							<div class="body-lg">Approved events land in the directory with saved-schedule support.</div>
+							<div class="body-lg">Approved events land in the calendar, map, story feed, and saved-schedule flow.</div>
 						</div>
 					</div>
 				</div>
@@ -95,25 +95,29 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
 					<div class="split-grid">
 						<div class="field-group">
-							<label for="vertical">Vertical</label>
-							<select id="vertical" class="select-field" name="vertical">
-								<option>Civic tech</option>
-								<option>South Asian builders</option>
-								<option>Immigrant founders</option>
-								<option>AI agents</option>
-								<option>Fintech</option>
+							<label for="vertical">Category</label>
+							<select id="vertical" class="select-field" name="category">
+								<option>Arts and culture</option>
 								<option>Community</option>
+								<option>Education</option>
+								<option>Family</option>
+								<option>Food and drink</option>
+								<option>Music and performance</option>
+								<option>Parks and outdoors</option>
+								<option>Technology</option>
 							</select>
 						</div>
 						<div class="field-group">
 							<label for="format">Format</label>
 							<select id="format" class="select-field" name="format">
-								<option>Hackathon</option>
-								<option>Demo night</option>
+								<option>Festival</option>
+								<option>Exhibition</option>
+								<option>Performance</option>
 								<option>Workshop</option>
 								<option>Panel</option>
-								<option>Happy hour</option>
-								<option>Office hours</option>
+								<option>Screening</option>
+								<option>Community gathering</option>
+								<option>Other</option>
 							</select>
 						</div>
 					</div>

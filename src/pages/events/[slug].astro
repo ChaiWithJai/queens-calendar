@@ -2,7 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import EventCard from '../../components/EventCard.astro';
 import type { Event } from '../../data/site';
-import { events, hostsById, sponsorsById } from '../../data/site';
+import { events } from '../../data/site';
 import { formatLabels, verticalLabels } from '../../lib/format';
 
 export function getStaticPaths() {
@@ -10,10 +10,6 @@ export function getStaticPaths() {
 }
 
 const { event } = Astro.props;
-const host = hostsById[event.hostId];
-const coHosts = event.coHostIds.map((id) => hostsById[id]).filter(Boolean);
-const track = event.track ?? null;
-const eventSponsors = event.sponsorIds.map((id) => sponsorsById[id]).filter(Boolean);
 const relatedEvents = events
 	.filter((candidate) => candidate.id !== event.id && (candidate.vertical === event.vertical || candidate.date === event.date))
 	.slice(0, 3);
@@ -73,9 +69,30 @@ const formattedDescription = event.description
 	.replace(/- \*\*(.*?)\*\*: (.*?)(<\/p>|$)/g, '</p><ul><li><strong>$1</strong>: $2</li></ul><p>')
 	.replace(/- (.*?)(<\/p>|$)/g, '</p><ul><li>$1</li></ul><p>')
 	.replace(/<p><\/p>/g, '');
+const eventJsonLd = {
+	'@context': 'https://schema.org',
+	'@type': 'Event',
+	name: event.title,
+	description: event.description,
+	startDate: event.startTime,
+	endDate: event.endTime,
+	eventStatus: event.status === 'cancelled' ? 'https://schema.org/EventCancelled' : 'https://schema.org/EventScheduled',
+	eventAttendanceMode: event.isVirtual ? 'https://schema.org/OnlineEventAttendanceMode' : 'https://schema.org/OfflineEventAttendanceMode',
+	location: event.isVirtual ? { '@type': 'VirtualLocation', url: event.virtualUrl ?? event.externalUrl } : {
+		'@type': 'Place', name: event.venue.name,
+		address: { '@type': 'PostalAddress', streetAddress: event.venue.address, addressLocality: 'Queens', addressRegion: 'NY', addressCountry: 'US' },
+		geo: { '@type': 'GeoCoordinates', latitude: event.venue.coordinates.lat, longitude: event.venue.coordinates.lng },
+	},
+	organizer: { '@type': 'Organization', name: event.source?.name ?? event.submittedBy ?? 'Queens community organizer', url: event.source?.listingUrl },
+	url: `https://queens-calendar.netlify.app/events/${event.slug}`,
+	sameAs: event.source?.canonicalUrl ? [event.source.canonicalUrl] : undefined,
+};
+const faqJsonLd = event.faqs?.length ? { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: event.faqs.map((faq) => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })) } : null;
 ---
 
 <BaseLayout title={event.title} description={event.shortDescription} currentPath={`/events/${event.slug}`}>
+	<script is:inline type="application/ld+json" set:html={JSON.stringify(eventJsonLd)} />
+	{faqJsonLd && <script is:inline type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />}
 	<section style="padding-top:var(--space-2xl);">
 		<div class="container">
 			<nav style="margin-bottom:var(--space-lg);display:flex;gap:var(--space-xs);align-items:center;" aria-label="Breadcrumb">
@@ -94,8 +111,6 @@ const formattedDescription = event.description
 						{verticalLabels[event.vertical]}
 					</span>
 					<span class="chip" style="background:var(--surface-container-low);">{formatLabels[event.format]}</span>
-					{event.isFlagship && <span class="chip" style="background:var(--primary-container);color:var(--on-primary-fixed);">Flagship Event</span>}
-					{track && <a href={`/tracks/${track.slug}`} class="chip" style={`background:${track.color}22;color:${track.color};`}>{track.name} Track</a>}
 					{fillingUp && !soldOut && <span class="badge-filling">Filling up</span>}
 					{soldOut && <span class="chip" style="background:var(--error);color:white;">Sold out</span>}
 				</div>
@@ -103,6 +118,13 @@ const formattedDescription = event.description
 				<h1 class="event-detail-title">{event.title}</h1>
 				{event.subtitle && <p style="font-size:var(--text-title-md);color:var(--on-surface-variant);font-style:italic;">{event.subtitle}</p>}
 			</div>
+			{event.answerSummary && (
+				<section class="surface-panel" aria-labelledby="quick-answer" style="margin-bottom:var(--space-2xl);border-left:3px solid var(--primary);">
+					<div class="eyebrow">Quick answer</div>
+					<h2 id="quick-answer" style="font-size:1.35rem;margin:.55rem 0;">What should I know about this event?</h2>
+					<p class="body-lg">{event.answerSummary}</p>
+				</section>
+			)}
 
 			<div class="event-detail-info">
 				<div>
@@ -133,7 +155,7 @@ const formattedDescription = event.description
 
 						<div style="display:flex;gap:var(--space-sm);">
 							<a href={event.externalUrl} target="_blank" rel="noopener" class="btn btn-primary" style="flex:1;">
-								{soldOut ? 'Join waitlist' : 'RSVP now'}
+								{event.source ? 'Open organizer page' : soldOut ? 'Join waitlist' : 'RSVP now'}
 							</a>
 							<button class="save-btn" type="button" data-save-event={event.id} aria-pressed="false" aria-label="Save event" style="width:44px;height:44px;">
 								<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" /></svg>
@@ -141,9 +163,7 @@ const formattedDescription = event.description
 							</button>
 						</div>
 
-						<div class="label-sm text-muted">
-							via {event.externalProvider === 'luma' ? 'Luma' : event.externalProvider === 'partiful' ? 'Partiful' : event.externalProvider === 'eventbrite' ? 'Eventbrite' : 'Direct'}
-						</div>
+						<div class="label-sm text-muted">via {event.source?.name ?? (event.externalProvider === 'luma' ? 'Luma' : event.externalProvider === 'partiful' ? 'Partiful' : event.externalProvider === 'eventbrite' ? 'Eventbrite' : 'Direct')}</div>
 					</div>
 
 					<div class="event-detail-sidebar-card">
@@ -173,34 +193,19 @@ const formattedDescription = event.description
 						</a>
 					</div>
 
-					{host && (
+					{event.source && (
 						<div class="event-detail-sidebar-card">
-							<div class="event-detail-sidebar-card-title">Hosted by</div>
+							<div class="event-detail-sidebar-card-title">Source and organizer</div>
 							<div class="info-row">
 								<div style="width:36px;height:36px;border-radius:var(--radius-full);background:var(--primary-container);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-family:var(--font-display);font-weight:var(--weight-bold);font-size:var(--text-label-md);color:var(--on-primary-fixed);">
-									{host.name.charAt(0)}
+									{event.source.name.charAt(0)}
 								</div>
 								<div class="info-row-content">
-									<span class="info-row-value">{host.name}</span>
-									{host.bio && <span class="info-row-label" style="display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;">{host.bio}</span>}
+									<span class="info-row-value">{event.source.name}</span>
+									<span class="info-row-label">Retrieved {new Date(event.source.retrievedAt).toLocaleDateString('en-US')}</span>
 								</div>
 							</div>
-							{coHosts.length > 0 && (
-								<div style="margin-top:var(--space-xs);">
-									<span class="label-sm text-muted">Co-hosted by: {coHosts.map((coHost) => coHost.name).join(', ')}</span>
-								</div>
-							)}
-						</div>
-					)}
-
-					{eventSponsors.length > 0 && (
-						<div class="event-detail-sidebar-card">
-							<div class="event-detail-sidebar-card-title">Partners</div>
-							<div style="display:flex;flex-wrap:wrap;gap:var(--space-2xs);">
-								{eventSponsors.map((sponsor) => (
-									<span class="chip" style="background:var(--surface-container-low);">{sponsor.name}</span>
-								))}
-							</div>
+							<a class="btn btn-ghost btn-sm" href={event.source.canonicalUrl} target="_blank" rel="noopener">View original listing</a>
 						</div>
 					)}
 
@@ -226,6 +231,13 @@ const formattedDescription = event.description
 						{relatedEvents.map((related) => <EventCard event={related} variant="compact" />)}
 					</div>
 				</div>
+			)}
+			{event.faqs?.length && (
+				<section class="related-events" aria-labelledby="event-faqs">
+					<div class="section-header"><h2 class="section-title" id="event-faqs">Questions people ask</h2></div>
+					<div class="stack-list">{event.faqs.map((faq) => <details class="surface-panel"><summary style="font-weight:700;cursor:pointer">{faq.question}</summary><p class="body-lg" style="margin-top:.8rem">{faq.answer}</p></details>)}</div>
+					<div class="button-row" style="margin-top:1rem"><a class="button-secondary" href={`/stories/events/${event.slug}`}>Read the event guide</a>{event.source && <a class="button-ghost" href={event.source.canonicalUrl}>Verify at source</a>}</div>
+				</section>
 			)}
 		</div>
 	</section>

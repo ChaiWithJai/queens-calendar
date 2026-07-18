@@ -17,7 +17,7 @@ const venueGroups = Object.values(
 
 <BaseLayout
 	title="Map"
-	description="A venue-first view of Build Week NYC clusters across Manhattan, Brooklyn, and Queens."
+	description="A venue-first view of Queens Calendar clusters across the borough."
 	path="/map"
 >
 	<main>
@@ -25,24 +25,24 @@ const venueGroups = Object.values(
 			<div class="container stack-list" style="gap: 1.5rem;">
 				<div class="section-band split-grid">
 					<div class="stack-list">
-						<div class="eyebrow">Venue atlas</div>
+						<div class="eyebrow">Live event geography</div>
 						<h1 class="headline-display" style="font-size: clamp(2.9rem, 4vw, 4.5rem);">
-							Where the week is actually happening.
+							Where Queens events are actually happening.
 						</h1>
 						<p class="body-lg">
-							The first release uses a token-free SVG map to keep page weight down while still
-							surfacing borough-level clusters and venue density.
+							Pan, zoom, and open venue markers to move directly from a neighborhood to its event pages.
+							Every marker is generated from the canonical event catalog and retains its source link.
 						</p>
 					</div>
 					<div class="surface-panel">
 						<div class="chip-row">
-							<span class="chip is-positive">Brooklyn</span>
+							<span class="chip is-positive">Western Queens</span>
 							<span class="chip is-secondary">Queens</span>
-							<span class="chip">Manhattan</span>
+							<span class="chip">Central Queens</span>
 						</div>
 						<p class="body-lg" style="margin-top: 1rem;">
-							Every venue card below links back into the event directory so the map stays useful,
-							not decorative.
+							Map results and the cards below use the same normalized records, so geographic discovery
+							cannot drift from the calendar.
 						</p>
 					</div>
 				</div>

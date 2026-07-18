@@ -1,0 +1,16 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { events } from '../../data/site';
+import { eventsByWeek, eventStory, weekStory } from '../../lib/editorial';
+---
+<BaseLayout title="Queens event stories" description="Source-backed guides to individual Queens events and the week ahead.">
+	<main class="section"><div class="container stack-list" style="gap:2rem">
+		<header class="section-band stack-list"><p class="eyebrow">Editorial engine</p><h1 class="headline-display">Events become useful stories.</h1><p class="body-lg">Every normalized listing produces an answer-first event guide. Every ISO week produces a borough roundup with direct source links and structured data.</p></header>
+		<section><div class="section-header"><h2 class="section-title">Week guides</h2></div><div class="card-grid">
+			{Object.entries(eventsByWeek).map(([week, weekEvents]) => { const story = weekStory(week, weekEvents ?? []); return <article class="surface-panel span-6"><p class="eyebrow">{week}</p><h3 style="margin:.6rem 0"><a href={`/stories/weeks/${week}`}>{story.headline}</a></h3><p class="body-lg">{story.dek}</p></article>; })}
+		</div></section>
+		<section><div class="section-header"><h2 class="section-title">Event guides</h2></div><div class="card-grid">
+			{events.map((event) => { const story = eventStory(event); return <article class="surface-panel span-6"><p class="eyebrow">{event.venue.neighborhood}</p><h3 style="margin:.6rem 0"><a href={`/stories/events/${event.slug}`}>{story.headline}</a></h3><p class="body-lg">{story.dek}</p></article>; })}
+		</div></section>
+	</div></main>
+</BaseLayout>

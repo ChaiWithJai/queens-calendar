@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://queens-calendar.netlify.app/schemas/event.schema.json",
+  "title": "Queens Calendar Event",
+  "type": "object",
+  "required": ["id", "slug", "title", "description", "startDate", "endDate", "timezone", "categories", "venue", "organizer", "source", "weekKey", "answerSummary", "faqs"],
+  "properties": {
+    "id": { "type": "string", "minLength": 8 },
+    "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "title": { "type": "string", "minLength": 3 },
+    "description": { "type": "string", "minLength": 10 },
+    "startDate": { "type": "string", "format": "date-time" },
+    "endDate": { "type": "string", "format": "date-time" },
+    "timezone": { "const": "America/New_York" },
+    "status": { "enum": ["scheduled", "cancelled", "postponed"] },
+    "attendanceMode": { "enum": ["offline", "online", "mixed"] },
+    "categories": { "type": "array", "minItems": 1, "items": { "enum": ["arts-culture", "technology", "community", "civic", "family", "food", "sports"] } },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "image": { "type": ["string", "null"], "format": "uri" },
+    "price": { "type": ["string", "null"] },
+    "registrationUrl": { "type": "string", "format": "uri" },
+    "venue": {
+      "type": "object",
+      "required": ["name", "address", "neighborhood", "latitude", "longitude"],
+      "properties": {
+        "name": { "type": "string" },
+        "address": { "type": "string" },
+        "neighborhood": { "type": "string" },
+        "latitude": { "type": "number", "minimum": 40.48, "maximum": 40.82 },
+        "longitude": { "type": "number", "minimum": -74.05, "maximum": -73.68 }
+      }
+    },
+    "organizer": {
+      "type": "object",
+      "required": ["name", "url"],
+      "properties": { "name": { "type": "string" }, "url": { "type": "string", "format": "uri" } }
+    },
+    "source": {
+      "type": "object",
+      "required": ["name", "listingUrl", "canonicalUrl", "retrievedAt", "method"],
+      "properties": {
+        "name": { "type": "string" },
+        "listingUrl": { "type": "string", "format": "uri" },
+        "canonicalUrl": { "type": "string", "format": "uri" },
+        "retrievedAt": { "type": "string", "format": "date-time" },
+        "method": { "enum": ["json-ld", "html", "ics", "manual"] }
+      }
+    },
+    "weekKey": { "type": "string", "pattern": "^\\d{4}-W\\d{2}$" },
+    "answerSummary": { "type": "string", "minLength": 20 },
+    "faqs": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "required": ["question", "answer"],
+        "properties": { "question": { "type": "string" }, "answer": { "type": "string" } }
+      }
+    }
+  }
+}

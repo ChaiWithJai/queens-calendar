@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://queens-calendar.netlify.app/sitemap.xml

@@ -1,159 +1,187 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import EventCard from '../components/EventCard.astro';
-import TrackCard from '../components/TrackCard.astro';
-import { events, getFeaturedEvents, getFlagshipEvents, siteStats, tracks } from '../data/site';
-import { formatLongDateLabel, groupEventsByDate } from '../lib/format';
+import { events } from '../data/site';
+import ingestReport from '../data/generated/ingest-report.json';
+import { formatTimeRange } from '../lib/format';
 
-const featuredEvents = getFeaturedEvents().slice(0, 4);
-const flagshipEvents = getFlagshipEvents().slice(0, 3);
-const groupedEvents = groupEventsByDate(events);
-const previewDays = Object.entries(groupedEvents).slice(0, 4);
-const totalVenues = new Set(events.map((event) => event.venue.id)).size;
-const totalRsvps = events.reduce((sum, event) => sum + event.rsvpCount, 0);
+const categoryFor = (vertical: string) => {
+	if (['creative', 'south-asian'].includes(vertical)) return 'Arts & Culture';
+	if (['ai-agents', 'devtools', 'fintech', 'healthtech', 'climate'].includes(vertical)) return 'Technology';
+	if (['community', 'immigrant'].includes(vertical)) return 'Community';
+	return 'Civic';
+};
+
+const categories = ['All', 'Arts & Culture', 'Technology', 'Community', 'Civic'];
+const neighborhoods = [...new Set(events.map((event) => event.venue.neighborhood))].sort();
+const groupedEvents = Object.groupBy(events, (event) => event.date);
+const days = Object.entries(groupedEvents).sort(([a], [b]) => a.localeCompare(b));
+const dateLabel = (date: string) =>
+	new Intl.DateTimeFormat('en-US', { weekday: 'long', month: 'long', day: 'numeric' }).format(
+		new Date(`${date}T12:00:00`),
+	);
 ---
 
 <BaseLayout
-	title="Build Week NYC"
-	description="A builder-first, Astro-powered directory for NYC tech week with filters, schedule saving, and track-driven discovery."
+	title="Queens Calendar"
+	description="A community-powered calendar for arts, culture, technology, and neighborhood events across Queens."
 >
-	<main>
-		<section class="hero--crown-jewel" id="hero" style="border-bottom: 2px solid var(--surface-container-highest);">
-			<img src="/images/hero-bg.png" alt="NYC skyline at sunset" class="hero-background-image" fetchpriority="high" />
-			<div class="hero-bg-glow"></div>
-			<div class="hero-bg-glow hero-bg-glow--secondary"></div>
-
-			<div class="hero-character hero-character--jai character-float" aria-hidden="true">
-				<img src="/characters/jai/waving.png" alt="" loading="eager" />
-			</div>
-			<div class="hero-character hero-character--asha character-float" aria-hidden="true">
-				<img src="/characters/asha/pointing.png" alt="" loading="eager" />
-			</div>
-			<div class="hero-character hero-character--bot character-rock" aria-hidden="true">
-				<img src="/characters/bw-bot/idle.png" alt="" loading="eager" />
-			</div>
-
-			<div class="container hero-container">
-				<div class="hero-content-glass">
-					<div class="hero-badge">June 1–7, 2026 · New York City</div>
-					<h1 class="hero-title">
-						Build Week
-						<br />
-						<em>NYC</em>
-					</h1>
-					<p class="hero-subtitle">
-						The builder-first tech week directory. Discover {events.length}+ curated events across civic tech,
-						AI, fintech, and community rooms without sponsor-first hierarchy or calendar chaos.
-					</p>
-					<div class="hero-actions">
-						<a class="button-primary" href="/events">Browse all events</a>
-						<a class="button-ghost" href="/tracks">View tracks</a>
-					</div>
-				</div>
-
-				<div class="hero-stats-glass">
-					<div class="hero-stat">
-						<span class="hero-stat-value">{events.length}+</span>
-						<span class="hero-stat-label">Events</span>
-					</div>
-					<div class="hero-stat">
-						<span class="hero-stat-value">{totalVenues}</span>
-						<span class="hero-stat-label">Venues</span>
-					</div>
-					<div class="hero-stat">
-						<span class="hero-stat-value">{totalRsvps.toLocaleString()}+</span>
-						<span class="hero-stat-label">RSVPs</span>
-					</div>
-					<div class="hero-stat">
-						<span class="hero-stat-value">{siteStats[0]?.value}</span>
-						<span class="hero-stat-label">Tracks</span>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="section-gap" id="flagship-events" style="background: var(--surface-container-low);">
-			<div class="container">
-				<div class="section-header">
-					<h2 class="section-title">Flagship Events</h2>
-					<a href="/events" class="section-link">See all events</a>
-				</div>
-
-				<div class="stack-list" style="gap: 1.5rem;">
-					{flagshipEvents.map((event) => <EventCard event={event} variant="featured" />)}
-				</div>
-			</div>
-		</section>
-
-		<section class="section-gap" id="tracks-preview">
-			<div class="container">
-				<div class="section-header">
-					<h2 class="section-title">Curated Tracks</h2>
-					<a href="/tracks" class="section-link">All tracks</a>
-				</div>
-				<p class="body-lg" style="margin-bottom: 1.5rem; max-width: 60ch;">
-					Narrative-led curation instead of one giant flat list. Follow a track to move through the week with
-					context, not tab-sprawl.
+	<main class="queens-home">
+		<div class="queens-shell">
+			<section class="research-hero">
+				<p class="eyebrow">Queens Calendar · {ingestReport.sources.filter((source) => source.status === 'ok').length} source pipelines reporting</p>
+				<h1>What’s happening across Queens.</h1>
+				<p class="hero-copy">
+					A shared calendar for arts, culture, technology, and community-organized events — built to help
+					neighbors find the right room, not the loudest promotion.
 				</p>
-
-				<div class="track-grid">
-					{tracks.map((track) => <TrackCard track={track} />)}
+				<div class="hero-actions">
+					<a class="signal-button" href="/events/submit">Submit an event</a>
+					<a class="quiet-button" href="/schedule">View saved events <span data-saved-count>0</span></a>
 				</div>
-			</div>
-		</section>
+			</section>
 
-		<section class="section-gap" id="day-by-day" style="background: var(--surface-container-low);">
-			<div class="container">
-				<div class="section-header">
-					<h2 class="section-title">Day by Day</h2>
-					<a href="/events" class="section-link">Full calendar</a>
-				</div>
-
-				<div class="stack-list" style="gap: 2rem;">
-					{previewDays.map(([day, dayEvents]) => (
-						<div class="day-group" id={`day-${day}`}>
-							<div class="day-group-header">
-								<h3 class="day-group-name">{formatLongDateLabel(day)}</h3>
-								<span class="day-group-count">{dayEvents.length} events</span>
-							</div>
-							<div class="day-group-events">
-								{dayEvents.slice(0, 4).map((event) => <EventCard event={event} />)}
-							</div>
-						</div>
+			<section class="calendar-controls" aria-label="Calendar filters">
+				<label class="search-field">
+					<span aria-hidden="true">⌕</span>
+					<span class="sr-only">Search events</span>
+					<input id="calendar-search" type="search" placeholder="Search events, venues, neighborhoods…" />
+				</label>
+				<div class="filter-row" role="group" aria-label="Category filters">
+					{categories.map((category) => (
+						<button class="filter-chip" type="button" data-category={category} aria-pressed={category === 'All'}>
+							{category}
+						</button>
 					))}
+					<button class="filter-chip" type="button" data-category="Saved" aria-pressed="false">
+						Saved <span data-saved-count>0</span>
+					</button>
 				</div>
-			</div>
-		</section>
+				<div class="neighborhood-row">
+					<span class="control-label">Neighborhood</span>
+					<select id="neighborhood-filter" aria-label="Filter by neighborhood">
+						<option value="">All Queens</option>
+						{neighborhoods.map((neighborhood) => <option value={neighborhood}>{neighborhood}</option>)}
+					</select>
+				</div>
+			</section>
 
-		<section class="section-gap" id="featured-events">
-			<div class="container">
-				<div class="section-header">
-					<h2 class="section-title">More Worth Your Attention</h2>
-					<a href="/schedule" class="section-link">View saved schedule</a>
-				</div>
-
-				<div class="day-group-events">
-					{featuredEvents.map((event) => <EventCard event={event} />)}
-				</div>
+			<div class="timeline-heading">
+				<p>Community-powered timeline</p>
+				<p><span id="visible-event-count">{events.length}</span> events shown</p>
 			</div>
-		</section>
 
-		<section class="section-gap" id="newsletter">
-			<div class="container">
-				<div class="newsletter-cta">
-					<h2 class="headline-section" style="font-size: clamp(2rem, 1.4rem + 2vw, 3rem);">
-						Stay in the loop
-					</h2>
-					<p class="body-lg" style="max-width: 46ch; text-align: center;">
-						Get updates on new event drops, track highlights, and last-minute additions without losing the
-						builder-first focus.
-					</p>
-					<form class="newsletter-form">
-						<input type="email" placeholder="you@example.com" aria-label="Email address" />
-						<button type="submit" class="button-primary">Let&apos;s go</button>
-					</form>
-				</div>
+			<div class="calendar-days" id="calendar-days">
+				{days.map(([date, dayEvents]) => (
+					<section class="calendar-day" data-day>
+						<div class="day-heading">
+							<h2>{dateLabel(date)}</h2>
+							<span><span data-day-count>{dayEvents?.length ?? 0}</span> tracked</span>
+						</div>
+						<div class="event-grid">
+							{dayEvents?.map((event) => {
+								const category = categoryFor(event.vertical);
+								const searchText = [event.title, event.shortDescription, event.venue.name, event.venue.neighborhood, ...event.tags]
+									.join(' ')
+									.toLowerCase();
+								return (
+									<article
+										class="calendar-card"
+										data-event-card
+										data-event-id={event.id}
+										data-category={category}
+										data-neighborhood={event.venue.neighborhood}
+										data-search={searchText}
+									>
+										<div class="card-meta">
+											<span>{formatTimeRange(event.startTime, event.endTime)}</span>
+											<span>{event.source?.name ?? (event.isFlagship ? 'Featured' : 'Community listed')}</span>
+										</div>
+										<h3><a href={`/events/${event.slug}`}>{event.title}</a></h3>
+										<p>{event.shortDescription}</p>
+										<div class="card-tags">
+											<span class="category-tag">{category}</span>
+											<span>{event.format.replaceAll('-', ' ')}</span>
+										</div>
+										<p class="venue-line">{event.venue.name} · {event.venue.neighborhood}</p>
+										<div class="card-actions">
+											<button type="button" data-save-event={event.id} aria-pressed="false">
+												<span data-save-label>Save</span>
+											</button>
+											<a href={`/events/${event.slug}`}>Details →</a>
+										</div>
+									</article>
+								);
+							})}
+						</div>
+					</section>
+				))}
 			</div>
-		</section>
+
+			<div class="empty-state" id="calendar-empty" hidden>
+				<p>No events match these filters yet.</p>
+				<a href="/events/submit">Add something happening in your community →</a>
+			</div>
+
+			<section class="story-promo">
+				<div>
+					<p class="eyebrow">Editorial publishing</p>
+					<h2>Every event becomes an answer. Every week becomes a guide.</h2>
+					<p>Source-backed event stories and weekly roundups give organizers durable, searchable pages beyond a fleeting calendar card.</p>
+				</div>
+				<a class="signal-button" href="/stories">Explore event stories</a>
+			</section>
+		</div>
 	</main>
+
+	<script is:inline>
+		const search = document.getElementById('calendar-search');
+		const neighborhood = document.getElementById('neighborhood-filter');
+		const categoryButtons = [...document.querySelectorAll('[data-category]')];
+		const cards = [...document.querySelectorAll('[data-event-card]')];
+		const days = [...document.querySelectorAll('[data-day]')];
+		const count = document.getElementById('visible-event-count');
+		const empty = document.getElementById('calendar-empty');
+		let activeCategory = 'All';
+
+		const savedIds = () => {
+			try { return new Set(JSON.parse(localStorage.getItem('queens-calendar-saved-events') || '[]')); }
+			catch { return new Set(); }
+		};
+
+		const applyFilters = () => {
+			const query = search?.value.trim().toLowerCase() || '';
+			const place = neighborhood?.value || '';
+			const saved = savedIds();
+			let visible = 0;
+			cards.forEach((card) => {
+				const categoryMatch = activeCategory === 'All' ||
+					(activeCategory === 'Saved' ? saved.has(card.dataset.eventId) : card.dataset.category === activeCategory);
+				const matches = categoryMatch && (!place || card.dataset.neighborhood === place) && (!query || card.dataset.search.includes(query));
+				card.hidden = !matches;
+				if (matches) visible += 1;
+			});
+			days.forEach((day) => {
+				const dayVisible = [...day.querySelectorAll('[data-event-card]')].filter((card) => !card.hidden).length;
+				day.hidden = dayVisible === 0;
+				const dayCount = day.querySelector('[data-day-count]');
+				if (dayCount) dayCount.textContent = String(dayVisible);
+			});
+			if (count) count.textContent = String(visible);
+			if (empty) empty.hidden = visible !== 0;
+		};
+
+		categoryButtons.forEach((button) => button.addEventListener('click', () => {
+			activeCategory = button.dataset.category;
+			categoryButtons.forEach((item) => item.setAttribute('aria-pressed', String(item === button)));
+			applyFilters();
+		}));
+		search?.addEventListener('input', applyFilters);
+		neighborhood?.addEventListener('change', applyFilters);
+		window.addEventListener('saved-events:updated', applyFilters);
+	</script>
+
+	<style>
+		.queens-home{background:#080a0b;color:#f3f5f7;min-height:100vh;padding:2rem 0 6rem}.queens-shell{width:min(1216px,calc(100% - 2rem));margin:auto}.research-hero{border:1px solid #292d31;border-radius:12px;background:#111315;padding:clamp(1.5rem,4vw,2.25rem);margin-bottom:1.5rem}.eyebrow,.control-label,.timeline-heading{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;text-transform:uppercase;letter-spacing:.17em;font-size:.69rem}.eyebrow{color:#159bff;margin-bottom:.8rem}.research-hero h1{font-size:clamp(2rem,5vw,3.6rem);letter-spacing:-.045em;margin:0;max-width:15ch}.hero-copy{color:#9ba2a9;font-size:1rem;line-height:1.7;max-width:68ch;margin:1rem 0 0}.hero-actions{display:flex;gap:.75rem;flex-wrap:wrap;margin-top:1.4rem}.signal-button,.quiet-button{border-radius:7px;padding:.65rem .9rem;font-size:.84rem;font-weight:600}.signal-button{background:#159bff;color:#04111a}.quiet-button{background:#1b1e21;color:#c4c9ce;border:1px solid #2b3034}.calendar-controls{display:grid;gap:1rem;margin-bottom:1.5rem}.search-field{height:46px;border:1px solid #2b3034;border-radius:7px;background:#111315;display:flex;align-items:center;gap:.75rem;padding:0 .85rem;color:#8c949b}.search-field input{width:100%;border:0;outline:0;background:transparent;color:#f3f5f7}.filter-row{display:flex;gap:.45rem;flex-wrap:wrap}.filter-chip{border-radius:999px;background:#1b1e21;color:#9ba2a9;padding:.45rem .75rem;font-size:.76rem}.filter-chip[aria-pressed="true"]{background:#159bff;color:#03131e}.neighborhood-row{display:flex;align-items:center;gap:.75rem}.control-label{color:#7d858c}.neighborhood-row select{background:#111315;border:1px solid #2b3034;border-radius:6px;padding:.5rem .7rem;color:#dce0e3}.timeline-heading{display:flex;justify-content:space-between;gap:1rem;border-top:1px solid #23272a;padding-top:1rem;color:#7f878d;margin-bottom:2rem}.calendar-days{display:grid;gap:2.5rem}.day-heading{display:flex;align-items:baseline;gap:.75rem;margin-bottom:1rem}.day-heading h2{font-size:1.18rem;letter-spacing:-.02em}.day-heading span{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.72rem;color:#7d858c}.event-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}.calendar-card{display:flex;flex-direction:column;border:1px solid #292d31;border-radius:11px;background:#111315;padding:1rem;min-height:265px}.calendar-card:hover{border-color:#155b85}.card-meta{display:flex;justify-content:space-between;gap:.75rem;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.66rem;color:#8d949a}.card-meta span:last-child{text-transform:uppercase;letter-spacing:.05em}.calendar-card h3{font-size:1rem;margin:.75rem 0 .45rem}.calendar-card h3 a:hover{color:#41acff}.calendar-card>p{font-size:.82rem;line-height:1.65;color:#949ba1;margin:0}.card-tags{display:flex;gap:.4rem;flex-wrap:wrap;margin-top:.9rem}.card-tags span{border-radius:999px;background:#1d2023;color:#9ba2a9;padding:.22rem .5rem;font-size:.68rem;text-transform:capitalize}.card-tags .category-tag{background:#0b2a3e;color:#42adff;border:1px solid #164766}.calendar-card .venue-line{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.68rem;margin-top:.7rem}.card-actions{display:flex;gap:.55rem;border-top:1px solid #272b2e;margin-top:auto;padding-top:.8rem}.card-actions button,.card-actions a{background:#1d2023;color:#b3b9be;border-radius:6px;padding:.4rem .65rem;font-size:.72rem}.card-actions button.saved{color:#53d8a0;background:#123225}.empty-state{text-align:center;border:1px dashed #303539;border-radius:10px;padding:3rem;color:#9ba2a9}.empty-state a{display:inline-block;margin-top:.6rem;color:#159bff}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}@media(max-width:900px){.event-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:620px){.queens-home{padding-top:1rem}.queens-shell{width:min(100% - 1.25rem,1216px)}.event-grid{grid-template-columns:1fr}.timeline-heading{align-items:flex-start}.research-hero h1{font-size:2.25rem}.calendar-card{min-height:0}}
+		.story-promo{margin-top:3rem;border:1px solid #292d31;border-radius:12px;background:#111315;padding:clamp(1.5rem,4vw,2.2rem);display:flex;align-items:flex-end;justify-content:space-between;gap:2rem}.story-promo h2{font-size:clamp(1.6rem,4vw,2.5rem);max-width:20ch}.story-promo p:not(.eyebrow){color:#9ba2a9;line-height:1.65;max-width:62ch;margin-top:.7rem}.story-promo .signal-button{flex-shrink:0}@media(max-width:700px){.story-promo{align-items:flex-start;flex-direction:column}}
+	</style>
 </BaseLayout>
