@@ -157,7 +157,7 @@ const events = allEvents.map((event) => ({
 							<section class="surface-panel">
 								<div class="button-row" style="justify-content: space-between; align-items: baseline;">
 									<h2 style="font-size: 1.4rem;">${formatDate(date)}</h2>
-									<span class="chip">${items.length} saved</span>
+									<span class="chip">${items.length} ${items.length === 1 ? 'event' : 'events'}</span>
 								</div>
 								<div class="agenda-list" style="margin-top: 1rem;">
 									${items
