@@ -157,11 +157,28 @@ for (const source of sources) {
   results.push(...result.accepted); sourceReports.push(result.report);
   console.log(`${source.name}: ${result.report.status}, ${result.report.accepted}/${result.report.discovered} accepted`);
 }
-const events = dedupeEvents(results);
+let events = dedupeEvents(results);
+let catalogStatus = 'fresh';
+if (!events.length) {
+  try {
+    const lastGood = JSON.parse(await fs.readFile(path.join(ROOT, 'src/data/generated/events.json'), 'utf8'));
+    if (Array.isArray(lastGood) && lastGood.length) {
+      events = lastGood;
+      catalogStatus = 'retained-last-good';
+      console.warn(`No fresh events were accepted; retaining ${events.length} previously validated event(s).`);
+    }
+  } catch {}
+}
 const report = {
   generatedAt: new Date().toISOString(),
+  catalogStatus,
   sources: sourceReports,
-  totals: { discovered: sourceReports.reduce((sum, item) => sum + item.discovered, 0), accepted: events.length, rejected: sourceReports.reduce((sum, item) => sum + item.rejected, 0) }
+  totals: {
+    discovered: sourceReports.reduce((sum, item) => sum + item.discovered, 0),
+    accepted: results.length,
+    published: events.length,
+    rejected: sourceReports.reduce((sum, item) => sum + item.rejected, 0)
+  }
 };
 await fs.mkdir(path.join(ROOT, 'src/data/generated'), { recursive: true });
 await fs.writeFile(path.join(ROOT, 'src/data/generated/events.json'), `${JSON.stringify(events, null, 2)}\n`);

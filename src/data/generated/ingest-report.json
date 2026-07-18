@@ -1,5 +1,6 @@
 {
-  "generatedAt": "2026-07-18T18:52:45.939Z",
+  "generatedAt": "2026-07-18T19:00:30.722Z",
+  "catalogStatus": "fresh",
   "sources": [
     {
       "id": "queens-museum",
@@ -9,7 +10,7 @@
       "accepted": 1,
       "rejected": 17,
       "errors": [],
-      "durationMs": 1287
+      "durationMs": 1188
     },
     {
       "id": "city-parks-foundation",
@@ -19,7 +20,7 @@
       "accepted": 0,
       "rejected": 24,
       "errors": [],
-      "durationMs": 1398
+      "durationMs": 3363
     },
     {
       "id": "museum-moving-image",
@@ -31,7 +32,7 @@
       "errors": [
         "HTTP 403"
       ],
-      "durationMs": 64
+      "durationMs": 92
     },
     {
       "id": "queens-public-library",
@@ -43,7 +44,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 197
+      "durationMs": 180
     },
     {
       "id": "flushing-town-hall",
@@ -55,12 +56,13 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 461
+      "durationMs": 467
     }
   ],
   "totals": {
     "discovered": 53,
     "accepted": 1,
+    "published": 1,
     "rejected": 41
   }
 }
