@@ -27,16 +27,28 @@ const [home, map, sources, submission, catalog, schema, sitemap] = await Promise
 	read('sitemap.xml'),
 ]);
 
-assert.match(home, /Editorial publishing/);
+assert.match(home, /THE SHORT LIST/);
+assert.match(home, /Send this week’s picks/);
+assert.match(home, /data-share-week/);
+assert.match(home, /https:\/\/queens-calendar\.netlify\.app\/images\/social\/queens-calendar-og\.png/);
 assert.match(map, /leaflet/i);
 assert.match(sources, /Provenance ledger/);
 assert.match(submission, /data-netlify="true"/);
 assert.match(submission, /name="form-name" value="event-submission"/);
+const schedule = await read('schedule/index.html');
+assert.match(schedule, /data-share-schedule/);
+assert.match(schedule, /new URLSearchParams\(window\.location\.search\)/);
 assert.doesNotMatch(home, /Great Civilization Hackathon|O-1 Founder Office Hours/);
 
 const events = JSON.parse(catalog);
 const eventSchema = JSON.parse(schema);
 assert.ok(Array.isArray(events));
+assert.equal(new Set(events.map((event) => event.slug)).size, events.length, 'event slugs must be unique');
+const now = new Date();
+const twoWeeks = new Date(now.getTime() + 14 * 86400000);
+const nearTerm = events.filter((event) => new Date(event.endDate) >= now && new Date(event.startDate) < twoWeeks);
+assert.ok(nearTerm.length >= 6, `weekly product needs at least 6 events in the next 14 days; found ${nearTerm.length}`);
+assert.ok(new Set(events.map((event) => event.source?.name).filter(Boolean)).size >= 3, 'catalog needs at least 3 reporting sources');
 assert.equal(eventSchema.title, 'Queens Calendar Event');
 for (const event of events) {
 	assert.ok(event.source?.canonicalUrl, `${event.title} lacks source provenance`);

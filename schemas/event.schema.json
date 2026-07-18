@@ -14,7 +14,7 @@
     "timezone": { "const": "America/New_York" },
     "status": { "enum": ["scheduled", "cancelled", "postponed"] },
     "attendanceMode": { "enum": ["offline", "online", "mixed"] },
-    "categories": { "type": "array", "minItems": 1, "items": { "enum": ["arts-culture", "technology", "community", "civic", "family", "food", "sports"] } },
+    "categories": { "type": "array", "minItems": 1, "items": { "enum": ["arts-culture", "technology", "community", "civic", "family", "food", "sports", "parks-outdoors"] } },
     "tags": { "type": "array", "items": { "type": "string" } },
     "image": { "type": ["string", "null"], "format": "uri" },
     "price": { "type": ["string", "null"] },

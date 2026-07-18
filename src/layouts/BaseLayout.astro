@@ -21,13 +21,14 @@ interface Props {
 const {
 	title,
 	description = "A community-powered calendar for arts, culture, technology, and neighborhood events across Queens.",
-	ogImage = '/images/social/og-image.png',
+	ogImage = '/images/social/queens-calendar-og.png',
 	currentPath: explicitCurrentPath,
 	path,
 } = Astro.props;
 
 const currentPath = explicitCurrentPath ?? path ?? Astro.url.pathname;
 const canonical = new URL(currentPath, Astro.site).toString();
+const socialImage = new URL(ogImage, Astro.site).toString();
 const fullTitle = title === 'Queens Calendar' ? title : `${title} — Queens Calendar`;
 ---
 
@@ -43,14 +44,14 @@ const fullTitle = title === 'Queens Calendar' ? title : `${title} — Queens Cal
 
 		<meta property="og:title" content={fullTitle} />
 		<meta property="og:description" content={description} />
-		<meta property="og:image" content={ogImage} />
+		<meta property="og:image" content={socialImage} />
 		<meta property="og:type" content="website" />
 		<meta property="og:site_name" content="Queens Calendar" />
 
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta name="twitter:title" content={fullTitle} />
 		<meta name="twitter:description" content={description} />
-		<meta name="twitter:image" content={ogImage} />
+		<meta name="twitter:image" content={socialImage} />
 
 		<title>{fullTitle}</title>
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -65,19 +66,13 @@ const fullTitle = title === 'Queens Calendar' ? title : `${title} — Queens Cal
 				</a>
 
 				<div class="nav-links" id="nav-links">
+					<a href="/" class={`nav-link ${currentPath === '/' ? 'active' : ''}`}>This week</a>
 					<a
 						href="/events"
 						class={`nav-link ${currentPath === '/events' || currentPath === '/events/' ? 'active' : ''}`}
 						id="nav-events"
 					>
-						Calendar
-					</a>
-					<a
-						href="/sources"
-						class={`nav-link ${currentPath.startsWith('/sources') ? 'active' : ''}`}
-						id="nav-tracks"
-					>
-						Sources
+						All events
 					</a>
 					<a
 						href="/map"
@@ -89,23 +84,17 @@ const fullTitle = title === 'Queens Calendar' ? title : `${title} — Queens Cal
 						href="/stories"
 						class={`nav-link ${currentPath.startsWith('/stories') ? 'active' : ''}`}
 					>
-						Stories
+						Guides
 					</a>
 					<a
 						href="/schedule"
 						class={`nav-link nav-schedule-link ${currentPath === '/schedule' || currentPath === '/schedule/' ? 'active' : ''}`}
 						id="nav-schedule"
 					>
-						Saved
+						My plan
 						<span class="nav-schedule-count" id="nav-schedule-count" style="display:none;">0</span>
 					</a>
-					<a
-						href="/about"
-						class={`nav-link ${currentPath === '/about' || currentPath === '/about/' ? 'active' : ''}`}
-						id="nav-about"
-					>
-						About
-					</a>
+					<a href="/events/submit" class="nav-link">Add an event</a>
 				</div>
 
 				<button class="nav-hamburger" id="nav-hamburger" aria-label="Open menu">
@@ -120,10 +109,10 @@ const fullTitle = title === 'Queens Calendar' ? title : `${title} — Queens Cal
 			<div class="mobile-drawer-backdrop" id="drawer-backdrop" aria-hidden="true"></div>
 			<div class="mobile-drawer-content" role="dialog" aria-modal="true" aria-label="Navigation menu">
 				<button class="mobile-drawer-close" id="drawer-close" aria-label="Close menu">✕</button>
-				<a href="/events" class="mobile-drawer-link">Calendar</a>
-				<a href="/sources" class="mobile-drawer-link">Sources</a>
-				<a href="/stories" class="mobile-drawer-link">Stories</a>
-				<a href="/schedule" class="mobile-drawer-link">Saved</a>
+				<a href="/" class="mobile-drawer-link">This week</a>
+				<a href="/events" class="mobile-drawer-link">All events</a>
+				<a href="/stories" class="mobile-drawer-link">Guides</a>
+				<a href="/schedule" class="mobile-drawer-link">My plan</a>
 				<a href="/about" class="mobile-drawer-link">About</a>
 				<a href="/map" class="mobile-drawer-link">Map</a>
 				<a href="/events/submit" class="mobile-drawer-link">Submit event</a>

@@ -8,6 +8,8 @@ Exactly three layers gate a release.
 - Use date, neighborhood, and category filters in the calendar.
 - Open the map, pan and zoom, open a marker, and follow its event link.
 - Save an event, confirm it appears in Saved, and export its calendar file.
+- Save the three-pick shortlist, open its `?plan=` URL with empty local storage, and confirm the recipient sees the complete itinerary.
+- Exercise event, weekly-pick, and plan sharing with both Web Share and clipboard fallback behavior.
 - Open an event story and its weekly roundup.
 - Submit the community-event form and confirm the Netlify success flow.
 

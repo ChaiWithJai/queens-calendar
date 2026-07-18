@@ -15,9 +15,9 @@
     "name": "City Parks Foundation",
     "listingUrl": "https://cityparksfoundation.org/calendar/month/",
     "adapter": "detail-links",
-    "maxDetails": 24,
+    "maxDetails": 60,
     "linkPattern": "/events/",
-    "includeText": "Queens",
+    "boroughMustEqual": "Queens",
     "organizerUrl": "https://cityparksfoundation.org/",
     "defaultCategories": ["community", "arts-culture"]
   },
@@ -52,5 +52,49 @@
     "organizerUrl": "https://www.flushingtownhall.org/",
     "venue": { "name": "Flushing Town Hall", "address": "137-35 Northern Blvd, Flushing, NY 11354", "neighborhood": "Flushing", "latitude": 40.7639, "longitude": -73.8302 },
     "defaultCategories": ["arts-culture", "community"]
+  },
+  {
+    "id": "queens-botanical-garden",
+    "name": "Queens Botanical Garden",
+    "listingUrl": "https://queensbotanical.org/calendar/",
+    "adapter": "detail-links",
+    "maxDetails": 80,
+    "linkPattern": "/event/",
+    "organizerUrl": "https://queensbotanical.org/",
+    "venue": { "name": "Queens Botanical Garden", "address": "43-50 Main St, Flushing, NY 11355", "neighborhood": "Flushing", "latitude": 40.7516, "longitude": -73.8268 },
+    "defaultCategories": ["parks-outdoors", "family", "community"]
+  },
+  {
+    "id": "noguchi-museum",
+    "name": "The Noguchi Museum",
+    "listingUrl": "https://www.noguchi.org/museum/calendar/",
+    "adapter": "detail-links",
+    "maxDetails": 80,
+    "linkPattern": "/calendar/event/",
+    "organizerUrl": "https://www.noguchi.org/",
+    "venue": { "name": "The Noguchi Museum", "address": "9-01 33rd Rd, Long Island City, NY 11106", "neighborhood": "Long Island City", "latitude": 40.7668, "longitude": -73.9381 },
+    "defaultCategories": ["arts-culture", "family"]
+  },
+  {
+    "id": "socrates-sculpture-park",
+    "name": "Socrates Sculpture Park",
+    "listingUrl": "https://socratessculpturepark.org/programs/",
+    "adapter": "detail-links",
+    "maxDetails": 80,
+    "linkPattern": "/programevent/",
+    "organizerUrl": "https://socratessculpturepark.org/",
+    "venue": { "name": "Socrates Sculpture Park", "address": "32-01 Vernon Blvd, Long Island City, NY 11106", "neighborhood": "Long Island City", "latitude": 40.7685, "longitude": -73.9361 },
+    "defaultCategories": ["arts-culture", "parks-outdoors", "community"]
+  },
+  {
+    "id": "queens-theatre",
+    "name": "Queens Theatre",
+    "listingUrl": "https://queenstheatre.org/events/",
+    "adapter": "detail-links",
+    "maxDetails": 60,
+    "linkPattern": "/events/",
+    "organizerUrl": "https://queenstheatre.org/",
+    "venue": { "name": "Queens Theatre", "address": "14 United Nations Ave S, Corona, NY 11368", "neighborhood": "Flushing Meadows–Corona Park", "latitude": 40.7442, "longitude": -73.8441 },
+    "defaultCategories": ["arts-culture", "family"]
   }
 ]

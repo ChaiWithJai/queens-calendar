@@ -1,187 +1,151 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { events } from '../data/site';
-import ingestReport from '../data/generated/ingest-report.json';
 import { formatTimeRange } from '../lib/format';
 
-const categoryFor = (vertical: string) => {
-	if (['creative', 'south-asian'].includes(vertical)) return 'Arts & Culture';
-	if (['ai-agents', 'devtools', 'fintech', 'healthtech', 'climate'].includes(vertical)) return 'Technology';
-	if (['community', 'immigrant'].includes(vertical)) return 'Community';
-	return 'Civic';
+const now = new Date();
+const todayStart = new Date(now); todayStart.setHours(0, 0, 0, 0);
+const nextWeek = new Date(todayStart); nextWeek.setDate(nextWeek.getDate() + 8);
+const upcoming = events.filter((event) => new Date(event.endTime) >= now).sort((a, b) => +new Date(a.startTime) - +new Date(b.startTime));
+const nextSeven = upcoming.filter((event) => new Date(event.startTime) < nextWeek);
+const score = (event: typeof events[number]) => {
+	const title = event.title.toLowerCase();
+	if (/sold out|members['’]? event|members-only/.test(title)) return -100;
+	let value = event.coverImage.url.startsWith('http') ? 4 : 0;
+	if (/movie|concert|performance|cyanotype|festival|dance|theatre|screening/.test(title)) value += 10;
+	if (/open hours|park|tour|workshop/.test(title)) value += 6;
+	if (/walking tour/.test(title)) value += 6;
+	if (/volunteer|compost|horticulture/.test(title)) value += 2;
+	return value - Math.max(0, (+new Date(event.startTime) - +now) / 86400000) * .08;
 };
-
-const categories = ['All', 'Arts & Culture', 'Technology', 'Community', 'Civic'];
-const neighborhoods = [...new Set(events.map((event) => event.venue.neighborhood))].sort();
-const groupedEvents = Object.groupBy(events, (event) => event.date);
-const days = Object.entries(groupedEvents).sort(([a], [b]) => a.localeCompare(b));
-const dateLabel = (date: string) =>
-	new Intl.DateTimeFormat('en-US', { weekday: 'long', month: 'long', day: 'numeric' }).format(
-		new Date(`${date}T12:00:00`),
-	);
+const shortList: typeof events = [];
+const usedDates = new Set<string>();
+for (const event of [...nextSeven].sort((a, b) => score(b) - score(a))) {
+	if (score(event) < 0 || usedDates.has(event.date)) continue;
+	shortList.push(event); usedDates.add(event.date);
+	if (shortList.length === 3) break;
+}
+const planIds = shortList.map((event) => event.id).join(',');
+const planUrl = `/schedule?plan=${encodeURIComponent(planIds)}`;
+const dateRange = nextSeven.length
+	? `${new Intl.DateTimeFormat('en-US', { month:'short', day:'numeric' }).format(new Date(nextSeven[0].startTime))}–${new Intl.DateTimeFormat('en-US', { month:'short', day:'numeric' }).format(new Date(nextSeven.at(-1)!.startTime))}`
+	: 'This week';
+const clean = (value: string) => value.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+const day = (value: string) => new Intl.DateTimeFormat('en-US', { weekday:'short', month:'short', day:'numeric' }).format(new Date(value));
+const moodFor = (event: typeof events[number]) => [
+	event.price === '0' || /free|volunteer|open hours/i.test(event.title) ? 'free' : '',
+	event.categories.includes('parks-outdoors') || /park|garden|farm|outdoor/i.test(event.title) ? 'outside' : '',
+	event.categories.includes('family') ? 'family' : '',
+	/workshop|cyanotype|volunteer|build|horticulture|farm/i.test(event.title) ? 'hands-on' : '',
+].filter(Boolean).join(' ');
 ---
 
-<BaseLayout
-	title="Queens Calendar"
-	description="A community-powered calendar for arts, culture, technology, and neighborhood events across Queens."
->
-	<main class="queens-home">
-		<div class="queens-shell">
-			<section class="research-hero">
-				<p class="eyebrow">Queens Calendar · {ingestReport.sources.filter((source) => source.status === 'ok').length} source pipelines reporting</p>
-				<h1>What’s happening across Queens.</h1>
-				<p class="hero-copy">
-					A shared calendar for arts, culture, technology, and community-organized events — built to help
-					neighbors find the right room, not the loudest promotion.
-				</p>
-				<div class="hero-actions">
-					<a class="signal-button" href="/events/submit">Submit an event</a>
-					<a class="quiet-button" href="/schedule">View saved events <span data-saved-count>0</span></a>
+<BaseLayout title="Queens Calendar" description="The genuinely good things happening in Queens this week—picked, mapped, and easy to send to the group chat.">
+	<main class="weekly-home">
+		<section class="week-hero">
+			<div class="week-shell hero-grid">
+				<div>
+					<p class="week-stamp">QUEENS · {dateRange} · UPDATED WEEKLY</p>
+					<h1>Stop asking the group chat <em>“what should we do?”</em></h1>
+					<p class="hero-dek">The short answer to what’s worth leaving home for—then every other option if you want to go deeper.</p>
+					<div class="hero-buttons">
+						<button class="primary-action" type="button" data-share-week data-plan-url={planUrl}>Send this week’s picks</button>
+						<a class="secondary-action" href="#this-week">See the full week ↓</a>
+					</div>
 				</div>
-			</section>
-
-			<section class="calendar-controls" aria-label="Calendar filters">
-				<label class="search-field">
-					<span aria-hidden="true">⌕</span>
-					<span class="sr-only">Search events</span>
-					<input id="calendar-search" type="search" placeholder="Search events, venues, neighborhoods…" />
-				</label>
-				<div class="filter-row" role="group" aria-label="Category filters">
-					{categories.map((category) => (
-						<button class="filter-chip" type="button" data-category={category} aria-pressed={category === 'All'}>
-							{category}
-						</button>
-					))}
-					<button class="filter-chip" type="button" data-category="Saved" aria-pressed="false">
-						Saved <span data-saved-count>0</span>
-					</button>
-				</div>
-				<div class="neighborhood-row">
-					<span class="control-label">Neighborhood</span>
-					<select id="neighborhood-filter" aria-label="Filter by neighborhood">
-						<option value="">All Queens</option>
-						{neighborhoods.map((neighborhood) => <option value={neighborhood}>{neighborhood}</option>)}
-					</select>
-				</div>
-			</section>
-
-			<div class="timeline-heading">
-				<p>Community-powered timeline</p>
-				<p><span id="visible-event-count">{events.length}</span> events shown</p>
+				<aside class="fresh-note">
+					<span class="pulse-dot"></span>
+					<strong>{nextSeven.length} things in the next 7 days</strong>
+					<p>Across {[...new Set(nextSeven.map((event) => event.venue.neighborhood))].join(', ') || 'Queens'}.</p>
+					<a href="/sources">See where every listing came from →</a>
+				</aside>
 			</div>
+		</section>
 
-			<div class="calendar-days" id="calendar-days">
-				{days.map(([date, dayEvents]) => (
-					<section class="calendar-day" data-day>
-						<div class="day-heading">
-							<h2>{dateLabel(date)}</h2>
-							<span><span data-day-count>{dayEvents?.length ?? 0}</span> tracked</span>
+		<section class="week-shell short-list" aria-labelledby="short-list-title">
+			<header class="section-intro">
+				<div><p class="kicker">THE SHORT LIST</p><h2 id="short-list-title">Three picks. No research spiral.</h2></div>
+				<button type="button" class="text-action" data-save-lineup data-plan-ids={planIds}>Save all three</button>
+			</header>
+			<div class="pick-stack">
+				{shortList.map((event, index) => (
+					<article class={`editor-pick pick-${index + 1}`}>
+						<div class="pick-number">0{index + 1}</div>
+						<div class="pick-art" style={event.coverImage.url.startsWith('http') ? `background-image:linear-gradient(180deg,transparent,rgba(7,17,24,.72)),url('${event.coverImage.url}')` : undefined}>
+							{!event.coverImage.url.startsWith('http') && <span>{event.title.split(' ').slice(0, 4).join(' ')}</span>}
 						</div>
-						<div class="event-grid">
-							{dayEvents?.map((event) => {
-								const category = categoryFor(event.vertical);
-								const searchText = [event.title, event.shortDescription, event.venue.name, event.venue.neighborhood, ...event.tags]
-									.join(' ')
-									.toLowerCase();
-								return (
-									<article
-										class="calendar-card"
-										data-event-card
-										data-event-id={event.id}
-										data-category={category}
-										data-neighborhood={event.venue.neighborhood}
-										data-search={searchText}
-									>
-										<div class="card-meta">
-											<span>{formatTimeRange(event.startTime, event.endTime)}</span>
-											<span>{event.source?.name ?? (event.isFlagship ? 'Featured' : 'Community listed')}</span>
-										</div>
-										<h3><a href={`/events/${event.slug}`}>{event.title}</a></h3>
-										<p>{event.shortDescription}</p>
-										<div class="card-tags">
-											<span class="category-tag">{category}</span>
-											<span>{event.format.replaceAll('-', ' ')}</span>
-										</div>
-										<p class="venue-line">{event.venue.name} · {event.venue.neighborhood}</p>
-										<div class="card-actions">
-											<button type="button" data-save-event={event.id} aria-pressed="false">
-												<span data-save-label>Save</span>
-											</button>
-											<a href={`/events/${event.slug}`}>Details →</a>
-										</div>
-									</article>
-								);
-							})}
+						<div class="pick-copy">
+							<p class="pick-when">{day(event.startTime)} · {formatTimeRange(event.startTime, event.endTime)}</p>
+							<h3><a href={`/events/${event.slug}`}>{event.title}</a></h3>
+							<p>{clean(event.description)}</p>
+							<div class="pick-bottom"><span>{event.venue.neighborhood}</span><button type="button" data-save-event={event.id} aria-pressed="false"><span data-save-label>＋ Save</span></button></div>
 						</div>
-					</section>
+					</article>
 				))}
 			</div>
-
-			<div class="empty-state" id="calendar-empty" hidden>
-				<p>No events match these filters yet.</p>
-				<a href="/events/submit">Add something happening in your community →</a>
+			<div class="lineup-share">
+				<div><span>THE GROUP-CHAT PLAN</span><strong>{shortList.map((event) => event.title).join(' · ')}</strong></div>
+				<button type="button" data-share-week data-plan-url={planUrl}>Copy plan link</button>
 			</div>
+		</section>
 
-			<section class="story-promo">
-				<div>
-					<p class="eyebrow">Editorial publishing</p>
-					<h2>Every event becomes an answer. Every week becomes a guide.</h2>
-					<p>Source-backed event stories and weekly roundups give organizers durable, searchable pages beyond a fleeting calendar card.</p>
+		<section class="all-week" id="this-week">
+			<div class="week-shell">
+				<header class="section-intro explore-heading">
+					<div><p class="kicker">EXPLORE BY MOOD</p><h2>What kind of week are you having?</h2></div>
+					<a class="text-action" href="/map">Explore the map →</a>
+				</header>
+				<div class="mood-row" role="group" aria-label="Filter events by mood">
+					<button type="button" aria-pressed="true" data-mood="all">Everything</button>
+					<button type="button" aria-pressed="false" data-mood="free">Free-ish</button>
+					<button type="button" aria-pressed="false" data-mood="outside">Outside</button>
+					<button type="button" aria-pressed="false" data-mood="family">With kids</button>
+					<button type="button" aria-pressed="false" data-mood="hands-on">Make something</button>
 				</div>
-				<a class="signal-button" href="/stories">Explore event stories</a>
-			</section>
-		</div>
+				<div class="week-feed">
+					{nextSeven.map((event) => (
+						<article class="week-row" data-week-event data-moods={moodFor(event)}>
+							<div class="date-tile"><strong>{new Intl.DateTimeFormat('en-US',{day:'2-digit'}).format(new Date(event.startTime))}</strong><span>{new Intl.DateTimeFormat('en-US',{weekday:'short'}).format(new Date(event.startTime))}</span></div>
+							<div class="row-main"><p>{formatTimeRange(event.startTime,event.endTime)} · {event.venue.neighborhood}</p><h3><a href={`/events/${event.slug}`}>{event.title}</a></h3><span>{clean(event.description).slice(0, 150)}</span></div>
+							<div class="row-actions"><button type="button" data-save-event={event.id} aria-pressed="false"><span data-save-label>Save</span></button><button type="button" data-share-event data-event-title={event.title} data-event-url={`/events/${event.slug}`}>Share</button></div>
+						</article>
+					))}
+				</div>
+				<div class="feed-footer"><a href="/events">Browse all {upcoming.length} upcoming events</a><a href="/events/submit">Missing something? Add it →</a></div>
+			</div>
+		</section>
+
+		<section class="week-shell return-loop">
+			<p class="kicker">SAME TIME NEXT WEEK?</p>
+			<h2>Fresh picks every Thursday.<br />Built for forwarding.</h2>
+			<p>Bookmark it, send it, or subscribe to the feed. No account and no algorithm.</p>
+			<div><button class="primary-action" type="button" data-share-site>Text Queens Calendar to a friend</button><a class="secondary-action" href="/feed.xml">Follow the weekly feed</a></div>
+		</section>
+		<div class="share-toast" role="status" aria-live="polite" hidden data-share-toast>Link copied. Group chat handled.</div>
 	</main>
 
 	<script is:inline>
-		const search = document.getElementById('calendar-search');
-		const neighborhood = document.getElementById('neighborhood-filter');
-		const categoryButtons = [...document.querySelectorAll('[data-category]')];
-		const cards = [...document.querySelectorAll('[data-event-card]')];
-		const days = [...document.querySelectorAll('[data-day]')];
-		const count = document.getElementById('visible-event-count');
-		const empty = document.getElementById('calendar-empty');
-		let activeCategory = 'All';
-
-		const savedIds = () => {
-			try { return new Set(JSON.parse(localStorage.getItem('queens-calendar-saved-events') || '[]')); }
-			catch { return new Set(); }
+		const toast = document.querySelector('[data-share-toast]');
+		const showToast = (message = 'Link copied. Group chat handled.') => { if (!toast) return; toast.textContent = message; toast.hidden = false; clearTimeout(window.__qcToast); window.__qcToast = setTimeout(() => toast.hidden = true, 2400); };
+		const share = async (title, text, url) => {
+			const absolute = new URL(url, window.location.origin).href;
+			if (navigator.share) { try { await navigator.share({ title, text, url: absolute }); return; } catch (error) { if (error.name === 'AbortError') return; } }
+			await navigator.clipboard.writeText(`${text}\n${absolute}`); showToast();
 		};
-
-		const applyFilters = () => {
-			const query = search?.value.trim().toLowerCase() || '';
-			const place = neighborhood?.value || '';
-			const saved = savedIds();
-			let visible = 0;
-			cards.forEach((card) => {
-				const categoryMatch = activeCategory === 'All' ||
-					(activeCategory === 'Saved' ? saved.has(card.dataset.eventId) : card.dataset.category === activeCategory);
-				const matches = categoryMatch && (!place || card.dataset.neighborhood === place) && (!query || card.dataset.search.includes(query));
-				card.hidden = !matches;
-				if (matches) visible += 1;
-			});
-			days.forEach((day) => {
-				const dayVisible = [...day.querySelectorAll('[data-event-card]')].filter((card) => !card.hidden).length;
-				day.hidden = dayVisible === 0;
-				const dayCount = day.querySelector('[data-day-count]');
-				if (dayCount) dayCount.textContent = String(dayVisible);
-			});
-			if (count) count.textContent = String(visible);
-			if (empty) empty.hidden = visible !== 0;
-		};
-
-		categoryButtons.forEach((button) => button.addEventListener('click', () => {
-			activeCategory = button.dataset.category;
-			categoryButtons.forEach((item) => item.setAttribute('aria-pressed', String(item === button)));
-			applyFilters();
-		}));
-		search?.addEventListener('input', applyFilters);
-		neighborhood?.addEventListener('change', applyFilters);
-		window.addEventListener('saved-events:updated', applyFilters);
+		document.querySelectorAll('[data-share-week]').forEach((button) => button.addEventListener('click', () => share('Queens picks for this week', 'I found our Queens plan for this week:', button.dataset.planUrl)));
+		document.querySelectorAll('[data-share-event]').forEach((button) => button.addEventListener('click', () => share(button.dataset.eventTitle, `Want to do this? ${button.dataset.eventTitle}`, button.dataset.eventUrl)));
+		document.querySelector('[data-share-site]')?.addEventListener('click', () => share('Queens Calendar', 'This actually answers what to do in Queens each week:', '/'));
+		document.querySelector('[data-save-lineup]')?.addEventListener('click', (event) => {
+			const ids = event.currentTarget.dataset.planIds.split(',').filter(Boolean); let current = [];
+			try { current = JSON.parse(localStorage.getItem('queens-calendar-saved-events') || '[]'); } catch {}
+			const next = [...new Set([...current, ...ids])]; localStorage.setItem('queens-calendar-saved-events', JSON.stringify(next)); window.dispatchEvent(new CustomEvent('saved-events:updated', {detail:next})); event.currentTarget.textContent = 'Saved ✓'; showToast('Three good options, saved.');
+		});
+		const moodButtons = [...document.querySelectorAll('[data-mood]')]; const weekEvents = [...document.querySelectorAll('[data-week-event]')];
+		moodButtons.forEach((button) => button.addEventListener('click', () => { moodButtons.forEach((item) => item.setAttribute('aria-pressed', String(item === button))); weekEvents.forEach((event) => event.hidden = button.dataset.mood !== 'all' && !event.dataset.moods.split(' ').includes(button.dataset.mood)); }));
 	</script>
 
 	<style>
-		.queens-home{background:#080a0b;color:#f3f5f7;min-height:100vh;padding:2rem 0 6rem}.queens-shell{width:min(1216px,calc(100% - 2rem));margin:auto}.research-hero{border:1px solid #292d31;border-radius:12px;background:#111315;padding:clamp(1.5rem,4vw,2.25rem);margin-bottom:1.5rem}.eyebrow,.control-label,.timeline-heading{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;text-transform:uppercase;letter-spacing:.17em;font-size:.69rem}.eyebrow{color:#159bff;margin-bottom:.8rem}.research-hero h1{font-size:clamp(2rem,5vw,3.6rem);letter-spacing:-.045em;margin:0;max-width:15ch}.hero-copy{color:#9ba2a9;font-size:1rem;line-height:1.7;max-width:68ch;margin:1rem 0 0}.hero-actions{display:flex;gap:.75rem;flex-wrap:wrap;margin-top:1.4rem}.signal-button,.quiet-button{border-radius:7px;padding:.65rem .9rem;font-size:.84rem;font-weight:600}.signal-button{background:#159bff;color:#04111a}.quiet-button{background:#1b1e21;color:#c4c9ce;border:1px solid #2b3034}.calendar-controls{display:grid;gap:1rem;margin-bottom:1.5rem}.search-field{height:46px;border:1px solid #2b3034;border-radius:7px;background:#111315;display:flex;align-items:center;gap:.75rem;padding:0 .85rem;color:#8c949b}.search-field input{width:100%;border:0;outline:0;background:transparent;color:#f3f5f7}.filter-row{display:flex;gap:.45rem;flex-wrap:wrap}.filter-chip{border-radius:999px;background:#1b1e21;color:#9ba2a9;padding:.45rem .75rem;font-size:.76rem}.filter-chip[aria-pressed="true"]{background:#159bff;color:#03131e}.neighborhood-row{display:flex;align-items:center;gap:.75rem}.control-label{color:#7d858c}.neighborhood-row select{background:#111315;border:1px solid #2b3034;border-radius:6px;padding:.5rem .7rem;color:#dce0e3}.timeline-heading{display:flex;justify-content:space-between;gap:1rem;border-top:1px solid #23272a;padding-top:1rem;color:#7f878d;margin-bottom:2rem}.calendar-days{display:grid;gap:2.5rem}.day-heading{display:flex;align-items:baseline;gap:.75rem;margin-bottom:1rem}.day-heading h2{font-size:1.18rem;letter-spacing:-.02em}.day-heading span{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.72rem;color:#7d858c}.event-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}.calendar-card{display:flex;flex-direction:column;border:1px solid #292d31;border-radius:11px;background:#111315;padding:1rem;min-height:265px}.calendar-card:hover{border-color:#155b85}.card-meta{display:flex;justify-content:space-between;gap:.75rem;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.66rem;color:#8d949a}.card-meta span:last-child{text-transform:uppercase;letter-spacing:.05em}.calendar-card h3{font-size:1rem;margin:.75rem 0 .45rem}.calendar-card h3 a:hover{color:#41acff}.calendar-card>p{font-size:.82rem;line-height:1.65;color:#949ba1;margin:0}.card-tags{display:flex;gap:.4rem;flex-wrap:wrap;margin-top:.9rem}.card-tags span{border-radius:999px;background:#1d2023;color:#9ba2a9;padding:.22rem .5rem;font-size:.68rem;text-transform:capitalize}.card-tags .category-tag{background:#0b2a3e;color:#42adff;border:1px solid #164766}.calendar-card .venue-line{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.68rem;margin-top:.7rem}.card-actions{display:flex;gap:.55rem;border-top:1px solid #272b2e;margin-top:auto;padding-top:.8rem}.card-actions button,.card-actions a{background:#1d2023;color:#b3b9be;border-radius:6px;padding:.4rem .65rem;font-size:.72rem}.card-actions button.saved{color:#53d8a0;background:#123225}.empty-state{text-align:center;border:1px dashed #303539;border-radius:10px;padding:3rem;color:#9ba2a9}.empty-state a{display:inline-block;margin-top:.6rem;color:#159bff}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}@media(max-width:900px){.event-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:620px){.queens-home{padding-top:1rem}.queens-shell{width:min(100% - 1.25rem,1216px)}.event-grid{grid-template-columns:1fr}.timeline-heading{align-items:flex-start}.research-hero h1{font-size:2.25rem}.calendar-card{min-height:0}}
-		.story-promo{margin-top:3rem;border:1px solid #292d31;border-radius:12px;background:#111315;padding:clamp(1.5rem,4vw,2.2rem);display:flex;align-items:flex-end;justify-content:space-between;gap:2rem}.story-promo h2{font-size:clamp(1.6rem,4vw,2.5rem);max-width:20ch}.story-promo p:not(.eyebrow){color:#9ba2a9;line-height:1.65;max-width:62ch;margin-top:.7rem}.story-promo .signal-button{flex-shrink:0}@media(max-width:700px){.story-promo{align-items:flex-start;flex-direction:column}}
+		.weekly-home{--ink:#12202a;--paper:#f6f2e8;--lime:#c8ff4a;--blue:#1558ff;--coral:#ff6b53;background:var(--paper);color:var(--ink);min-height:100vh}.week-shell{width:min(1180px,calc(100% - 2rem));margin:auto}.week-hero{background:var(--blue);color:white;padding:clamp(3.5rem,8vw,7.5rem) 0 5rem;overflow:hidden;position:relative}.week-hero:after{content:'Q';position:absolute;right:-.08em;bottom:-.5em;font:800 min(70vw,720px)/1 var(--font-display);color:rgba(255,255,255,.055);pointer-events:none}.hero-grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(250px,.55fr);gap:clamp(2rem,7vw,7rem);align-items:end;position:relative;z-index:1}.week-stamp,.kicker{font:700 .72rem/1 var(--font-body);letter-spacing:.15em}.week-stamp{color:var(--lime);margin-bottom:1.25rem}.week-hero h1{font-size:clamp(3rem,7vw,6.7rem);line-height:.94;letter-spacing:-.065em;max-width:12ch}.week-hero h1 em{font-style:normal;color:var(--lime)}.hero-dek{font-size:clamp(1rem,2vw,1.3rem);line-height:1.6;max-width:55ch;margin-top:1.5rem;color:#dce5ff}.hero-buttons,.return-loop>div{display:flex;gap:.75rem;flex-wrap:wrap;margin-top:2rem}.primary-action,.secondary-action{padding:.9rem 1.1rem;border-radius:999px;font-weight:750;font-size:.88rem}.primary-action{background:var(--lime);color:var(--ink)}.primary-action:hover{transform:translateY(-2px)}.secondary-action{border:1px solid currentColor;color:inherit}.fresh-note{border-left:1px solid rgba(255,255,255,.35);padding-left:1.5rem}.fresh-note strong{display:block;font-size:1.15rem;margin:.7rem 0 .3rem}.fresh-note p{color:#dce5ff;font-size:.9rem}.fresh-note a{display:inline-block;color:var(--lime);font-size:.78rem;margin-top:1rem}.pulse-dot{display:block;width:9px;height:9px;border-radius:50%;background:var(--lime);box-shadow:0 0 0 6px rgba(200,255,74,.14)}.short-list{padding:5rem 0}.section-intro{display:flex;justify-content:space-between;align-items:end;gap:1rem;margin-bottom:1.75rem}.kicker{color:var(--blue);margin-bottom:.65rem}.section-intro h2,.return-loop h2{font-size:clamp(2rem,5vw,4rem);letter-spacing:-.055em;line-height:1}.text-action{color:var(--blue);font-weight:700;font-size:.85rem}.pick-stack{display:grid;grid-template-columns:1.2fr .9fr .9fr;gap:1rem}.editor-pick{background:white;border:1px solid #d8d2c5;display:grid;grid-template-rows:auto 210px 1fr;min-width:0}.pick-1{grid-template-rows:auto 300px 1fr}.pick-number{padding:.7rem 1rem;font:800 .75rem/1 var(--font-body);border-bottom:1px solid #d8d2c5}.pick-art{background:var(--ink);background-size:cover;background-position:center;display:flex;align-items:end;min-height:0}.pick-art span{font:800 clamp(1.7rem,4vw,3.3rem)/.92 var(--font-display);letter-spacing:-.06em;color:var(--lime);padding:1rem;overflow-wrap:anywhere}.pick-copy{padding:1.1rem;display:flex;flex-direction:column}.pick-when{font-size:.72rem;font-weight:750;color:var(--blue);text-transform:uppercase;letter-spacing:.06em}.pick-copy h3{font-size:clamp(1.25rem,2vw,1.7rem);letter-spacing:-.035em;line-height:1.08;margin:.55rem 0}.pick-copy>p:not(.pick-when){font-size:.83rem;line-height:1.6;color:#53616a}.pick-bottom{display:flex;justify-content:space-between;gap:.5rem;align-items:center;margin-top:auto;padding-top:1rem;font-size:.72rem}.pick-bottom button{color:var(--blue);font-weight:750}.pick-bottom button.saved{color:#387318}.lineup-share{background:var(--lime);display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-top:1rem;padding:1rem 1.25rem}.lineup-share div{display:flex;flex-direction:column;gap:.25rem}.lineup-share span{font-size:.65rem;font-weight:800;letter-spacing:.12em}.lineup-share strong{font-size:.88rem}.lineup-share button{background:var(--ink);color:white;border-radius:999px;padding:.65rem .9rem;font-weight:700;white-space:nowrap}.all-week{background:#fff;padding:5rem 0}.explore-heading{align-items:end}.mood-row{display:flex;gap:.5rem;overflow:auto;padding-bottom:.65rem;margin-bottom:1rem}.mood-row button{border:1px solid #bcc4ca;border-radius:999px;padding:.55rem .9rem;white-space:nowrap;font-weight:650;font-size:.8rem}.mood-row button[aria-pressed=true]{background:var(--ink);color:white;border-color:var(--ink)}.week-feed{border-top:2px solid var(--ink)}.week-row{display:grid;grid-template-columns:72px 1fr auto;gap:1.25rem;align-items:center;border-bottom:1px solid #d9dfe2;padding:1rem 0}.date-tile{display:flex;flex-direction:column;align-items:center;border-right:1px solid #d9dfe2}.date-tile strong{font-size:1.85rem;line-height:1}.date-tile span,.row-main>p{font-size:.68rem;text-transform:uppercase;letter-spacing:.08em;color:#65717a}.row-main h3{font-size:1.15rem;line-height:1.15;margin:.3rem 0}.row-main>span{font-size:.78rem;color:#65717a}.row-actions{display:flex;gap:.4rem}.row-actions button{border:1px solid #bbc4ca;border-radius:999px;padding:.45rem .7rem;font-size:.72rem;font-weight:700}.row-actions button.saved{background:var(--lime);border-color:var(--lime)}.feed-footer{display:flex;justify-content:space-between;gap:1rem;margin-top:1.5rem;font-weight:700;color:var(--blue);font-size:.84rem}.return-loop{margin-block:5rem;background:var(--coral);padding:clamp(2rem,6vw,4rem);position:relative;overflow:hidden}.return-loop:after{content:'↗';position:absolute;right:.1em;bottom:-.25em;font:800 14rem/1 var(--font-display);opacity:.12}.return-loop>*{position:relative;z-index:1}.return-loop>p:not(.kicker){margin-top:1rem;max-width:48ch}.return-loop .kicker{color:var(--ink)}.return-loop .primary-action{background:var(--ink);color:white}.share-toast{position:fixed;z-index:700;left:50%;bottom:1.25rem;transform:translateX(-50%);background:var(--ink);color:white;border-radius:999px;padding:.8rem 1.1rem;font-weight:700;font-size:.82rem;box-shadow:0 12px 30px #0003}.share-toast[hidden]{display:none}@media(max-width:850px){.hero-grid{grid-template-columns:1fr}.fresh-note{border-left:0;border-top:1px solid rgba(255,255,255,.35);padding:1.25rem 0 0}.pick-stack{grid-template-columns:1fr 1fr}.pick-1{grid-column:1/-1}.pick-1 .pick-art{height:330px}}@media(max-width:620px){.week-hero{padding-top:3rem}.week-shell{width:min(100% - 1.25rem,1180px)}.week-hero h1{font-size:3.35rem}.section-intro{align-items:flex-start;flex-direction:column}.pick-stack{grid-template-columns:1fr}.pick-1{grid-column:auto}.editor-pick,.pick-1{grid-template-rows:auto 230px 1fr}.lineup-share{align-items:flex-start;flex-direction:column}.week-row{grid-template-columns:54px 1fr}.row-actions{grid-column:2}.row-main>span{display:none}.feed-footer{flex-direction:column}.return-loop{margin-block:1rem}.share-toast{width:max-content;max-width:calc(100% - 1.5rem);text-align:center}}
+		@media(prefers-reduced-motion:no-preference){.primary-action,.mood-row button,.editor-pick{transition:transform .2s cubic-bezier(.2,.8,.2,1),background .2s}.editor-pick:hover{transform:translateY(-4px)}}
 	</style>
 </BaseLayout>

@@ -41,7 +41,7 @@ export function normalizeEvent(raw) {
   const sourceKey = raw.source?.canonicalUrl || raw.registrationUrl || `${raw.title}|${raw.startDate}`;
   const id = `qc_${crypto.createHash('sha256').update(sourceKey).digest('hex').slice(0, 16)}`;
   const event = {
-    id, slug, title: raw.title.trim(), description: raw.description.replace(/\s+/g, ' ').trim(),
+    id, slug, title: raw.title.trim(), description: raw.description.replace(/\\n/g, ' ').replace(/\\'/g, "'").replace(/\s+/g, ' ').trim(),
     startDate: new Date(raw.startDate).toISOString(), endDate: new Date(raw.endDate || raw.startDate).toISOString(),
     timezone: 'America/New_York', status: raw.status || 'scheduled', attendanceMode: raw.attendanceMode || 'offline',
     categories: categoryGuess(`${raw.title} ${raw.description}`, raw.categories), tags: raw.tags || [], image: raw.image || null,

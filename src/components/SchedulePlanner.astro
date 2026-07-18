@@ -21,20 +21,20 @@ const events = allEvents.map((event) => ({
 			<div class="stack-list">
 				<div class="eyebrow">My schedule</div>
 				<h1 class="headline-display" style="font-size: clamp(2.9rem, 4vw + 1rem, 4.5rem);">
-					Build a week you can actually keep.
+					Make the plan. Send the plan.
 				</h1>
 				<p class="body-lg">
-					Saved events live in local storage for now. That keeps the first release fast, private,
-					and exportable without an account wall.
+					Stack a few Queens events, check the timing, then send one link to everyone who keeps saying “I’m down for whatever.”
 				</p>
 			</div>
 
 			<div class="surface-panel">
 				<div class="stack-list">
 					<strong style="font-size: 1.2rem;">
-						<span data-schedule-count>0</span> sessions saved
+						<span data-schedule-count>0</span> events in this plan
 					</strong>
 					<div class="button-row">
+						<button class="button-primary" type="button" data-share-schedule>Share this plan</button>
 						<button class="button-primary" type="button" data-export-ics>Export calendar</button>
 						<button class="button-ghost" type="button" data-clear-saved>Clear schedule</button>
 					</div>
@@ -43,6 +43,10 @@ const events = allEvents.map((event) => ({
 					</p>
 				</div>
 			</div>
+		</div>
+		<div class="surface-panel" data-shared-plan hidden style="border-left:4px solid var(--primary);">
+			<strong>A friend sent you this Queens plan.</strong>
+			<span class="body-lg">The full lineup is ready below. Send it onward, export it, or clear it and build your own.</span>
 		</div>
 
 		<div class="blank-slate" data-empty-schedule>
@@ -65,7 +69,11 @@ const events = allEvents.map((event) => ({
 			const groupsNode = root.querySelector('[data-schedule-groups]');
 			const conflictCopy = root.querySelector('[data-conflict-copy]');
 			const exportButton = root.querySelector('[data-export-ics]');
+			const shareButton = root.querySelector('[data-share-schedule]');
 			const clearButton = root.querySelector('[data-clear-saved]');
+			const sharedBanner = root.querySelector('[data-shared-plan]');
+			let sharedIds = new URLSearchParams(window.location.search).get('plan')?.split(',').filter(Boolean) || [];
+			if (sharedIds.length && sharedBanner) sharedBanner.hidden = false;
 
 			const getSaved = () => {
 				try {
@@ -115,7 +123,7 @@ const events = allEvents.map((event) => ({
 					'PRODID:-//Queens Calendar//Saved Events//EN',
 					...items.flatMap((item) => [
 						'BEGIN:VEVENT',
-						`UID:${item.id}@buildweeknyc`,
+						`UID:${item.id}@queens-calendar`,
 						`DTSTAMP:${formatICSDate(new Date().toISOString())}`,
 						`DTSTART:${formatICSDate(item.startTime)}`,
 						`DTEND:${formatICSDate(item.endTime)}`,
@@ -129,7 +137,7 @@ const events = allEvents.map((event) => ({
 			};
 
 			const render = () => {
-				const savedIds = new Set(getSaved());
+				const savedIds = new Set([...getSaved(), ...sharedIds]);
 				const savedEvents = events.filter((event) => savedIds.has(event.id));
 				const groups = byDate(savedEvents);
 				const conflicts = findConflicts(savedEvents);
@@ -178,7 +186,22 @@ const events = allEvents.map((event) => ({
 
 				exportButton.disabled = savedEvents.length === 0;
 				exportButton.dataset.ics = toICS(savedEvents);
+				shareButton.disabled = savedEvents.length === 0;
+				shareButton.dataset.plan = savedEvents.map((event) => event.id).join(',');
 			};
+
+			shareButton?.addEventListener('click', async () => {
+				const url = new URL('/schedule', window.location.origin);
+				url.searchParams.set('plan', shareButton.dataset.plan || '');
+				const payload = { title: 'Our Queens plan', text: 'Here’s the Queens lineup—what are you in for?', url: url.href };
+				if (navigator.share) {
+					try { await navigator.share(payload); return; } catch (error) { if (error.name === 'AbortError') return; }
+				}
+				await navigator.clipboard.writeText(`${payload.text}\n${payload.url}`);
+				const original = shareButton.textContent;
+				shareButton.textContent = 'Plan link copied ✓';
+				setTimeout(() => shareButton.textContent = original, 2200);
+			});
 
 			exportButton?.addEventListener('click', () => {
 				const payload = exportButton.dataset.ics;
@@ -196,6 +219,9 @@ const events = allEvents.map((event) => ({
 
 			clearButton?.addEventListener('click', () => {
 				localStorage.setItem(STORAGE_KEY, JSON.stringify([]));
+				sharedIds = [];
+				history.replaceState({}, '', '/schedule');
+				if (sharedBanner) sharedBanner.hidden = true;
 				window.dispatchEvent(new CustomEvent('saved-events:updated', { detail: [] }));
 				render();
 			});

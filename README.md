@@ -1,6 +1,14 @@
 # Queens Calendar
 
-A source-transparent community calendar for Queens. It ingests official event listings into a canonical schema, deduplicates them, places them on a real map, supports search and saved schedules, and publishes answer-first event and weekly editorial pages.
+A return-worthy weekly culture guide for Queens. It combines a human-scale shortlist, mood-based discovery, a real map, and plans that can be texted as one link. Underneath, it ingests official listings into a canonical, source-transparent event catalog and publishes answer-first event and weekly editorial pages.
+
+## Product loop
+
+- The homepage answers “what should we do this week?” before exposing the full catalog.
+- Three editorial picks can be saved or shared as a group-chat-ready plan.
+- Every event has native sharing; `/schedule?plan=…` opens a complete itinerary without an account.
+- Mood filters support “free-ish,” outside, family, and hands-on browsing.
+- Daily ingestion refreshes the catalog; weekly guide URLs, RSS, and the social preview make it easy to return and forward.
 
 ## System
 
@@ -29,7 +37,7 @@ The release check has three layers documented in `docs/release-test-matrix.md`: 
 
 - `/events` — searchable calendar
 - `/map` — interactive venue map
-- `/schedule` — local saved-event agenda and calendar export
+- `/schedule` — local or shared event plan, share link, conflict check, and calendar export
 - `/stories` — answer-first event and weekly guides
 - `/sources` — source provenance and pipeline health
 - `/events/submit` — Netlify Forms community intake
