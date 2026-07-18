@@ -19,7 +19,7 @@ const events = allEvents.map((event) => ({
 	<div class="container stack-list" style="gap: 1.4rem;" data-schedule-planner>
 		<div class="split-grid section-band">
 			<div class="stack-list">
-				<div class="eyebrow">My schedule</div>
+				<div class="eyebrow">My plan</div>
 				<h1 class="headline-display" style="font-size: clamp(2.9rem, 4vw + 1rem, 4.5rem);">
 					Make the plan. Send the plan.
 				</h1>
@@ -36,10 +36,10 @@ const events = allEvents.map((event) => ({
 					<div class="button-row">
 						<button class="button-primary" type="button" data-share-schedule>Share this plan</button>
 						<button class="button-primary" type="button" data-export-ics>Export calendar</button>
-						<button class="button-ghost" type="button" data-clear-saved>Clear schedule</button>
+						<button class="button-ghost" type="button" data-clear-saved>Start over</button>
 					</div>
 					<p class="body-lg" data-conflict-copy>
-						No overlaps yet. Save a few events from the directory to start shaping the week.
+						No overlaps yet. Save a few events to start shaping the week.
 					</p>
 				</div>
 			</div>
@@ -50,9 +50,9 @@ const events = allEvents.map((event) => ({
 		</div>
 
 		<div class="blank-slate" data-empty-schedule>
-			<strong style="display: block; margin-bottom: 0.5rem;">Nothing saved yet.</strong>
-			Open the directory, tap save on a few events, then come back here for conflict checks and
-			calendar export.
+			<strong style="display: block; margin-bottom: 0.5rem;">Your plan is wide open.</strong>
+			Browse events, save two or three that look good, and we’ll organize them here.
+			<div class="button-row" style="margin-top:1rem"><a class="button-primary" href="/events">Find something to do</a></div>
 		</div>
 
 		<div class="stack-list" data-schedule-groups hidden></div>

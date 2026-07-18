@@ -33,30 +33,28 @@ const venueGroups = Object.values(
 	<div class="container stack-list" style="gap: 1.6rem;">
 		<div class="split-grid section-band">
 			<div class="stack-list" style="gap: 1rem;">
-				<div class="eyebrow">Directory</div>
+				<div class="eyebrow">All events</div>
 				<h1 class="headline-display" style="font-size: clamp(2.9rem, 4vw + 1rem, 4.75rem);">
-					Find the right room without tab-sprawl.
+					Find your next Queens thing.
 				</h1>
 				<p class="body-lg" style="max-width: 42rem;">
-					Search once, filter with intent, and flip between list, agenda, and venue views
-					without leaving the page.
+					Search by day, neighborhood, or vibe. Save anything that looks good and turn it into a plan.
 				</p>
 			</div>
 
 			<div class="surface-panel">
 				<div class="stack-list">
-					<strong style="font-family: var(--font-headline); font-size: 1.2rem;">
-						What this screen is solving
+					<strong style="font-family: var(--font-display); font-size: 1.2rem;">
+						Start broad. Narrow when you want.
 					</strong>
 					<div class="chip-row">
-						<span class="chip is-positive">Search filters</span>
-						<span class="chip">Adaptable view</span>
-						<span class="chip">Favorites</span>
-						<span class="chip is-secondary">URL sync</span>
+						<span class="chip is-positive">{events.length} fresh listings</span>
+						<span class="chip">List</span>
+						<span class="chip">Agenda</span>
+						<span class="chip is-secondary">Map</span>
 					</div>
 					<p class="body-lg">
-						A16Z buried discovery behind separate flows. This version keeps faceted filters
-						and the week view in one place.
+						Not sure yet? Browse the full list, then save the ones you would actually send to a friend.
 					</p>
 				</div>
 			</div>
@@ -76,7 +74,7 @@ const venueGroups = Object.values(
 					/>
 				</div>
 
-				<div class="filter-group">
+				<div class="filter-group" data-filter-group="day">
 					<strong>Day</strong>
 					<div class="filter-options">
 						{
@@ -144,7 +142,7 @@ const venueGroups = Object.values(
 					<div class="stack-list" style="gap: 0.4rem;">
 						<strong style="font-size: 1.2rem;"><span data-result-count>{events.length}</span> events in view</strong>
 						<div class="body-lg" data-active-summary>
-							Start broad, then narrow by day, neighborhood, or track.
+							Everything we found, ready to browse.
 						</div>
 					</div>
 					<div class="view-switcher">
@@ -156,8 +154,8 @@ const venueGroups = Object.values(
 
 				<div class="chip-row" data-active-filters hidden></div>
 				<div class="blank-slate" data-empty-state hidden>
-					<strong style="display: block; margin-bottom: 0.5rem;">No events match that exact slice.</strong>
-					Try clearing a neighborhood, or widen the search beyond one vertical.
+					<strong style="display: block; margin-bottom: 0.5rem;">Nothing matches those filters yet.</strong>
+					Clear one or two filters and we’ll open the list back up.
 				</div>
 
 				<section class="card-grid" data-view-panel="list">
@@ -429,8 +427,8 @@ const venueGroups = Object.values(
 				blankState.hidden = visibleEventCount > 0;
 				summary.textContent =
 					visibleEventCount > 0
-						? `${visibleEventCount} sessions fit this exact slice of the week.`
-						: 'This combination is too narrow right now. Clear one filter and widen the room.';
+						? `${visibleEventCount} ${visibleEventCount === 1 ? 'event looks' : 'events look'} like a match.`
+						: 'Nothing matches every filter. Clear one to open the list back up.';
 
 				renderActiveFilters();
 				applyView();

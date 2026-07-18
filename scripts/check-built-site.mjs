@@ -32,7 +32,7 @@ assert.match(home, /Send this week’s picks/);
 assert.match(home, /data-share-week/);
 assert.match(home, /https:\/\/queens-calendar\.netlify\.app\/images\/social\/queens-calendar-og\.png/);
 assert.match(map, /leaflet/i);
-assert.match(sources, /Provenance ledger/);
+assert.match(sources, /How listings get here/);
 assert.match(submission, /data-netlify="true"/);
 assert.match(submission, /name="form-name" value="event-submission"/);
 const schedule = await read('schedule/index.html');

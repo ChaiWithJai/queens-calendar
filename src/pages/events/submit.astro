@@ -4,7 +4,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
 <BaseLayout
 	title="Submit an Event"
-	description="Submit a Queens Calendar event with a platform link or manual details using the Netlify-backed intake flow."
+	description="Share an event happening in Queens for consideration in Queens Calendar."
 	path="/events/submit"
 >
 	<main>
@@ -12,29 +12,28 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 			<div class="container stack-list" style="gap: 1.4rem;">
 				<div class="split-grid section-band">
 					<div class="stack-list">
-						<div class="eyebrow">Host submission</div>
+						<div class="eyebrow">For Queens organizers</div>
 						<h1 class="headline-display" style="font-size: clamp(2.8rem, 4vw, 4.5rem);">
 							Paste a link, or fill it by hand.
 						</h1>
 						<p class="body-lg">
-							The intake is platform-agnostic by design. Start with a Luma, Partiful, or Eventbrite
-							URL when you have one. If not, the manual fields below still get the event into review.
+							Already have a Luma, Partiful, or Eventbrite page? Paste it below. If not, fill in the details by hand—it only takes a few minutes.
 						</p>
 					</div>
 
 					<div class="surface-panel stack-list">
-						<strong style="font-size: 1.2rem;">What happens after submission</strong>
+						<strong style="font-size: 1.2rem;">What happens next</strong>
 						<div class="comparison-card">
-							<strong>1. Intake</strong>
-							<div class="body-lg">We grab the provider link and essential metadata first.</div>
+							<strong>1. You send the details</strong>
+							<div class="body-lg">A link helps, but it isn’t required.</div>
 						</div>
 						<div class="comparison-card">
-							<strong>2. Review</strong>
-							<div class="body-lg">Events are approved against curation standards and venue clarity.</div>
+							<strong>2. We check the listing</strong>
+							<div class="body-lg">We confirm the date, Queens location, organizer, and registration link.</div>
 						</div>
 						<div class="comparison-card">
-							<strong>3. Publish</strong>
-							<div class="body-lg">Approved events land in the calendar, map, story feed, and saved-schedule flow.</div>
+							<strong>3. It goes live</strong>
+							<div class="body-lg">Approved events appear in the calendar, map, guides, and saved plans.</div>
 						</div>
 					</div>
 				</div>
@@ -144,8 +143,8 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 					</div>
 
 					<div class="button-row">
-						<button class="button-primary" type="submit" data-submit-button>Let&apos;s go</button>
-						<a class="button-ghost" href="/events">Back to the directory</a>
+						<button class="button-primary" type="submit" data-submit-button>Send event for review</button>
+						<a class="button-ghost" href="/events">Back to events</a>
 					</div>
 					<div class="surface-panel" data-submit-status hidden></div>
 				</form>
@@ -194,7 +193,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 				submitButton.disabled = true;
 				submitButton.textContent = 'Sending...';
 			}
-			setStatus('Submitting your intake...');
+			setStatus('Sending your event...');
 
 			try {
 				const payload = new URLSearchParams();
@@ -220,7 +219,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 			} finally {
 				if (submitButton instanceof HTMLButtonElement) {
 					submitButton.disabled = false;
-					submitButton.textContent = "Let's go";
+					submitButton.textContent = 'Send event for review';
 				}
 			}
 		});

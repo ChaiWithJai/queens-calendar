@@ -9,6 +9,7 @@ import '../styles/global.css';
 import '../styles/components.css';
 import '../styles/characters.css';
 import '../styles/compat.css';
+import '../styles/consumer.css';
 
 interface Props {
 	title: string;
@@ -97,7 +98,7 @@ const fullTitle = title === 'Queens Calendar' ? title : `${title} — Queens Cal
 					<a href="/events/submit" class="nav-link">Add an event</a>
 				</div>
 
-				<button class="nav-hamburger" id="nav-hamburger" aria-label="Open menu">
+				<button class="nav-hamburger" id="nav-hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-drawer">
 					<span></span>
 					<span></span>
 					<span></span>
@@ -105,7 +106,7 @@ const fullTitle = title === 'Queens Calendar' ? title : `${title} — Queens Cal
 			</div>
 		</nav>
 
-		<div class="mobile-drawer" id="mobile-drawer">
+		<div class="mobile-drawer" id="mobile-drawer" aria-hidden="true" inert>
 			<div class="mobile-drawer-backdrop" id="drawer-backdrop" aria-hidden="true"></div>
 			<div class="mobile-drawer-content" role="dialog" aria-modal="true" aria-label="Navigation menu">
 				<button class="mobile-drawer-close" id="drawer-close" aria-label="Close menu">✕</button>
@@ -127,16 +128,16 @@ const fullTitle = title === 'Queens Calendar' ? title : `${title} — Queens Cal
 					<div class="footer-brand">
 						<div class="footer-brand-name">Queens Calendar</div>
 						<p class="footer-brand-desc">
-							Arts, culture, technology, and community-organized events from across the borough.
+							A sharper answer to “what should we do?”—made in Queens, for Queens.
 						</p>
 					</div>
 					<div class="footer-col">
 						<div class="footer-col-title">Explore</div>
-						<a href="/events">All Events</a>
+						<a href="/events">All events</a>
 						<a href="/sources">Sources</a>
-						<a href="/schedule">My Schedule</a>
+						<a href="/schedule">My plan</a>
 						<a href="/map">Map</a>
-						<a href="/stories">Stories</a>
+						<a href="/stories">Guides</a>
 					</div>
 					<div class="footer-col">
 						<div class="footer-col-title">Community</div>
@@ -222,11 +223,20 @@ const fullTitle = title === 'Queens Calendar' ? title : `${title} — Queens Cal
 
 			const openDrawer = () => {
 				drawer?.classList.add('open');
+				drawer?.removeAttribute('inert');
+				drawer?.setAttribute('aria-hidden', 'false');
+				hamburger?.setAttribute('aria-expanded', 'true');
+				hamburger?.setAttribute('aria-label', 'Close menu');
 				document.body.dataset.drawerOpen = 'true';
+				closeBtn?.focus();
 			};
 
 			const closeDrawer = () => {
 				drawer?.classList.remove('open');
+				drawer?.setAttribute('inert', '');
+				drawer?.setAttribute('aria-hidden', 'true');
+				hamburger?.setAttribute('aria-expanded', 'false');
+				hamburger?.setAttribute('aria-label', 'Open menu');
 				document.body.dataset.drawerOpen = 'false';
 			};
 
