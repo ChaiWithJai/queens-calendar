@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T11:20:44.162Z",
+  "generatedAt": "2026-07-22T11:21:47.726Z",
   "catalogStatus": "fresh",
   "sources": [
     {
@@ -23,9 +23,9 @@
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/ecuadorian-spring-recital-recital-ecuatoriano-de-primavera-2026/",
+          "link": "https://queensmuseum.org/event/information-session-1-2027-28-qm-jerome-foundation-fellowship-for-emerging-artists/",
           "reasons": [
-            "outside rolling publication window (2026-06-14T18:00:00.000Z)"
+            "outside rolling publication window (2026-07-16T22:00:00.000Z)"
           ]
         },
         {
@@ -35,14 +35,14 @@
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/information-session-1-2027-28-qm-jerome-foundation-fellowship-for-emerging-artists/",
+          "link": "https://queensmuseum.org/event/queens-teens-institute-social-night-2026/",
           "reasons": [
-            "outside rolling publication window (2026-07-16T22:00:00.000Z)"
+            "outside rolling publication window (2026-05-30T21:30:00.000Z)"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 1102
+      "durationMs": 1339
     },
     {
       "id": "city-parks-foundation",
@@ -53,13 +53,13 @@
       "rejected": 59,
       "rejections": [
         {
-          "link": "https://cityparksfoundation.org/events/mavis-staples/",
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-mosholu-parkway-8/",
           "reasons": [
             "could not extract title/date from page"
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-mosholu-parkway-8/",
+          "link": "https://cityparksfoundation.org/events/mavis-staples/",
           "reasons": [
             "could not extract title/date from page"
           ]
@@ -71,20 +71,20 @@
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-soundview-park-5/",
+          "link": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-20/",
           "reasons": [
             "could not extract title/date from page"
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-20/",
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-sunset-park-85/",
           "reasons": [
             "could not extract title/date from page"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 35029
+      "durationMs": 41766
     },
     {
       "id": "museum-moving-image",
@@ -97,7 +97,7 @@
       "errors": [
         "HTTP 403"
       ],
-      "durationMs": 198
+      "durationMs": 206
     },
     {
       "id": "queens-public-library",
@@ -110,7 +110,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 213
+      "durationMs": 420
     },
     {
       "id": "flushing-town-hall",
@@ -123,20 +123,26 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 660
+      "durationMs": 517
     },
     {
       "id": "queens-botanical-garden",
       "name": "Queens Botanical Garden",
       "status": "ok",
       "discovered": 31,
-      "accepted": 9,
-      "rejected": 22,
+      "accepted": 8,
+      "rejected": 23,
       "rejections": [
         {
           "link": "https://queensbotanical.org/event/quintet-of-the-americas-6-3/",
           "reasons": [
             "outside rolling publication window (2026-06-28T15:00:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-06-29/",
+          "reasons": [
+            "outside rolling publication window (2026-06-29T13:30:00.000Z)"
           ]
         },
         {
@@ -152,15 +158,9 @@
           ]
         },
         {
-          "link": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-06-29/",
+          "link": "https://queensbotanical.org/event/independence-day-garden-is-closed/2026-07-04/",
           "reasons": [
-            "outside rolling publication window (2026-06-29T13:30:00.000Z)"
-          ]
-        },
-        {
-          "link": "https://queensbotanical.org/event/movie-night-the-neverending-story/",
-          "reasons": [
-            "outside rolling publication window (2026-07-10T22:30:00.000Z)"
+            "outside rolling publication window (2026-07-04T04:00:00.000Z)"
           ]
         }
       ],
@@ -173,7 +173,7 @@
         "https://queensbotanical.org/event/compost-beautification-community-volunteer-days-15/all/: HTTP 404",
         "https://queensbotanical.org/event/open-farm-hours-7/all/: HTTP 404"
       ],
-      "durationMs": 6067
+      "durationMs": 5182
     },
     {
       "id": "noguchi-museum",
@@ -184,7 +184,7 @@
       "rejected": 0,
       "rejections": [],
       "errors": [],
-      "durationMs": 7968
+      "durationMs": 11243
     },
     {
       "id": "socrates-sculpture-park",
@@ -195,25 +195,25 @@
       "rejected": 16,
       "rejections": [
         {
-          "link": "https://socratessculpturepark.org/programevent/sunset-meditation-with-mindful-astoria/",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
-          "link": "https://socratessculpturepark.org/programevent/queensboro-dance-festival-dance-classes-and-performances/",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
           "link": "https://socratessculpturepark.org/programevent/yoga-at-socrates-with-astoria-yoga/",
           "reasons": [
             "could not extract title/date from page"
           ]
         },
         {
-          "link": "https://socratessculpturepark.org/programevent/hip-to-hip-theatre-company-presents-as-you-like-it/",
+          "link": "https://socratessculpturepark.org/programevent/ballet-folklorico-mexicano-de-nueva-york-presents-la-guelaguetza/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
+        {
+          "link": "https://socratessculpturepark.org/programevent/39266/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
+        {
+          "link": "https://socratessculpturepark.org/programevent/sunset-meditation-with-mindful-astoria/",
           "reasons": [
             "could not extract title/date from page"
           ]
@@ -226,7 +226,7 @@
         }
       ],
       "errors": [],
-      "durationMs": 3750
+      "durationMs": 4804
     },
     {
       "id": "queens-theatre",
@@ -243,19 +243,13 @@
           ]
         },
         {
-          "link": "https://queenstheatre.org/events/special-event",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
           "link": "https://queenstheatre.org/events/family",
           "reasons": [
             "could not extract title/date from page"
           ]
         },
         {
-          "link": "https://queenstheatre.org/events/dance",
+          "link": "https://queenstheatre.org/events/special-event",
           "reasons": [
             "could not extract title/date from page"
           ]
@@ -265,16 +259,22 @@
           "reasons": [
             "could not extract title/date from page"
           ]
+        },
+        {
+          "link": "https://queenstheatre.org/events/dance",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
         }
       ],
       "errors": [],
-      "durationMs": 4696
+      "durationMs": 5168
     }
   ],
   "totals": {
     "discovered": 175,
-    "accepted": 38,
-    "published": 38,
-    "rejected": 137
+    "accepted": 37,
+    "published": 37,
+    "rejected": 138
   }
 }

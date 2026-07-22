@@ -1,60 +1,5 @@
 [
   {
-    "id": "qc_d785a7ea18b4248d",
-    "slug": "compost-build-community-volunteer-days-2026-07-20",
-    "title": "Compost Build Community Volunteer Days",
-    "description": "Join the QBG Compost Staff for our weekly on-site compost build and learn about processing community food scraps into nutrient-rich compost. Register here",
-    "startDate": "2026-07-20T13:30:00.000Z",
-    "endDate": "2026-07-20T16:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "parks-outdoors",
-      "family",
-      "community",
-      "food"
-    ],
-    "tags": [],
-    "image": null,
-    "price": null,
-    "registrationUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-07-20/",
-    "venue": {
-      "name": "Queens Botanical Garden",
-      "address": "43-50 Main St, Flushing, NY 11355",
-      "neighborhood": "Flushing",
-      "latitude": 40.7516,
-      "longitude": -73.8268
-    },
-    "organizer": {
-      "name": "Queens Botanical Garden",
-      "url": "https://queensbotanical.org/"
-    },
-    "source": {
-      "name": "Queens Botanical Garden",
-      "listingUrl": "https://queensbotanical.org/calendar/",
-      "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-07-20/",
-      "retrievedAt": "2026-07-21T11:20:27.288Z",
-      "method": "json-ld"
-    },
-    "weekKey": "2026-W30",
-    "answerSummary": "Compost Build Community Volunteer Days is happening Monday, July 20 at 9:30 AM at Queens Botanical Garden in Flushing, Queens. Join the QBG Compost Staff for our weekly on-site compost build and learn about processing community food scraps into nutrient-rich compost. Register here",
-    "faqs": [
-      {
-        "question": "When is Compost Build Community Volunteer Days?",
-        "answer": "Compost Build Community Volunteer Days starts Monday, July 20 at 9:30 AM."
-      },
-      {
-        "question": "Where is Compost Build Community Volunteer Days?",
-        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
-      },
-      {
-        "question": "How do I register for Compost Build Community Volunteer Days?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
-      }
-    ]
-  },
-  {
     "id": "qc_6e2b87816557626d",
     "slug": "farm-community-volunteer-days-2026-07-22",
     "title": "Farm Community Volunteer Days",
@@ -88,7 +33,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-07-22/",
-      "retrievedAt": "2026-07-21T11:20:27.324Z",
+      "retrievedAt": "2026-07-22T11:21:25.207Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W30",
@@ -143,7 +88,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-07-23/",
-      "retrievedAt": "2026-07-21T11:20:26.086Z",
+      "retrievedAt": "2026-07-22T11:21:25.313Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W30",
@@ -196,7 +141,7 @@
       "name": "City Parks Foundation",
       "listingUrl": "https://cityparksfoundation.org/calendar/month/",
       "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-29/",
-      "retrievedAt": "2026-07-21T11:20:17.762Z",
+      "retrievedAt": "2026-07-22T11:21:13.004Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W30",
@@ -250,7 +195,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/open-farm-hours-7/2026-07-23/",
-      "retrievedAt": "2026-07-21T11:20:26.175Z",
+      "retrievedAt": "2026-07-22T11:21:25.491Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W30",
@@ -304,7 +249,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-07-23-1700-walking-tour-noguchis-new-york/",
-      "retrievedAt": "2026-07-21T11:20:29.744Z",
+      "retrievedAt": "2026-07-22T11:21:29.253Z",
       "method": "html"
     },
     "weekKey": "2026-W30",
@@ -357,7 +302,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-07-24-1000-arte-en-el-noguchi-agua-de-florida-y-tes/",
-      "retrievedAt": "2026-07-21T11:20:31.041Z",
+      "retrievedAt": "2026-07-22T11:21:32.899Z",
       "method": "html"
     },
     "weekKey": "2026-W30",
@@ -412,7 +357,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/movie-night-zootopia-2/",
-      "retrievedAt": "2026-07-21T11:20:27.648Z",
+      "retrievedAt": "2026-07-22T11:21:25.505Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W30",
@@ -465,7 +410,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-07-25-1000-mindfulness-in-the-galleries/",
-      "retrievedAt": "2026-07-21T11:20:30.569Z",
+      "retrievedAt": "2026-07-22T11:21:32.299Z",
       "method": "html"
     },
     "weekKey": "2026-W30",
@@ -518,7 +463,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-07-26-1500-hands-on-drawing/",
-      "retrievedAt": "2026-07-21T11:20:30.638Z",
+      "retrievedAt": "2026-07-22T11:21:32.497Z",
       "method": "html"
     },
     "weekKey": "2026-W30",
@@ -540,7 +485,7 @@
   },
   {
     "id": "qc_f5f2496093c41a8c",
-    "slug": "compost-build-community-volunteer-days-2026-07-27",
+    "slug": "compost-build-community-volunteer-days",
     "title": "Compost Build Community Volunteer Days",
     "description": "Join the QBG Compost Staff for our weekly on-site compost build and learn about processing community food scraps into nutrient-rich compost. Register here",
     "startDate": "2026-07-27T13:30:00.000Z",
@@ -573,7 +518,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-07-27/",
-      "retrievedAt": "2026-07-21T11:20:26.233Z",
+      "retrievedAt": "2026-07-22T11:21:25.598Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W31",
@@ -627,7 +572,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-07-29/",
-      "retrievedAt": "2026-07-21T11:20:26.293Z",
+      "retrievedAt": "2026-07-22T11:21:25.617Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W31",
@@ -682,7 +627,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-07-30/",
-      "retrievedAt": "2026-07-21T11:20:27.745Z",
+      "retrievedAt": "2026-07-22T11:21:25.655Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W31",
@@ -736,7 +681,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/open-farm-hours-7/2026-07-30/",
-      "retrievedAt": "2026-07-21T11:20:26.405Z",
+      "retrievedAt": "2026-07-22T11:21:25.698Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W31",
@@ -789,7 +734,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-07-30-1830-members-event-curator-led-tour-of-noguchis-new-york/",
-      "retrievedAt": "2026-07-21T11:20:30.654Z",
+      "retrievedAt": "2026-07-22T11:21:34.775Z",
       "method": "html"
     },
     "weekKey": "2026-W31",
@@ -842,7 +787,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-07-31-1000-arte-en-el-noguchi-socrates-sculpture-park/",
-      "retrievedAt": "2026-07-21T11:20:31.049Z",
+      "retrievedAt": "2026-07-22T11:21:31.459Z",
       "method": "html"
     },
     "weekKey": "2026-W31",
@@ -895,7 +840,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-07-1100-free-first-friday/",
-      "retrievedAt": "2026-07-21T11:20:31.436Z",
+      "retrievedAt": "2026-07-22T11:21:30.453Z",
       "method": "html"
     },
     "weekKey": "2026-W32",
@@ -948,7 +893,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-07-1500-tour-publico-museum-tour-in-spanish/",
-      "retrievedAt": "2026-07-21T11:20:31.945Z",
+      "retrievedAt": "2026-07-22T11:21:31.817Z",
       "method": "html"
     },
     "weekKey": "2026-W32",
@@ -1001,7 +946,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-07-1600-arte-en-el-noguchi-arte-fiesta-con-el-colectivo-discolocas/",
-      "retrievedAt": "2026-07-21T11:20:32.158Z",
+      "retrievedAt": "2026-07-22T11:21:32.864Z",
       "method": "html"
     },
     "weekKey": "2026-W32",
@@ -1055,7 +1000,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-08-1100-community-day/",
-      "retrievedAt": "2026-07-21T11:20:32.144Z",
+      "retrievedAt": "2026-07-22T11:21:33.092Z",
       "method": "html"
     },
     "weekKey": "2026-W32",
@@ -1108,7 +1053,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-09-1500-%e4%b8%ad%e6%96%87%e5%85%ac%e7%9c%be%e5%b0%8e%e8%a6%bd-museum-tour-in-mandarin-chinese/",
-      "retrievedAt": "2026-07-21T11:20:32.445Z",
+      "retrievedAt": "2026-07-22T11:21:33.571Z",
       "method": "html"
     },
     "weekKey": "2026-W32",
@@ -1161,7 +1106,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-10-1930-drawing-from-a-distance/",
-      "retrievedAt": "2026-07-21T11:20:32.626Z",
+      "retrievedAt": "2026-07-22T11:21:34.074Z",
       "method": "html"
     },
     "weekKey": "2026-W33",
@@ -1214,7 +1159,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-12-1830-gimlets-in-the-garden/",
-      "retrievedAt": "2026-07-21T11:20:32.762Z",
+      "retrievedAt": "2026-07-22T11:21:34.271Z",
       "method": "html"
     },
     "weekKey": "2026-W33",
@@ -1268,7 +1213,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-13-1700-walking-tour-noguchis-new-york/",
-      "retrievedAt": "2026-07-21T11:20:33.439Z",
+      "retrievedAt": "2026-07-22T11:21:34.391Z",
       "method": "html"
     },
     "weekKey": "2026-W33",
@@ -1321,7 +1266,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-14-1000-arte-en-el-noguchi-hongosto-caminata-de-hongos-en-colaboracion-con-la-sociedad-micologica-de-nueva-york/",
-      "retrievedAt": "2026-07-21T11:20:33.568Z",
+      "retrievedAt": "2026-07-22T11:21:34.976Z",
       "method": "html"
     },
     "weekKey": "2026-W33",
@@ -1374,7 +1319,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-15-1000-mindfulness-in-the-galleries/",
-      "retrievedAt": "2026-07-21T11:20:33.575Z",
+      "retrievedAt": "2026-07-22T11:21:35.082Z",
       "method": "html"
     },
     "weekKey": "2026-W33",
@@ -1427,7 +1372,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-09-04-1100-free-first-friday/",
-      "retrievedAt": "2026-07-21T11:20:33.941Z",
+      "retrievedAt": "2026-07-22T11:21:35.576Z",
       "method": "html"
     },
     "weekKey": "2026-W36",
@@ -1480,7 +1425,7 @@
       "name": "Queens Museum",
       "listingUrl": "https://queensmuseum.org/event/",
       "canonicalUrl": "https://queensmuseum.org/event/information-session-2-2027-28-qm-jerome-foundation-fellowship-for-emerging-artists/",
-      "retrievedAt": "2026-07-21T11:19:45.450Z",
+      "retrievedAt": "2026-07-22T11:20:38.134Z",
       "method": "html"
     },
     "weekKey": "2026-W37",
@@ -1533,7 +1478,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-09-12-1000-members-morning-private-viewing-hour-of-noguchis-new-york/",
-      "retrievedAt": "2026-07-21T11:20:34.019Z",
+      "retrievedAt": "2026-07-22T11:21:36.460Z",
       "method": "html"
     },
     "weekKey": "2026-W37",
@@ -1586,7 +1531,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-09-12-1100-socrates-x-noguchi-field-guide-regeneration-natural-materials-with-julia-norton/",
-      "retrievedAt": "2026-07-21T11:20:34.147Z",
+      "retrievedAt": "2026-07-22T11:21:35.985Z",
       "method": "html"
     },
     "weekKey": "2026-W37",
@@ -1639,7 +1584,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-09-14-1930-drawing-from-a-distance/",
-      "retrievedAt": "2026-07-21T11:20:34.752Z",
+      "retrievedAt": "2026-07-22T11:21:36.467Z",
       "method": "html"
     },
     "weekKey": "2026-W38",
@@ -1692,7 +1637,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-09-26-1500-%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%81%a7%e3%81%ae%e3%83%84%e3%82%a2%e3%83%bc-museum-tour-in-japanese/",
-      "retrievedAt": "2026-07-21T11:20:34.957Z",
+      "retrievedAt": "2026-07-22T11:21:36.659Z",
       "method": "html"
     },
     "weekKey": "2026-W39",
@@ -1745,7 +1690,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-09-27-1500-hands-on-drawing/",
-      "retrievedAt": "2026-07-21T11:20:34.948Z",
+      "retrievedAt": "2026-07-22T11:21:36.773Z",
       "method": "html"
     },
     "weekKey": "2026-W39",
@@ -1798,7 +1743,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-10-10-1500-%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%81%a7%e3%81%ae%e3%83%84%e3%82%a2%e3%83%bc-museum-tour-in-japanese/",
-      "retrievedAt": "2026-07-21T11:20:35.259Z",
+      "retrievedAt": "2026-07-22T11:21:37.175Z",
       "method": "html"
     },
     "weekKey": "2026-W41",
@@ -1851,7 +1796,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-10-19-1930-drawing-from-a-distance/",
-      "retrievedAt": "2026-07-21T11:20:35.321Z",
+      "retrievedAt": "2026-07-22T11:21:37.387Z",
       "method": "html"
     },
     "weekKey": "2026-W43",
@@ -1904,7 +1849,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-15-1500-hands-on-drawing/",
-      "retrievedAt": "2026-07-21T11:20:35.475Z",
+      "retrievedAt": "2026-07-22T11:21:37.687Z",
       "method": "html"
     },
     "weekKey": "2026-W46",
@@ -1957,7 +1902,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-16-1930-drawing-from-a-distance/",
-      "retrievedAt": "2026-07-21T11:20:35.636Z",
+      "retrievedAt": "2026-07-22T11:21:37.676Z",
       "method": "html"
     },
     "weekKey": "2026-W47",
@@ -2010,7 +1955,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-12-21-1930-drawing-from-a-distance/",
-      "retrievedAt": "2026-07-21T11:20:35.712Z",
+      "retrievedAt": "2026-07-22T11:21:37.750Z",
       "method": "html"
     },
     "weekKey": "2026-W52",
