@@ -1,436 +1,5 @@
 [
   {
-    "id": "qc_6e2b87816557626d",
-    "slug": "farm-community-volunteer-days-2026-07-22",
-    "title": "Farm Community Volunteer Days",
-    "description": "Join QBG’s Farm staff for an engaging, educational event where you will learn gardening basics and work hands-on with plants.",
-    "startDate": "2026-07-22T13:30:00.000Z",
-    "endDate": "2026-07-22T16:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "parks-outdoors",
-      "family",
-      "community"
-    ],
-    "tags": [],
-    "image": null,
-    "price": null,
-    "registrationUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-07-22/",
-    "venue": {
-      "name": "Queens Botanical Garden",
-      "address": "43-50 Main St, Flushing, NY 11355",
-      "neighborhood": "Flushing",
-      "latitude": 40.7516,
-      "longitude": -73.8268
-    },
-    "organizer": {
-      "name": "Queens Botanical Garden",
-      "url": "https://queensbotanical.org/"
-    },
-    "source": {
-      "name": "Queens Botanical Garden",
-      "listingUrl": "https://queensbotanical.org/calendar/",
-      "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-07-22/",
-      "retrievedAt": "2026-07-22T11:21:25.207Z",
-      "method": "json-ld"
-    },
-    "weekKey": "2026-W30",
-    "answerSummary": "Farm Community Volunteer Days is happening Wednesday, July 22 at 9:30 AM at Queens Botanical Garden in Flushing, Queens. Join QBG’s Farm staff for an engaging, educational event where you will learn gardening basics and work hands-on with plants.",
-    "faqs": [
-      {
-        "question": "When is Farm Community Volunteer Days?",
-        "answer": "Farm Community Volunteer Days starts Wednesday, July 22 at 9:30 AM."
-      },
-      {
-        "question": "Where is Farm Community Volunteer Days?",
-        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
-      },
-      {
-        "question": "How do I register for Farm Community Volunteer Days?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_86cf8028cb3ef3ec",
-    "slug": "horticulture-community-volunteer-days-2026-2026-07-23",
-    "title": "Horticulture Community Volunteer Days 2026",
-    "description": "Help keep QBG clean, green, and growing! Join QBG’s horticulture staff in a variety of gardening activities. Help keep Queens Botanical Garden clean, green, and growing! Join QBG’s horticulture staff for an engaging, educational event where you will learn gardening basics and work hands-on with plants. Make new friends and put your green thumb to good use in a variety […]",
-    "startDate": "2026-07-23T12:45:00.000Z",
-    "endDate": "2026-07-23T15:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "parks-outdoors",
-      "family",
-      "community",
-      "arts-culture"
-    ],
-    "tags": [],
-    "image": null,
-    "price": null,
-    "registrationUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-07-23/",
-    "venue": {
-      "name": "Queens Botanical Garden",
-      "address": "4350 Main Street, Flushing, NY, 11355",
-      "neighborhood": "Flushing",
-      "latitude": 40.7511528,
-      "longitude": -73.8274729
-    },
-    "organizer": {
-      "name": "Queens Botanical Garden",
-      "url": "http://www.queensbotanical.org"
-    },
-    "source": {
-      "name": "Queens Botanical Garden",
-      "listingUrl": "https://queensbotanical.org/calendar/",
-      "canonicalUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-07-23/",
-      "retrievedAt": "2026-07-22T11:21:25.313Z",
-      "method": "json-ld"
-    },
-    "weekKey": "2026-W30",
-    "answerSummary": "Horticulture Community Volunteer Days 2026 is happening Thursday, July 23 at 8:45 AM at Queens Botanical Garden in Flushing, Queens. Help keep QBG clean, green, and growing! Join QBG’s horticulture staff in a variety of gardening activities. Help keep Queens Botanical Garden clean, green, and growing! Join QBG’s horticulture staff for an engaging, educationa",
-    "faqs": [
-      {
-        "question": "When is Horticulture Community Volunteer Days 2026?",
-        "answer": "Horticulture Community Volunteer Days 2026 starts Thursday, July 23 at 8:45 AM."
-      },
-      {
-        "question": "Where is Horticulture Community Volunteer Days 2026?",
-        "answer": "Queens Botanical Garden, 4350 Main Street, Flushing, NY, 11355."
-      },
-      {
-        "question": "How do I register for Horticulture Community Volunteer Days 2026?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_143deed62212c040",
-    "slug": "it-s-my-park-at-hunter-s-point-south-park",
-    "title": "It’s My Park at Hunter’s Point South Park",
-    "description": "Volunteer with Hunters Point Parks Conservancy to beautify Hunter's Point South Park.",
-    "startDate": "2026-07-23T14:00:00.000Z",
-    "endDate": "2026-07-23T16:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "community",
-      "arts-culture"
-    ],
-    "tags": [],
-    "image": "https://cityparksfoundation.org/wp-content/uploads/2025/03/IMP_widget_2023_lft_1-2-1-1-2-2-2-1-1-3-4-3-2-3-5-1-1-3-2-1-1-1-16-2-3-1-2-1-10-1-3-1-2-1-2-1-4-1-1-6-2-5-3-1-1-1-4-1-3.jpg",
-    "price": "0",
-    "registrationUrl": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-29/",
-    "venue": {
-      "name": "It’s My Park at Hunter’s Point South Park",
-      "address": "Long Island City, Queens, NY",
-      "neighborhood": "Long Island City",
-      "latitude": 40.7447,
-      "longitude": -73.9485
-    },
-    "organizer": {
-      "name": "Volunteer",
-      "url": "https://cityparksfoundation.org/"
-    },
-    "source": {
-      "name": "City Parks Foundation",
-      "listingUrl": "https://cityparksfoundation.org/calendar/month/",
-      "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-29/",
-      "retrievedAt": "2026-07-22T11:21:13.004Z",
-      "method": "json-ld"
-    },
-    "weekKey": "2026-W30",
-    "answerSummary": "It’s My Park at Hunter’s Point South Park is happening Thursday, July 23 at 10:00 AM at It’s My Park at Hunter’s Point South Park in Long Island City, Queens. Volunteer with Hunters Point Parks Conservancy to beautify Hunter's Point South Park.",
-    "faqs": [
-      {
-        "question": "When is It’s My Park at Hunter’s Point South Park?",
-        "answer": "It’s My Park at Hunter’s Point South Park starts Thursday, July 23 at 10:00 AM."
-      },
-      {
-        "question": "Where is It’s My Park at Hunter’s Point South Park?",
-        "answer": "It’s My Park at Hunter’s Point South Park, Long Island City, Queens, NY."
-      },
-      {
-        "question": "How do I register for It’s My Park at Hunter’s Point South Park?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Volunteer, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_530213dd9c911f71",
-    "slug": "farm-open-hours-2026-07-23",
-    "title": "Farm Open Hours",
-    "description": "Come and explore the QBG Farm and learn about everything we are growing at our Farm Open Hours.",
-    "startDate": "2026-07-23T14:00:00.000Z",
-    "endDate": "2026-07-23T16:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "parks-outdoors",
-      "family",
-      "community"
-    ],
-    "tags": [],
-    "image": null,
-    "price": null,
-    "registrationUrl": "https://queensbotanical.org/event/open-farm-hours-7/2026-07-23/",
-    "venue": {
-      "name": "Queens Botanical Garden",
-      "address": "43-50 Main St, Flushing, NY 11355",
-      "neighborhood": "Flushing",
-      "latitude": 40.7516,
-      "longitude": -73.8268
-    },
-    "organizer": {
-      "name": "Queens Botanical Garden",
-      "url": "https://queensbotanical.org/"
-    },
-    "source": {
-      "name": "Queens Botanical Garden",
-      "listingUrl": "https://queensbotanical.org/calendar/",
-      "canonicalUrl": "https://queensbotanical.org/event/open-farm-hours-7/2026-07-23/",
-      "retrievedAt": "2026-07-22T11:21:25.491Z",
-      "method": "json-ld"
-    },
-    "weekKey": "2026-W30",
-    "answerSummary": "Farm Open Hours is happening Thursday, July 23 at 10:00 AM at Queens Botanical Garden in Flushing, Queens. Come and explore the QBG Farm and learn about everything we are growing at our Farm Open Hours.",
-    "faqs": [
-      {
-        "question": "When is Farm Open Hours?",
-        "answer": "Farm Open Hours starts Thursday, July 23 at 10:00 AM."
-      },
-      {
-        "question": "Where is Farm Open Hours?",
-        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
-      },
-      {
-        "question": "How do I register for Farm Open Hours?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_7cd26782d236160f",
-    "slug": "walking-tour-noguchi-s-new-york-2026-07-23",
-    "title": "Walking Tour: Noguchi’s New York",
-    "description": "To coincide with the exhibition Noguchi’s New York, The Noguchi Museum will present a series of educator-led walking tours of Isamu Noguchi’s public sculptures Sunken Garden for Chase Manhattan Bank Plaza (1961–64) and Red Cube (1968), located in New York City’s Financial District.",
-    "startDate": "2026-07-23T21:00:00.000Z",
-    "endDate": "2026-07-23T23:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "arts-culture",
-      "family",
-      "community"
-    ],
-    "tags": [],
-    "image": "https://www.noguchi.org/wp-content/uploads/2026/06/220709-Noguchi-Red-Cube-042.jpg",
-    "price": null,
-    "registrationUrl": "https://noguchieducation.wufoo.com/forms/pbgnohw0bcv4d1/",
-    "venue": {
-      "name": "The Noguchi Museum",
-      "address": "9-01 33rd Rd, Long Island City, NY 11106",
-      "neighborhood": "Long Island City",
-      "latitude": 40.7668,
-      "longitude": -73.9381
-    },
-    "organizer": {
-      "name": "The Noguchi Museum",
-      "url": "https://www.noguchi.org/"
-    },
-    "source": {
-      "name": "The Noguchi Museum",
-      "listingUrl": "https://www.noguchi.org/museum/calendar/",
-      "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-07-23-1700-walking-tour-noguchis-new-york/",
-      "retrievedAt": "2026-07-22T11:21:29.253Z",
-      "method": "html"
-    },
-    "weekKey": "2026-W30",
-    "answerSummary": "Walking Tour: Noguchi’s New York is happening Thursday, July 23 at 5:00 PM at The Noguchi Museum in Long Island City, Queens. To coincide with the exhibition Noguchi’s New York, The Noguchi Museum will present a series of educator-led walking tours of Isamu Noguchi’s public sculptures Sunken Garden for Chase Manhattan Bank Plaza (1961–64) and Red Cube (1968)",
-    "faqs": [
-      {
-        "question": "When is Walking Tour: Noguchi’s New York?",
-        "answer": "Walking Tour: Noguchi’s New York starts Thursday, July 23 at 5:00 PM."
-      },
-      {
-        "question": "Where is Walking Tour: Noguchi’s New York?",
-        "answer": "The Noguchi Museum, 9-01 33rd Rd, Long Island City, NY 11106."
-      },
-      {
-        "question": "How do I register for Walking Tour: Noguchi’s New York?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_380b6a36e847bc91",
-    "slug": "arte-en-el-noguchi-agua-de-florida-y-tes",
-    "title": "Arte en el Noguchi: Agua de Florida y tés",
-    "description": "Les esperamos los viernes por la mañana durante el verano, para disfrutar una serie de talleres gratuitos de arte en español para toda la familia dirigidos por la artista Sol Aramendi. Pasaremos tiempo explorando las galerías y el jardín del museo. Y podrán participar en el taller de arte creando conexiones con su vida.",
-    "startDate": "2026-07-24T14:00:00.000Z",
-    "endDate": "2026-07-24T16:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "arts-culture",
-      "family"
-    ],
-    "tags": [],
-    "image": "https://www.noguchi.org/wp-content/uploads/2023/04/Mushroom-Prints-Photo-Sol-Aramendi-1.jpg",
-    "price": null,
-    "registrationUrl": "https://www.noguchi.org/museum/calendar/event/2026-07-24-1000-arte-en-el-noguchi-agua-de-florida-y-tes/",
-    "venue": {
-      "name": "The Noguchi Museum",
-      "address": "9-01 33rd Rd, Long Island City, NY 11106",
-      "neighborhood": "Long Island City",
-      "latitude": 40.7668,
-      "longitude": -73.9381
-    },
-    "organizer": {
-      "name": "The Noguchi Museum",
-      "url": "https://www.noguchi.org/"
-    },
-    "source": {
-      "name": "The Noguchi Museum",
-      "listingUrl": "https://www.noguchi.org/museum/calendar/",
-      "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-07-24-1000-arte-en-el-noguchi-agua-de-florida-y-tes/",
-      "retrievedAt": "2026-07-22T11:21:32.899Z",
-      "method": "html"
-    },
-    "weekKey": "2026-W30",
-    "answerSummary": "Arte en el Noguchi: Agua de Florida y tés is happening Friday, July 24 at 10:00 AM at The Noguchi Museum in Long Island City, Queens. Les esperamos los viernes por la mañana durante el verano, para disfrutar una serie de talleres gratuitos de arte en español para toda la familia dirigidos por la artista Sol Aramendi. Pasaremos tiempo explorando las galerías ",
-    "faqs": [
-      {
-        "question": "When is Arte en el Noguchi: Agua de Florida y tés?",
-        "answer": "Arte en el Noguchi: Agua de Florida y tés starts Friday, July 24 at 10:00 AM."
-      },
-      {
-        "question": "Where is Arte en el Noguchi: Agua de Florida y tés?",
-        "answer": "The Noguchi Museum, 9-01 33rd Rd, Long Island City, NY 11106."
-      },
-      {
-        "question": "How do I register for Arte en el Noguchi: Agua de Florida y tés?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_d8abf51dbe7a8e35",
-    "slug": "movie-night-zootopia-2",
-    "title": "Movie Night: Zootopia 2",
-    "description": "Movie nights are back for the summer! Come early for snacks, drinks, and activities. Screening begins at 8 pm.",
-    "startDate": "2026-07-24T22:30:00.000Z",
-    "endDate": "2026-07-25T02:30:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "parks-outdoors",
-      "family",
-      "community",
-      "arts-culture"
-    ],
-    "tags": [],
-    "image": null,
-    "price": null,
-    "registrationUrl": "https://queensbotanical.org/event/movie-night-zootopia-2/",
-    "venue": {
-      "name": "Queens Botanical Garden",
-      "address": "43-50 Main St, Flushing, NY 11355",
-      "neighborhood": "Flushing",
-      "latitude": 40.7516,
-      "longitude": -73.8268
-    },
-    "organizer": {
-      "name": "Queens Botanical Garden",
-      "url": "http://www.queensbotanical.org"
-    },
-    "source": {
-      "name": "Queens Botanical Garden",
-      "listingUrl": "https://queensbotanical.org/calendar/",
-      "canonicalUrl": "https://queensbotanical.org/event/movie-night-zootopia-2/",
-      "retrievedAt": "2026-07-22T11:21:25.505Z",
-      "method": "json-ld"
-    },
-    "weekKey": "2026-W30",
-    "answerSummary": "Movie Night: Zootopia 2 is happening Friday, July 24 at 6:30 PM at Queens Botanical Garden in Flushing, Queens. Movie nights are back for the summer! Come early for snacks, drinks, and activities. Screening begins at 8 pm.",
-    "faqs": [
-      {
-        "question": "When is Movie Night: Zootopia 2?",
-        "answer": "Movie Night: Zootopia 2 starts Friday, July 24 at 6:30 PM."
-      },
-      {
-        "question": "Where is Movie Night: Zootopia 2?",
-        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
-      },
-      {
-        "question": "How do I register for Movie Night: Zootopia 2?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_c2df8398aba67819",
-    "slug": "mindfulness-in-the-galleries-2026-07-25",
-    "title": "Mindfulness in the Galleries",
-    "description": "Each session includes guided meditation, reflection, and conversation inspired by Isamu Noguchi’s artwork. You do not need to have any prior experience with mindfulness or meditation to attend, and all materials will be provided. Scholarships are available if the cost of admission is a barrier to participation. Please email education@noguchi.org with questions.",
-    "startDate": "2026-07-25T14:00:00.000Z",
-    "endDate": "2026-07-25T16:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "arts-culture",
-      "family"
-    ],
-    "tags": [],
-    "image": "https://www.noguchi.org/wp-content/uploads/2025/09/Noguchi-Meditation-10-scaled-e1758916912647.jpg",
-    "price": null,
-    "registrationUrl": "https://noguchieducation.wufoo.com/forms/p1a3oebr0adaja3/",
-    "venue": {
-      "name": "The Noguchi Museum",
-      "address": "9-01 33rd Rd, Long Island City, NY 11106",
-      "neighborhood": "Long Island City",
-      "latitude": 40.7668,
-      "longitude": -73.9381
-    },
-    "organizer": {
-      "name": "The Noguchi Museum",
-      "url": "https://www.noguchi.org/"
-    },
-    "source": {
-      "name": "The Noguchi Museum",
-      "listingUrl": "https://www.noguchi.org/museum/calendar/",
-      "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-07-25-1000-mindfulness-in-the-galleries/",
-      "retrievedAt": "2026-07-22T11:21:32.299Z",
-      "method": "html"
-    },
-    "weekKey": "2026-W30",
-    "answerSummary": "Mindfulness in the Galleries is happening Saturday, July 25 at 10:00 AM at The Noguchi Museum in Long Island City, Queens. Each session includes guided meditation, reflection, and conversation inspired by Isamu Noguchi’s artwork. You do not need to have any prior experience with mindfulness or meditation to attend, and all materials will be provided. Scholar",
-    "faqs": [
-      {
-        "question": "When is Mindfulness in the Galleries?",
-        "answer": "Mindfulness in the Galleries starts Saturday, July 25 at 10:00 AM."
-      },
-      {
-        "question": "Where is Mindfulness in the Galleries?",
-        "answer": "The Noguchi Museum, 9-01 33rd Rd, Long Island City, NY 11106."
-      },
-      {
-        "question": "How do I register for Mindfulness in the Galleries?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
-      }
-    ]
-  },
-  {
     "id": "qc_323c17581a8150e7",
     "slug": "hands-on-drawing-2026-07-26",
     "title": "Hands-On: Drawing",
@@ -463,7 +32,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-07-26-1500-hands-on-drawing/",
-      "retrievedAt": "2026-07-22T11:21:32.497Z",
+      "retrievedAt": "2026-07-26T10:55:09.011Z",
       "method": "html"
     },
     "weekKey": "2026-W30",
@@ -518,7 +87,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-07-27/",
-      "retrievedAt": "2026-07-22T11:21:25.598Z",
+      "retrievedAt": "2026-07-26T10:55:06.036Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W31",
@@ -540,7 +109,7 @@
   },
   {
     "id": "qc_b364457f0fe82745",
-    "slug": "farm-community-volunteer-days-2026-07-29",
+    "slug": "farm-community-volunteer-days",
     "title": "Farm Community Volunteer Days",
     "description": "Join QBG’s Farm staff for an engaging, educational event where you will learn gardening basics and work hands-on with plants.",
     "startDate": "2026-07-29T13:30:00.000Z",
@@ -572,7 +141,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-07-29/",
-      "retrievedAt": "2026-07-22T11:21:25.617Z",
+      "retrievedAt": "2026-07-26T10:55:06.055Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W31",
@@ -594,7 +163,7 @@
   },
   {
     "id": "qc_29eb9e81efc31427",
-    "slug": "horticulture-community-volunteer-days-2026-2026-07-30",
+    "slug": "horticulture-community-volunteer-days-2026",
     "title": "Horticulture Community Volunteer Days 2026",
     "description": "Help keep QBG clean, green, and growing! Join QBG’s horticulture staff in a variety of gardening activities. Help keep Queens Botanical Garden clean, green, and growing! Join QBG’s horticulture staff for an engaging, educational event where you will learn gardening basics and work hands-on with plants. Make new friends and put your green thumb to good use in a variety […]",
     "startDate": "2026-07-30T12:45:00.000Z",
@@ -627,7 +196,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-07-30/",
-      "retrievedAt": "2026-07-22T11:21:25.655Z",
+      "retrievedAt": "2026-07-26T10:55:07.062Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W31",
@@ -649,7 +218,7 @@
   },
   {
     "id": "qc_4ab65250d30f7455",
-    "slug": "farm-open-hours-2026-07-30",
+    "slug": "farm-open-hours",
     "title": "Farm Open Hours",
     "description": "Come and explore the QBG Farm and learn about everything we are growing at our Farm Open Hours.",
     "startDate": "2026-07-30T14:00:00.000Z",
@@ -681,7 +250,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/open-farm-hours-7/2026-07-30/",
-      "retrievedAt": "2026-07-22T11:21:25.698Z",
+      "retrievedAt": "2026-07-26T10:55:06.143Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W31",
@@ -734,7 +303,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-07-30-1830-members-event-curator-led-tour-of-noguchis-new-york/",
-      "retrievedAt": "2026-07-22T11:21:34.775Z",
+      "retrievedAt": "2026-07-26T10:55:10.191Z",
       "method": "html"
     },
     "weekKey": "2026-W31",
@@ -787,7 +356,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-07-31-1000-arte-en-el-noguchi-socrates-sculpture-park/",
-      "retrievedAt": "2026-07-22T11:21:31.459Z",
+      "retrievedAt": "2026-07-26T10:55:10.101Z",
       "method": "html"
     },
     "weekKey": "2026-W31",
@@ -808,10 +377,116 @@
     ]
   },
   {
+    "id": "qc_bc1694847822bdeb",
+    "slug": "family-workshop-animation-with-eastend-western",
+    "title": "Family Workshop: Animation with Eastend Western",
+    "description": "Eastend Western produces handcrafted animated films in a variety of mediums, from celluloid to stop motion. Founded by directors Jack Cunningham and Nicolas Ménard, they combine their interests in art and design to create atmospheric animated short films, commercials, and artworks for clients such as the Noguchi Museum, Burberry, MoMA and Moncler. @eastend.western",
+    "startDate": "2026-08-01T14:30:00.000Z",
+    "endDate": "2026-08-01T16:30:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "arts-culture",
+      "family"
+    ],
+    "tags": [],
+    "image": "https://www.noguchi.org/wp-content/uploads/2026/07/Noguchi_AnimatedFilms_PlaygroundEquipment_01_.jpg",
+    "price": null,
+    "registrationUrl": "https://noguchieducation.wufoo.com/forms/pfl2ghh0j34of3/",
+    "venue": {
+      "name": "The Noguchi Museum",
+      "address": "9-01 33rd Rd, Long Island City, NY 11106",
+      "neighborhood": "Long Island City",
+      "latitude": 40.7668,
+      "longitude": -73.9381
+    },
+    "organizer": {
+      "name": "The Noguchi Museum",
+      "url": "https://www.noguchi.org/"
+    },
+    "source": {
+      "name": "The Noguchi Museum",
+      "listingUrl": "https://www.noguchi.org/museum/calendar/",
+      "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-01-1030-family-workshop-animation-with-eastend-western/",
+      "retrievedAt": "2026-07-26T10:55:09.896Z",
+      "method": "html"
+    },
+    "weekKey": "2026-W31",
+    "answerSummary": "Family Workshop: Animation with Eastend Western is happening Saturday, August 1 at 10:30 AM at The Noguchi Museum in Long Island City, Queens. Eastend Western produces handcrafted animated films in a variety of mediums, from celluloid to stop motion. Founded by directors Jack Cunningham and Nicolas Ménard, they combine their interests in art and design to cr",
+    "faqs": [
+      {
+        "question": "When is Family Workshop: Animation with Eastend Western?",
+        "answer": "Family Workshop: Animation with Eastend Western starts Saturday, August 1 at 10:30 AM."
+      },
+      {
+        "question": "Where is Family Workshop: Animation with Eastend Western?",
+        "answer": "The Noguchi Museum, 9-01 33rd Rd, Long Island City, NY 11106."
+      },
+      {
+        "question": "How do I register for Family Workshop: Animation with Eastend Western?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_a7d7157bb79a507b",
+    "slug": "artists-talk-nicolas-menard-and-jack-cunningham",
+    "title": "Artists Talk: Nicolas Ménard and Jack Cunningham",
+    "description": "Eastend Western produces handcrafted animated films in a variety of mediums, from celluloid to stop motion. Founded by directors Jack Cunningham and Nicolas Ménard, they combine their interests in art and design to create atmospheric animated short films, commercials, and artworks for clients such as the Noguchi Museum, Burberry, MoMA and Moncler. @eastend.western",
+    "startDate": "2026-08-01T19:00:00.000Z",
+    "endDate": "2026-08-01T21:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "arts-culture",
+      "family"
+    ],
+    "tags": [],
+    "image": "https://www.noguchi.org/wp-content/uploads/2026/07/Noguchi_PlaygroundsAnimations_BTS_0009-1.jpg",
+    "price": null,
+    "registrationUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-01-1500-artists-talk-nicolas-menard-and-jack-cunningham/",
+    "venue": {
+      "name": "The Noguchi Museum",
+      "address": "9-01 33rd Rd, Long Island City, NY 11106",
+      "neighborhood": "Long Island City",
+      "latitude": 40.7668,
+      "longitude": -73.9381
+    },
+    "organizer": {
+      "name": "The Noguchi Museum",
+      "url": "https://www.noguchi.org/"
+    },
+    "source": {
+      "name": "The Noguchi Museum",
+      "listingUrl": "https://www.noguchi.org/museum/calendar/",
+      "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-01-1500-artists-talk-nicolas-menard-and-jack-cunningham/",
+      "retrievedAt": "2026-07-26T10:55:10.208Z",
+      "method": "html"
+    },
+    "weekKey": "2026-W31",
+    "answerSummary": "Artists Talk: Nicolas Ménard and Jack Cunningham is happening Saturday, August 1 at 3:00 PM at The Noguchi Museum in Long Island City, Queens. Eastend Western produces handcrafted animated films in a variety of mediums, from celluloid to stop motion. Founded by directors Jack Cunningham and Nicolas Ménard, they combine their interests in art and design to cr",
+    "faqs": [
+      {
+        "question": "When is Artists Talk: Nicolas Ménard and Jack Cunningham?",
+        "answer": "Artists Talk: Nicolas Ménard and Jack Cunningham starts Saturday, August 1 at 3:00 PM."
+      },
+      {
+        "question": "Where is Artists Talk: Nicolas Ménard and Jack Cunningham?",
+        "answer": "The Noguchi Museum, 9-01 33rd Rd, Long Island City, NY 11106."
+      },
+      {
+        "question": "How do I register for Artists Talk: Nicolas Ménard and Jack Cunningham?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
+      }
+    ]
+  },
+  {
     "id": "qc_fdad56804253e11e",
     "slug": "free-first-friday-2026-08-07",
     "title": "Free First Friday",
-    "description": "On the first Friday of every month, Museum admission is free. Advance reservations are not required.",
+    "description": "2-3 pm: Public Tour in English An introduction to the life and vision of Isamu Noguchi, exploring highlights of the Museum and artworks in Noguchi’s New York. 3-4 pm: Tour Público en Español Los recorridos del museo son conversacional y exploran obras seleccionadas de la colección mientras se presenta la visión del artista Isamu Noguchi.",
     "startDate": "2026-08-07T15:00:00.000Z",
     "endDate": "2026-08-07T17:00:00.000Z",
     "timezone": "America/New_York",
@@ -819,7 +494,8 @@
     "attendanceMode": "offline",
     "categories": [
       "arts-culture",
-      "family"
+      "family",
+      "community"
     ],
     "tags": [],
     "image": "https://www.noguchi.org/wp-content/uploads/2019/09/The-Noguchi-Museum-Area-7-Photo-Nicholas-Knight-INFGM-ARS.jpg",
@@ -840,11 +516,11 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-07-1100-free-first-friday/",
-      "retrievedAt": "2026-07-22T11:21:30.453Z",
+      "retrievedAt": "2026-07-26T10:55:10.297Z",
       "method": "html"
     },
     "weekKey": "2026-W32",
-    "answerSummary": "Free First Friday is happening Friday, August 7 at 11:00 AM at The Noguchi Museum in Long Island City, Queens. On the first Friday of every month, Museum admission is free. Advance reservations are not required.",
+    "answerSummary": "Free First Friday is happening Friday, August 7 at 11:00 AM at The Noguchi Museum in Long Island City, Queens. 2-3 pm: Public Tour in English An introduction to the life and vision of Isamu Noguchi, exploring highlights of the Museum and artworks in Noguchi’s New York. 3-4 pm: Tour Público en Español Los recorridos del museo son conversacional y exploran obr",
     "faqs": [
       {
         "question": "When is Free First Friday?",
@@ -893,7 +569,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-07-1500-tour-publico-museum-tour-in-spanish/",
-      "retrievedAt": "2026-07-22T11:21:31.817Z",
+      "retrievedAt": "2026-07-26T10:55:10.360Z",
       "method": "html"
     },
     "weekKey": "2026-W32",
@@ -946,7 +622,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-07-1600-arte-en-el-noguchi-arte-fiesta-con-el-colectivo-discolocas/",
-      "retrievedAt": "2026-07-22T11:21:32.864Z",
+      "retrievedAt": "2026-07-26T10:55:10.788Z",
       "method": "html"
     },
     "weekKey": "2026-W32",
@@ -962,6 +638,113 @@
       },
       {
         "question": "How do I register for Arte en el Noguchi: Arte Fiesta con el colectivo Discolocas?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_de214e6baaac5db8",
+    "slug": "art-party-with-discolocas",
+    "title": "Art Party with Discolocas",
+    "description": "Join us for dancing and art-making in the Museum’s Education Studio (Level C) at the closing celebration of Arte en el Noguchi, featuring the Discolocas DJ collective. Create an artwork to represent the ‘soundtrack of your life’ using vinyl records. This workshop is free for adults and families with children. Participation is free, and advance registration is not required. Everyone is welcome.",
+    "startDate": "2026-08-07T20:00:00.000Z",
+    "endDate": "2026-08-07T22:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "arts-culture",
+      "family"
+    ],
+    "tags": [],
+    "image": "https://www.noguchi.org/wp-content/uploads/2026/07/Discolocas-IMG_7834.jpg",
+    "price": null,
+    "registrationUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-07-1600-art-party-with-discolocas/",
+    "venue": {
+      "name": "The Noguchi Museum",
+      "address": "9-01 33rd Rd, Long Island City, NY 11106",
+      "neighborhood": "Long Island City",
+      "latitude": 40.7668,
+      "longitude": -73.9381
+    },
+    "organizer": {
+      "name": "The Noguchi Museum",
+      "url": "https://www.noguchi.org/"
+    },
+    "source": {
+      "name": "The Noguchi Museum",
+      "listingUrl": "https://www.noguchi.org/museum/calendar/",
+      "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-07-1600-art-party-with-discolocas/",
+      "retrievedAt": "2026-07-26T10:55:12.002Z",
+      "method": "html"
+    },
+    "weekKey": "2026-W32",
+    "answerSummary": "Art Party with Discolocas is happening Friday, August 7 at 4:00 PM at The Noguchi Museum in Long Island City, Queens. Join us for dancing and art-making in the Museum’s Education Studio (Level C) at the closing celebration of Arte en el Noguchi, featuring the Discolocas DJ collective. Create an artwork to represent the ‘soundtrack of your life’ using vinyl r",
+    "faqs": [
+      {
+        "question": "When is Art Party with Discolocas?",
+        "answer": "Art Party with Discolocas starts Friday, August 7 at 4:00 PM."
+      },
+      {
+        "question": "Where is Art Party with Discolocas?",
+        "answer": "The Noguchi Museum, 9-01 33rd Rd, Long Island City, NY 11106."
+      },
+      {
+        "question": "How do I register for Art Party with Discolocas?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_870a96333abb00b2",
+    "slug": "pawn-chess-club-at-the-noguchi-museum",
+    "title": "Pawn Chess Club at The Noguchi Museum",
+    "description": "This event is inspired by Noguchi’s enduring commitment to play as a tool for discovery and community building.",
+    "startDate": "2026-08-07T20:00:00.000Z",
+    "endDate": "2026-08-07T22:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "arts-culture",
+      "family",
+      "community"
+    ],
+    "tags": [],
+    "image": "https://www.noguchi.org/wp-content/uploads/2026/07/26-Isamu-Noguchi-Chess-Table-1944-INFGM-ARS.jpg",
+    "price": null,
+    "registrationUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-07-1600-pawn-chess-club-at-the-noguchi-museum/",
+    "venue": {
+      "name": "The Noguchi Museum",
+      "address": "9-01 33rd Rd, Long Island City, NY 11106",
+      "neighborhood": "Long Island City",
+      "latitude": 40.7668,
+      "longitude": -73.9381
+    },
+    "organizer": {
+      "name": "The Noguchi Museum",
+      "url": "https://www.noguchi.org/"
+    },
+    "source": {
+      "name": "The Noguchi Museum",
+      "listingUrl": "https://www.noguchi.org/museum/calendar/",
+      "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-07-1600-pawn-chess-club-at-the-noguchi-museum/",
+      "retrievedAt": "2026-07-26T10:55:12.604Z",
+      "method": "html"
+    },
+    "weekKey": "2026-W32",
+    "answerSummary": "Pawn Chess Club at The Noguchi Museum is happening Friday, August 7 at 4:00 PM at The Noguchi Museum in Long Island City, Queens. This event is inspired by Noguchi’s enduring commitment to play as a tool for discovery and community building.",
+    "faqs": [
+      {
+        "question": "When is Pawn Chess Club at The Noguchi Museum?",
+        "answer": "Pawn Chess Club at The Noguchi Museum starts Friday, August 7 at 4:00 PM."
+      },
+      {
+        "question": "Where is Pawn Chess Club at The Noguchi Museum?",
+        "answer": "The Noguchi Museum, 9-01 33rd Rd, Long Island City, NY 11106."
+      },
+      {
+        "question": "How do I register for Pawn Chess Club at The Noguchi Museum?",
         "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
       }
     ]
@@ -1000,7 +783,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-08-1100-community-day/",
-      "retrievedAt": "2026-07-22T11:21:33.092Z",
+      "retrievedAt": "2026-07-26T10:55:12.100Z",
       "method": "html"
     },
     "weekKey": "2026-W32",
@@ -1053,7 +836,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-09-1500-%e4%b8%ad%e6%96%87%e5%85%ac%e7%9c%be%e5%b0%8e%e8%a6%bd-museum-tour-in-mandarin-chinese/",
-      "retrievedAt": "2026-07-22T11:21:33.571Z",
+      "retrievedAt": "2026-07-26T10:55:11.908Z",
       "method": "html"
     },
     "weekKey": "2026-W32",
@@ -1106,7 +889,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-10-1930-drawing-from-a-distance/",
-      "retrievedAt": "2026-07-22T11:21:34.074Z",
+      "retrievedAt": "2026-07-26T10:55:11.797Z",
       "method": "html"
     },
     "weekKey": "2026-W33",
@@ -1159,7 +942,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-12-1830-gimlets-in-the-garden/",
-      "retrievedAt": "2026-07-22T11:21:34.271Z",
+      "retrievedAt": "2026-07-26T10:55:12.406Z",
       "method": "html"
     },
     "weekKey": "2026-W33",
@@ -1181,7 +964,7 @@
   },
   {
     "id": "qc_7d0c05abd49bfa4b",
-    "slug": "walking-tour-noguchi-s-new-york-2026-08-13",
+    "slug": "walking-tour-noguchi-s-new-york",
     "title": "Walking Tour: Noguchi’s New York",
     "description": "To coincide with the exhibition Noguchi’s New York, The Noguchi Museum will present a series of educator-led walking tours of Isamu Noguchi’s public sculptures Sunken Garden for Chase Manhattan Bank Plaza (1961–64) and Red Cube (1968), located in New York City’s Financial District.",
     "startDate": "2026-08-13T21:00:00.000Z",
@@ -1213,7 +996,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-13-1700-walking-tour-noguchis-new-york/",
-      "retrievedAt": "2026-07-22T11:21:34.391Z",
+      "retrievedAt": "2026-07-26T10:55:13.213Z",
       "method": "html"
     },
     "weekKey": "2026-W33",
@@ -1266,7 +1049,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-14-1000-arte-en-el-noguchi-hongosto-caminata-de-hongos-en-colaboracion-con-la-sociedad-micologica-de-nueva-york/",
-      "retrievedAt": "2026-07-22T11:21:34.976Z",
+      "retrievedAt": "2026-07-26T10:55:13.303Z",
       "method": "html"
     },
     "weekKey": "2026-W33",
@@ -1288,7 +1071,7 @@
   },
   {
     "id": "qc_3d1dcf188a2b5bda",
-    "slug": "mindfulness-in-the-galleries-2026-08-15",
+    "slug": "mindfulness-in-the-galleries",
     "title": "Mindfulness in the Galleries",
     "description": "Each session includes guided meditation, reflection, and conversation inspired by Isamu Noguchi’s artwork. You do not need to have any prior experience with mindfulness or meditation to attend, and all materials will be provided. Scholarships are available if the cost of admission is a barrier to participation. Please email education@noguchi.org with questions.",
     "startDate": "2026-08-15T14:00:00.000Z",
@@ -1319,7 +1102,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-15-1000-mindfulness-in-the-galleries/",
-      "retrievedAt": "2026-07-22T11:21:35.082Z",
+      "retrievedAt": "2026-07-26T10:55:13.498Z",
       "method": "html"
     },
     "weekKey": "2026-W33",
@@ -1372,7 +1155,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-09-04-1100-free-first-friday/",
-      "retrievedAt": "2026-07-22T11:21:35.576Z",
+      "retrievedAt": "2026-07-26T10:55:13.689Z",
       "method": "html"
     },
     "weekKey": "2026-W36",
@@ -1425,7 +1208,7 @@
       "name": "Queens Museum",
       "listingUrl": "https://queensmuseum.org/event/",
       "canonicalUrl": "https://queensmuseum.org/event/information-session-2-2027-28-qm-jerome-foundation-fellowship-for-emerging-artists/",
-      "retrievedAt": "2026-07-22T11:20:38.134Z",
+      "retrievedAt": "2026-07-26T10:54:27.187Z",
       "method": "html"
     },
     "weekKey": "2026-W37",
@@ -1478,7 +1261,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-09-12-1000-members-morning-private-viewing-hour-of-noguchis-new-york/",
-      "retrievedAt": "2026-07-22T11:21:36.460Z",
+      "retrievedAt": "2026-07-26T10:55:13.805Z",
       "method": "html"
     },
     "weekKey": "2026-W37",
@@ -1531,7 +1314,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-09-12-1100-socrates-x-noguchi-field-guide-regeneration-natural-materials-with-julia-norton/",
-      "retrievedAt": "2026-07-22T11:21:35.985Z",
+      "retrievedAt": "2026-07-26T10:55:14.106Z",
       "method": "html"
     },
     "weekKey": "2026-W37",
@@ -1584,7 +1367,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-09-14-1930-drawing-from-a-distance/",
-      "retrievedAt": "2026-07-22T11:21:36.467Z",
+      "retrievedAt": "2026-07-26T10:55:14.701Z",
       "method": "html"
     },
     "weekKey": "2026-W38",
@@ -1637,7 +1420,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-09-26-1500-%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%81%a7%e3%81%ae%e3%83%84%e3%82%a2%e3%83%bc-museum-tour-in-japanese/",
-      "retrievedAt": "2026-07-22T11:21:36.659Z",
+      "retrievedAt": "2026-07-26T10:55:14.715Z",
       "method": "html"
     },
     "weekKey": "2026-W39",
@@ -1690,7 +1473,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-09-27-1500-hands-on-drawing/",
-      "retrievedAt": "2026-07-22T11:21:36.773Z",
+      "retrievedAt": "2026-07-26T10:55:15.340Z",
       "method": "html"
     },
     "weekKey": "2026-W39",
@@ -1743,7 +1526,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-10-10-1500-%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%81%a7%e3%81%ae%e3%83%84%e3%82%a2%e3%83%bc-museum-tour-in-japanese/",
-      "retrievedAt": "2026-07-22T11:21:37.175Z",
+      "retrievedAt": "2026-07-26T10:55:15.112Z",
       "method": "html"
     },
     "weekKey": "2026-W41",
@@ -1796,7 +1579,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-10-19-1930-drawing-from-a-distance/",
-      "retrievedAt": "2026-07-22T11:21:37.387Z",
+      "retrievedAt": "2026-07-26T10:55:15.216Z",
       "method": "html"
     },
     "weekKey": "2026-W43",
@@ -1849,7 +1632,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-15-1500-hands-on-drawing/",
-      "retrievedAt": "2026-07-22T11:21:37.687Z",
+      "retrievedAt": "2026-07-26T10:55:15.401Z",
       "method": "html"
     },
     "weekKey": "2026-W46",
@@ -1902,7 +1685,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-16-1930-drawing-from-a-distance/",
-      "retrievedAt": "2026-07-22T11:21:37.676Z",
+      "retrievedAt": "2026-07-26T10:55:15.660Z",
       "method": "html"
     },
     "weekKey": "2026-W47",
@@ -1955,7 +1738,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-12-21-1930-drawing-from-a-distance/",
-      "retrievedAt": "2026-07-22T11:21:37.750Z",
+      "retrievedAt": "2026-07-26T10:55:15.647Z",
       "method": "html"
     },
     "weekKey": "2026-W52",
