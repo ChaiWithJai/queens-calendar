@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T12:38:18.306Z",
+  "generatedAt": "2026-07-28T11:29:19.630Z",
   "catalogStatus": "fresh",
   "sources": [
     {
@@ -23,15 +23,9 @@
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/information-session-1-2027-28-qm-jerome-foundation-fellowship-for-emerging-artists/",
+          "link": "https://queensmuseum.org/event/ecuadorian-spring-recital-recital-ecuatoriano-de-primavera-2026/",
           "reasons": [
-            "outside rolling publication window (2026-07-16T22:00:00.000Z)"
-          ]
-        },
-        {
-          "link": "https://queensmuseum.org/event/nyc-neighborhood-passport-program-already-home-fifa-world-cup-26/",
-          "reasons": [
-            "could not extract title/date from page"
+            "outside rolling publication window (2026-06-14T18:00:00.000Z)"
           ]
         },
         {
@@ -39,10 +33,16 @@
           "reasons": [
             "outside rolling publication window (2026-06-14T15:30:00.000Z)"
           ]
+        },
+        {
+          "link": "https://queensmuseum.org/event/artaccess-open-studios-estudio-abierto-june-13-2026/",
+          "reasons": [
+            "outside rolling publication window (2026-06-13T15:30:00.000Z)"
+          ]
         }
       ],
       "errors": [],
-      "durationMs": 1489
+      "durationMs": 1494
     },
     {
       "id": "city-parks-foundation",
@@ -59,13 +59,13 @@
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-mosholu-parkway-8/",
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-sunset-park-85/",
           "reasons": [
             "could not extract title/date from page"
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-soundview-park-5/",
+          "link": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-20/",
           "reasons": [
             "could not extract title/date from page"
           ]
@@ -77,14 +77,14 @@
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-bushwick-inlet-park-24/",
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-soundview-park-5/",
           "reasons": [
             "could not extract title/date from page"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 34534
+      "durationMs": 37735
     },
     {
       "id": "museum-moving-image",
@@ -97,7 +97,7 @@
       "errors": [
         "HTTP 403"
       ],
-      "durationMs": 73
+      "durationMs": 207
     },
     {
       "id": "queens-public-library",
@@ -110,7 +110,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 248
+      "durationMs": 369
     },
     {
       "id": "flushing-town-hall",
@@ -123,68 +123,35 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 737
+      "durationMs": 928
     },
     {
       "id": "queens-botanical-garden",
       "name": "Queens Botanical Garden",
       "status": "ok",
-      "discovered": 31,
-      "accepted": 4,
-      "rejected": 27,
-      "rejections": [
-        {
-          "link": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-06-29/",
-          "reasons": [
-            "outside rolling publication window (2026-06-29T13:30:00.000Z)"
-          ]
-        },
-        {
-          "link": "https://queensbotanical.org/event/wedding-garden-open-house-2/2026-06-28/",
-          "reasons": [
-            "outside rolling publication window (2026-06-28T14:00:00.000Z)"
-          ]
-        },
-        {
-          "link": "https://queensbotanical.org/event/papermaking-with-artist-chloe-seibert-3/",
-          "reasons": [
-            "outside rolling publication window (2026-06-28T14:00:00.000Z)"
-          ]
-        },
-        {
-          "link": "https://queensbotanical.org/event/quintet-of-the-americas-6-3/",
-          "reasons": [
-            "outside rolling publication window (2026-06-28T15:00:00.000Z)"
-          ]
-        },
-        {
-          "link": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-07-06/",
-          "reasons": [
-            "outside rolling publication window (2026-07-06T13:30:00.000Z)"
-          ]
-        }
-      ],
+      "discovered": 55,
+      "accepted": 50,
+      "rejected": 5,
+      "rejections": [],
       "errors": [
-        "https://queensbotanical.org/event/wedding-garden-open-house-2/all/: HTTP 404",
-        "https://queensbotanical.org/event/farm-community-volunteer-days-28/all/: HTTP 404",
-        "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/all/: HTTP 404",
-        "https://queensbotanical.org/event/independence-day-garden-is-closed/all/: HTTP 404",
         "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/all/: HTTP 404",
-        "https://queensbotanical.org/event/compost-beautification-community-volunteer-days-15/all/: HTTP 404",
-        "https://queensbotanical.org/event/open-farm-hours-7/all/: HTTP 404"
+        "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/all/: HTTP 404",
+        "https://queensbotanical.org/event/farm-community-volunteer-days-28/all/: HTTP 404",
+        "https://queensbotanical.org/event/open-farm-hours-7/all/: HTTP 404",
+        "https://queensbotanical.org/event/compost-beautification-community-volunteer-days-15/all/: HTTP 404"
       ],
-      "durationMs": 4622
+      "durationMs": 7447
     },
     {
       "id": "noguchi-museum",
       "name": "The Noguchi Museum",
       "status": "ok",
-      "discovered": 27,
-      "accepted": 27,
+      "discovered": 28,
+      "accepted": 28,
       "rejected": 0,
       "rejections": [],
       "errors": [],
-      "durationMs": 8323
+      "durationMs": 8382
     },
     {
       "id": "socrates-sculpture-park",
@@ -201,7 +168,19 @@
           ]
         },
         {
+          "link": "https://socratessculpturepark.org/programevent/hip-to-hip-theatre-company-presents-as-you-like-it/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
+        {
           "link": "https://socratessculpturepark.org/programevent/39266/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
+        {
+          "link": "https://socratessculpturepark.org/programevent/queensboro-dance-festival-dance-classes-and-performances/",
           "reasons": [
             "could not extract title/date from page"
           ]
@@ -211,22 +190,10 @@
           "reasons": [
             "could not extract title/date from page"
           ]
-        },
-        {
-          "link": "https://socratessculpturepark.org/programevent/mexfest-presents-cuerpxs-en-resonancia-physical-body-release-repair-and-trace/",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
-          "link": "https://socratessculpturepark.org/programevent/yoga-at-socrates-with-astoria-yoga/",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
         }
       ],
       "errors": [],
-      "durationMs": 5555
+      "durationMs": 5197
     },
     {
       "id": "queens-theatre",
@@ -237,7 +204,7 @@
       "rejected": 21,
       "rejections": [
         {
-          "link": "https://queenstheatre.org/events/family",
+          "link": "https://queenstheatre.org/events/theatre",
           "reasons": [
             "could not extract title/date from page"
           ]
@@ -255,28 +222,26 @@
           ]
         },
         {
-          "link": "https://queenstheatre.org/events/2026-queensboro-dance-festival-tour-finale-1jdr",
+          "link": "https://queenstheatre.org/events/family",
           "reasons": [
             "could not extract title/date from page"
           ]
         },
         {
-          "link": "https://www.queenstheatre.org/events/themas/5/visiting-presenter?_locale=en",
+          "link": "https://queenstheatre.org/events/2026-queensboro-dance-festival-tour-finale-1jdr",
           "reasons": [
             "could not extract title/date from page"
           ]
         }
       ],
-      "errors": [
-        "https://queenstheatre.org/events/theatre: fetch failed"
-      ],
-      "durationMs": 5600
+      "errors": [],
+      "durationMs": 3972
     }
   ],
   "totals": {
-    "discovered": 174,
-    "accepted": 32,
-    "published": 32,
-    "rejected": 142
+    "discovered": 199,
+    "accepted": 79,
+    "published": 79,
+    "rejected": 120
   }
 }
