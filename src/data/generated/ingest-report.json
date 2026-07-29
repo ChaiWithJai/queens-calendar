@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T11:29:19.630Z",
+  "generatedAt": "2026-07-29T11:35:45.305Z",
   "catalogStatus": "fresh",
   "sources": [
     {
@@ -42,7 +42,7 @@
         }
       ],
       "errors": [],
-      "durationMs": 1494
+      "durationMs": 1324
     },
     {
       "id": "city-parks-foundation",
@@ -59,13 +59,7 @@
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-sunset-park-85/",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
-          "link": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-20/",
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-mosholu-parkway-8/",
           "reasons": [
             "could not extract title/date from page"
           ]
@@ -81,10 +75,16 @@
           "reasons": [
             "could not extract title/date from page"
           ]
+        },
+        {
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-sunset-park-85/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
         }
       ],
       "errors": [],
-      "durationMs": 37735
+      "durationMs": 34355
     },
     {
       "id": "museum-moving-image",
@@ -97,7 +97,7 @@
       "errors": [
         "HTTP 403"
       ],
-      "durationMs": 207
+      "durationMs": 131
     },
     {
       "id": "queens-public-library",
@@ -110,7 +110,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 369
+      "durationMs": 355
     },
     {
       "id": "flushing-town-hall",
@@ -123,35 +123,68 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 928
+      "durationMs": 740
     },
     {
       "id": "queens-botanical-garden",
       "name": "Queens Botanical Garden",
       "status": "ok",
-      "discovered": 55,
-      "accepted": 50,
-      "rejected": 5,
-      "rejections": [],
-      "errors": [
-        "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/all/: HTTP 404",
-        "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/all/: HTTP 404",
-        "https://queensbotanical.org/event/farm-community-volunteer-days-28/all/: HTTP 404",
-        "https://queensbotanical.org/event/open-farm-hours-7/all/: HTTP 404",
-        "https://queensbotanical.org/event/compost-beautification-community-volunteer-days-15/all/: HTTP 404"
+      "discovered": 31,
+      "accepted": 3,
+      "rejected": 28,
+      "rejections": [
+        {
+          "link": "https://queensbotanical.org/event/papermaking-with-artist-chloe-seibert-3/",
+          "reasons": [
+            "outside rolling publication window (2026-06-28T14:00:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensbotanical.org/event/quintet-of-the-americas-6-3/",
+          "reasons": [
+            "outside rolling publication window (2026-06-28T15:00:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-06-29/",
+          "reasons": [
+            "outside rolling publication window (2026-06-29T13:30:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensbotanical.org/event/wedding-garden-open-house-2/2026-06-28/",
+          "reasons": [
+            "outside rolling publication window (2026-06-28T14:00:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-07-01/",
+          "reasons": [
+            "outside rolling publication window (2026-07-01T13:30:00.000Z)"
+          ]
+        }
       ],
-      "durationMs": 7447
+      "errors": [
+        "https://queensbotanical.org/event/wedding-garden-open-house-2/all/: HTTP 404",
+        "https://queensbotanical.org/event/farm-community-volunteer-days-28/all/: HTTP 404",
+        "https://queensbotanical.org/event/independence-day-garden-is-closed/all/: HTTP 404",
+        "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/all/: HTTP 404",
+        "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/all/: HTTP 404",
+        "https://queensbotanical.org/event/compost-beautification-community-volunteer-days-15/all/: HTTP 404",
+        "https://queensbotanical.org/event/open-farm-hours-7/all/: HTTP 404"
+      ],
+      "durationMs": 9377
     },
     {
       "id": "noguchi-museum",
       "name": "The Noguchi Museum",
       "status": "ok",
-      "discovered": 28,
-      "accepted": 28,
+      "discovered": 29,
+      "accepted": 29,
       "rejected": 0,
       "rejections": [],
       "errors": [],
-      "durationMs": 8382
+      "durationMs": 8609
     },
     {
       "id": "socrates-sculpture-park",
@@ -162,13 +195,7 @@
       "rejected": 15,
       "rejections": [
         {
-          "link": "https://socratessculpturepark.org/programevent/sunset-meditation-with-mindful-astoria/",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
-          "link": "https://socratessculpturepark.org/programevent/hip-to-hip-theatre-company-presents-as-you-like-it/",
+          "link": "https://socratessculpturepark.org/programevent/yoga-at-socrates-with-astoria-yoga/",
           "reasons": [
             "could not extract title/date from page"
           ]
@@ -180,7 +207,13 @@
           ]
         },
         {
-          "link": "https://socratessculpturepark.org/programevent/queensboro-dance-festival-dance-classes-and-performances/",
+          "link": "https://socratessculpturepark.org/programevent/sunset-meditation-with-mindful-astoria/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
+        {
+          "link": "https://socratessculpturepark.org/programevent/mexfest-presents-cuerpxs-en-resonancia-physical-body-release-repair-and-trace/",
           "reasons": [
             "could not extract title/date from page"
           ]
@@ -193,7 +226,7 @@
         }
       ],
       "errors": [],
-      "durationMs": 5197
+      "durationMs": 4340
     },
     {
       "id": "queens-theatre",
@@ -210,13 +243,13 @@
           ]
         },
         {
-          "link": "https://queenstheatre.org/events/dance",
+          "link": "https://www.queenstheatre.org/events/themas/5/visiting-presenter?_locale=en",
           "reasons": [
             "could not extract title/date from page"
           ]
         },
         {
-          "link": "https://queenstheatre.org/events/special-event",
+          "link": "https://queenstheatre.org/events/dance",
           "reasons": [
             "could not extract title/date from page"
           ]
@@ -228,20 +261,20 @@
           ]
         },
         {
-          "link": "https://queenstheatre.org/events/2026-queensboro-dance-festival-tour-finale-1jdr",
+          "link": "https://queenstheatre.org/events/special-event",
           "reasons": [
             "could not extract title/date from page"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 3972
+      "durationMs": 5239
     }
   ],
   "totals": {
-    "discovered": 199,
-    "accepted": 79,
-    "published": 79,
-    "rejected": 120
+    "discovered": 176,
+    "accepted": 33,
+    "published": 33,
+    "rejected": 143
   }
 }
