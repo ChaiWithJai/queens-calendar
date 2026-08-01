@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T11:35:45.305Z",
+  "generatedAt": "2026-08-01T10:50:45.537Z",
   "catalogStatus": "fresh",
   "sources": [
     {
@@ -29,62 +29,62 @@
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/artaccess-open-studios-estudio-abierto-june-14-2026/",
+          "link": "https://queensmuseum.org/event/information-session-1-2027-28-qm-jerome-foundation-fellowship-for-emerging-artists/",
           "reasons": [
-            "outside rolling publication window (2026-06-14T15:30:00.000Z)"
+            "outside rolling publication window (2026-07-16T22:00:00.000Z)"
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/artaccess-open-studios-estudio-abierto-june-13-2026/",
+          "link": "https://queensmuseum.org/event/nyc-neighborhood-passport-program-already-home-fifa-world-cup-26/",
           "reasons": [
-            "outside rolling publication window (2026-06-13T15:30:00.000Z)"
+            "could not extract title/date from page"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 1324
+      "durationMs": 1913
     },
     {
       "id": "city-parks-foundation",
       "name": "City Parks Foundation",
       "status": "ok",
       "discovered": 60,
-      "accepted": 0,
-      "rejected": 60,
+      "accepted": 11,
+      "rejected": 49,
       "rejections": [
         {
-          "link": "https://cityparksfoundation.org/events/mavis-staples/",
+          "link": "https://cityparksfoundation.org/events/julieta-venegas/",
           "reasons": [
             "could not extract title/date from page"
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-mosholu-parkway-8/",
+          "link": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-30/",
+          "reasons": [
+            "outside rolling publication window (2026-07-27T15:00:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://cityparksfoundation.org/events/la-india-bronx-26/",
           "reasons": [
             "could not extract title/date from page"
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-lafayette-playground/",
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-32/",
           "reasons": [
-            "could not extract title/date from page"
+            "outside rolling publication window (2026-07-30T14:00:00.000Z)"
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-soundview-park-5/",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-sunset-park-85/",
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-highbridge-park-9/",
           "reasons": [
             "could not extract title/date from page"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 34355
+      "durationMs": 31511
     },
     {
       "id": "museum-moving-image",
@@ -97,7 +97,7 @@
       "errors": [
         "HTTP 403"
       ],
-      "durationMs": 131
+      "durationMs": 183
     },
     {
       "id": "queens-public-library",
@@ -110,7 +110,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 355
+      "durationMs": 421
     },
     {
       "id": "flushing-town-hall",
@@ -123,77 +123,75 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 740
+      "durationMs": 770
     },
     {
       "id": "queens-botanical-garden",
       "name": "Queens Botanical Garden",
       "status": "ok",
-      "discovered": 31,
-      "accepted": 3,
-      "rejected": 28,
+      "discovered": 40,
+      "accepted": 31,
+      "rejected": 9,
       "rejections": [
         {
-          "link": "https://queensbotanical.org/event/papermaking-with-artist-chloe-seibert-3/",
+          "link": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-07-30/",
           "reasons": [
-            "outside rolling publication window (2026-06-28T14:00:00.000Z)"
+            "outside rolling publication window (2026-07-30T12:45:00.000Z)"
           ]
         },
         {
-          "link": "https://queensbotanical.org/event/quintet-of-the-americas-6-3/",
+          "link": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-07-27/",
           "reasons": [
-            "outside rolling publication window (2026-06-28T15:00:00.000Z)"
+            "outside rolling publication window (2026-07-27T13:30:00.000Z)"
           ]
         },
         {
-          "link": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-06-29/",
+          "link": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-07-29/",
           "reasons": [
-            "outside rolling publication window (2026-06-29T13:30:00.000Z)"
+            "outside rolling publication window (2026-07-29T13:30:00.000Z)"
           ]
         },
         {
-          "link": "https://queensbotanical.org/event/wedding-garden-open-house-2/2026-06-28/",
+          "link": "https://queensbotanical.org/event/open-farm-hours-7/2026-07-30/",
           "reasons": [
-            "outside rolling publication window (2026-06-28T14:00:00.000Z)"
-          ]
-        },
-        {
-          "link": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-07-01/",
-          "reasons": [
-            "outside rolling publication window (2026-07-01T13:30:00.000Z)"
+            "outside rolling publication window (2026-07-30T14:00:00.000Z)"
           ]
         }
       ],
       "errors": [
-        "https://queensbotanical.org/event/wedding-garden-open-house-2/all/: HTTP 404",
-        "https://queensbotanical.org/event/farm-community-volunteer-days-28/all/: HTTP 404",
-        "https://queensbotanical.org/event/independence-day-garden-is-closed/all/: HTTP 404",
         "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/all/: HTTP 404",
+        "https://queensbotanical.org/event/open-farm-hours-7/all/: HTTP 404",
+        "https://queensbotanical.org/event/farm-community-volunteer-days-28/all/: HTTP 404",
         "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/all/: HTTP 404",
-        "https://queensbotanical.org/event/compost-beautification-community-volunteer-days-15/all/: HTTP 404",
-        "https://queensbotanical.org/event/open-farm-hours-7/all/: HTTP 404"
+        "https://queensbotanical.org/event/compost-beautification-community-volunteer-days-15/all/: HTTP 404"
       ],
-      "durationMs": 9377
+      "durationMs": 5215
     },
     {
       "id": "noguchi-museum",
       "name": "The Noguchi Museum",
       "status": "ok",
-      "discovered": 29,
-      "accepted": 29,
+      "discovered": 26,
+      "accepted": 26,
       "rejected": 0,
       "rejections": [],
       "errors": [],
-      "durationMs": 8609
+      "durationMs": 7783
     },
     {
       "id": "socrates-sculpture-park",
       "name": "Socrates Sculpture Park",
       "status": "ok",
-      "discovered": 15,
+      "discovered": 16,
       "accepted": 0,
-      "rejected": 15,
+      "rejected": 16,
       "rejections": [
+        {
+          "link": "https://socratessculpturepark.org/programevent/hip-to-hip-theatre-company-presents-macbeth/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
         {
           "link": "https://socratessculpturepark.org/programevent/yoga-at-socrates-with-astoria-yoga/",
           "reasons": [
@@ -207,26 +205,20 @@
           ]
         },
         {
-          "link": "https://socratessculpturepark.org/programevent/sunset-meditation-with-mindful-astoria/",
+          "link": "https://socratessculpturepark.org/programevent/hip-to-hip-theatre-company-presents-as-you-like-it/",
           "reasons": [
             "could not extract title/date from page"
           ]
         },
         {
-          "link": "https://socratessculpturepark.org/programevent/mexfest-presents-cuerpxs-en-resonancia-physical-body-release-repair-and-trace/",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
-          "link": "https://socratessculpturepark.org/programevent/hip-to-hip-theatre-company-presents-macbeth/",
+          "link": "https://socratessculpturepark.org/programevent/field-guide-x-noguchi-regeneration-natural-materials-with-julia-norton/",
           "reasons": [
             "could not extract title/date from page"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 4340
+      "durationMs": 4251
     },
     {
       "id": "queens-theatre",
@@ -243,19 +235,13 @@
           ]
         },
         {
-          "link": "https://www.queenstheatre.org/events/themas/5/visiting-presenter?_locale=en",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
-          "link": "https://queenstheatre.org/events/dance",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
           "link": "https://queenstheatre.org/events/family",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
+        {
+          "link": "https://www.queenstheatre.org/events/themas/5/visiting-presenter?_locale=en",
           "reasons": [
             "could not extract title/date from page"
           ]
@@ -265,16 +251,22 @@
           "reasons": [
             "could not extract title/date from page"
           ]
+        },
+        {
+          "link": "https://queenstheatre.org/events/sunday-socials-nr6f",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
         }
       ],
       "errors": [],
-      "durationMs": 5239
+      "durationMs": 5299
     }
   ],
   "totals": {
-    "discovered": 176,
-    "accepted": 33,
-    "published": 33,
-    "rejected": 143
+    "discovered": 183,
+    "accepted": 69,
+    "published": 69,
+    "rejected": 114
   }
 }
