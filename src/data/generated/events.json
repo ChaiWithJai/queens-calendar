@@ -1,219 +1,5 @@
 [
   {
-    "id": "qc_bc1694847822bdeb",
-    "slug": "family-workshop-animation-with-eastend-western",
-    "title": "Family Workshop: Animation with Eastend Western",
-    "description": "Eastend Western produces handcrafted animated films in a variety of mediums, from celluloid to stop motion. Founded by directors Jack Cunningham and Nicolas Ménard, they combine their interests in art and design to create atmospheric animated short films, commercials, and artworks for clients such as the Noguchi Museum, Burberry, MoMA and Moncler. @eastend.western",
-    "startDate": "2026-08-01T14:30:00.000Z",
-    "endDate": "2026-08-01T16:30:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "arts-culture",
-      "family"
-    ],
-    "tags": [],
-    "image": "https://www.noguchi.org/wp-content/uploads/2026/07/Noguchi_AnimatedFilms_PlaygroundEquipment_01_.jpg",
-    "price": null,
-    "registrationUrl": "https://noguchieducation.wufoo.com/forms/pfl2ghh0j34of3/",
-    "venue": {
-      "name": "The Noguchi Museum",
-      "address": "9-01 33rd Rd, Long Island City, NY 11106",
-      "neighborhood": "Long Island City",
-      "latitude": 40.7668,
-      "longitude": -73.9381
-    },
-    "organizer": {
-      "name": "The Noguchi Museum",
-      "url": "https://www.noguchi.org/"
-    },
-    "source": {
-      "name": "The Noguchi Museum",
-      "listingUrl": "https://www.noguchi.org/museum/calendar/",
-      "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-01-1030-family-workshop-animation-with-eastend-western/",
-      "retrievedAt": "2026-08-01T10:50:30.806Z",
-      "method": "html"
-    },
-    "weekKey": "2026-W31",
-    "answerSummary": "Family Workshop: Animation with Eastend Western is happening Saturday, August 1 at 10:30 AM at The Noguchi Museum in Long Island City, Queens. Eastend Western produces handcrafted animated films in a variety of mediums, from celluloid to stop motion. Founded by directors Jack Cunningham and Nicolas Ménard, they combine their interests in art and design to cr",
-    "faqs": [
-      {
-        "question": "When is Family Workshop: Animation with Eastend Western?",
-        "answer": "Family Workshop: Animation with Eastend Western starts Saturday, August 1 at 10:30 AM."
-      },
-      {
-        "question": "Where is Family Workshop: Animation with Eastend Western?",
-        "answer": "The Noguchi Museum, 9-01 33rd Rd, Long Island City, NY 11106."
-      },
-      {
-        "question": "How do I register for Family Workshop: Animation with Eastend Western?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_3bec2d3da937e550",
-    "slug": "it-s-my-park-at-astoria-sitting-area-2026-08-01",
-    "title": "It’s My Park at Astoria Sitting Area",
-    "description": "Friends of Triboro G invites volunteers to tend to ground beds and standing planters every week.",
-    "startDate": "2026-08-01T16:30:00.000Z",
-    "endDate": "2026-08-01T20:30:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "community",
-      "arts-culture"
-    ],
-    "tags": [],
-    "image": "https://cityparksfoundation.org/wp-content/uploads/2025/02/IMP_widget_2023_centr_2-1-3-1-3-1-1-1-2-2-1-1-2-2-1-1-3-1-2-1-2-1-5-1-2-1-1-1-3-1-1-2-2-5-1-1-5-3-1-3-1-1.jpg",
-    "price": "0",
-    "registrationUrl": "https://cityparksfoundation.org/events/its-my-park-at-astoria-sitting-area-9/",
-    "venue": {
-      "name": "It’s My Park at Astoria Sitting Area",
-      "address": "Astoria, Queens, NY",
-      "neighborhood": "Astoria",
-      "latitude": 40.7643,
-      "longitude": -73.9235
-    },
-    "organizer": {
-      "name": "Volunteer",
-      "url": "https://cityparksfoundation.org/"
-    },
-    "source": {
-      "name": "City Parks Foundation",
-      "listingUrl": "https://cityparksfoundation.org/calendar/month/",
-      "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-astoria-sitting-area-9/",
-      "retrievedAt": "2026-08-01T10:49:54.738Z",
-      "method": "json-ld"
-    },
-    "weekKey": "2026-W31",
-    "answerSummary": "It’s My Park at Astoria Sitting Area is happening Saturday, August 1 at 12:30 PM at It’s My Park at Astoria Sitting Area in Astoria, Queens. Friends of Triboro G invites volunteers to tend to ground beds and standing planters every week.",
-    "faqs": [
-      {
-        "question": "When is It’s My Park at Astoria Sitting Area?",
-        "answer": "It’s My Park at Astoria Sitting Area starts Saturday, August 1 at 12:30 PM."
-      },
-      {
-        "question": "Where is It’s My Park at Astoria Sitting Area?",
-        "answer": "It’s My Park at Astoria Sitting Area, Astoria, Queens, NY."
-      },
-      {
-        "question": "How do I register for It’s My Park at Astoria Sitting Area?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Volunteer, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_a7d7157bb79a507b",
-    "slug": "artists-talk-nicolas-menard-and-jack-cunningham",
-    "title": "Artists Talk: Nicolas Ménard and Jack Cunningham",
-    "description": "Eastend Western produces handcrafted animated films in a variety of mediums, from celluloid to stop motion. Founded by directors Jack Cunningham and Nicolas Ménard, they combine their interests in art and design to create atmospheric animated short films, commercials, and artworks for clients such as the Noguchi Museum, Burberry, MoMA and Moncler. @eastend.western",
-    "startDate": "2026-08-01T19:00:00.000Z",
-    "endDate": "2026-08-01T21:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "arts-culture",
-      "family"
-    ],
-    "tags": [],
-    "image": "https://www.noguchi.org/wp-content/uploads/2026/07/Noguchi_PlaygroundsAnimations_BTS_0009-1.jpg",
-    "price": null,
-    "registrationUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-01-1500-artists-talk-nicolas-menard-and-jack-cunningham/",
-    "venue": {
-      "name": "The Noguchi Museum",
-      "address": "9-01 33rd Rd, Long Island City, NY 11106",
-      "neighborhood": "Long Island City",
-      "latitude": 40.7668,
-      "longitude": -73.9381
-    },
-    "organizer": {
-      "name": "The Noguchi Museum",
-      "url": "https://www.noguchi.org/"
-    },
-    "source": {
-      "name": "The Noguchi Museum",
-      "listingUrl": "https://www.noguchi.org/museum/calendar/",
-      "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-01-1500-artists-talk-nicolas-menard-and-jack-cunningham/",
-      "retrievedAt": "2026-08-01T10:50:30.310Z",
-      "method": "html"
-    },
-    "weekKey": "2026-W31",
-    "answerSummary": "Artists Talk: Nicolas Ménard and Jack Cunningham is happening Saturday, August 1 at 3:00 PM at The Noguchi Museum in Long Island City, Queens. Eastend Western produces handcrafted animated films in a variety of mediums, from celluloid to stop motion. Founded by directors Jack Cunningham and Nicolas Ménard, they combine their interests in art and design to cr",
-    "faqs": [
-      {
-        "question": "When is Artists Talk: Nicolas Ménard and Jack Cunningham?",
-        "answer": "Artists Talk: Nicolas Ménard and Jack Cunningham starts Saturday, August 1 at 3:00 PM."
-      },
-      {
-        "question": "Where is Artists Talk: Nicolas Ménard and Jack Cunningham?",
-        "answer": "The Noguchi Museum, 9-01 33rd Rd, Long Island City, NY 11106."
-      },
-      {
-        "question": "How do I register for Artists Talk: Nicolas Ménard and Jack Cunningham?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_93cb175e5e7bea22",
-    "slug": "compost-build-community-volunteer-days-2026-08-03",
-    "title": "Compost Build Community Volunteer Days",
-    "description": "Join the QBG Compost Staff for our weekly on-site compost build and learn about processing community food scraps into nutrient-rich compost. Register here",
-    "startDate": "2026-08-03T13:30:00.000Z",
-    "endDate": "2026-08-03T16:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "parks-outdoors",
-      "family",
-      "community",
-      "food"
-    ],
-    "tags": [],
-    "image": null,
-    "price": null,
-    "registrationUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-08-03/",
-    "venue": {
-      "name": "Queens Botanical Garden",
-      "address": "43-50 Main St, Flushing, NY 11355",
-      "neighborhood": "Flushing",
-      "latitude": 40.7516,
-      "longitude": -73.8268
-    },
-    "organizer": {
-      "name": "Queens Botanical Garden",
-      "url": "https://queensbotanical.org/"
-    },
-    "source": {
-      "name": "Queens Botanical Garden",
-      "listingUrl": "https://queensbotanical.org/calendar/",
-      "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-08-03/",
-      "retrievedAt": "2026-08-01T10:50:24.358Z",
-      "method": "json-ld"
-    },
-    "weekKey": "2026-W32",
-    "answerSummary": "Compost Build Community Volunteer Days is happening Monday, August 3 at 9:30 AM at Queens Botanical Garden in Flushing, Queens. Join the QBG Compost Staff for our weekly on-site compost build and learn about processing community food scraps into nutrient-rich compost. Register here",
-    "faqs": [
-      {
-        "question": "When is Compost Build Community Volunteer Days?",
-        "answer": "Compost Build Community Volunteer Days starts Monday, August 3 at 9:30 AM."
-      },
-      {
-        "question": "Where is Compost Build Community Volunteer Days?",
-        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
-      },
-      {
-        "question": "How do I register for Compost Build Community Volunteer Days?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
-      }
-    ]
-  },
-  {
     "id": "qc_9ab98ebbb84cd30a",
     "slug": "farm-community-volunteer-days-2026-08-05",
     "title": "Farm Community Volunteer Days",
@@ -247,7 +33,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-08-05/",
-      "retrievedAt": "2026-08-01T10:50:24.441Z",
+      "retrievedAt": "2026-08-05T11:31:16.689Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W32",
@@ -300,7 +86,7 @@
       "name": "City Parks Foundation",
       "listingUrl": "https://cityparksfoundation.org/calendar/month/",
       "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-alley-pond-park/",
-      "retrievedAt": "2026-08-01T10:50:03.122Z",
+      "retrievedAt": "2026-08-05T11:30:50.583Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W32",
@@ -355,7 +141,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-08-06/",
-      "retrievedAt": "2026-08-01T10:50:24.556Z",
+      "retrievedAt": "2026-08-05T11:31:16.753Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W32",
@@ -408,7 +194,7 @@
       "name": "City Parks Foundation",
       "listingUrl": "https://cityparksfoundation.org/calendar/month/",
       "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-33/",
-      "retrievedAt": "2026-08-01T10:50:03.330Z",
+      "retrievedAt": "2026-08-05T11:30:53.223Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W32",
@@ -462,7 +248,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/open-farm-hours-7/2026-08-06/",
-      "retrievedAt": "2026-08-01T10:50:25.582Z",
+      "retrievedAt": "2026-08-05T11:31:16.776Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W32",
@@ -517,7 +303,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/composers-now-presents-dialogues/",
-      "retrievedAt": "2026-08-01T10:50:24.571Z",
+      "retrievedAt": "2026-08-05T11:31:16.848Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W32",
@@ -534,59 +320,6 @@
       {
         "question": "How do I register for Composers Now Presents: Dialogues?",
         "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_cee6edcf3259c49c",
-    "slug": "pinocchio-and-gepetto-s-big-apple-adventure-2026-08-07",
-    "title": "Pinocchio and Gepetto’s Big Apple Adventure",
-    "description": "During the 2026 season, the PuppetMobile will present a fresh take on the classic fairytale Pinocchio written by Julia Darden and directed by Bruce Cannon, with set design by Zlata […]",
-    "startDate": "2026-08-07T15:00:00.000Z",
-    "endDate": "2026-08-07T16:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "community",
-      "arts-culture"
-    ],
-    "tags": [],
-    "image": "https://cityparksfoundation.org/wp-content/uploads/2026/04/pinocho_1800x700-1.webp",
-    "price": "0",
-    "registrationUrl": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-33/",
-    "venue": {
-      "name": "Pinocchio and Gepetto’s Big Apple Adventure",
-      "address": "Queens, Queens, NY",
-      "neighborhood": "Queens",
-      "latitude": 40.7282,
-      "longitude": -73.7949
-    },
-    "organizer": {
-      "name": "Family",
-      "url": "https://cityparksfoundation.org/"
-    },
-    "source": {
-      "name": "City Parks Foundation",
-      "listingUrl": "https://cityparksfoundation.org/calendar/month/",
-      "canonicalUrl": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-33/",
-      "retrievedAt": "2026-08-01T10:50:02.653Z",
-      "method": "json-ld"
-    },
-    "weekKey": "2026-W32",
-    "answerSummary": "Pinocchio and Gepetto’s Big Apple Adventure is happening Friday, August 7 at 11:00 AM at Pinocchio and Gepetto’s Big Apple Adventure in Queens, Queens. During the 2026 season, the PuppetMobile will present a fresh take on the classic fairytale Pinocchio written by Julia Darden and directed by Bruce Cannon, with set design by Zlata […]",
-    "faqs": [
-      {
-        "question": "When is Pinocchio and Gepetto’s Big Apple Adventure?",
-        "answer": "Pinocchio and Gepetto’s Big Apple Adventure starts Friday, August 7 at 11:00 AM."
-      },
-      {
-        "question": "Where is Pinocchio and Gepetto’s Big Apple Adventure?",
-        "answer": "Pinocchio and Gepetto’s Big Apple Adventure, Queens, Queens, NY."
-      },
-      {
-        "question": "How do I register for Pinocchio and Gepetto’s Big Apple Adventure?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Family, the event source."
       }
     ]
   },
@@ -624,7 +357,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-07-1100-free-first-friday/",
-      "retrievedAt": "2026-08-01T10:50:30.604Z",
+      "retrievedAt": "2026-08-05T11:31:21.200Z",
       "method": "html"
     },
     "weekKey": "2026-W32",
@@ -677,7 +410,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-07-1500-tour-publico-museum-tour-in-spanish/",
-      "retrievedAt": "2026-08-01T10:50:30.690Z",
+      "retrievedAt": "2026-08-05T11:31:21.912Z",
       "method": "html"
     },
     "weekKey": "2026-W32",
@@ -730,7 +463,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-07-1600-art-party-with-discolocas/",
-      "retrievedAt": "2026-08-01T10:50:31.605Z",
+      "retrievedAt": "2026-08-05T11:31:21.213Z",
       "method": "html"
     },
     "weekKey": "2026-W32",
@@ -746,59 +479,6 @@
       },
       {
         "question": "How do I register for Art Party with Discolocas?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_82044828873acb82",
-    "slug": "arte-en-el-noguchi-arte-fiesta-con-el-colectivo-discolocas",
-    "title": "Arte en el Noguchi: Arte Fiesta con el colectivo Discolocas",
-    "description": "Les esperamos los viernes por la mañana durante el verano, para disfrutar una serie de talleres gratuitos de arte en español para toda la familia dirigidos por la artista Sol Aramendi. Pasaremos tiempo explorando las galerías y el jardín del museo. Y podrán participar en el taller de arte creando conexiones con su vida.",
-    "startDate": "2026-08-07T20:00:00.000Z",
-    "endDate": "2026-08-07T22:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "arts-culture",
-      "family"
-    ],
-    "tags": [],
-    "image": "https://www.noguchi.org/wp-content/uploads/2023/04/Mushroom-Prints-Photo-Sol-Aramendi-1.jpg",
-    "price": null,
-    "registrationUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-07-1600-arte-en-el-noguchi-arte-fiesta-con-el-colectivo-discolocas/",
-    "venue": {
-      "name": "The Noguchi Museum",
-      "address": "9-01 33rd Rd, Long Island City, NY 11106",
-      "neighborhood": "Long Island City",
-      "latitude": 40.7668,
-      "longitude": -73.9381
-    },
-    "organizer": {
-      "name": "The Noguchi Museum",
-      "url": "https://www.noguchi.org/"
-    },
-    "source": {
-      "name": "The Noguchi Museum",
-      "listingUrl": "https://www.noguchi.org/museum/calendar/",
-      "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-07-1600-arte-en-el-noguchi-arte-fiesta-con-el-colectivo-discolocas/",
-      "retrievedAt": "2026-08-01T10:50:31.804Z",
-      "method": "html"
-    },
-    "weekKey": "2026-W32",
-    "answerSummary": "Arte en el Noguchi: Arte Fiesta con el colectivo Discolocas is happening Friday, August 7 at 4:00 PM at The Noguchi Museum in Long Island City, Queens. Les esperamos los viernes por la mañana durante el verano, para disfrutar una serie de talleres gratuitos de arte en español para toda la familia dirigidos por la artista Sol Aramendi. Pasaremos tiempo explor",
-    "faqs": [
-      {
-        "question": "When is Arte en el Noguchi: Arte Fiesta con el colectivo Discolocas?",
-        "answer": "Arte en el Noguchi: Arte Fiesta con el colectivo Discolocas starts Friday, August 7 at 4:00 PM."
-      },
-      {
-        "question": "Where is Arte en el Noguchi: Arte Fiesta con el colectivo Discolocas?",
-        "answer": "The Noguchi Museum, 9-01 33rd Rd, Long Island City, NY 11106."
-      },
-      {
-        "question": "How do I register for Arte en el Noguchi: Arte Fiesta con el colectivo Discolocas?",
         "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
       }
     ]
@@ -837,7 +517,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-07-1600-pawn-chess-club-at-the-noguchi-museum/",
-      "retrievedAt": "2026-08-01T10:50:32.016Z",
+      "retrievedAt": "2026-08-05T11:31:22.393Z",
       "method": "html"
     },
     "weekKey": "2026-W32",
@@ -853,6 +533,59 @@
       },
       {
         "question": "How do I register for Pawn Chess Club at The Noguchi Museum?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_82044828873acb82",
+    "slug": "arte-en-el-noguchi-arte-fiesta-con-el-colectivo-discolocas",
+    "title": "Arte en el Noguchi: Arte Fiesta con el colectivo Discolocas",
+    "description": "Les esperamos los viernes por la mañana durante el verano, para disfrutar una serie de talleres gratuitos de arte en español para toda la familia dirigidos por la artista Sol Aramendi. Pasaremos tiempo explorando las galerías y el jardín del museo. Y podrán participar en el taller de arte creando conexiones con su vida.",
+    "startDate": "2026-08-07T20:00:00.000Z",
+    "endDate": "2026-08-07T22:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "arts-culture",
+      "family"
+    ],
+    "tags": [],
+    "image": "https://www.noguchi.org/wp-content/uploads/2023/04/Mushroom-Prints-Photo-Sol-Aramendi-1.jpg",
+    "price": null,
+    "registrationUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-07-1600-arte-en-el-noguchi-arte-fiesta-con-el-colectivo-discolocas/",
+    "venue": {
+      "name": "The Noguchi Museum",
+      "address": "9-01 33rd Rd, Long Island City, NY 11106",
+      "neighborhood": "Long Island City",
+      "latitude": 40.7668,
+      "longitude": -73.9381
+    },
+    "organizer": {
+      "name": "The Noguchi Museum",
+      "url": "https://www.noguchi.org/"
+    },
+    "source": {
+      "name": "The Noguchi Museum",
+      "listingUrl": "https://www.noguchi.org/museum/calendar/",
+      "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-07-1600-arte-en-el-noguchi-arte-fiesta-con-el-colectivo-discolocas/",
+      "retrievedAt": "2026-08-05T11:31:22.518Z",
+      "method": "html"
+    },
+    "weekKey": "2026-W32",
+    "answerSummary": "Arte en el Noguchi: Arte Fiesta con el colectivo Discolocas is happening Friday, August 7 at 4:00 PM at The Noguchi Museum in Long Island City, Queens. Les esperamos los viernes por la mañana durante el verano, para disfrutar una serie de talleres gratuitos de arte en español para toda la familia dirigidos por la artista Sol Aramendi. Pasaremos tiempo explor",
+    "faqs": [
+      {
+        "question": "When is Arte en el Noguchi: Arte Fiesta con el colectivo Discolocas?",
+        "answer": "Arte en el Noguchi: Arte Fiesta con el colectivo Discolocas starts Friday, August 7 at 4:00 PM."
+      },
+      {
+        "question": "Where is Arte en el Noguchi: Arte Fiesta con el colectivo Discolocas?",
+        "answer": "The Noguchi Museum, 9-01 33rd Rd, Long Island City, NY 11106."
+      },
+      {
+        "question": "How do I register for Arte en el Noguchi: Arte Fiesta con el colectivo Discolocas?",
         "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
       }
     ]
@@ -891,7 +624,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/infinity-day/",
-      "retrievedAt": "2026-08-01T10:50:24.626Z",
+      "retrievedAt": "2026-08-05T11:31:16.863Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W32",
@@ -945,7 +678,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-08-1100-community-day/",
-      "retrievedAt": "2026-08-01T10:50:32.002Z",
+      "retrievedAt": "2026-08-05T11:31:22.134Z",
       "method": "html"
     },
     "weekKey": "2026-W32",
@@ -998,7 +731,7 @@
       "name": "City Parks Foundation",
       "listingUrl": "https://cityparksfoundation.org/calendar/month/",
       "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-astoria-sitting-area-10/",
-      "retrievedAt": "2026-08-01T10:50:06.056Z",
+      "retrievedAt": "2026-08-05T11:30:56.740Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W32",
@@ -1015,59 +748,6 @@
       {
         "question": "How do I register for It’s My Park at Astoria Sitting Area?",
         "answer": "Use the organizer's registration link. Queens Calendar links directly to Volunteer, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_1044c45c273f38d8",
-    "slug": "pinocchio-and-gepetto-s-big-apple-adventure-2026-08-08",
-    "title": "Pinocchio and Gepetto’s Big Apple Adventure",
-    "description": "During the 2026 season, the PuppetMobile will present a fresh take on the classic fairytale Pinocchio written by Julia Darden and directed by Bruce Cannon, with set design by Zlata […]",
-    "startDate": "2026-08-08T17:00:00.000Z",
-    "endDate": "2026-08-08T18:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "community",
-      "arts-culture"
-    ],
-    "tags": [],
-    "image": "https://cityparksfoundation.org/wp-content/uploads/2026/04/pinocho_1800x700-1.webp",
-    "price": "0",
-    "registrationUrl": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-34/",
-    "venue": {
-      "name": "Pinocchio and Gepetto’s Big Apple Adventure",
-      "address": "Queens, Queens, NY",
-      "neighborhood": "Queens",
-      "latitude": 40.7282,
-      "longitude": -73.7949
-    },
-    "organizer": {
-      "name": "Family",
-      "url": "https://cityparksfoundation.org/"
-    },
-    "source": {
-      "name": "City Parks Foundation",
-      "listingUrl": "https://cityparksfoundation.org/calendar/month/",
-      "canonicalUrl": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-34/",
-      "retrievedAt": "2026-08-01T10:50:06.232Z",
-      "method": "json-ld"
-    },
-    "weekKey": "2026-W32",
-    "answerSummary": "Pinocchio and Gepetto’s Big Apple Adventure is happening Saturday, August 8 at 1:00 PM at Pinocchio and Gepetto’s Big Apple Adventure in Queens, Queens. During the 2026 season, the PuppetMobile will present a fresh take on the classic fairytale Pinocchio written by Julia Darden and directed by Bruce Cannon, with set design by Zlata […]",
-    "faqs": [
-      {
-        "question": "When is Pinocchio and Gepetto’s Big Apple Adventure?",
-        "answer": "Pinocchio and Gepetto’s Big Apple Adventure starts Saturday, August 8 at 1:00 PM."
-      },
-      {
-        "question": "Where is Pinocchio and Gepetto’s Big Apple Adventure?",
-        "answer": "Pinocchio and Gepetto’s Big Apple Adventure, Queens, Queens, NY."
-      },
-      {
-        "question": "How do I register for Pinocchio and Gepetto’s Big Apple Adventure?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Family, the event source."
       }
     ]
   },
@@ -1106,7 +786,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/the-ankhlave-garden-project-opening-tour-and-reception/",
-      "retrievedAt": "2026-08-01T10:50:24.647Z",
+      "retrievedAt": "2026-08-05T11:31:16.934Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W32",
@@ -1161,7 +841,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/movie-night-the-matrix/",
-      "retrievedAt": "2026-08-01T10:50:24.660Z",
+      "retrievedAt": "2026-08-05T11:31:16.949Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W32",
@@ -1216,7 +896,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-workshop-pruning-tomatoes/",
-      "retrievedAt": "2026-08-01T10:50:25.839Z",
+      "retrievedAt": "2026-08-05T11:31:17.028Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W32",
@@ -1269,7 +949,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-09-1500-%e4%b8%ad%e6%96%87%e5%85%ac%e7%9c%be%e5%b0%8e%e8%a6%bd-museum-tour-in-mandarin-chinese/",
-      "retrievedAt": "2026-08-01T10:50:31.988Z",
+      "retrievedAt": "2026-08-05T11:31:23.110Z",
       "method": "html"
     },
     "weekKey": "2026-W32",
@@ -1324,7 +1004,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-08-10/",
-      "retrievedAt": "2026-08-01T10:50:24.737Z",
+      "retrievedAt": "2026-08-05T11:31:17.043Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W33",
@@ -1377,7 +1057,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-10-1930-drawing-from-a-distance/",
-      "retrievedAt": "2026-08-01T10:50:32.308Z",
+      "retrievedAt": "2026-08-05T11:31:22.724Z",
       "method": "html"
     },
     "weekKey": "2026-W33",
@@ -1431,7 +1111,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-08-12/",
-      "retrievedAt": "2026-08-01T10:50:26.044Z",
+      "retrievedAt": "2026-08-05T11:31:17.033Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W33",
@@ -1484,7 +1164,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-12-1830-gimlets-in-the-garden/",
-      "retrievedAt": "2026-08-01T10:50:33.196Z",
+      "retrievedAt": "2026-08-05T11:31:23.189Z",
       "method": "html"
     },
     "weekKey": "2026-W33",
@@ -1539,7 +1219,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-08-13/",
-      "retrievedAt": "2026-08-01T10:50:25.936Z",
+      "retrievedAt": "2026-08-05T11:31:17.114Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W33",
@@ -1592,7 +1272,7 @@
       "name": "City Parks Foundation",
       "listingUrl": "https://cityparksfoundation.org/calendar/month/",
       "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-35/",
-      "retrievedAt": "2026-08-01T10:50:11.750Z",
+      "retrievedAt": "2026-08-05T11:31:05.729Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W33",
@@ -1646,7 +1326,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/open-farm-hours-7/2026-08-13/",
-      "retrievedAt": "2026-08-01T10:50:25.916Z",
+      "retrievedAt": "2026-08-05T11:31:18.220Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W33",
@@ -1699,7 +1379,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-13-1000-draw-together/",
-      "retrievedAt": "2026-08-01T10:50:33.204Z",
+      "retrievedAt": "2026-08-05T11:31:23.395Z",
       "method": "html"
     },
     "weekKey": "2026-W33",
@@ -1753,7 +1433,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-13-1700-walking-tour-noguchis-new-york/",
-      "retrievedAt": "2026-08-01T10:50:33.276Z",
+      "retrievedAt": "2026-08-05T11:31:24.012Z",
       "method": "html"
     },
     "weekKey": "2026-W33",
@@ -1806,7 +1486,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-14-1000-arte-en-el-noguchi-hongosto-caminata-de-hongos-en-colaboracion-con-la-sociedad-micologica-de-nueva-york/",
-      "retrievedAt": "2026-08-01T10:50:33.993Z",
+      "retrievedAt": "2026-08-05T11:31:24.118Z",
       "method": "html"
     },
     "weekKey": "2026-W33",
@@ -1859,7 +1539,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-15-1000-mindfulness-in-the-galleries/",
-      "retrievedAt": "2026-08-01T10:50:33.590Z",
+      "retrievedAt": "2026-08-05T11:31:24.004Z",
       "method": "html"
     },
     "weekKey": "2026-W33",
@@ -1876,61 +1556,6 @@
       {
         "question": "How do I register for Mindfulness in the Galleries?",
         "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_d10bacda17e6dc8d",
-    "slug": "summer-garden-tour-with-horticulture-director-andi-pettis",
-    "title": "Summer Garden Tour with Horticulture Director Andi Pettis",
-    "description": "See the Garden in a new light and explore what's growing this season on a guided tour with our Horticulture Director, Andi.",
-    "startDate": "2026-08-15T15:00:00.000Z",
-    "endDate": "2026-08-15T16:15:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "parks-outdoors",
-      "family",
-      "community",
-      "arts-culture"
-    ],
-    "tags": [],
-    "image": null,
-    "price": null,
-    "registrationUrl": "https://queensbotanical.org/event/summer-garden-tour-with-horticulture-director-andi-pettis/",
-    "venue": {
-      "name": "Queens Botanical Garden",
-      "address": "43-50 Main St, Flushing, NY 11355",
-      "neighborhood": "Flushing",
-      "latitude": 40.7516,
-      "longitude": -73.8268
-    },
-    "organizer": {
-      "name": "Queens Botanical Garden",
-      "url": "http://www.queensbotanical.org"
-    },
-    "source": {
-      "name": "Queens Botanical Garden",
-      "listingUrl": "https://queensbotanical.org/calendar/",
-      "canonicalUrl": "https://queensbotanical.org/event/summer-garden-tour-with-horticulture-director-andi-pettis/",
-      "retrievedAt": "2026-08-01T10:50:25.666Z",
-      "method": "json-ld"
-    },
-    "weekKey": "2026-W33",
-    "answerSummary": "Summer Garden Tour with Horticulture Director Andi Pettis is happening Saturday, August 15 at 11:00 AM at Queens Botanical Garden in Flushing, Queens. See the Garden in a new light and explore what's growing this season on a guided tour with our Horticulture Director, Andi.",
-    "faqs": [
-      {
-        "question": "When is Summer Garden Tour with Horticulture Director Andi Pettis?",
-        "answer": "Summer Garden Tour with Horticulture Director Andi Pettis starts Saturday, August 15 at 11:00 AM."
-      },
-      {
-        "question": "Where is Summer Garden Tour with Horticulture Director Andi Pettis?",
-        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
-      },
-      {
-        "question": "How do I register for Summer Garden Tour with Horticulture Director Andi Pettis?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
       }
     ]
   },
@@ -1969,7 +1594,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/paper-making-with-chloe-seibert/",
-      "retrievedAt": "2026-08-01T10:50:25.927Z",
+      "retrievedAt": "2026-08-05T11:31:18.224Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W33",
@@ -1985,6 +1610,61 @@
       },
       {
         "question": "How do I register for Paper Making with Chloe Seibert?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_d10bacda17e6dc8d",
+    "slug": "summer-garden-tour-with-horticulture-director-andi-pettis",
+    "title": "Summer Garden Tour with Horticulture Director Andi Pettis",
+    "description": "See the Garden in a new light and explore what's growing this season on a guided tour with our Horticulture Director, Andi.",
+    "startDate": "2026-08-15T15:00:00.000Z",
+    "endDate": "2026-08-15T16:15:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community",
+      "arts-culture"
+    ],
+    "tags": [],
+    "image": null,
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/summer-garden-tour-with-horticulture-director-andi-pettis/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "http://www.queensbotanical.org"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/summer-garden-tour-with-horticulture-director-andi-pettis/",
+      "retrievedAt": "2026-08-05T11:31:18.281Z",
+      "method": "json-ld"
+    },
+    "weekKey": "2026-W33",
+    "answerSummary": "Summer Garden Tour with Horticulture Director Andi Pettis is happening Saturday, August 15 at 11:00 AM at Queens Botanical Garden in Flushing, Queens. See the Garden in a new light and explore what's growing this season on a guided tour with our Horticulture Director, Andi.",
+    "faqs": [
+      {
+        "question": "When is Summer Garden Tour with Horticulture Director Andi Pettis?",
+        "answer": "Summer Garden Tour with Horticulture Director Andi Pettis starts Saturday, August 15 at 11:00 AM."
+      },
+      {
+        "question": "Where is Summer Garden Tour with Horticulture Director Andi Pettis?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for Summer Garden Tour with Horticulture Director Andi Pettis?",
         "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
       }
     ]
@@ -2022,7 +1702,7 @@
       "name": "City Parks Foundation",
       "listingUrl": "https://cityparksfoundation.org/calendar/month/",
       "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-astoria-sitting-area-11/",
-      "retrievedAt": "2026-08-01T10:50:13.831Z",
+      "retrievedAt": "2026-08-05T11:31:13.119Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W33",
@@ -2076,7 +1756,7 @@
       "name": "City Parks Foundation",
       "listingUrl": "https://cityparksfoundation.org/calendar/month/",
       "canonicalUrl": "https://cityparksfoundation.org/events/southside-we-outside/",
-      "retrievedAt": "2026-08-01T10:50:11.892Z",
+      "retrievedAt": "2026-08-05T11:31:05.838Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W33",
@@ -2131,7 +1811,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/movie-night-crazy-rich-asians/",
-      "retrievedAt": "2026-08-01T10:50:26.857Z",
+      "retrievedAt": "2026-08-05T11:31:17.282Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W33",
@@ -2185,7 +1865,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-beautification-community-volunteer-days-15/2026-08-16/",
-      "retrievedAt": "2026-08-01T10:50:27.072Z",
+      "retrievedAt": "2026-08-05T11:31:17.376Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W33",
@@ -2240,7 +1920,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/body-as-cosmos-galactic-language-activation/",
-      "retrievedAt": "2026-08-01T10:50:26.012Z",
+      "retrievedAt": "2026-08-05T11:31:17.370Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W33",
@@ -2295,7 +1975,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-08-17/",
-      "retrievedAt": "2026-08-01T10:50:27.027Z",
+      "retrievedAt": "2026-08-05T11:31:17.455Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W34",
@@ -2349,7 +2029,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-08-19/",
-      "retrievedAt": "2026-08-01T10:50:26.096Z",
+      "retrievedAt": "2026-08-05T11:31:17.467Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W34",
@@ -2366,59 +2046,6 @@
       {
         "question": "How do I register for Farm Community Volunteer Days?",
         "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_595806dc23f8ea79",
-    "slug": "pinocchio-and-gepetto-s-big-apple-adventure-2026-08-19",
-    "title": "Pinocchio and Gepetto’s Big Apple Adventure",
-    "description": "During the 2026 season, the PuppetMobile will present a fresh take on the classic fairytale Pinocchio written by Julia Darden and directed by Bruce Cannon, with set design by Zlata […]",
-    "startDate": "2026-08-19T18:00:00.000Z",
-    "endDate": "2026-08-19T19:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "community",
-      "arts-culture"
-    ],
-    "tags": [],
-    "image": "https://cityparksfoundation.org/wp-content/uploads/2026/04/pinocho_1800x700-1.webp",
-    "price": "0",
-    "registrationUrl": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-37/",
-    "venue": {
-      "name": "Pinocchio and Gepetto’s Big Apple Adventure",
-      "address": "Queens, Queens, NY",
-      "neighborhood": "Queens",
-      "latitude": 40.7282,
-      "longitude": -73.7949
-    },
-    "organizer": {
-      "name": "Family",
-      "url": "https://cityparksfoundation.org/"
-    },
-    "source": {
-      "name": "City Parks Foundation",
-      "listingUrl": "https://cityparksfoundation.org/calendar/month/",
-      "canonicalUrl": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-37/",
-      "retrievedAt": "2026-08-01T10:50:20.719Z",
-      "method": "json-ld"
-    },
-    "weekKey": "2026-W34",
-    "answerSummary": "Pinocchio and Gepetto’s Big Apple Adventure is happening Wednesday, August 19 at 2:00 PM at Pinocchio and Gepetto’s Big Apple Adventure in Queens, Queens. During the 2026 season, the PuppetMobile will present a fresh take on the classic fairytale Pinocchio written by Julia Darden and directed by Bruce Cannon, with set design by Zlata […]",
-    "faqs": [
-      {
-        "question": "When is Pinocchio and Gepetto’s Big Apple Adventure?",
-        "answer": "Pinocchio and Gepetto’s Big Apple Adventure starts Wednesday, August 19 at 2:00 PM."
-      },
-      {
-        "question": "Where is Pinocchio and Gepetto’s Big Apple Adventure?",
-        "answer": "Pinocchio and Gepetto’s Big Apple Adventure, Queens, Queens, NY."
-      },
-      {
-        "question": "How do I register for Pinocchio and Gepetto’s Big Apple Adventure?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Family, the event source."
       }
     ]
   },
@@ -2457,7 +2084,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-08-20/",
-      "retrievedAt": "2026-08-01T10:50:26.139Z",
+      "retrievedAt": "2026-08-05T11:31:17.542Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W34",
@@ -2474,59 +2101,6 @@
       {
         "question": "How do I register for Horticulture Community Volunteer Days 2026?",
         "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_6236abc405126d4b",
-    "slug": "it-s-my-park-at-hunter-s-point-south-park-2026-08-20",
-    "title": "It’s My Park at Hunter’s Point South Park",
-    "description": "Volunteer with Hunters Point Parks Conservancy to beautify Hunter's Point South Park.",
-    "startDate": "2026-08-20T14:00:00.000Z",
-    "endDate": "2026-08-20T16:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "community",
-      "arts-culture"
-    ],
-    "tags": [],
-    "image": "https://cityparksfoundation.org/wp-content/uploads/2025/03/IMP_widget_2023_rt_1-2-1-4-1-2-1-1-1-1-1-2-1-1-2-1-1-1-1-8-4-1-1-1-5-1-2-3-1-2-1-2-1-3-1-1-1-3-1-1-3-1.jpg",
-    "price": "0",
-    "registrationUrl": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-34/",
-    "venue": {
-      "name": "It’s My Park at Hunter’s Point South Park",
-      "address": "Long Island City, Queens, NY",
-      "neighborhood": "Long Island City",
-      "latitude": 40.7447,
-      "longitude": -73.9485
-    },
-    "organizer": {
-      "name": "Volunteer",
-      "url": "https://cityparksfoundation.org/"
-    },
-    "source": {
-      "name": "City Parks Foundation",
-      "listingUrl": "https://cityparksfoundation.org/calendar/month/",
-      "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-34/",
-      "retrievedAt": "2026-08-01T10:50:20.629Z",
-      "method": "json-ld"
-    },
-    "weekKey": "2026-W34",
-    "answerSummary": "It’s My Park at Hunter’s Point South Park is happening Thursday, August 20 at 10:00 AM at It’s My Park at Hunter’s Point South Park in Long Island City, Queens. Volunteer with Hunters Point Parks Conservancy to beautify Hunter's Point South Park.",
-    "faqs": [
-      {
-        "question": "When is It’s My Park at Hunter’s Point South Park?",
-        "answer": "It’s My Park at Hunter’s Point South Park starts Thursday, August 20 at 10:00 AM."
-      },
-      {
-        "question": "Where is It’s My Park at Hunter’s Point South Park?",
-        "answer": "It’s My Park at Hunter’s Point South Park, Long Island City, Queens, NY."
-      },
-      {
-        "question": "How do I register for It’s My Park at Hunter’s Point South Park?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Volunteer, the event source."
       }
     ]
   },
@@ -2564,7 +2138,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/open-farm-hours-7/2026-08-20/",
-      "retrievedAt": "2026-08-01T10:50:26.180Z",
+      "retrievedAt": "2026-08-05T11:31:18.586Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W34",
@@ -2618,7 +2192,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/taiwan-a-world-of-orchids-2026/",
-      "retrievedAt": "2026-08-01T10:50:26.232Z",
+      "retrievedAt": "2026-08-05T11:31:17.627Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W34",
@@ -2673,7 +2247,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-08-24/",
-      "retrievedAt": "2026-08-01T10:50:26.266Z",
+      "retrievedAt": "2026-08-05T11:31:17.712Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W35",
@@ -2727,7 +2301,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-08-26/",
-      "retrievedAt": "2026-08-01T10:50:27.345Z",
+      "retrievedAt": "2026-08-05T11:31:17.794Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W35",
@@ -2782,7 +2356,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-08-27/",
-      "retrievedAt": "2026-08-01T10:50:26.356Z",
+      "retrievedAt": "2026-08-05T11:31:17.878Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W35",
@@ -2836,7 +2410,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/open-farm-hours-7/2026-08-27/",
-      "retrievedAt": "2026-08-01T10:50:26.439Z",
+      "retrievedAt": "2026-08-05T11:31:18.915Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W35",
@@ -2891,7 +2465,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-08-31/",
-      "retrievedAt": "2026-08-01T10:50:27.537Z",
+      "retrievedAt": "2026-08-05T11:31:18.308Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W36",
@@ -2945,7 +2519,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-09-02/",
-      "retrievedAt": "2026-08-01T10:50:27.942Z",
+      "retrievedAt": "2026-08-05T11:31:18.317Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W36",
@@ -3000,7 +2574,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-09-03/",
-      "retrievedAt": "2026-08-01T10:50:28.118Z",
+      "retrievedAt": "2026-08-05T11:31:18.378Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W36",
@@ -3054,7 +2628,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/open-farm-hours-7/2026-09-03/",
-      "retrievedAt": "2026-08-01T10:50:28.201Z",
+      "retrievedAt": "2026-08-05T11:31:19.383Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W36",
@@ -3107,7 +2681,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-09-04-1100-free-first-friday/",
-      "retrievedAt": "2026-08-01T10:50:34.304Z",
+      "retrievedAt": "2026-08-05T11:31:24.788Z",
       "method": "html"
     },
     "weekKey": "2026-W36",
@@ -3160,7 +2734,7 @@
       "name": "Queens Museum",
       "listingUrl": "https://queensmuseum.org/event/",
       "canonicalUrl": "https://queensmuseum.org/event/information-session-2-2027-28-qm-jerome-foundation-fellowship-for-emerging-artists/",
-      "retrievedAt": "2026-08-01T10:49:49.426Z",
+      "retrievedAt": "2026-08-05T11:30:37.509Z",
       "method": "html"
     },
     "weekKey": "2026-W37",
@@ -3213,7 +2787,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-09-12-1000-members-morning-private-viewing-hour-of-noguchis-new-york/",
-      "retrievedAt": "2026-08-01T10:50:34.594Z",
+      "retrievedAt": "2026-08-05T11:31:24.520Z",
       "method": "html"
     },
     "weekKey": "2026-W37",
@@ -3266,7 +2840,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-09-12-1100-socrates-x-noguchi-field-guide-regeneration-natural-materials-with-julia-norton/",
-      "retrievedAt": "2026-08-01T10:50:34.706Z",
+      "retrievedAt": "2026-08-05T11:31:24.718Z",
       "method": "html"
     },
     "weekKey": "2026-W37",
@@ -3319,7 +2893,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-09-14-1930-drawing-from-a-distance/",
-      "retrievedAt": "2026-08-01T10:50:34.691Z",
+      "retrievedAt": "2026-08-05T11:31:26.180Z",
       "method": "html"
     },
     "weekKey": "2026-W38",
@@ -3372,7 +2946,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-09-26-1500-%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%81%a7%e3%81%ae%e3%83%84%e3%82%a2%e3%83%bc-museum-tour-in-japanese/",
-      "retrievedAt": "2026-08-01T10:50:34.910Z",
+      "retrievedAt": "2026-08-05T11:31:25.600Z",
       "method": "html"
     },
     "weekKey": "2026-W39",
@@ -3425,7 +2999,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-09-27-1500-hands-on-drawing/",
-      "retrievedAt": "2026-08-01T10:50:35.410Z",
+      "retrievedAt": "2026-08-05T11:31:25.329Z",
       "method": "html"
     },
     "weekKey": "2026-W39",
@@ -3478,7 +3052,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-10-10-1500-%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%81%a7%e3%81%ae%e3%83%84%e3%82%a2%e3%83%bc-museum-tour-in-japanese/",
-      "retrievedAt": "2026-08-01T10:50:35.524Z",
+      "retrievedAt": "2026-08-05T11:31:25.813Z",
       "method": "html"
     },
     "weekKey": "2026-W41",
@@ -3531,7 +3105,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-10-19-1930-drawing-from-a-distance/",
-      "retrievedAt": "2026-08-01T10:50:35.804Z",
+      "retrievedAt": "2026-08-05T11:31:26.231Z",
       "method": "html"
     },
     "weekKey": "2026-W43",
@@ -3584,7 +3158,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-15-1500-hands-on-drawing/",
-      "retrievedAt": "2026-08-01T10:50:35.915Z",
+      "retrievedAt": "2026-08-05T11:31:26.103Z",
       "method": "html"
     },
     "weekKey": "2026-W46",
@@ -3637,7 +3211,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-16-1930-drawing-from-a-distance/",
-      "retrievedAt": "2026-08-01T10:50:35.908Z",
+      "retrievedAt": "2026-08-05T11:31:26.359Z",
       "method": "html"
     },
     "weekKey": "2026-W47",
@@ -3690,7 +3264,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-12-21-1930-drawing-from-a-distance/",
-      "retrievedAt": "2026-08-01T10:50:35.982Z",
+      "retrievedAt": "2026-08-05T11:31:26.427Z",
       "method": "html"
     },
     "weekKey": "2026-W52",
