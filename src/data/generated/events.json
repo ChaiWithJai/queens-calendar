@@ -33,7 +33,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-08-05/",
-      "retrievedAt": "2026-08-05T11:31:16.689Z",
+      "retrievedAt": "2026-08-06T11:34:07.269Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W32",
@@ -86,7 +86,7 @@
       "name": "City Parks Foundation",
       "listingUrl": "https://cityparksfoundation.org/calendar/month/",
       "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-alley-pond-park/",
-      "retrievedAt": "2026-08-05T11:30:50.583Z",
+      "retrievedAt": "2026-08-06T11:33:49.308Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W32",
@@ -141,7 +141,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-08-06/",
-      "retrievedAt": "2026-08-05T11:31:16.753Z",
+      "retrievedAt": "2026-08-06T11:34:07.301Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W32",
@@ -194,7 +194,7 @@
       "name": "City Parks Foundation",
       "listingUrl": "https://cityparksfoundation.org/calendar/month/",
       "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-33/",
-      "retrievedAt": "2026-08-05T11:30:53.223Z",
+      "retrievedAt": "2026-08-06T11:33:47.003Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W32",
@@ -248,7 +248,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/open-farm-hours-7/2026-08-06/",
-      "retrievedAt": "2026-08-05T11:31:16.776Z",
+      "retrievedAt": "2026-08-06T11:34:07.322Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W32",
@@ -303,7 +303,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/composers-now-presents-dialogues/",
-      "retrievedAt": "2026-08-05T11:31:16.848Z",
+      "retrievedAt": "2026-08-06T11:34:07.329Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W32",
@@ -357,7 +357,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-07-1100-free-first-friday/",
-      "retrievedAt": "2026-08-05T11:31:21.200Z",
+      "retrievedAt": "2026-08-06T11:34:13.599Z",
       "method": "html"
     },
     "weekKey": "2026-W32",
@@ -410,7 +410,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-07-1500-tour-publico-museum-tour-in-spanish/",
-      "retrievedAt": "2026-08-05T11:31:21.912Z",
+      "retrievedAt": "2026-08-06T11:34:15.007Z",
       "method": "html"
     },
     "weekKey": "2026-W32",
@@ -426,59 +426,6 @@
       },
       {
         "question": "How do I register for Tour Público Museum Tour in Spanish?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_de214e6baaac5db8",
-    "slug": "art-party-with-discolocas",
-    "title": "Art Party with Discolocas",
-    "description": "Join us for dancing and art-making in the Museum’s Education Studio (Level C) at the closing celebration of Arte en el Noguchi, featuring the Discolocas DJ collective. Create an artwork to represent the ‘soundtrack of your life’ using vinyl records. This art making workshop will be bilingual in English and Spanish and is free for adults and families with children. Participation is free, and advance registration is not required. Everyone is welcome.",
-    "startDate": "2026-08-07T20:00:00.000Z",
-    "endDate": "2026-08-07T22:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "arts-culture",
-      "family"
-    ],
-    "tags": [],
-    "image": "https://www.noguchi.org/wp-content/uploads/2026/07/Discolocas-IMG_7834.jpg",
-    "price": null,
-    "registrationUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-07-1600-art-party-with-discolocas/",
-    "venue": {
-      "name": "The Noguchi Museum",
-      "address": "9-01 33rd Rd, Long Island City, NY 11106",
-      "neighborhood": "Long Island City",
-      "latitude": 40.7668,
-      "longitude": -73.9381
-    },
-    "organizer": {
-      "name": "The Noguchi Museum",
-      "url": "https://www.noguchi.org/"
-    },
-    "source": {
-      "name": "The Noguchi Museum",
-      "listingUrl": "https://www.noguchi.org/museum/calendar/",
-      "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-07-1600-art-party-with-discolocas/",
-      "retrievedAt": "2026-08-05T11:31:21.213Z",
-      "method": "html"
-    },
-    "weekKey": "2026-W32",
-    "answerSummary": "Art Party with Discolocas is happening Friday, August 7 at 4:00 PM at The Noguchi Museum in Long Island City, Queens. Join us for dancing and art-making in the Museum’s Education Studio (Level C) at the closing celebration of Arte en el Noguchi, featuring the Discolocas DJ collective. Create an artwork to represent the ‘soundtrack of your life’ using vinyl r",
-    "faqs": [
-      {
-        "question": "When is Art Party with Discolocas?",
-        "answer": "Art Party with Discolocas starts Friday, August 7 at 4:00 PM."
-      },
-      {
-        "question": "Where is Art Party with Discolocas?",
-        "answer": "The Noguchi Museum, 9-01 33rd Rd, Long Island City, NY 11106."
-      },
-      {
-        "question": "How do I register for Art Party with Discolocas?",
         "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
       }
     ]
@@ -517,7 +464,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-07-1600-pawn-chess-club-at-the-noguchi-museum/",
-      "retrievedAt": "2026-08-05T11:31:22.393Z",
+      "retrievedAt": "2026-08-06T11:34:14.215Z",
       "method": "html"
     },
     "weekKey": "2026-W32",
@@ -570,7 +517,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-07-1600-arte-en-el-noguchi-arte-fiesta-con-el-colectivo-discolocas/",
-      "retrievedAt": "2026-08-05T11:31:22.518Z",
+      "retrievedAt": "2026-08-06T11:34:14.305Z",
       "method": "html"
     },
     "weekKey": "2026-W32",
@@ -586,6 +533,59 @@
       },
       {
         "question": "How do I register for Arte en el Noguchi: Arte Fiesta con el colectivo Discolocas?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_de214e6baaac5db8",
+    "slug": "art-party-with-discolocas",
+    "title": "Art Party with Discolocas",
+    "description": "Join us for dancing and art-making in the Museum’s Education Studio (Level C) at the closing celebration of Arte en el Noguchi, featuring the Discolocas DJ collective. Create an artwork to represent the ‘soundtrack of your life’ using vinyl records. This art making workshop will be bilingual in English and Spanish and is free for adults and families with children. Participation is free, and advance registration is not required. Everyone is welcome.",
+    "startDate": "2026-08-07T20:00:00.000Z",
+    "endDate": "2026-08-07T22:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "arts-culture",
+      "family"
+    ],
+    "tags": [],
+    "image": "https://www.noguchi.org/wp-content/uploads/2026/07/Discolocas-IMG_7834.jpg",
+    "price": null,
+    "registrationUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-07-1600-art-party-with-discolocas/",
+    "venue": {
+      "name": "The Noguchi Museum",
+      "address": "9-01 33rd Rd, Long Island City, NY 11106",
+      "neighborhood": "Long Island City",
+      "latitude": 40.7668,
+      "longitude": -73.9381
+    },
+    "organizer": {
+      "name": "The Noguchi Museum",
+      "url": "https://www.noguchi.org/"
+    },
+    "source": {
+      "name": "The Noguchi Museum",
+      "listingUrl": "https://www.noguchi.org/museum/calendar/",
+      "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-07-1600-art-party-with-discolocas/",
+      "retrievedAt": "2026-08-06T11:34:15.023Z",
+      "method": "html"
+    },
+    "weekKey": "2026-W32",
+    "answerSummary": "Art Party with Discolocas is happening Friday, August 7 at 4:00 PM at The Noguchi Museum in Long Island City, Queens. Join us for dancing and art-making in the Museum’s Education Studio (Level C) at the closing celebration of Arte en el Noguchi, featuring the Discolocas DJ collective. Create an artwork to represent the ‘soundtrack of your life’ using vinyl r",
+    "faqs": [
+      {
+        "question": "When is Art Party with Discolocas?",
+        "answer": "Art Party with Discolocas starts Friday, August 7 at 4:00 PM."
+      },
+      {
+        "question": "Where is Art Party with Discolocas?",
+        "answer": "The Noguchi Museum, 9-01 33rd Rd, Long Island City, NY 11106."
+      },
+      {
+        "question": "How do I register for Art Party with Discolocas?",
         "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
       }
     ]
@@ -624,7 +624,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/infinity-day/",
-      "retrievedAt": "2026-08-05T11:31:16.863Z",
+      "retrievedAt": "2026-08-06T11:34:07.339Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W32",
@@ -678,7 +678,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-08-1100-community-day/",
-      "retrievedAt": "2026-08-05T11:31:22.134Z",
+      "retrievedAt": "2026-08-06T11:34:15.298Z",
       "method": "html"
     },
     "weekKey": "2026-W32",
@@ -731,7 +731,7 @@
       "name": "City Parks Foundation",
       "listingUrl": "https://cityparksfoundation.org/calendar/month/",
       "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-astoria-sitting-area-10/",
-      "retrievedAt": "2026-08-05T11:30:56.740Z",
+      "retrievedAt": "2026-08-06T11:33:51.095Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W32",
@@ -786,7 +786,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/the-ankhlave-garden-project-opening-tour-and-reception/",
-      "retrievedAt": "2026-08-05T11:31:16.934Z",
+      "retrievedAt": "2026-08-06T11:34:07.344Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W32",
@@ -841,7 +841,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/movie-night-the-matrix/",
-      "retrievedAt": "2026-08-05T11:31:16.949Z",
+      "retrievedAt": "2026-08-06T11:34:07.355Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W32",
@@ -896,7 +896,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-workshop-pruning-tomatoes/",
-      "retrievedAt": "2026-08-05T11:31:17.028Z",
+      "retrievedAt": "2026-08-06T11:34:07.363Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W32",
@@ -949,7 +949,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-09-1500-%e4%b8%ad%e6%96%87%e5%85%ac%e7%9c%be%e5%b0%8e%e8%a6%bd-museum-tour-in-mandarin-chinese/",
-      "retrievedAt": "2026-08-05T11:31:23.110Z",
+      "retrievedAt": "2026-08-06T11:34:16.803Z",
       "method": "html"
     },
     "weekKey": "2026-W32",
@@ -1004,7 +1004,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-08-10/",
-      "retrievedAt": "2026-08-05T11:31:17.043Z",
+      "retrievedAt": "2026-08-06T11:34:08.436Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W33",
@@ -1057,7 +1057,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-10-1930-drawing-from-a-distance/",
-      "retrievedAt": "2026-08-05T11:31:22.724Z",
+      "retrievedAt": "2026-08-06T11:34:15.912Z",
       "method": "html"
     },
     "weekKey": "2026-W33",
@@ -1111,7 +1111,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-08-12/",
-      "retrievedAt": "2026-08-05T11:31:17.033Z",
+      "retrievedAt": "2026-08-06T11:34:08.448Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W33",
@@ -1164,7 +1164,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-12-1830-gimlets-in-the-garden/",
-      "retrievedAt": "2026-08-05T11:31:23.189Z",
+      "retrievedAt": "2026-08-06T11:34:16.096Z",
       "method": "html"
     },
     "weekKey": "2026-W33",
@@ -1219,7 +1219,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-08-13/",
-      "retrievedAt": "2026-08-05T11:31:17.114Z",
+      "retrievedAt": "2026-08-06T11:34:08.453Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W33",
@@ -1272,7 +1272,7 @@
       "name": "City Parks Foundation",
       "listingUrl": "https://cityparksfoundation.org/calendar/month/",
       "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-35/",
-      "retrievedAt": "2026-08-05T11:31:05.729Z",
+      "retrievedAt": "2026-08-06T11:34:00.205Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W33",
@@ -1326,7 +1326,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/open-farm-hours-7/2026-08-13/",
-      "retrievedAt": "2026-08-05T11:31:18.220Z",
+      "retrievedAt": "2026-08-06T11:34:08.805Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W33",
@@ -1379,7 +1379,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-13-1000-draw-together/",
-      "retrievedAt": "2026-08-05T11:31:23.395Z",
+      "retrievedAt": "2026-08-06T11:34:17.098Z",
       "method": "html"
     },
     "weekKey": "2026-W33",
@@ -1433,7 +1433,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-13-1700-walking-tour-noguchis-new-york/",
-      "retrievedAt": "2026-08-05T11:31:24.012Z",
+      "retrievedAt": "2026-08-06T11:34:16.816Z",
       "method": "html"
     },
     "weekKey": "2026-W33",
@@ -1486,7 +1486,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-14-1000-arte-en-el-noguchi-hongosto-caminata-de-hongos-en-colaboracion-con-la-sociedad-micologica-de-nueva-york/",
-      "retrievedAt": "2026-08-05T11:31:24.118Z",
+      "retrievedAt": "2026-08-06T11:34:16.707Z",
       "method": "html"
     },
     "weekKey": "2026-W33",
@@ -1539,7 +1539,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-08-15-1000-mindfulness-in-the-galleries/",
-      "retrievedAt": "2026-08-05T11:31:24.004Z",
+      "retrievedAt": "2026-08-06T11:34:17.300Z",
       "method": "html"
     },
     "weekKey": "2026-W33",
@@ -1556,61 +1556,6 @@
       {
         "question": "How do I register for Mindfulness in the Galleries?",
         "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_d03d9c875c275615",
-    "slug": "paper-making-with-chloe-seibert",
-    "title": "Paper Making with Chloe Seibert",
-    "description": "Join artist Chloe Seibert for a papermaking workshop. We will utilize recycled and organic materials sourced from the garden to make handmade paper during this workshop in conjunction with her Twin Urns project.",
-    "startDate": "2026-08-15T15:00:00.000Z",
-    "endDate": "2026-08-15T16:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "parks-outdoors",
-      "family",
-      "community",
-      "arts-culture"
-    ],
-    "tags": [],
-    "image": null,
-    "price": null,
-    "registrationUrl": "https://queensbotanical.org/event/paper-making-with-chloe-seibert/",
-    "venue": {
-      "name": "Queens Botanical Garden",
-      "address": "43-50 Main St, Flushing, NY 11355",
-      "neighborhood": "Flushing",
-      "latitude": 40.7516,
-      "longitude": -73.8268
-    },
-    "organizer": {
-      "name": "Queens Botanical Garden",
-      "url": "http://www.queensbotanical.org"
-    },
-    "source": {
-      "name": "Queens Botanical Garden",
-      "listingUrl": "https://queensbotanical.org/calendar/",
-      "canonicalUrl": "https://queensbotanical.org/event/paper-making-with-chloe-seibert/",
-      "retrievedAt": "2026-08-05T11:31:18.224Z",
-      "method": "json-ld"
-    },
-    "weekKey": "2026-W33",
-    "answerSummary": "Paper Making with Chloe Seibert is happening Saturday, August 15 at 11:00 AM at Queens Botanical Garden in Flushing, Queens. Join artist Chloe Seibert for a papermaking workshop. We will utilize recycled and organic materials sourced from the garden to make handmade paper during this workshop in conjunction with her Twin Urns project.",
-    "faqs": [
-      {
-        "question": "When is Paper Making with Chloe Seibert?",
-        "answer": "Paper Making with Chloe Seibert starts Saturday, August 15 at 11:00 AM."
-      },
-      {
-        "question": "Where is Paper Making with Chloe Seibert?",
-        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
-      },
-      {
-        "question": "How do I register for Paper Making with Chloe Seibert?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
       }
     ]
   },
@@ -1649,7 +1594,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/summer-garden-tour-with-horticulture-director-andi-pettis/",
-      "retrievedAt": "2026-08-05T11:31:18.281Z",
+      "retrievedAt": "2026-08-06T11:34:08.140Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W33",
@@ -1665,6 +1610,61 @@
       },
       {
         "question": "How do I register for Summer Garden Tour with Horticulture Director Andi Pettis?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_d03d9c875c275615",
+    "slug": "paper-making-with-chloe-seibert",
+    "title": "Paper Making with Chloe Seibert",
+    "description": "Join artist Chloe Seibert for a papermaking workshop. We will utilize recycled and organic materials sourced from the garden to make handmade paper during this workshop in conjunction with her Twin Urns project.",
+    "startDate": "2026-08-15T15:00:00.000Z",
+    "endDate": "2026-08-15T16:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community",
+      "arts-culture"
+    ],
+    "tags": [],
+    "image": null,
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/paper-making-with-chloe-seibert/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "http://www.queensbotanical.org"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/paper-making-with-chloe-seibert/",
+      "retrievedAt": "2026-08-06T11:34:09.023Z",
+      "method": "json-ld"
+    },
+    "weekKey": "2026-W33",
+    "answerSummary": "Paper Making with Chloe Seibert is happening Saturday, August 15 at 11:00 AM at Queens Botanical Garden in Flushing, Queens. Join artist Chloe Seibert for a papermaking workshop. We will utilize recycled and organic materials sourced from the garden to make handmade paper during this workshop in conjunction with her Twin Urns project.",
+    "faqs": [
+      {
+        "question": "When is Paper Making with Chloe Seibert?",
+        "answer": "Paper Making with Chloe Seibert starts Saturday, August 15 at 11:00 AM."
+      },
+      {
+        "question": "Where is Paper Making with Chloe Seibert?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for Paper Making with Chloe Seibert?",
         "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
       }
     ]
@@ -1702,7 +1702,7 @@
       "name": "City Parks Foundation",
       "listingUrl": "https://cityparksfoundation.org/calendar/month/",
       "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-astoria-sitting-area-11/",
-      "retrievedAt": "2026-08-05T11:31:13.119Z",
+      "retrievedAt": "2026-08-06T11:34:01.609Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W33",
@@ -1756,7 +1756,7 @@
       "name": "City Parks Foundation",
       "listingUrl": "https://cityparksfoundation.org/calendar/month/",
       "canonicalUrl": "https://cityparksfoundation.org/events/southside-we-outside/",
-      "retrievedAt": "2026-08-05T11:31:05.838Z",
+      "retrievedAt": "2026-08-06T11:33:56.766Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W33",
@@ -1811,7 +1811,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/movie-night-crazy-rich-asians/",
-      "retrievedAt": "2026-08-05T11:31:17.282Z",
+      "retrievedAt": "2026-08-06T11:34:09.139Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W33",
@@ -1865,7 +1865,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-beautification-community-volunteer-days-15/2026-08-16/",
-      "retrievedAt": "2026-08-05T11:31:17.376Z",
+      "retrievedAt": "2026-08-06T11:34:09.580Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W33",
@@ -1920,7 +1920,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/body-as-cosmos-galactic-language-activation/",
-      "retrievedAt": "2026-08-05T11:31:17.370Z",
+      "retrievedAt": "2026-08-06T11:34:09.584Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W33",
@@ -1975,7 +1975,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-08-17/",
-      "retrievedAt": "2026-08-05T11:31:17.455Z",
+      "retrievedAt": "2026-08-06T11:34:10.047Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W34",
@@ -2029,7 +2029,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-08-19/",
-      "retrievedAt": "2026-08-05T11:31:17.467Z",
+      "retrievedAt": "2026-08-06T11:34:10.145Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W34",
@@ -2084,7 +2084,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-08-20/",
-      "retrievedAt": "2026-08-05T11:31:17.542Z",
+      "retrievedAt": "2026-08-06T11:34:10.444Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W34",
@@ -2138,7 +2138,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/open-farm-hours-7/2026-08-20/",
-      "retrievedAt": "2026-08-05T11:31:18.586Z",
+      "retrievedAt": "2026-08-06T11:34:10.587Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W34",
@@ -2192,7 +2192,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/taiwan-a-world-of-orchids-2026/",
-      "retrievedAt": "2026-08-05T11:31:17.627Z",
+      "retrievedAt": "2026-08-06T11:34:09.607Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W34",
@@ -2247,7 +2247,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-08-24/",
-      "retrievedAt": "2026-08-05T11:31:17.712Z",
+      "retrievedAt": "2026-08-06T11:34:10.896Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W35",
@@ -2301,7 +2301,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-08-26/",
-      "retrievedAt": "2026-08-05T11:31:17.794Z",
+      "retrievedAt": "2026-08-06T11:34:10.759Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W35",
@@ -2356,7 +2356,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-08-27/",
-      "retrievedAt": "2026-08-05T11:31:17.878Z",
+      "retrievedAt": "2026-08-06T11:34:11.205Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W35",
@@ -2410,7 +2410,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/open-farm-hours-7/2026-08-27/",
-      "retrievedAt": "2026-08-05T11:31:18.915Z",
+      "retrievedAt": "2026-08-06T11:34:11.268Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W35",
@@ -2465,7 +2465,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-08-31/",
-      "retrievedAt": "2026-08-05T11:31:18.308Z",
+      "retrievedAt": "2026-08-06T11:34:11.624Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W36",
@@ -2519,7 +2519,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-09-02/",
-      "retrievedAt": "2026-08-05T11:31:18.317Z",
+      "retrievedAt": "2026-08-06T11:34:11.804Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W36",
@@ -2574,7 +2574,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-09-03/",
-      "retrievedAt": "2026-08-05T11:31:18.378Z",
+      "retrievedAt": "2026-08-06T11:34:12.050Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W36",
@@ -2628,7 +2628,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/open-farm-hours-7/2026-09-03/",
-      "retrievedAt": "2026-08-05T11:31:19.383Z",
+      "retrievedAt": "2026-08-06T11:34:12.077Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W36",
@@ -2681,7 +2681,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-09-04-1100-free-first-friday/",
-      "retrievedAt": "2026-08-05T11:31:24.788Z",
+      "retrievedAt": "2026-08-06T11:34:17.915Z",
       "method": "html"
     },
     "weekKey": "2026-W36",
@@ -2697,6 +2697,59 @@
       },
       {
         "question": "How do I register for Free First Friday?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_ba6a7ee86a29b9d4",
+    "slug": "museum-tour-in-japanese-2026-09-05",
+    "title": "日本語でのツアー Museum Tour in Japanese",
+    "description": "Tours are conversational and explore select works in the Museum’s collection and exhibitions while introducing the life and vision of Isamu Noguchi. In keeping with Noguchi’s interest in the visitor’s personal experience of the Museum, groups will be encouraged to share their observations and interpretations throughout the course of the tour.",
+    "startDate": "2026-09-05T19:00:00.000Z",
+    "endDate": "2026-09-05T21:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "arts-culture",
+      "family"
+    ],
+    "tags": [],
+    "image": "https://www.noguchi.org/wp-content/uploads/2022/06/Noguchi-Museum-Tours-Public-Programs-4-photo-Katherine-Abbott.jpg",
+    "price": null,
+    "registrationUrl": "https://www.noguchi.org/museum/calendar/event/2026-09-05-1500-%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%81%a7%e3%81%ae%e3%83%84%e3%82%a2%e3%83%bc-museum-tour-in-japanese/",
+    "venue": {
+      "name": "The Noguchi Museum",
+      "address": "9-01 33rd Rd, Long Island City, NY 11106",
+      "neighborhood": "Long Island City",
+      "latitude": 40.7668,
+      "longitude": -73.9381
+    },
+    "organizer": {
+      "name": "The Noguchi Museum",
+      "url": "https://www.noguchi.org/"
+    },
+    "source": {
+      "name": "The Noguchi Museum",
+      "listingUrl": "https://www.noguchi.org/museum/calendar/",
+      "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-09-05-1500-%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%81%a7%e3%81%ae%e3%83%84%e3%82%a2%e3%83%bc-museum-tour-in-japanese/",
+      "retrievedAt": "2026-08-06T11:34:19.211Z",
+      "method": "html"
+    },
+    "weekKey": "2026-W36",
+    "answerSummary": "日本語でのツアー Museum Tour in Japanese is happening Saturday, September 5 at 3:00 PM at The Noguchi Museum in Long Island City, Queens. Tours are conversational and explore select works in the Museum’s collection and exhibitions while introducing the life and vision of Isamu Noguchi. In keeping with Noguchi’s interest in the visitor’s personal experience of the Mu",
+    "faqs": [
+      {
+        "question": "When is 日本語でのツアー Museum Tour in Japanese?",
+        "answer": "日本語でのツアー Museum Tour in Japanese starts Saturday, September 5 at 3:00 PM."
+      },
+      {
+        "question": "Where is 日本語でのツアー Museum Tour in Japanese?",
+        "answer": "The Noguchi Museum, 9-01 33rd Rd, Long Island City, NY 11106."
+      },
+      {
+        "question": "How do I register for 日本語でのツアー Museum Tour in Japanese?",
         "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
       }
     ]
@@ -2734,7 +2787,7 @@
       "name": "Queens Museum",
       "listingUrl": "https://queensmuseum.org/event/",
       "canonicalUrl": "https://queensmuseum.org/event/information-session-2-2027-28-qm-jerome-foundation-fellowship-for-emerging-artists/",
-      "retrievedAt": "2026-08-05T11:30:37.509Z",
+      "retrievedAt": "2026-08-06T11:33:32.349Z",
       "method": "html"
     },
     "weekKey": "2026-W37",
@@ -2787,7 +2840,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-09-12-1000-members-morning-private-viewing-hour-of-noguchis-new-york/",
-      "retrievedAt": "2026-08-05T11:31:24.520Z",
+      "retrievedAt": "2026-08-06T11:34:18.314Z",
       "method": "html"
     },
     "weekKey": "2026-W37",
@@ -2840,7 +2893,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-09-12-1100-socrates-x-noguchi-field-guide-regeneration-natural-materials-with-julia-norton/",
-      "retrievedAt": "2026-08-05T11:31:24.718Z",
+      "retrievedAt": "2026-08-06T11:34:18.514Z",
       "method": "html"
     },
     "weekKey": "2026-W37",
@@ -2893,7 +2946,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-09-14-1930-drawing-from-a-distance/",
-      "retrievedAt": "2026-08-05T11:31:26.180Z",
+      "retrievedAt": "2026-08-06T11:34:19.509Z",
       "method": "html"
     },
     "weekKey": "2026-W38",
@@ -2909,59 +2962,6 @@
       },
       {
         "question": "How do I register for Drawing from a Distance?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_bc4a607e8ceca922",
-    "slug": "museum-tour-in-japanese-2026-09-26",
-    "title": "日本語でのツアー Museum Tour in Japanese",
-    "description": "Tours are conversational and explore select works in the Museum’s collection and exhibitions while introducing the life and vision of Isamu Noguchi. In keeping with Noguchi’s interest in the visitor’s personal experience of the Museum, groups will be encouraged to share their observations and interpretations throughout the course of the tour.",
-    "startDate": "2026-09-26T19:00:00.000Z",
-    "endDate": "2026-09-26T21:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "arts-culture",
-      "family"
-    ],
-    "tags": [],
-    "image": "https://www.noguchi.org/wp-content/uploads/2022/06/Noguchi-Museum-Tours-Public-Programs-4-photo-Katherine-Abbott.jpg",
-    "price": null,
-    "registrationUrl": "https://www.noguchi.org/museum/calendar/event/2026-09-26-1500-%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%81%a7%e3%81%ae%e3%83%84%e3%82%a2%e3%83%bc-museum-tour-in-japanese/",
-    "venue": {
-      "name": "The Noguchi Museum",
-      "address": "9-01 33rd Rd, Long Island City, NY 11106",
-      "neighborhood": "Long Island City",
-      "latitude": 40.7668,
-      "longitude": -73.9381
-    },
-    "organizer": {
-      "name": "The Noguchi Museum",
-      "url": "https://www.noguchi.org/"
-    },
-    "source": {
-      "name": "The Noguchi Museum",
-      "listingUrl": "https://www.noguchi.org/museum/calendar/",
-      "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-09-26-1500-%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%81%a7%e3%81%ae%e3%83%84%e3%82%a2%e3%83%bc-museum-tour-in-japanese/",
-      "retrievedAt": "2026-08-05T11:31:25.600Z",
-      "method": "html"
-    },
-    "weekKey": "2026-W39",
-    "answerSummary": "日本語でのツアー Museum Tour in Japanese is happening Saturday, September 26 at 3:00 PM at The Noguchi Museum in Long Island City, Queens. Tours are conversational and explore select works in the Museum’s collection and exhibitions while introducing the life and vision of Isamu Noguchi. In keeping with Noguchi’s interest in the visitor’s personal experience of the M",
-    "faqs": [
-      {
-        "question": "When is 日本語でのツアー Museum Tour in Japanese?",
-        "answer": "日本語でのツアー Museum Tour in Japanese starts Saturday, September 26 at 3:00 PM."
-      },
-      {
-        "question": "Where is 日本語でのツアー Museum Tour in Japanese?",
-        "answer": "The Noguchi Museum, 9-01 33rd Rd, Long Island City, NY 11106."
-      },
-      {
-        "question": "How do I register for 日本語でのツアー Museum Tour in Japanese?",
         "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
       }
     ]
@@ -2999,7 +2999,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-09-27-1500-hands-on-drawing/",
-      "retrievedAt": "2026-08-05T11:31:25.329Z",
+      "retrievedAt": "2026-08-06T11:34:18.892Z",
       "method": "html"
     },
     "weekKey": "2026-W39",
@@ -3052,7 +3052,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-10-10-1500-%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%81%a7%e3%81%ae%e3%83%84%e3%82%a2%e3%83%bc-museum-tour-in-japanese/",
-      "retrievedAt": "2026-08-05T11:31:25.813Z",
+      "retrievedAt": "2026-08-06T11:34:19.911Z",
       "method": "html"
     },
     "weekKey": "2026-W41",
@@ -3105,7 +3105,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-10-19-1930-drawing-from-a-distance/",
-      "retrievedAt": "2026-08-05T11:31:26.231Z",
+      "retrievedAt": "2026-08-06T11:34:19.813Z",
       "method": "html"
     },
     "weekKey": "2026-W43",
@@ -3158,7 +3158,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-15-1500-hands-on-drawing/",
-      "retrievedAt": "2026-08-05T11:31:26.103Z",
+      "retrievedAt": "2026-08-06T11:34:20.088Z",
       "method": "html"
     },
     "weekKey": "2026-W46",
@@ -3211,7 +3211,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-16-1930-drawing-from-a-distance/",
-      "retrievedAt": "2026-08-05T11:31:26.359Z",
+      "retrievedAt": "2026-08-06T11:34:20.235Z",
       "method": "html"
     },
     "weekKey": "2026-W47",
@@ -3264,7 +3264,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-12-21-1930-drawing-from-a-distance/",
-      "retrievedAt": "2026-08-05T11:31:26.427Z",
+      "retrievedAt": "2026-08-06T11:34:20.290Z",
       "method": "html"
     },
     "weekKey": "2026-W52",
