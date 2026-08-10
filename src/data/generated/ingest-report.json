@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T09:58:20.603Z",
+  "generatedAt": "2026-08-10T10:37:54.902Z",
   "catalogStatus": "fresh",
   "sources": [
     {
@@ -17,21 +17,21 @@
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/summer-exhibition-opening-sonia-boyce-demonstrate/",
+          "link": "https://queensmuseum.org/event/information-session-1-2027-28-qm-jerome-foundation-fellowship-for-emerging-artists/",
           "reasons": [
-            "outside rolling publication window (2026-06-27T18:00:00.000Z)"
+            "outside rolling publication window (2026-07-16T22:00:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensmuseum.org/event/queens-teens-institute-social-night-2026/",
+          "reasons": [
+            "outside rolling publication window (2026-05-30T21:30:00.000Z)"
           ]
         },
         {
           "link": "https://queensmuseum.org/event/ecuadorian-spring-recital-recital-ecuatoriano-de-primavera-2026/",
           "reasons": [
             "outside rolling publication window (2026-06-14T18:00:00.000Z)"
-          ]
-        },
-        {
-          "link": "https://queensmuseum.org/event/artaccess-open-studios-estudio-abierto-june-14-2026/",
-          "reasons": [
-            "outside rolling publication window (2026-06-14T15:30:00.000Z)"
           ]
         },
         {
@@ -42,30 +42,18 @@
         }
       ],
       "errors": [],
-      "durationMs": 4307
+      "durationMs": 6420
     },
     {
       "id": "city-parks-foundation",
       "name": "City Parks Foundation",
       "status": "ok",
       "discovered": 60,
-      "accepted": 4,
-      "rejected": 56,
+      "accepted": 3,
+      "rejected": 57,
       "rejections": [
         {
           "link": "https://cityparksfoundation.org/events/funk-flex-birthday-rb-picnic/",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
-          "link": "https://cityparksfoundation.org/events/julieta-venegas/",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-highbridge-park-9/",
           "reasons": [
             "could not extract title/date from page"
           ]
@@ -81,10 +69,22 @@
           "reasons": [
             "could not extract title/date from page"
           ]
+        },
+        {
+          "link": "https://cityparksfoundation.org/events/la-india-bronx-26/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
+        {
+          "link": "https://cityparksfoundation.org/events/julieta-venegas/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
         }
       ],
       "errors": [],
-      "durationMs": 25112
+      "durationMs": 32711
     },
     {
       "id": "museum-moving-image",
@@ -97,7 +97,7 @@
       "errors": [
         "HTTP 403"
       ],
-      "durationMs": 354
+      "durationMs": 197
     },
     {
       "id": "queens-public-library",
@@ -110,7 +110,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 528
+      "durationMs": 276
     },
     {
       "id": "flushing-town-hall",
@@ -123,7 +123,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 695
+      "durationMs": 803
     },
     {
       "id": "queens-botanical-garden",
@@ -134,21 +134,9 @@
       "rejected": 12,
       "rejections": [
         {
-          "link": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/all/",
+          "link": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-07-27/",
           "reasons": [
-            "outside rolling publication window (2026-08-08T00:00:00.000Z)"
-          ]
-        },
-        {
-          "link": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/all/",
-          "reasons": [
-            "outside rolling publication window (2026-08-08T00:00:00.000Z)"
-          ]
-        },
-        {
-          "link": "https://queensbotanical.org/event/open-farm-hours-7/2026-07-30/",
-          "reasons": [
-            "outside rolling publication window (2026-07-30T14:00:00.000Z)"
+            "outside rolling publication window (2026-07-27T13:30:00.000Z)"
           ]
         },
         {
@@ -158,48 +146,48 @@
           ]
         },
         {
-          "link": "https://queensbotanical.org/event/farm-community-volunteer-days-28/all/",
+          "link": "https://queensbotanical.org/event/open-farm-hours-7/2026-07-30/",
           "reasons": [
-            "outside rolling publication window (2026-08-08T00:00:00.000Z)"
+            "outside rolling publication window (2026-07-30T14:00:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-08-06/",
+          "reasons": [
+            "outside rolling publication window (2026-08-06T12:45:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensbotanical.org/event/composers-now-presents-dialogues/",
+          "reasons": [
+            "outside rolling publication window (2026-08-06T22:00:00.000Z)"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 4825
+      "durationMs": 4268
     },
     {
       "id": "noguchi-museum",
       "name": "The Noguchi Museum",
       "status": "ok",
-      "discovered": 18,
-      "accepted": 18,
+      "discovered": 17,
+      "accepted": 17,
       "rejected": 0,
       "rejections": [],
       "errors": [],
-      "durationMs": 5435
+      "durationMs": 5117
     },
     {
       "id": "socrates-sculpture-park",
       "name": "Socrates Sculpture Park",
       "status": "ok",
-      "discovered": 14,
+      "discovered": 13,
       "accepted": 0,
-      "rejected": 14,
+      "rejected": 13,
       "rejections": [
         {
           "link": "https://socratessculpturepark.org/programevent/sunset-meditation-with-mindful-astoria/",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
-          "link": "https://socratessculpturepark.org/programevent/queensboro-dance-festival-dance-classes-and-performances/",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
-          "link": "https://socratessculpturepark.org/programevent/yoga-at-socrates-with-astoria-yoga/",
           "reasons": [
             "could not extract title/date from page"
           ]
@@ -215,10 +203,22 @@
           "reasons": [
             "could not extract title/date from page"
           ]
+        },
+        {
+          "link": "https://socratessculpturepark.org/programevent/field-guide-build-it-like-a-bee-using-mud-stems-fuzz-and-more-with-idig2learn/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
+        {
+          "link": "https://socratessculpturepark.org/programevent/climate-week-community-clean-up-day-socrates-sculpture-park-and-hallets-cove-beach/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
         }
       ],
       "errors": [],
-      "durationMs": 4084
+      "durationMs": 3744
     },
     {
       "id": "queens-theatre",
@@ -229,7 +229,7 @@
       "rejected": 21,
       "rejections": [
         {
-          "link": "https://queenstheatre.org/events/theatre",
+          "link": "https://queenstheatre.org/events/dance",
           "reasons": [
             "could not extract title/date from page"
           ]
@@ -241,13 +241,7 @@
           ]
         },
         {
-          "link": "https://www.queenstheatre.org/events/themas/5/visiting-presenter?_locale=en",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
-          "link": "https://queenstheatre.org/events/dance",
+          "link": "https://queenstheatre.org/events/theatre",
           "reasons": [
             "could not extract title/date from page"
           ]
@@ -257,16 +251,22 @@
           "reasons": [
             "could not extract title/date from page"
           ]
+        },
+        {
+          "link": "https://www.queenstheatre.org/events/themas/5/visiting-presenter?_locale=en",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
         }
       ],
       "errors": [],
-      "durationMs": 5015
+      "durationMs": 4325
     }
   ],
   "totals": {
-    "discovered": 173,
-    "accepted": 51,
-    "published": 51,
+    "discovered": 171,
+    "accepted": 49,
+    "published": 49,
     "rejected": 122
   }
 }
