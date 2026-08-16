@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T09:43:04.171Z",
+  "generatedAt": "2026-08-16T09:44:20.313Z",
   "catalogStatus": "fresh",
   "sources": [
     {
@@ -17,21 +17,15 @@
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/summer-exhibition-opening-sonia-boyce-demonstrate/",
+          "link": "https://queensmuseum.org/event/printmaking-workshop-a-new-new-yorkers-program-062026/",
           "reasons": [
-            "outside rolling publication window (2026-06-27T18:00:00.000Z)"
+            "outside rolling publication window (2026-06-21T18:00:00.000Z)"
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/ecuadorian-spring-recital-recital-ecuatoriano-de-primavera-2026/",
+          "link": "https://queensmuseum.org/event/queens-teens-institute-social-night-2026/",
           "reasons": [
-            "outside rolling publication window (2026-06-14T18:00:00.000Z)"
-          ]
-        },
-        {
-          "link": "https://queensmuseum.org/event/nyc-neighborhood-passport-program-already-home-fifa-world-cup-26/",
-          "reasons": [
-            "could not extract title/date from page"
+            "outside rolling publication window (2026-05-30T21:30:00.000Z)"
           ]
         },
         {
@@ -39,17 +33,23 @@
           "reasons": [
             "outside rolling publication window (2026-07-16T22:00:00.000Z)"
           ]
+        },
+        {
+          "link": "https://queensmuseum.org/event/summer-exhibition-opening-sonia-boyce-demonstrate/",
+          "reasons": [
+            "outside rolling publication window (2026-06-27T18:00:00.000Z)"
+          ]
         }
       ],
       "errors": [],
-      "durationMs": 711
+      "durationMs": 2214
     },
     {
       "id": "city-parks-foundation",
       "name": "City Parks Foundation",
       "status": "ok",
       "discovered": 60,
-      "accepted": 3,
+      "accepted": 2,
       "rejected": 58,
       "rejections": [
         {
@@ -65,26 +65,26 @@
           ]
         },
         {
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-32/",
+          "reasons": [
+            "outside rolling publication window (2026-07-30T14:00:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-highbridge-park-9/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
+        {
           "link": "https://cityparksfoundation.org/events/its-my-park-at-greenwood-playground-3/",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-seth-low-playground-bealin-square-36/",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-brower-park-18/",
           "reasons": [
             "could not extract title/date from page"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 44921
+      "durationMs": 31576
     },
     {
       "id": "museum-moving-image",
@@ -97,7 +97,7 @@
       "errors": [
         "HTTP 403"
       ],
-      "durationMs": 160
+      "durationMs": 183
     },
     {
       "id": "queens-public-library",
@@ -110,7 +110,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 236
+      "durationMs": 299
     },
     {
       "id": "flushing-town-hall",
@@ -123,15 +123,15 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 623
+      "durationMs": 687
     },
     {
       "id": "queens-botanical-garden",
       "name": "Queens Botanical Garden",
       "status": "ok",
       "discovered": 41,
-      "accepted": 24,
-      "rejected": 17,
+      "accepted": 23,
+      "rejected": 18,
       "rejections": [
         {
           "link": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-07-30/",
@@ -140,9 +140,9 @@
           ]
         },
         {
-          "link": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-07-27/",
+          "link": "https://queensbotanical.org/event/farm-community-volunteer-days-28/all/",
           "reasons": [
-            "outside rolling publication window (2026-07-27T13:30:00.000Z)"
+            "outside rolling publication window (2026-08-15T00:00:00.000Z)"
           ]
         },
         {
@@ -165,35 +165,29 @@
         }
       ],
       "errors": [],
-      "durationMs": 6440
+      "durationMs": 4752
     },
     {
       "id": "noguchi-museum",
       "name": "The Noguchi Museum",
       "status": "ok",
-      "discovered": 13,
-      "accepted": 13,
+      "discovered": 12,
+      "accepted": 12,
       "rejected": 0,
       "rejections": [],
       "errors": [],
-      "durationMs": 4005
+      "durationMs": 4046
     },
     {
       "id": "socrates-sculpture-park",
       "name": "Socrates Sculpture Park",
       "status": "ok",
-      "discovered": 13,
+      "discovered": 12,
       "accepted": 0,
-      "rejected": 13,
+      "rejected": 12,
       "rejections": [
         {
-          "link": "https://socratessculpturepark.org/programevent/mexfest-presents-cuerpxs-en-resonancia-physical-body-release-repair-and-trace/",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
-          "link": "https://socratessculpturepark.org/programevent/field-guide-x-noguchi-regeneration-natural-materials-with-julia-norton/",
+          "link": "https://socratessculpturepark.org/programevent/hip-to-hip-theatre-company-presents-as-you-like-it/",
           "reasons": [
             "could not extract title/date from page"
           ]
@@ -205,20 +199,26 @@
           ]
         },
         {
-          "link": "https://socratessculpturepark.org/programevent/field-guide-build-it-like-a-bee-using-mud-stems-fuzz-and-more-with-idig2learn/",
+          "link": "https://socratessculpturepark.org/programevent/field-guide-x-noguchi-regeneration-natural-materials-with-julia-norton/",
           "reasons": [
             "could not extract title/date from page"
           ]
         },
         {
-          "link": "https://socratessculpturepark.org/programevent/hip-to-hip-theatre-company-presents-as-you-like-it/",
+          "link": "https://socratessculpturepark.org/programevent/mexfest-presents-cuerpxs-en-resonancia-cognitive-affective-body-repetition-to-repair-story-circle/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
+        {
+          "link": "https://socratessculpturepark.org/programevent/mexfest-presents-cuerpxs-en-resonancia-physical-body-release-repair-and-trace/",
           "reasons": [
             "could not extract title/date from page"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 3645
+      "durationMs": 3578
     },
     {
       "id": "queens-theatre",
@@ -235,19 +235,13 @@
           ]
         },
         {
-          "link": "https://queenstheatre.org/events/family",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
-          "link": "https://queenstheatre.org/events/special-event",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
           "link": "https://queenstheatre.org/events/dance",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
+        {
+          "link": "https://queenstheatre.org/events/family",
           "reasons": [
             "could not extract title/date from page"
           ]
@@ -257,16 +251,22 @@
           "reasons": [
             "could not extract title/date from page"
           ]
+        },
+        {
+          "link": "https://queenstheatre.org/events/special-event",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
         }
       ],
       "errors": [],
-      "durationMs": 5249
+      "durationMs": 4860
     }
   ],
   "totals": {
-    "discovered": 168,
-    "accepted": 41,
-    "published": 40,
+    "discovered": 166,
+    "accepted": 38,
+    "published": 38,
     "rejected": 128
   }
 }
