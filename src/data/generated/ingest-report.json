@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T09:59:06.927Z",
+  "generatedAt": "2026-08-18T09:49:32.894Z",
   "catalogStatus": "fresh",
   "sources": [
     {
@@ -29,20 +29,20 @@
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/artaccess-open-studios-estudio-abierto-june-14-2026/",
-          "reasons": [
-            "outside rolling publication window (2026-06-14T15:30:00.000Z)"
-          ]
-        },
-        {
           "link": "https://queensmuseum.org/event/nyc-neighborhood-passport-program-already-home-fifa-world-cup-26/",
           "reasons": [
             "could not extract title/date from page"
           ]
+        },
+        {
+          "link": "https://queensmuseum.org/event/artaccess-open-studios-estudio-abierto-june-14-2026/",
+          "reasons": [
+            "outside rolling publication window (2026-06-14T15:30:00.000Z)"
+          ]
         }
       ],
       "errors": [],
-      "durationMs": 1716
+      "durationMs": 1208
     },
     {
       "id": "city-parks-foundation",
@@ -71,7 +71,7 @@
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/la-india-bronx-26/",
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-highbridge-park-9/",
           "reasons": [
             "could not extract title/date from page"
           ]
@@ -84,7 +84,7 @@
         }
       ],
       "errors": [],
-      "durationMs": 33750
+      "durationMs": 27598
     },
     {
       "id": "museum-moving-image",
@@ -97,7 +97,7 @@
       "errors": [
         "HTTP 403"
       ],
-      "durationMs": 151
+      "durationMs": 169
     },
     {
       "id": "queens-public-library",
@@ -110,7 +110,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 504
+      "durationMs": 344
     },
     {
       "id": "flushing-town-hall",
@@ -123,28 +123,16 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 753
+      "durationMs": 649
     },
     {
       "id": "queens-botanical-garden",
       "name": "Queens Botanical Garden",
       "status": "ok",
       "discovered": 41,
-      "accepted": 20,
-      "rejected": 21,
+      "accepted": 17,
+      "rejected": 24,
       "rejections": [
-        {
-          "link": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/all/",
-          "reasons": [
-            "outside rolling publication window (2026-08-16T00:00:00.000Z)"
-          ]
-        },
-        {
-          "link": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-07-27/",
-          "reasons": [
-            "outside rolling publication window (2026-07-27T13:30:00.000Z)"
-          ]
-        },
         {
           "link": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-07-29/",
           "reasons": [
@@ -152,9 +140,21 @@
           ]
         },
         {
+          "link": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/all/",
+          "reasons": [
+            "outside rolling publication window (2026-08-17T00:00:00.000Z)"
+          ]
+        },
+        {
           "link": "https://queensbotanical.org/event/open-farm-hours-7/2026-07-30/",
           "reasons": [
             "outside rolling publication window (2026-07-30T14:00:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-08-06/",
+          "reasons": [
+            "outside rolling publication window (2026-08-06T12:45:00.000Z)"
           ]
         },
         {
@@ -165,7 +165,7 @@
         }
       ],
       "errors": [],
-      "durationMs": 6981
+      "durationMs": 5289
     },
     {
       "id": "noguchi-museum",
@@ -176,7 +176,7 @@
       "rejected": 0,
       "rejections": [],
       "errors": [],
-      "durationMs": 6124
+      "durationMs": 6186
     },
     {
       "id": "socrates-sculpture-park",
@@ -186,12 +186,6 @@
       "accepted": 0,
       "rejected": 11,
       "rejections": [
-        {
-          "link": "https://socratessculpturepark.org/programevent/mexfest-presenta-cuerpxs-en-resonancia-cuerpo-fisico-liberacion-reparacion-y-rastro-sabado/",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
         {
           "link": "https://socratessculpturepark.org/programevent/yoga-at-socrates-with-astoria-yoga/",
           "reasons": [
@@ -211,6 +205,12 @@
           ]
         },
         {
+          "link": "https://socratessculpturepark.org/programevent/mexfest-presenta-cuerpxs-en-resonancia-cuerpo-cognitivo-afectivo-repeticion-para-reparar-circulo-de-historias/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
+        {
           "link": "https://socratessculpturepark.org/programevent/mexfest-presents-cuerpxs-en-resonancia-physical-body-release-repair-and-trace/",
           "reasons": [
             "could not extract title/date from page"
@@ -218,7 +218,7 @@
         }
       ],
       "errors": [],
-      "durationMs": 4526
+      "durationMs": 3727
     },
     {
       "id": "queens-theatre",
@@ -253,20 +253,20 @@
           ]
         },
         {
-          "link": "https://queenstheatre.org/events/kingdom-choice-awards-2026-dqr9",
+          "link": "https://queenstheatre.org/events/themas/accessible-events?_locale=en",
           "reasons": [
             "could not extract title/date from page"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 5086
+      "durationMs": 5446
     }
   ],
   "totals": {
     "discovered": 165,
-    "accepted": 33,
-    "published": 33,
-    "rejected": 132
+    "accepted": 30,
+    "published": 30,
+    "rejected": 135
   }
 }
