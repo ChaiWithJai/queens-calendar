@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T09:49:32.894Z",
+  "generatedAt": "2026-08-19T09:50:40.261Z",
   "catalogStatus": "fresh",
   "sources": [
     {
@@ -17,21 +17,15 @@
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/summer-exhibition-opening-sonia-boyce-demonstrate/",
-          "reasons": [
-            "outside rolling publication window (2026-06-27T18:00:00.000Z)"
-          ]
-        },
-        {
           "link": "https://queensmuseum.org/event/ecuadorian-spring-recital-recital-ecuatoriano-de-primavera-2026/",
           "reasons": [
             "outside rolling publication window (2026-06-14T18:00:00.000Z)"
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/nyc-neighborhood-passport-program-already-home-fifa-world-cup-26/",
+          "link": "https://queensmuseum.org/event/summer-exhibition-opening-sonia-boyce-demonstrate/",
           "reasons": [
-            "could not extract title/date from page"
+            "outside rolling publication window (2026-06-27T18:00:00.000Z)"
           ]
         },
         {
@@ -39,10 +33,16 @@
           "reasons": [
             "outside rolling publication window (2026-06-14T15:30:00.000Z)"
           ]
+        },
+        {
+          "link": "https://queensmuseum.org/event/artaccess-open-studios-estudio-abierto-june-13-2026/",
+          "reasons": [
+            "outside rolling publication window (2026-06-13T15:30:00.000Z)"
+          ]
         }
       ],
       "errors": [],
-      "durationMs": 1208
+      "durationMs": 1034
     },
     {
       "id": "city-parks-foundation",
@@ -65,26 +65,26 @@
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-30/",
-          "reasons": [
-            "outside rolling publication window (2026-07-27T15:00:00.000Z)"
-          ]
-        },
-        {
           "link": "https://cityparksfoundation.org/events/its-my-park-at-highbridge-park-9/",
           "reasons": [
             "could not extract title/date from page"
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-brower-park-18/",
+          "link": "https://cityparksfoundation.org/events/la-india-bronx-26/",
           "reasons": [
             "could not extract title/date from page"
+          ]
+        },
+        {
+          "link": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-30/",
+          "reasons": [
+            "outside rolling publication window (2026-07-27T15:00:00.000Z)"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 27598
+      "durationMs": 27966
     },
     {
       "id": "museum-moving-image",
@@ -97,7 +97,7 @@
       "errors": [
         "HTTP 403"
       ],
-      "durationMs": 169
+      "durationMs": 190
     },
     {
       "id": "queens-public-library",
@@ -110,7 +110,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 344
+      "durationMs": 881
     },
     {
       "id": "flushing-town-hall",
@@ -123,7 +123,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 649
+      "durationMs": 883
     },
     {
       "id": "queens-botanical-garden",
@@ -140,9 +140,9 @@
           ]
         },
         {
-          "link": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/all/",
+          "link": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-07-27/",
           "reasons": [
-            "outside rolling publication window (2026-08-17T00:00:00.000Z)"
+            "outside rolling publication window (2026-07-27T13:30:00.000Z)"
           ]
         },
         {
@@ -152,31 +152,31 @@
           ]
         },
         {
-          "link": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-08-06/",
-          "reasons": [
-            "outside rolling publication window (2026-08-06T12:45:00.000Z)"
-          ]
-        },
-        {
           "link": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-07-30/",
           "reasons": [
             "outside rolling publication window (2026-07-30T12:45:00.000Z)"
           ]
+        },
+        {
+          "link": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-08-05/",
+          "reasons": [
+            "outside rolling publication window (2026-08-05T13:30:00.000Z)"
+          ]
         }
       ],
       "errors": [],
-      "durationMs": 5289
+      "durationMs": 4441
     },
     {
       "id": "noguchi-museum",
       "name": "The Noguchi Museum",
       "status": "ok",
-      "discovered": 12,
-      "accepted": 12,
+      "discovered": 17,
+      "accepted": 17,
       "rejected": 0,
       "rejections": [],
       "errors": [],
-      "durationMs": 6186
+      "durationMs": 6177
     },
     {
       "id": "socrates-sculpture-park",
@@ -199,26 +199,26 @@
           ]
         },
         {
+          "link": "https://socratessculpturepark.org/programevent/mexfest-presents-cuerpxs-en-resonancia-physical-body-release-repair-and-trace/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
+        {
           "link": "https://socratessculpturepark.org/programevent/field-guide-x-noguchi-regeneration-natural-materials-with-julia-norton/",
           "reasons": [
             "could not extract title/date from page"
           ]
         },
         {
-          "link": "https://socratessculpturepark.org/programevent/mexfest-presenta-cuerpxs-en-resonancia-cuerpo-cognitivo-afectivo-repeticion-para-reparar-circulo-de-historias/",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
-          "link": "https://socratessculpturepark.org/programevent/mexfest-presents-cuerpxs-en-resonancia-physical-body-release-repair-and-trace/",
+          "link": "https://socratessculpturepark.org/programevent/mexfest-presenta-cuerpxs-en-resonancia-cuerpo-fisico-liberacion-reparacion-y-rastro-sabado/",
           "reasons": [
             "could not extract title/date from page"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 3727
+      "durationMs": 3794
     },
     {
       "id": "queens-theatre",
@@ -241,6 +241,12 @@
           ]
         },
         {
+          "link": "https://queenstheatre.org/events/kingdom-choice-awards-2026-dqr9",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
+        {
           "link": "https://queenstheatre.org/events/dance",
           "reasons": [
             "could not extract title/date from page"
@@ -251,22 +257,16 @@
           "reasons": [
             "could not extract title/date from page"
           ]
-        },
-        {
-          "link": "https://queenstheatre.org/events/themas/accessible-events?_locale=en",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
         }
       ],
       "errors": [],
-      "durationMs": 5446
+      "durationMs": 4309
     }
   ],
   "totals": {
-    "discovered": 165,
-    "accepted": 30,
-    "published": 30,
+    "discovered": 170,
+    "accepted": 35,
+    "published": 35,
     "rejected": 135
   }
 }
