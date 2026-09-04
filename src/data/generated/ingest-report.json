@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T13:36:41.770Z",
+  "generatedAt": "2026-09-04T13:33:38.477Z",
   "catalogStatus": "fresh",
   "sources": [
     {
@@ -23,9 +23,9 @@
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/queens-teens-institute-social-night-2026/",
+          "link": "https://queensmuseum.org/event/summer-exhibition-opening-sonia-boyce-demonstrate/",
           "reasons": [
-            "outside rolling publication window (2026-05-30T21:30:00.000Z)"
+            "outside rolling publication window (2026-06-27T18:00:00.000Z)"
           ]
         },
         {
@@ -35,31 +35,25 @@
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/information-session-1-2027-28-qm-jerome-foundation-fellowship-for-emerging-artists/",
+          "link": "https://queensmuseum.org/event/artaccess-open-studios-estudio-abierto-june-14-2026/",
           "reasons": [
-            "outside rolling publication window (2026-07-16T22:00:00.000Z)"
+            "outside rolling publication window (2026-06-14T15:30:00.000Z)"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 1182
+      "durationMs": 874
     },
     {
       "id": "city-parks-foundation",
       "name": "City Parks Foundation",
       "status": "ok",
       "discovered": 52,
-      "accepted": 6,
+      "accepted": 5,
       "rejected": 47,
       "rejections": [
         {
           "link": "https://cityparksfoundation.org/events/funk-flex-birthday-rb-picnic/",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-highbridge-park-11/",
           "reasons": [
             "could not extract title/date from page"
           ]
@@ -77,6 +71,12 @@
           ]
         },
         {
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-highbridge-park-11/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
+        {
           "link": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-41/",
           "reasons": [
             "could not extract title/date from page"
@@ -84,7 +84,7 @@
         }
       ],
       "errors": [],
-      "durationMs": 27667
+      "durationMs": 26463
     },
     {
       "id": "museum-moving-image",
@@ -97,7 +97,7 @@
       "errors": [
         "HTTP 403"
       ],
-      "durationMs": 318
+      "durationMs": 42
     },
     {
       "id": "queens-public-library",
@@ -110,7 +110,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 570
+      "durationMs": 294
     },
     {
       "id": "flushing-town-hall",
@@ -123,31 +123,43 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 712
+      "durationMs": 603
     },
     {
       "id": "queens-botanical-garden",
       "name": "Queens Botanical Garden",
       "status": "ok",
       "discovered": 37,
-      "accepted": 35,
-      "rejected": 2,
+      "accepted": 33,
+      "rejected": 4,
       "rejections": [
-        {
-          "link": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-08-31/",
-          "reasons": [
-            "outside rolling publication window (2026-08-31T13:30:00.000Z)"
-          ]
-        },
         {
           "link": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-09-02/",
           "reasons": [
             "outside rolling publication window (2026-09-02T13:30:00.000Z)"
           ]
+        },
+        {
+          "link": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-09-03/",
+          "reasons": [
+            "outside rolling publication window (2026-09-03T12:45:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/all/",
+          "reasons": [
+            "outside rolling publication window (2026-09-03T00:00:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-08-31/",
+          "reasons": [
+            "outside rolling publication window (2026-08-31T13:30:00.000Z)"
+          ]
         }
       ],
       "errors": [],
-      "durationMs": 6665
+      "durationMs": 7558
     },
     {
       "id": "noguchi-museum",
@@ -158,7 +170,7 @@
       "rejected": 0,
       "rejections": [],
       "errors": [],
-      "durationMs": 6877
+      "durationMs": 7202
     },
     {
       "id": "socrates-sculpture-park",
@@ -171,7 +183,7 @@
       "errors": [
         "HTTP 404"
       ],
-      "durationMs": 578
+      "durationMs": 393
     },
     {
       "id": "queens-theatre",
@@ -182,19 +194,13 @@
       "rejected": 21,
       "rejections": [
         {
-          "link": "https://queenstheatre.org/events/theatre",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
-          "link": "https://queenstheatre.org/events/dance",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
           "link": "https://queenstheatre.org/events/family",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
+        {
+          "link": "https://queenstheatre.org/events/special-event",
           "reasons": [
             "could not extract title/date from page"
           ]
@@ -206,20 +212,26 @@
           ]
         },
         {
-          "link": "https://queenstheatre.org/events/special-event",
+          "link": "https://queenstheatre.org/events/themas/accessible-events?_locale=en",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
+        {
+          "link": "https://queenstheatre.org/events/theatre",
           "reasons": [
             "could not extract title/date from page"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 5062
+      "durationMs": 4738
     }
   ],
   "totals": {
     "discovered": 151,
-    "accepted": 66,
-    "published": 65,
-    "rejected": 86
+    "accepted": 63,
+    "published": 63,
+    "rejected": 88
   }
 }
