@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T14:03:53.465Z",
+  "generatedAt": "2026-09-23T14:16:31.915Z",
   "catalogStatus": "fresh",
   "sources": [
     {
@@ -11,21 +11,15 @@
       "rejected": 17,
       "rejections": [
         {
-          "link": "https://queensmuseum.org/event/nyc-neighborhood-passport-program-already-home-fifa-world-cup-26/",
+          "link": "https://queensmuseum.org/event/opening-celebration-a-green-carpet-for-everyone-weaving-nets/",
           "reasons": [
-            "could not extract title/date from page"
+            "outside rolling publication window (2026-07-12T16:00:00.000Z)"
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/summer-exhibition-opening-sonia-boyce-demonstrate/",
+          "link": "https://queensmuseum.org/event/printmaking-workshop-a-new-new-yorkers-program-062026/",
           "reasons": [
-            "outside rolling publication window (2026-06-27T18:00:00.000Z)"
-          ]
-        },
-        {
-          "link": "https://queensmuseum.org/event/information-session-2-2027-28-qm-jerome-foundation-fellowship-for-emerging-artists/",
-          "reasons": [
-            "outside rolling publication window (2026-09-09T22:00:00.000Z)"
+            "outside rolling publication window (2026-06-21T18:00:00.000Z)"
           ]
         },
         {
@@ -35,14 +29,20 @@
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/information-session-1-2027-28-qm-jerome-foundation-fellowship-for-emerging-artists/",
+          "link": "https://queensmuseum.org/event/information-session-2-2027-28-qm-jerome-foundation-fellowship-for-emerging-artists/",
           "reasons": [
-            "outside rolling publication window (2026-07-16T22:00:00.000Z)"
+            "outside rolling publication window (2026-09-09T22:00:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensmuseum.org/event/queens-teens-institute-social-night-2026/",
+          "reasons": [
+            "outside rolling publication window (2026-05-30T21:30:00.000Z)"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 1816
+      "durationMs": 11678
     },
     {
       "id": "city-parks-foundation",
@@ -52,6 +52,18 @@
       "accepted": 1,
       "rejected": 59,
       "rejections": [
+        {
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-sunset-park-101/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
+        {
+          "link": "https://cityparksfoundation.org/events/cpjf-ancillary-tsq-live/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
         {
           "link": "https://cityparksfoundation.org/events/funk-flex-birthday-rb-picnic/",
           "reasons": [
@@ -65,26 +77,14 @@
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-sunset-park-101/",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
-          "link": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-40/",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-sunset-park-97/",
+          "link": "https://cityparksfoundation.org/events/verve-70th-anniversary-christian-mcbride-mei-semones-friends-play-the-music-of-getz-gilberto/",
           "reasons": [
             "could not extract title/date from page"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 41058
+      "durationMs": 54194
     },
     {
       "id": "museum-moving-image",
@@ -97,7 +97,7 @@
       "errors": [
         "HTTP 403"
       ],
-      "durationMs": 220
+      "durationMs": 116
     },
     {
       "id": "queens-public-library",
@@ -110,7 +110,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 417
+      "durationMs": 281
     },
     {
       "id": "flushing-town-hall",
@@ -123,7 +123,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 937
+      "durationMs": 527
     },
     {
       "id": "queens-botanical-garden",
@@ -134,15 +134,15 @@
       "rejected": 20,
       "rejections": [
         {
-          "link": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-09-02/",
+          "link": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-08-31/",
           "reasons": [
-            "outside rolling publication window (2026-09-02T13:30:00.000Z)"
+            "outside rolling publication window (2026-08-31T13:30:00.000Z)"
           ]
         },
         {
-          "link": "https://queensbotanical.org/event/open-farm-hours-7/2026-09-03/",
+          "link": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-09-02/",
           "reasons": [
-            "outside rolling publication window (2026-09-03T14:00:00.000Z)"
+            "outside rolling publication window (2026-09-02T13:30:00.000Z)"
           ]
         },
         {
@@ -152,31 +152,38 @@
           ]
         },
         {
-          "link": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-09-09/",
+          "link": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-09-03/",
           "reasons": [
-            "outside rolling publication window (2026-09-09T13:30:00.000Z)"
+            "outside rolling publication window (2026-09-03T12:45:00.000Z)"
           ]
         },
         {
-          "link": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-09-10/",
+          "link": "https://queensbotanical.org/event/open-farm-hours-7/2026-09-03/",
           "reasons": [
-            "outside rolling publication window (2026-09-10T12:45:00.000Z)"
+            "outside rolling publication window (2026-09-03T14:00:00.000Z)"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 19390
+      "durationMs": 10074
     },
     {
       "id": "noguchi-museum",
       "name": "The Noguchi Museum",
       "status": "ok",
-      "discovered": 15,
-      "accepted": 15,
-      "rejected": 0,
-      "rejections": [],
+      "discovered": 28,
+      "accepted": 27,
+      "rejected": 1,
+      "rejections": [
+        {
+          "link": "https://www.noguchi.org/museum/calendar/event/2026-10-06-benefit-and-2026-isamu-noguchi-award-presentation/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        }
+      ],
       "errors": [],
-      "durationMs": 9689
+      "durationMs": 8313
     },
     {
       "id": "socrates-sculpture-park",
@@ -187,9 +194,9 @@
       "rejected": 0,
       "rejections": [],
       "errors": [
-        "HTTP 404"
+        "fetch failed"
       ],
-      "durationMs": 603
+      "durationMs": 10485
     },
     {
       "id": "queens-theatre",
@@ -206,7 +213,7 @@
           ]
         },
         {
-          "link": "https://queenstheatre.org/events/family",
+          "link": "https://queenstheatre.org/events/special-event",
           "reasons": [
             "could not extract title/date from page"
           ]
@@ -218,26 +225,26 @@
           ]
         },
         {
-          "link": "https://queenstheatre.org/events/special-event",
+          "link": "https://queenstheatre.org/events/family",
           "reasons": [
             "could not extract title/date from page"
           ]
         },
         {
-          "link": "https://queenstheatre.org/events/las-anez-ryt7",
+          "link": "https://queenstheatre.org/events/themas/accessible-events?_locale=en",
           "reasons": [
             "could not extract title/date from page"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 5813
+      "durationMs": 6035
     }
   ],
   "totals": {
-    "discovered": 152,
-    "accepted": 35,
-    "published": 35,
-    "rejected": 117
+    "discovered": 165,
+    "accepted": 47,
+    "published": 47,
+    "rejected": 118
   }
 }
