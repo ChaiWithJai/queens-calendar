@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T15:51:30.812Z",
+  "generatedAt": "2026-10-04T14:48:51.233Z",
   "catalogStatus": "fresh",
   "sources": [
     {
@@ -11,21 +11,9 @@
       "rejected": 19,
       "rejections": [
         {
-          "link": "https://queensmuseum.org/event/information-session-2-2027-28-qm-jerome-foundation-fellowship-for-emerging-artists/",
-          "reasons": [
-            "outside rolling publication window (2026-09-09T22:00:00.000Z)"
-          ]
-        },
-        {
           "link": "https://queensmuseum.org/event/nyc-neighborhood-passport-program-already-home-fifa-world-cup-26/",
           "reasons": [
             "could not extract title/date from page"
-          ]
-        },
-        {
-          "link": "https://queensmuseum.org/event/september-family-day-legal-aid-for-venida-for-kalief/",
-          "reasons": [
-            "outside rolling publication window (2026-09-26T17:00:00.000Z)"
           ]
         },
         {
@@ -35,14 +23,26 @@
           ]
         },
         {
+          "link": "https://queensmuseum.org/event/queens-teens-institute-social-night-2026/",
+          "reasons": [
+            "outside rolling publication window (2026-05-30T21:30:00.000Z)"
+          ]
+        },
+        {
           "link": "https://queensmuseum.org/event/summer-exhibition-opening-sonia-boyce-demonstrate/",
           "reasons": [
             "outside rolling publication window (2026-06-27T18:00:00.000Z)"
           ]
+        },
+        {
+          "link": "https://queensmuseum.org/event/september-family-day-legal-aid-for-venida-for-kalief/",
+          "reasons": [
+            "outside rolling publication window (2026-09-26T17:00:00.000Z)"
+          ]
         }
       ],
       "errors": [],
-      "durationMs": 2931
+      "durationMs": 940
     },
     {
       "id": "city-parks-foundation",
@@ -53,38 +53,38 @@
       "rejected": 54,
       "rejections": [
         {
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-sunset-park-120/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
+        {
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-stuyvesant-square-58/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
+        {
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-alexander-hamilton-playground/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
+        {
           "link": "https://cityparksfoundation.org/events/funk-flex-birthday-rb-picnic/",
           "reasons": [
             "could not extract title/date from page"
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-brower-park-25/",
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-48/",
           "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-ralph-bunche-park-30/",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
-          "link": "https://cityparksfoundation.org/events/charley-crockett/",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-sunset-park-120/",
-          "reasons": [
-            "could not extract title/date from page"
+            "outside rolling publication window (2026-10-01T14:00:00.000Z)"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 36504
+      "durationMs": 41168
     },
     {
       "id": "museum-moving-image",
@@ -97,7 +97,7 @@
       "errors": [
         "HTTP 403"
       ],
-      "durationMs": 285
+      "durationMs": 109
     },
     {
       "id": "queens-public-library",
@@ -110,7 +110,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 241
+      "durationMs": 220
     },
     {
       "id": "flushing-town-hall",
@@ -123,14 +123,14 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 650
+      "durationMs": 684
     },
     {
       "id": "queens-botanical-garden",
       "name": "Queens Botanical Garden",
       "status": "ok",
-      "discovered": 34,
-      "accepted": 29,
+      "discovered": 35,
+      "accepted": 30,
       "rejected": 5,
       "rejections": [
         {
@@ -165,14 +165,14 @@
         }
       ],
       "errors": [],
-      "durationMs": 3815
+      "durationMs": 5540
     },
     {
       "id": "noguchi-museum",
       "name": "The Noguchi Museum",
       "status": "ok",
-      "discovered": 23,
-      "accepted": 22,
+      "discovered": 19,
+      "accepted": 18,
       "rejected": 1,
       "rejections": [
         {
@@ -183,7 +183,7 @@
         }
       ],
       "errors": [],
-      "durationMs": 7019
+      "durationMs": 6418
     },
     {
       "id": "socrates-sculpture-park",
@@ -196,7 +196,7 @@
       "errors": [
         "HTTP 404"
       ],
-      "durationMs": 421
+      "durationMs": 391
     },
     {
       "id": "queens-theatre",
@@ -219,32 +219,32 @@
           ]
         },
         {
-          "link": "https://www.queenstheatre.org/events/themas/5/visiting-presenter?_locale=en",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
           "link": "https://queenstheatre.org/events/family",
           "reasons": [
             "could not extract title/date from page"
           ]
         },
         {
-          "link": "https://queenstheatre.org/events/special-event",
+          "link": "https://www.queenstheatre.org/events/themas/5/visiting-presenter?_locale=en",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
+        {
+          "link": "https://queenstheatre.org/events/themas/accessible-events?_locale=en",
           "reasons": [
             "could not extract title/date from page"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 5327
+      "durationMs": 5240
     }
   ],
   "totals": {
-    "discovered": 158,
-    "accepted": 58,
-    "published": 58,
+    "discovered": 155,
+    "accepted": 55,
+    "published": 55,
     "rejected": 100
   }
 }
