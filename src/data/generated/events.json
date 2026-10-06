@@ -4,7 +4,7 @@
     "slug": "farm-open-hours-queens-botanical-garden",
     "title": "Farm Open Hours - Queens Botanical Garden",
     "description": "Come and explore the QBG Farm and learn about everything we are growing at our Farm Open Hours.",
-    "startDate": "2026-10-05T00:00:00.000Z",
+    "startDate": "2026-10-06T00:00:00.000Z",
     "endDate": "2026-10-08T00:00:00.000Z",
     "timezone": "America/New_York",
     "status": "scheduled",
@@ -33,15 +33,15 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/open-farm-hours-7/all/",
-      "retrievedAt": "2026-10-05T18:30:16.189Z",
+      "retrievedAt": "2026-10-06T15:58:41.483Z",
       "method": "html"
     },
     "weekKey": "2026-W41",
-    "answerSummary": "Farm Open Hours - Queens Botanical Garden is happening Sunday, October 4 at 8:00 PM at Queens Botanical Garden in Flushing, Queens. Come and explore the QBG Farm and learn about everything we are growing at our Farm Open Hours.",
+    "answerSummary": "Farm Open Hours - Queens Botanical Garden is happening Monday, October 5 at 8:00 PM at Queens Botanical Garden in Flushing, Queens. Come and explore the QBG Farm and learn about everything we are growing at our Farm Open Hours.",
     "faqs": [
       {
         "question": "When is Farm Open Hours - Queens Botanical Garden?",
-        "answer": "Farm Open Hours - Queens Botanical Garden starts Sunday, October 4 at 8:00 PM."
+        "answer": "Farm Open Hours - Queens Botanical Garden starts Monday, October 5 at 8:00 PM."
       },
       {
         "question": "Where is Farm Open Hours - Queens Botanical Garden?",
@@ -54,65 +54,11 @@
     ]
   },
   {
-    "id": "qc_1e3d8bbb8c479999",
-    "slug": "farm-community-volunteer-days-queens-botanical-garden",
-    "title": "Farm Community Volunteer Days - Queens Botanical Garden",
-    "description": "Join QBG’s Farm staff for an engaging, educational event where you will learn gardening basics and work hands-on with plants.",
-    "startDate": "2026-10-05T00:00:00.000Z",
-    "endDate": "2026-10-07T00:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "parks-outdoors",
-      "family",
-      "community"
-    ],
-    "tags": [],
-    "image": "https://queensbotanical.org/wp-content/uploads/2020/02/Farm-Compost-Volunteers.jpg",
-    "price": null,
-    "registrationUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-28/all/",
-    "venue": {
-      "name": "Queens Botanical Garden",
-      "address": "43-50 Main St, Flushing, NY 11355",
-      "neighborhood": "Flushing",
-      "latitude": 40.7516,
-      "longitude": -73.8268
-    },
-    "organizer": {
-      "name": "Queens Botanical Garden",
-      "url": "https://queensbotanical.org/"
-    },
-    "source": {
-      "name": "Queens Botanical Garden",
-      "listingUrl": "https://queensbotanical.org/calendar/",
-      "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-28/all/",
-      "retrievedAt": "2026-10-05T18:30:16.207Z",
-      "method": "html"
-    },
-    "weekKey": "2026-W41",
-    "answerSummary": "Farm Community Volunteer Days - Queens Botanical Garden is happening Sunday, October 4 at 8:00 PM at Queens Botanical Garden in Flushing, Queens. Join QBG’s Farm staff for an engaging, educational event where you will learn gardening basics and work hands-on with plants.",
-    "faqs": [
-      {
-        "question": "When is Farm Community Volunteer Days - Queens Botanical Garden?",
-        "answer": "Farm Community Volunteer Days - Queens Botanical Garden starts Sunday, October 4 at 8:00 PM."
-      },
-      {
-        "question": "Where is Farm Community Volunteer Days - Queens Botanical Garden?",
-        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
-      },
-      {
-        "question": "How do I register for Farm Community Volunteer Days - Queens Botanical Garden?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
-      }
-    ]
-  },
-  {
     "id": "qc_322dc7c7160109a6",
     "slug": "compost-build-community-volunteer-days-queens-botanical-garden",
     "title": "Compost Build Community Volunteer Days - Queens Botanical Garden",
     "description": "Join the QBG Compost Staff for our weekly on-site compost build and learn about processing community food scraps into nutrient rich compost. Register here",
-    "startDate": "2026-10-05T00:00:00.000Z",
+    "startDate": "2026-10-06T00:00:00.000Z",
     "endDate": "2026-10-12T00:00:00.000Z",
     "timezone": "America/New_York",
     "status": "scheduled",
@@ -142,15 +88,15 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/all/",
-      "retrievedAt": "2026-10-05T18:30:16.243Z",
+      "retrievedAt": "2026-10-06T15:58:41.524Z",
       "method": "html"
     },
     "weekKey": "2026-W41",
-    "answerSummary": "Compost Build Community Volunteer Days - Queens Botanical Garden is happening Sunday, October 4 at 8:00 PM at Queens Botanical Garden in Flushing, Queens. Join the QBG Compost Staff for our weekly on-site compost build and learn about processing community food scraps into nutrient rich compost. Register here",
+    "answerSummary": "Compost Build Community Volunteer Days - Queens Botanical Garden is happening Monday, October 5 at 8:00 PM at Queens Botanical Garden in Flushing, Queens. Join the QBG Compost Staff for our weekly on-site compost build and learn about processing community food scraps into nutrient rich compost. Register here",
     "faqs": [
       {
         "question": "When is Compost Build Community Volunteer Days - Queens Botanical Garden?",
-        "answer": "Compost Build Community Volunteer Days - Queens Botanical Garden starts Sunday, October 4 at 8:00 PM."
+        "answer": "Compost Build Community Volunteer Days - Queens Botanical Garden starts Monday, October 5 at 8:00 PM."
       },
       {
         "question": "Where is Compost Build Community Volunteer Days - Queens Botanical Garden?",
@@ -163,11 +109,65 @@
     ]
   },
   {
+    "id": "qc_1e3d8bbb8c479999",
+    "slug": "farm-community-volunteer-days-queens-botanical-garden",
+    "title": "Farm Community Volunteer Days - Queens Botanical Garden",
+    "description": "Join QBG’s Farm staff for an engaging, educational event where you will learn gardening basics and work hands-on with plants.",
+    "startDate": "2026-10-06T00:00:00.000Z",
+    "endDate": "2026-10-07T00:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community"
+    ],
+    "tags": [],
+    "image": "https://queensbotanical.org/wp-content/uploads/2020/02/Farm-Compost-Volunteers.jpg",
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-28/all/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "https://queensbotanical.org/"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-28/all/",
+      "retrievedAt": "2026-10-06T15:58:41.548Z",
+      "method": "html"
+    },
+    "weekKey": "2026-W41",
+    "answerSummary": "Farm Community Volunteer Days - Queens Botanical Garden is happening Monday, October 5 at 8:00 PM at Queens Botanical Garden in Flushing, Queens. Join QBG’s Farm staff for an engaging, educational event where you will learn gardening basics and work hands-on with plants.",
+    "faqs": [
+      {
+        "question": "When is Farm Community Volunteer Days - Queens Botanical Garden?",
+        "answer": "Farm Community Volunteer Days - Queens Botanical Garden starts Monday, October 5 at 8:00 PM."
+      },
+      {
+        "question": "Where is Farm Community Volunteer Days - Queens Botanical Garden?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for Farm Community Volunteer Days - Queens Botanical Garden?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
+      }
+    ]
+  },
+  {
     "id": "qc_927fc400c0b1ef65",
     "slug": "horticulture-community-volunteer-days-2026-queens-botanical-garden",
     "title": "Horticulture Community Volunteer Days 2026 - Queens Botanical Garden",
     "description": "Help keep QBG clean, green, and growing! Join QBG's horticulture staff in a variety of gardening activities.",
-    "startDate": "2026-10-05T00:00:00.000Z",
+    "startDate": "2026-10-06T00:00:00.000Z",
     "endDate": "2026-10-08T00:00:00.000Z",
     "timezone": "America/New_York",
     "status": "scheduled",
@@ -197,15 +197,15 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/all/",
-      "retrievedAt": "2026-10-05T18:30:16.543Z",
+      "retrievedAt": "2026-10-06T15:58:41.564Z",
       "method": "html"
     },
     "weekKey": "2026-W41",
-    "answerSummary": "Horticulture Community Volunteer Days 2026 - Queens Botanical Garden is happening Sunday, October 4 at 8:00 PM at Queens Botanical Garden in Flushing, Queens. Help keep QBG clean, green, and growing! Join QBG's horticulture staff in a variety of gardening activities.",
+    "answerSummary": "Horticulture Community Volunteer Days 2026 - Queens Botanical Garden is happening Monday, October 5 at 8:00 PM at Queens Botanical Garden in Flushing, Queens. Help keep QBG clean, green, and growing! Join QBG's horticulture staff in a variety of gardening activities.",
     "faqs": [
       {
         "question": "When is Horticulture Community Volunteer Days 2026 - Queens Botanical Garden?",
-        "answer": "Horticulture Community Volunteer Days 2026 - Queens Botanical Garden starts Sunday, October 4 at 8:00 PM."
+        "answer": "Horticulture Community Volunteer Days 2026 - Queens Botanical Garden starts Monday, October 5 at 8:00 PM."
       },
       {
         "question": "Where is Horticulture Community Volunteer Days 2026 - Queens Botanical Garden?",
@@ -222,7 +222,7 @@
     "slug": "compost-beautification-community-volunteer-days-queens-botanical-garden",
     "title": "Compost Beautification Community Volunteer Days - Queens Botanical Garden",
     "description": "Join the QBG Compost Staff to tour and care for our compost demo site by weeding, mulching, planting, applying compost and gardening.",
-    "startDate": "2026-10-05T00:00:00.000Z",
+    "startDate": "2026-10-06T00:00:00.000Z",
     "endDate": "2026-10-18T00:00:00.000Z",
     "timezone": "America/New_York",
     "status": "scheduled",
@@ -251,15 +251,15 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-beautification-community-volunteer-days-15/all/",
-      "retrievedAt": "2026-10-05T18:30:20.385Z",
+      "retrievedAt": "2026-10-06T15:58:41.637Z",
       "method": "html"
     },
     "weekKey": "2026-W41",
-    "answerSummary": "Compost Beautification Community Volunteer Days - Queens Botanical Garden is happening Sunday, October 4 at 8:00 PM at Queens Botanical Garden in Flushing, Queens. Join the QBG Compost Staff to tour and care for our compost demo site by weeding, mulching, planting, applying compost and gardening.",
+    "answerSummary": "Compost Beautification Community Volunteer Days - Queens Botanical Garden is happening Monday, October 5 at 8:00 PM at Queens Botanical Garden in Flushing, Queens. Join the QBG Compost Staff to tour and care for our compost demo site by weeding, mulching, planting, applying compost and gardening.",
     "faqs": [
       {
         "question": "When is Compost Beautification Community Volunteer Days - Queens Botanical Garden?",
-        "answer": "Compost Beautification Community Volunteer Days - Queens Botanical Garden starts Sunday, October 4 at 8:00 PM."
+        "answer": "Compost Beautification Community Volunteer Days - Queens Botanical Garden starts Monday, October 5 at 8:00 PM."
       },
       {
         "question": "Where is Compost Beautification Community Volunteer Days - Queens Botanical Garden?",
@@ -276,7 +276,7 @@
     "slug": "thanksgiving-day-garden-is-closed-queens-botanical-garden",
     "title": "Thanksgiving Day - Garden is CLOSED - Queens Botanical Garden",
     "description": "Happy Thanksgiving! The Garden is closed on Thanksgiving Day.",
-    "startDate": "2026-10-05T00:00:00.000Z",
+    "startDate": "2026-10-06T00:00:00.000Z",
     "endDate": "2026-11-26T00:00:00.000Z",
     "timezone": "America/New_York",
     "status": "scheduled",
@@ -305,15 +305,15 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/thanksgiving-day-garden-is-closed-3/all/",
-      "retrievedAt": "2026-10-05T18:30:26.951Z",
+      "retrievedAt": "2026-10-06T15:58:41.951Z",
       "method": "html"
     },
     "weekKey": "2026-W41",
-    "answerSummary": "Thanksgiving Day - Garden is CLOSED - Queens Botanical Garden is happening Sunday, October 4 at 8:00 PM at Queens Botanical Garden in Flushing, Queens. Happy Thanksgiving! The Garden is closed on Thanksgiving Day.",
+    "answerSummary": "Thanksgiving Day - Garden is CLOSED - Queens Botanical Garden is happening Monday, October 5 at 8:00 PM at Queens Botanical Garden in Flushing, Queens. Happy Thanksgiving! The Garden is closed on Thanksgiving Day.",
     "faqs": [
       {
         "question": "When is Thanksgiving Day - Garden is CLOSED - Queens Botanical Garden?",
-        "answer": "Thanksgiving Day - Garden is CLOSED - Queens Botanical Garden starts Sunday, October 4 at 8:00 PM."
+        "answer": "Thanksgiving Day - Garden is CLOSED - Queens Botanical Garden starts Monday, October 5 at 8:00 PM."
       },
       {
         "question": "Where is Thanksgiving Day - Garden is CLOSED - Queens Botanical Garden?",
@@ -359,7 +359,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-10-07/",
-      "retrievedAt": "2026-10-05T18:30:17.983Z",
+      "retrievedAt": "2026-10-06T15:58:41.444Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W41",
@@ -414,7 +414,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-10-08/",
-      "retrievedAt": "2026-10-05T18:30:16.175Z",
+      "retrievedAt": "2026-10-06T15:58:41.472Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W41",
@@ -467,7 +467,7 @@
       "name": "City Parks Foundation",
       "listingUrl": "https://cityparksfoundation.org/calendar/month/",
       "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-45/",
-      "retrievedAt": "2026-10-05T18:29:43.118Z",
+      "retrievedAt": "2026-10-06T15:58:21.115Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W41",
@@ -521,7 +521,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/open-farm-hours-7/2026-10-08/",
-      "retrievedAt": "2026-10-05T18:30:17.825Z",
+      "retrievedAt": "2026-10-06T15:58:41.513Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W41",
@@ -574,7 +574,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-10-10-1100-open-studio-sound-movement/",
-      "retrievedAt": "2026-10-05T18:30:31.368Z",
+      "retrievedAt": "2026-10-06T15:58:45.762Z",
       "method": "html"
     },
     "weekKey": "2026-W41",
@@ -627,7 +627,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-10-10-1500-%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%81%a7%e3%81%ae%e3%83%84%e3%82%a2%e3%83%bc-museum-tour-in-japanese/",
-      "retrievedAt": "2026-10-05T18:30:31.547Z",
+      "retrievedAt": "2026-10-06T15:58:45.654Z",
       "method": "html"
     },
     "weekKey": "2026-W41",
@@ -681,7 +681,7 @@
       "name": "City Parks Foundation",
       "listingUrl": "https://cityparksfoundation.org/calendar/month/",
       "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-forest-park-13/",
-      "retrievedAt": "2026-10-05T18:29:55.123Z",
+      "retrievedAt": "2026-10-06T15:58:21.539Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W41",
@@ -734,7 +734,7 @@
       "name": "Queens Museum",
       "listingUrl": "https://queensmuseum.org/event/",
       "canonicalUrl": "https://queensmuseum.org/event/celebrating-hidden-altars-of-grief-and-remembrance-celebrando-altares-ocultos-de-duelo-y-memoria/",
-      "retrievedAt": "2026-10-05T18:29:17.970Z",
+      "retrievedAt": "2026-10-06T15:58:00.686Z",
       "method": "html"
     },
     "weekKey": "2026-W41",
@@ -787,7 +787,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-10-11-1500-%e4%b8%ad%e6%96%87%e5%85%ac%e7%9c%be%e5%b0%8e%e8%a6%bd-museum-tour-in-mandarin-chinese/",
-      "retrievedAt": "2026-10-05T18:30:32.079Z",
+      "retrievedAt": "2026-10-06T15:58:46.053Z",
       "method": "html"
     },
     "weekKey": "2026-W41",
@@ -842,7 +842,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-10-12/",
-      "retrievedAt": "2026-10-05T18:30:18.014Z",
+      "retrievedAt": "2026-10-06T15:58:42.571Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W42",
@@ -896,7 +896,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/indigenous-peoples-day-native-plant-and-bird-tour/",
-      "retrievedAt": "2026-10-05T18:30:16.260Z",
+      "retrievedAt": "2026-10-06T15:58:41.540Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W42",
@@ -951,7 +951,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/indigenous-peoples-day-wampum-belt-making-workshop/",
-      "retrievedAt": "2026-10-05T18:30:16.292Z",
+      "retrievedAt": "2026-10-06T15:58:41.573Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W42",
@@ -1005,7 +1005,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-10-14/",
-      "retrievedAt": "2026-10-05T18:30:18.040Z",
+      "retrievedAt": "2026-10-06T15:58:41.583Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W42",
@@ -1060,7 +1060,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-10-15/",
-      "retrievedAt": "2026-10-05T18:30:18.145Z",
+      "retrievedAt": "2026-10-06T15:58:41.618Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W42",
@@ -1113,7 +1113,7 @@
       "name": "City Parks Foundation",
       "listingUrl": "https://cityparksfoundation.org/calendar/month/",
       "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-47/",
-      "retrievedAt": "2026-10-05T18:29:58.777Z",
+      "retrievedAt": "2026-10-06T15:58:28.623Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W42",
@@ -1167,7 +1167,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/open-farm-hours-7/2026-10-15/",
-      "retrievedAt": "2026-10-05T18:30:18.605Z",
+      "retrievedAt": "2026-10-06T15:58:41.602Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W42",
@@ -1223,7 +1223,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/wellness-at-the-garden-mindful-movement-with-urbanyoga-foundation/",
-      "retrievedAt": "2026-10-05T18:30:20.230Z",
+      "retrievedAt": "2026-10-06T15:58:41.608Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W42",
@@ -1277,7 +1277,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-10-17-1100-noguchi-museum-x-ikenobo-40-years-in-new-york-a-living-tradition-of-flowers-and-space/",
-      "retrievedAt": "2026-10-05T18:30:32.053Z",
+      "retrievedAt": "2026-10-06T15:58:46.858Z",
       "method": "html"
     },
     "weekKey": "2026-W42",
@@ -1330,7 +1330,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-10-17-1500-wordplay/",
-      "retrievedAt": "2026-10-05T18:30:31.671Z",
+      "retrievedAt": "2026-10-06T15:58:45.949Z",
       "method": "html"
     },
     "weekKey": "2026-W42",
@@ -1384,7 +1384,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-beautification-community-volunteer-days-15/2026-10-18/",
-      "retrievedAt": "2026-10-05T18:30:18.045Z",
+      "retrievedAt": "2026-10-06T15:58:41.622Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W42",
@@ -1400,6 +1400,61 @@
       },
       {
         "question": "How do I register for Compost Beautification Community Volunteer Days?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_285025cf5913d371",
+    "slug": "the-brass-tree-live-at-queens-botanical-garden",
+    "title": "The Brass Tree Live at Queens Botanical Garden",
+    "description": "Enjoy a free Queens Arts Fund–supported concert by The Brass Tree. Blending brass, percussion, jazz and electronics into evolving soundscapes.",
+    "startDate": "2026-10-18T15:00:00.000Z",
+    "endDate": "2026-10-18T17:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community",
+      "arts-culture"
+    ],
+    "tags": [],
+    "image": null,
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/the-brass-tree-live-at-queens-botanical-garden/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "http://www.queensbotanical.org"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/the-brass-tree-live-at-queens-botanical-garden/",
+      "retrievedAt": "2026-10-06T15:58:41.646Z",
+      "method": "json-ld"
+    },
+    "weekKey": "2026-W42",
+    "answerSummary": "The Brass Tree Live at Queens Botanical Garden is happening Sunday, October 18 at 11:00 AM at Queens Botanical Garden in Flushing, Queens. Enjoy a free Queens Arts Fund–supported concert by The Brass Tree. Blending brass, percussion, jazz and electronics into evolving soundscapes.",
+    "faqs": [
+      {
+        "question": "When is The Brass Tree Live at Queens Botanical Garden?",
+        "answer": "The Brass Tree Live at Queens Botanical Garden starts Sunday, October 18 at 11:00 AM."
+      },
+      {
+        "question": "Where is The Brass Tree Live at Queens Botanical Garden?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for The Brass Tree Live at Queens Botanical Garden?",
         "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
       }
     ]
@@ -1438,7 +1493,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-10-18-1100-noguchi-museum-x-ikenobo-40-years-in-new-york-a-living-tradition-of-flowers-and-space/",
-      "retrievedAt": "2026-10-05T18:30:32.069Z",
+      "retrievedAt": "2026-10-06T15:58:46.754Z",
       "method": "html"
     },
     "weekKey": "2026-W42",
@@ -1492,7 +1547,7 @@
       "name": "Queens Museum",
       "listingUrl": "https://queensmuseum.org/event/",
       "canonicalUrl": "https://queensmuseum.org/event/october-family-day-artmaking-workshops-featuring-woody-guthries-song-to-grow-on-performance/",
-      "retrievedAt": "2026-10-05T18:29:18.121Z",
+      "retrievedAt": "2026-10-06T15:58:00.832Z",
       "method": "html"
     },
     "weekKey": "2026-W42",
@@ -1547,7 +1602,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-10-19/",
-      "retrievedAt": "2026-10-05T18:30:20.799Z",
+      "retrievedAt": "2026-10-06T15:58:41.676Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W43",
@@ -1600,7 +1655,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-10-19-1930-drawing-from-a-distance/",
-      "retrievedAt": "2026-10-05T18:30:32.688Z",
+      "retrievedAt": "2026-10-06T15:58:47.458Z",
       "method": "html"
     },
     "weekKey": "2026-W43",
@@ -1654,7 +1709,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-10-21/",
-      "retrievedAt": "2026-10-05T18:30:20.880Z",
+      "retrievedAt": "2026-10-06T15:58:41.672Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W43",
@@ -1709,7 +1764,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-10-22/",
-      "retrievedAt": "2026-10-05T18:30:21.340Z",
+      "retrievedAt": "2026-10-06T15:58:41.659Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W43",
@@ -1762,7 +1817,7 @@
       "name": "City Parks Foundation",
       "listingUrl": "https://cityparksfoundation.org/calendar/month/",
       "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-46/",
-      "retrievedAt": "2026-10-05T18:30:08.647Z",
+      "retrievedAt": "2026-10-06T15:58:34.896Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W43",
@@ -1816,7 +1871,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/open-farm-hours-7/2026-10-22/",
-      "retrievedAt": "2026-10-05T18:30:21.301Z",
+      "retrievedAt": "2026-10-06T15:58:41.681Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W43",
@@ -1869,7 +1924,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-10-24-1030-art-for-families-nature/",
-      "retrievedAt": "2026-10-05T18:30:33.046Z",
+      "retrievedAt": "2026-10-06T15:58:47.364Z",
       "method": "html"
     },
     "weekKey": "2026-W43",
@@ -1924,7 +1979,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/autumn-garden-tour-with-our-horticulture-director/",
-      "retrievedAt": "2026-10-05T18:30:21.706Z",
+      "retrievedAt": "2026-10-06T15:58:41.687Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W43",
@@ -1940,6 +1995,61 @@
       },
       {
         "question": "How do I register for Autumn Garden Tour with Our Horticulture Director?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_56f7cd8ebb527ab1",
+    "slug": "cameron-russell-mei-tao-supremely-unequivocal-in-our-commitment-to-this-moment-of-being-op",
+    "title": "Cameron Russell & Mei Tao: “Supremely Unequivocal in Our Commitment to this Moment of Being” Opening Day",
+    "description": "Join Queens Botanical Garden for the opening of \"Supremely Unequivocal in Our Commitment to this Moment of Being,\" an interactive exhibition by Cameron Russell and Mei Tao, created in collaboration with sixty-one young farmer-artists from Harlem Grown.",
+    "startDate": "2026-10-24T17:00:00.000Z",
+    "endDate": "2026-10-24T19:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community",
+      "arts-culture"
+    ],
+    "tags": [],
+    "image": null,
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/cameron-russell-mei-tao-supremely-unequivocal-opening-day/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "http://www.queensbotanical.org"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/cameron-russell-mei-tao-supremely-unequivocal-opening-day/",
+      "retrievedAt": "2026-10-06T15:58:41.713Z",
+      "method": "json-ld"
+    },
+    "weekKey": "2026-W43",
+    "answerSummary": "Cameron Russell & Mei Tao: “Supremely Unequivocal in Our Commitment to this Moment of Being” Opening Day is happening Saturday, October 24 at 1:00 PM at Queens Botanical Garden in Flushing, Queens. Join Queens Botanical Garden for the opening of \"Supremely Unequivocal in Our Commitment to this Moment of Being,\" an interactive exhibition by Cameron Russell an",
+    "faqs": [
+      {
+        "question": "When is Cameron Russell & Mei Tao: “Supremely Unequivocal in Our Commitment to this Moment of Being” Opening Day?",
+        "answer": "Cameron Russell & Mei Tao: “Supremely Unequivocal in Our Commitment to this Moment of Being” Opening Day starts Saturday, October 24 at 1:00 PM."
+      },
+      {
+        "question": "Where is Cameron Russell & Mei Tao: “Supremely Unequivocal in Our Commitment to this Moment of Being” Opening Day?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for Cameron Russell & Mei Tao: “Supremely Unequivocal in Our Commitment to this Moment of Being” Opening Day?",
         "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
       }
     ]
@@ -1977,7 +2087,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-10-25-1030-stroller-tour/",
-      "retrievedAt": "2026-10-05T18:30:33.061Z",
+      "retrievedAt": "2026-10-06T15:58:47.956Z",
       "method": "html"
     },
     "weekKey": "2026-W43",
@@ -2032,7 +2142,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/honey-bottling-workshop-with-beekeeper-helen-colhoun/",
-      "retrievedAt": "2026-10-05T18:30:20.434Z",
+      "retrievedAt": "2026-10-06T15:58:41.728Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W43",
@@ -2087,7 +2197,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-10-26/",
-      "retrievedAt": "2026-10-05T18:30:22.100Z",
+      "retrievedAt": "2026-10-06T15:58:41.718Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W44",
@@ -2141,7 +2251,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-10-28/",
-      "retrievedAt": "2026-10-05T18:30:22.405Z",
+      "retrievedAt": "2026-10-06T15:58:41.723Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W44",
@@ -2196,7 +2306,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-10-29/",
-      "retrievedAt": "2026-10-05T18:30:22.869Z",
+      "retrievedAt": "2026-10-06T15:58:41.734Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W44",
@@ -2249,7 +2359,7 @@
       "name": "City Parks Foundation",
       "listingUrl": "https://cityparksfoundation.org/calendar/month/",
       "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-43/",
-      "retrievedAt": "2026-10-05T18:30:13.998Z",
+      "retrievedAt": "2026-10-06T15:58:39.318Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W44",
@@ -2303,7 +2413,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/open-farm-hours-7/2026-10-29/",
-      "retrievedAt": "2026-10-05T18:30:23.709Z",
+      "retrievedAt": "2026-10-06T15:58:41.751Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W44",
@@ -2356,7 +2466,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-10-31-1000-mindfulness-in-the-galleries/",
-      "retrievedAt": "2026-10-05T18:30:33.260Z",
+      "retrievedAt": "2026-10-06T15:58:47.663Z",
       "method": "html"
     },
     "weekKey": "2026-W44",
@@ -2411,7 +2521,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/halloween-at-the-garden-2026/",
-      "retrievedAt": "2026-10-05T18:30:21.393Z",
+      "retrievedAt": "2026-10-06T15:58:41.756Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W44",
@@ -2464,7 +2574,7 @@
       "name": "City Parks Foundation",
       "listingUrl": "https://cityparksfoundation.org/calendar/month/",
       "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-sitting-area-19/",
-      "retrievedAt": "2026-10-05T18:30:14.684Z",
+      "retrievedAt": "2026-10-06T15:58:39.827Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W44",
@@ -2518,7 +2628,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/pumpkin-smash-2026/",
-      "retrievedAt": "2026-10-05T18:30:21.449Z",
+      "retrievedAt": "2026-10-06T15:58:41.767Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W44",
@@ -2573,7 +2683,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-11-02/",
-      "retrievedAt": "2026-10-05T18:30:21.516Z",
+      "retrievedAt": "2026-10-06T15:58:42.893Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W45",
@@ -2627,7 +2737,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-11-04/",
-      "retrievedAt": "2026-10-05T18:30:23.219Z",
+      "retrievedAt": "2026-10-06T15:58:41.778Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W45",
@@ -2682,7 +2792,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-11-05/",
-      "retrievedAt": "2026-10-05T18:30:23.361Z",
+      "retrievedAt": "2026-10-06T15:58:41.792Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W45",
@@ -2736,7 +2846,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/open-farm-hours-7/2026-11-05/",
-      "retrievedAt": "2026-10-05T18:30:24.388Z",
+      "retrievedAt": "2026-10-06T15:58:41.799Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W45",
@@ -2789,7 +2899,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-06-1000-free-first-friday/",
-      "retrievedAt": "2026-10-05T18:30:33.671Z",
+      "retrievedAt": "2026-10-06T15:58:48.455Z",
       "method": "html"
     },
     "weekKey": "2026-W45",
@@ -2842,7 +2952,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-06-1300-tour-publico-museum-tour-in-spanish/",
-      "retrievedAt": "2026-10-05T18:30:33.651Z",
+      "retrievedAt": "2026-10-06T15:58:48.541Z",
       "method": "html"
     },
     "weekKey": "2026-W45",
@@ -2895,7 +3005,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-06-1430-gallery-kit/",
-      "retrievedAt": "2026-10-05T18:30:34.852Z",
+      "retrievedAt": "2026-10-06T15:58:49.051Z",
       "method": "html"
     },
     "weekKey": "2026-W45",
@@ -2950,7 +3060,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-11-09/",
-      "retrievedAt": "2026-10-05T18:30:24.049Z",
+      "retrievedAt": "2026-10-06T15:58:41.809Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W46",
@@ -3004,7 +3114,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-11-11/",
-      "retrievedAt": "2026-10-05T18:30:24.884Z",
+      "retrievedAt": "2026-10-06T15:58:41.815Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W46",
@@ -3059,7 +3169,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-11-12/",
-      "retrievedAt": "2026-10-05T18:30:24.872Z",
+      "retrievedAt": "2026-10-06T15:58:41.831Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W46",
@@ -3113,7 +3223,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/open-farm-hours-7/2026-11-12/",
-      "retrievedAt": "2026-10-05T18:30:24.839Z",
+      "retrievedAt": "2026-10-06T15:58:41.841Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W46",
@@ -3166,7 +3276,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-14-1000-mindfulness-in-the-galleries-ikebana/",
-      "retrievedAt": "2026-10-05T18:30:34.551Z",
+      "retrievedAt": "2026-10-06T15:58:48.851Z",
       "method": "html"
     },
     "weekKey": "2026-W46",
@@ -3220,7 +3330,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-beautification-community-volunteer-days-15/2026-11-15/",
-      "retrievedAt": "2026-10-05T18:30:25.682Z",
+      "retrievedAt": "2026-10-06T15:58:41.854Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W46",
@@ -3273,7 +3383,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-15-1500-hands-on-drawing/",
-      "retrievedAt": "2026-10-05T18:30:34.455Z",
+      "retrievedAt": "2026-10-06T15:58:49.142Z",
       "method": "html"
     },
     "weekKey": "2026-W46",
@@ -3326,7 +3436,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-15-1500-%e4%b8%ad%e6%96%87%e5%85%ac%e7%9c%be%e5%b0%8e%e8%a6%bd-museum-tour-in-mandarin-chinese/",
-      "retrievedAt": "2026-10-05T18:30:34.667Z",
+      "retrievedAt": "2026-10-06T15:58:49.365Z",
       "method": "html"
     },
     "weekKey": "2026-W46",
@@ -3381,7 +3491,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-11-16/",
-      "retrievedAt": "2026-10-05T18:30:25.460Z",
+      "retrievedAt": "2026-10-06T15:58:41.859Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W47",
@@ -3434,7 +3544,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-16-1930-drawing-from-a-distance/",
-      "retrievedAt": "2026-10-05T18:30:34.888Z",
+      "retrievedAt": "2026-10-06T15:58:49.558Z",
       "method": "html"
     },
     "weekKey": "2026-W47",
@@ -3488,7 +3598,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-11-18/",
-      "retrievedAt": "2026-10-05T18:30:24.447Z",
+      "retrievedAt": "2026-10-06T15:58:41.871Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W47",
@@ -3543,7 +3653,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-11-19/",
-      "retrievedAt": "2026-10-05T18:30:24.507Z",
+      "retrievedAt": "2026-10-06T15:58:41.883Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W47",
@@ -3598,7 +3708,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/rain-garden-stewardship-volunteer-days-4/",
-      "retrievedAt": "2026-10-05T18:30:24.559Z",
+      "retrievedAt": "2026-10-06T15:58:41.895Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W47",
@@ -3652,7 +3762,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/open-farm-hours-7/2026-11-19/",
-      "retrievedAt": "2026-10-05T18:30:26.268Z",
+      "retrievedAt": "2026-10-06T15:58:41.899Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W47",
@@ -3707,7 +3817,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-11-23/",
-      "retrievedAt": "2026-10-05T18:30:26.717Z",
+      "retrievedAt": "2026-10-06T15:58:41.915Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W48",
@@ -3761,7 +3871,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-11-25/",
-      "retrievedAt": "2026-10-05T18:30:26.736Z",
+      "retrievedAt": "2026-10-06T15:58:42.986Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W48",
@@ -3815,7 +3925,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/thanksgiving-day-garden-is-closed-3/2026-11-26/",
-      "retrievedAt": "2026-10-05T18:30:26.764Z",
+      "retrievedAt": "2026-10-06T15:58:41.937Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W48",
@@ -3870,7 +3980,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-11-26/",
-      "retrievedAt": "2026-10-05T18:30:27.336Z",
+      "retrievedAt": "2026-10-06T15:58:41.964Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W48",
@@ -3925,7 +4035,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-11-30/",
-      "retrievedAt": "2026-10-05T18:30:27.745Z",
+      "retrievedAt": "2026-10-06T15:58:41.975Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W49",
@@ -3980,7 +4090,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-12-03/",
-      "retrievedAt": "2026-10-05T18:30:28.215Z",
+      "retrievedAt": "2026-10-06T15:58:42.011Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W49",
@@ -4035,7 +4145,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/winter-wonder-2025/",
-      "retrievedAt": "2026-10-05T18:30:28.289Z",
+      "retrievedAt": "2026-10-06T15:58:42.000Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W49",
@@ -4090,7 +4200,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-12-07/",
-      "retrievedAt": "2026-10-05T18:30:26.842Z",
+      "retrievedAt": "2026-10-06T15:58:42.019Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W50",
@@ -4145,7 +4255,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-12-10/",
-      "retrievedAt": "2026-10-05T18:30:28.315Z",
+      "retrievedAt": "2026-10-06T15:58:42.057Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W50",
@@ -4200,7 +4310,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-12-14/",
-      "retrievedAt": "2026-10-05T18:30:27.001Z",
+      "retrievedAt": "2026-10-06T15:58:42.048Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W51",
@@ -4255,7 +4365,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-12-17/",
-      "retrievedAt": "2026-10-05T18:30:28.303Z",
+      "retrievedAt": "2026-10-06T15:58:42.063Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W51",
@@ -4271,115 +4381,6 @@
       },
       {
         "question": "How do I register for Horticulture Community Volunteer Days 2026?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_19e357de5421dd69",
-    "slug": "compost-beautification-community-volunteer-days-2026-12-20",
-    "title": "Compost Beautification Community Volunteer Days",
-    "description": "Join the QBG Compost Staff to tour and care for our compost demo site by weeding, mulching, planting, applying compost and gardening.",
-    "startDate": "2026-12-20T14:30:00.000Z",
-    "endDate": "2026-12-20T17:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "parks-outdoors",
-      "family",
-      "community"
-    ],
-    "tags": [],
-    "image": null,
-    "price": null,
-    "registrationUrl": "https://queensbotanical.org/event/compost-beautification-community-volunteer-days-15/2026-12-20/",
-    "venue": {
-      "name": "Queens Botanical Garden",
-      "address": "43-50 Main St, Flushing, NY 11355",
-      "neighborhood": "Flushing",
-      "latitude": 40.7516,
-      "longitude": -73.8268
-    },
-    "organizer": {
-      "name": "Queens Botanical Garden",
-      "url": "http://www.queensbotanical.org"
-    },
-    "source": {
-      "name": "Queens Botanical Garden",
-      "listingUrl": "https://queensbotanical.org/calendar/",
-      "canonicalUrl": "https://queensbotanical.org/event/compost-beautification-community-volunteer-days-15/2026-12-20/",
-      "retrievedAt": "2026-10-05T18:30:28.761Z",
-      "method": "json-ld"
-    },
-    "weekKey": "2026-W51",
-    "answerSummary": "Compost Beautification Community Volunteer Days is happening Sunday, December 20 at 9:30 AM at Queens Botanical Garden in Flushing, Queens. Join the QBG Compost Staff to tour and care for our compost demo site by weeding, mulching, planting, applying compost and gardening.",
-    "faqs": [
-      {
-        "question": "When is Compost Beautification Community Volunteer Days?",
-        "answer": "Compost Beautification Community Volunteer Days starts Sunday, December 20 at 9:30 AM."
-      },
-      {
-        "question": "Where is Compost Beautification Community Volunteer Days?",
-        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
-      },
-      {
-        "question": "How do I register for Compost Beautification Community Volunteer Days?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_4f799a7664292564",
-    "slug": "compost-build-community-volunteer-days-2026-12-21",
-    "title": "Compost Build Community Volunteer Days",
-    "description": "Join the QBG Compost Staff for our weekly on-site compost build and learn about processing community food scraps into nutrient-rich compost. Register here",
-    "startDate": "2026-12-21T14:30:00.000Z",
-    "endDate": "2026-12-21T17:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "parks-outdoors",
-      "family",
-      "community",
-      "food"
-    ],
-    "tags": [],
-    "image": null,
-    "price": null,
-    "registrationUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-12-21/",
-    "venue": {
-      "name": "Queens Botanical Garden",
-      "address": "43-50 Main St, Flushing, NY 11355",
-      "neighborhood": "Flushing",
-      "latitude": 40.7516,
-      "longitude": -73.8268
-    },
-    "organizer": {
-      "name": "Queens Botanical Garden",
-      "url": "https://queensbotanical.org/"
-    },
-    "source": {
-      "name": "Queens Botanical Garden",
-      "listingUrl": "https://queensbotanical.org/calendar/",
-      "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-12-21/",
-      "retrievedAt": "2026-10-05T18:30:29.019Z",
-      "method": "json-ld"
-    },
-    "weekKey": "2026-W52",
-    "answerSummary": "Compost Build Community Volunteer Days is happening Monday, December 21 at 9:30 AM at Queens Botanical Garden in Flushing, Queens. Join the QBG Compost Staff for our weekly on-site compost build and learn about processing community food scraps into nutrient-rich compost. Register here",
-    "faqs": [
-      {
-        "question": "When is Compost Build Community Volunteer Days?",
-        "answer": "Compost Build Community Volunteer Days starts Monday, December 21 at 9:30 AM."
-      },
-      {
-        "question": "Where is Compost Build Community Volunteer Days?",
-        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
-      },
-      {
-        "question": "How do I register for Compost Build Community Volunteer Days?",
         "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
       }
     ]
@@ -4417,7 +4418,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-12-21-1930-drawing-from-a-distance/",
-      "retrievedAt": "2026-10-05T18:30:34.866Z",
+      "retrievedAt": "2026-10-06T15:58:49.550Z",
       "method": "html"
     },
     "weekKey": "2026-W52",
