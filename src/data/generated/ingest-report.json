@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T15:43:55.297Z",
+  "generatedAt": "2026-10-12T19:05:39.296Z",
   "catalogStatus": "fresh",
   "sources": [
     {
@@ -7,8 +7,8 @@
       "name": "Queens Museum",
       "status": "ok",
       "discovered": 20,
-      "accepted": 3,
-      "rejected": 17,
+      "accepted": 2,
+      "rejected": 18,
       "rejections": [
         {
           "link": "https://queensmuseum.org/event/information-session-2-2027-28-qm-jerome-foundation-fellowship-for-emerging-artists/",
@@ -17,21 +17,15 @@
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/information-session-1-2027-28-qm-jerome-foundation-fellowship-for-emerging-artists/",
+          "link": "https://queensmuseum.org/event/celebrating-hidden-altars-of-grief-and-remembrance-celebrando-altares-ocultos-de-duelo-y-memoria/",
           "reasons": [
-            "outside rolling publication window (2026-07-16T22:00:00.000Z)"
+            "outside rolling publication window (2026-10-11T17:00:00.000Z)"
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/nyc-neighborhood-passport-program-already-home-fifa-world-cup-26/",
+          "link": "https://queensmuseum.org/event/the-healing-museum-unga-healing-arts-week/",
           "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
-          "link": "https://queensmuseum.org/event/printmaking-workshop-a-new-new-yorkers-program-062026/",
-          "reasons": [
-            "outside rolling publication window (2026-06-21T18:00:00.000Z)"
+            "outside rolling publication window (2026-09-23T20:30:00.000Z)"
           ]
         },
         {
@@ -39,33 +33,27 @@
           "reasons": [
             "outside rolling publication window (2026-09-26T17:00:00.000Z)"
           ]
+        },
+        {
+          "link": "https://queensmuseum.org/event/printmaking-workshop-a-new-new-yorkers-program-062026/",
+          "reasons": [
+            "outside rolling publication window (2026-06-21T18:00:00.000Z)"
+          ]
         }
       ],
       "errors": [],
-      "durationMs": 2255
+      "durationMs": 1663
     },
     {
       "id": "city-parks-foundation",
       "name": "City Parks Foundation",
       "status": "ok",
       "discovered": 60,
-      "accepted": 6,
-      "rejected": 55,
+      "accepted": 4,
+      "rejected": 56,
       "rejections": [
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-stuyvesant-square-58/",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
           "link": "https://cityparksfoundation.org/events/funk-flex-birthday-rb-picnic/",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-brower-park-25/",
           "reasons": [
             "could not extract title/date from page"
           ]
@@ -77,14 +65,26 @@
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-stuyvesant-square-61/",
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-brower-park-25/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
+        {
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-stuyvesant-square-58/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
+        {
+          "link": "https://cityparksfoundation.org/events/charley-crockett/",
           "reasons": [
             "could not extract title/date from page"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 47503
+      "durationMs": 42234
     },
     {
       "id": "museum-moving-image",
@@ -97,7 +97,7 @@
       "errors": [
         "HTTP 403"
       ],
-      "durationMs": 315
+      "durationMs": 119
     },
     {
       "id": "queens-public-library",
@@ -110,7 +110,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 360
+      "durationMs": 264
     },
     {
       "id": "flushing-town-hall",
@@ -123,29 +123,29 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 560
+      "durationMs": 525
     },
     {
       "id": "queens-botanical-garden",
       "name": "Queens Botanical Garden",
       "status": "ok",
-      "discovered": 56,
-      "accepted": 56,
+      "discovered": 57,
+      "accepted": 57,
       "rejected": 0,
       "rejections": [],
       "errors": [],
-      "durationMs": 7654
+      "durationMs": 13424
     },
     {
       "id": "noguchi-museum",
       "name": "The Noguchi Museum",
       "status": "ok",
-      "discovered": 16,
-      "accepted": 16,
+      "discovered": 15,
+      "accepted": 15,
       "rejected": 0,
       "rejections": [],
       "errors": [],
-      "durationMs": 5706
+      "durationMs": 5314
     },
     {
       "id": "socrates-sculpture-park",
@@ -158,7 +158,7 @@
       "errors": [
         "HTTP 404"
       ],
-      "durationMs": 504
+      "durationMs": 790
     },
     {
       "id": "queens-theatre",
@@ -181,13 +181,13 @@
           ]
         },
         {
-          "link": "https://queenstheatre.org/events/special-event",
+          "link": "https://queenstheatre.org/events/family",
           "reasons": [
             "could not extract title/date from page"
           ]
         },
         {
-          "link": "https://queenstheatre.org/events/family",
+          "link": "https://queenstheatre.org/events/special-event",
           "reasons": [
             "could not extract title/date from page"
           ]
@@ -200,13 +200,13 @@
         }
       ],
       "errors": [],
-      "durationMs": 5281
+      "durationMs": 4911
     }
   ],
   "totals": {
     "discovered": 172,
-    "accepted": 81,
-    "published": 80,
-    "rejected": 92
+    "accepted": 78,
+    "published": 78,
+    "rejected": 94
   }
 }
