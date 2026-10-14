@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T16:58:31.902Z",
+  "generatedAt": "2026-10-14T14:32:16.580Z",
   "catalogStatus": "fresh",
   "sources": [
     {
@@ -11,27 +11,9 @@
       "rejected": 18,
       "rejections": [
         {
-          "link": "https://queensmuseum.org/event/information-session-2-2027-28-qm-jerome-foundation-fellowship-for-emerging-artists/",
-          "reasons": [
-            "outside rolling publication window (2026-09-09T22:00:00.000Z)"
-          ]
-        },
-        {
-          "link": "https://queensmuseum.org/event/information-session-1-2027-28-qm-jerome-foundation-fellowship-for-emerging-artists/",
-          "reasons": [
-            "outside rolling publication window (2026-07-16T22:00:00.000Z)"
-          ]
-        },
-        {
           "link": "https://queensmuseum.org/event/september-family-day-legal-aid-for-venida-for-kalief/",
           "reasons": [
             "outside rolling publication window (2026-09-26T17:00:00.000Z)"
-          ]
-        },
-        {
-          "link": "https://queensmuseum.org/event/celebrating-hidden-altars-of-grief-and-remembrance-celebrando-altares-ocultos-de-duelo-y-memoria/",
-          "reasons": [
-            "outside rolling publication window (2026-10-11T17:00:00.000Z)"
           ]
         },
         {
@@ -39,10 +21,28 @@
           "reasons": [
             "could not extract title/date from page"
           ]
+        },
+        {
+          "link": "https://queensmuseum.org/event/printmaking-workshop-a-new-new-yorkers-program-062026/",
+          "reasons": [
+            "outside rolling publication window (2026-06-21T18:00:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensmuseum.org/event/queens-teens-institute-social-night-2026/",
+          "reasons": [
+            "outside rolling publication window (2026-05-30T21:30:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensmuseum.org/event/summer-exhibition-opening-sonia-boyce-demonstrate/",
+          "reasons": [
+            "outside rolling publication window (2026-06-27T18:00:00.000Z)"
+          ]
         }
       ],
       "errors": [],
-      "durationMs": 1283
+      "durationMs": 1242
     },
     {
       "id": "city-parks-foundation",
@@ -53,7 +53,19 @@
       "rejected": 56,
       "rejections": [
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-sunset-park-120/",
+          "link": "https://cityparksfoundation.org/events/funk-flex-birthday-rb-picnic/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
+        {
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-stuyvesant-square-61/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
+        {
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-alexander-hamilton-playground/",
           "reasons": [
             "could not extract title/date from page"
           ]
@@ -65,26 +77,14 @@
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/funk-flex-birthday-rb-picnic/",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-brower-park-25/",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-ralph-bunche-park-30/",
+          "link": "https://cityparksfoundation.org/events/charley-crockett/",
           "reasons": [
             "could not extract title/date from page"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 44469
+      "durationMs": 37309
     },
     {
       "id": "museum-moving-image",
@@ -97,7 +97,7 @@
       "errors": [
         "HTTP 403"
       ],
-      "durationMs": 66
+      "durationMs": 303
     },
     {
       "id": "queens-public-library",
@@ -110,7 +110,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 317
+      "durationMs": 246
     },
     {
       "id": "flushing-town-hall",
@@ -123,18 +123,49 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 744
+      "durationMs": 639
     },
     {
       "id": "queens-botanical-garden",
       "name": "Queens Botanical Garden",
       "status": "ok",
-      "discovered": 57,
-      "accepted": 57,
-      "rejected": 0,
-      "rejections": [],
+      "discovered": 34,
+      "accepted": 22,
+      "rejected": 12,
+      "rejections": [
+        {
+          "link": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-09-28/",
+          "reasons": [
+            "outside rolling publication window (2026-09-28T13:30:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-10-01/",
+          "reasons": [
+            "outside rolling publication window (2026-10-01T12:45:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-09-30/",
+          "reasons": [
+            "outside rolling publication window (2026-09-30T13:30:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensbotanical.org/event/city-of-forest-day-horticulture-community-volunteering/",
+          "reasons": [
+            "outside rolling publication window (2026-10-03T15:30:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensbotanical.org/event/please-dont-flush-play/",
+          "reasons": [
+            "outside rolling publication window (2026-10-04T17:30:00.000Z)"
+          ]
+        }
+      ],
       "errors": [],
-      "durationMs": 2166
+      "durationMs": 3228
     },
     {
       "id": "noguchi-museum",
@@ -145,7 +176,7 @@
       "rejected": 0,
       "rejections": [],
       "errors": [],
-      "durationMs": 4724
+      "durationMs": 5006
     },
     {
       "id": "socrates-sculpture-park",
@@ -158,7 +189,7 @@
       "errors": [
         "HTTP 404"
       ],
-      "durationMs": 297
+      "durationMs": 314
     },
     {
       "id": "queens-theatre",
@@ -171,13 +202,13 @@
       "errors": [
         "fetch failed"
       ],
-      "durationMs": 4458
+      "durationMs": 5993
     }
   ],
   "totals": {
-    "discovered": 152,
-    "accepted": 78,
-    "published": 78,
-    "rejected": 74
+    "discovered": 129,
+    "accepted": 43,
+    "published": 43,
+    "rejected": 86
   }
 }
