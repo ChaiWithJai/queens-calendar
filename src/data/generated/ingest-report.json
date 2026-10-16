@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T14:12:19.487Z",
+  "generatedAt": "2026-10-16T13:59:59.409Z",
   "catalogStatus": "fresh",
   "sources": [
     {
@@ -29,43 +29,31 @@
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/printmaking-workshop-a-new-new-yorkers-program-062026/",
+          "link": "https://queensmuseum.org/event/the-healing-museum-unga-healing-arts-week/",
           "reasons": [
-            "outside rolling publication window (2026-06-21T18:00:00.000Z)"
+            "outside rolling publication window (2026-09-23T20:30:00.000Z)"
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/queens-teens-institute-social-night-2026/",
+          "link": "https://queensmuseum.org/event/celebrating-hidden-altars-of-grief-and-remembrance-celebrando-altares-ocultos-de-duelo-y-memoria/",
           "reasons": [
-            "outside rolling publication window (2026-05-30T21:30:00.000Z)"
+            "outside rolling publication window (2026-10-11T17:00:00.000Z)"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 13793
+      "durationMs": 1245
     },
     {
       "id": "city-parks-foundation",
       "name": "City Parks Foundation",
       "status": "ok",
       "discovered": 60,
-      "accepted": 5,
+      "accepted": 4,
       "rejected": 56,
       "rejections": [
         {
           "link": "https://cityparksfoundation.org/events/funk-flex-birthday-rb-picnic/",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-brower-park-25/",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-stuyvesant-square-58/",
           "reasons": [
             "could not extract title/date from page"
           ]
@@ -77,14 +65,26 @@
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/charley-crockett/",
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-sunset-park-120/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
+        {
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-ralph-bunche-park-30/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
+        {
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-stuyvesant-square-61/",
           "reasons": [
             "could not extract title/date from page"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 45529
+      "durationMs": 62455
     },
     {
       "id": "museum-moving-image",
@@ -97,7 +97,7 @@
       "errors": [
         "HTTP 403"
       ],
-      "durationMs": 4225
+      "durationMs": 138
     },
     {
       "id": "queens-public-library",
@@ -110,7 +110,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 337
+      "durationMs": 253
     },
     {
       "id": "flushing-town-hall",
@@ -123,7 +123,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 7904
+      "durationMs": 540
     },
     {
       "id": "queens-botanical-garden",
@@ -134,9 +134,9 @@
       "rejected": 13,
       "rejections": [
         {
-          "link": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-09-30/",
+          "link": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-10-01/",
           "reasons": [
-            "outside rolling publication window (2026-09-30T13:30:00.000Z)"
+            "outside rolling publication window (2026-10-01T12:45:00.000Z)"
           ]
         },
         {
@@ -146,9 +146,15 @@
           ]
         },
         {
-          "link": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-10-01/",
+          "link": "https://queensbotanical.org/event/farm-community-volunteer-days-28/2026-09-30/",
           "reasons": [
-            "outside rolling publication window (2026-10-01T12:45:00.000Z)"
+            "outside rolling publication window (2026-09-30T13:30:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-10-05/",
+          "reasons": [
+            "outside rolling publication window (2026-10-05T13:30:00.000Z)"
           ]
         },
         {
@@ -156,16 +162,10 @@
           "reasons": [
             "outside rolling publication window (2026-10-01T14:00:00.000Z)"
           ]
-        },
-        {
-          "link": "https://queensbotanical.org/event/please-dont-flush-play/",
-          "reasons": [
-            "outside rolling publication window (2026-10-04T17:30:00.000Z)"
-          ]
         }
       ],
       "errors": [],
-      "durationMs": 7218
+      "durationMs": 13350
     },
     {
       "id": "noguchi-museum",
@@ -176,7 +176,7 @@
       "rejected": 0,
       "rejections": [],
       "errors": [],
-      "durationMs": 11460
+      "durationMs": 5750
     },
     {
       "id": "socrates-sculpture-park",
@@ -189,7 +189,7 @@
       "errors": [
         "HTTP 404"
       ],
-      "durationMs": 4516
+      "durationMs": 357
     },
     {
       "id": "queens-theatre",
@@ -202,12 +202,12 @@
       "errors": [
         "fetch failed"
       ],
-      "durationMs": 8831
+      "durationMs": 4036
     }
   ],
   "totals": {
     "discovered": 130,
-    "accepted": 44,
+    "accepted": 43,
     "published": 43,
     "rejected": 87
   }
