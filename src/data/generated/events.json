@@ -1,227 +1,10 @@
 [
   {
-    "id": "qc_3511996d3822fcac",
-    "slug": "october-family-day-artmaking-workshops-featuring-woody-guthrie-s-song-to-grow-on-performan",
-    "title": "October Family Day: Artmaking Workshops featuring “Woody Guthrie’s Song to Grow On” Performance",
-    "description": "New York City Children’s Theater (NYCCT) is dedicated to inspiring young minds and nurturing emotional growth through original, imaginative theatrical experiences. Our award-winning programming engages children in meaningful ways—sparking creativity, building empathy, and fostering a lifelong love of the arts.",
-    "startDate": "2026-10-18T17:00:00.000Z",
-    "endDate": "2026-10-18T20:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "arts-culture",
-      "community",
-      "family"
-    ],
-    "tags": [],
-    "image": null,
-    "price": null,
-    "registrationUrl": "https://queensmuseum.org/visit/",
-    "venue": {
-      "name": "Queens Museum",
-      "address": "New York City Building, Flushing Meadows Corona Park, Queens, NY 11368",
-      "neighborhood": "Flushing Meadows–Corona Park",
-      "latitude": 40.7458,
-      "longitude": -73.8467
-    },
-    "organizer": {
-      "name": "Queens Museum",
-      "url": "https://queensmuseum.org/"
-    },
-    "source": {
-      "name": "Queens Museum",
-      "listingUrl": "https://queensmuseum.org/event/",
-      "canonicalUrl": "https://queensmuseum.org/event/october-family-day-artmaking-workshops-featuring-woody-guthries-song-to-grow-on-performance/",
-      "retrievedAt": "2026-10-19T16:28:48.840Z",
-      "method": "html"
-    },
-    "weekKey": "2026-W42",
-    "answerSummary": "October Family Day: Artmaking Workshops featuring “Woody Guthrie’s Song to Grow On” Performance is happening Sunday, October 18 at 1:00 PM at Queens Museum in Flushing Meadows–Corona Park, Queens. New York City Children’s Theater (NYCCT) is dedicated to inspiring young minds and nurturing emotional growth through original, imaginative theatrical experiences.",
-    "faqs": [
-      {
-        "question": "When is October Family Day: Artmaking Workshops featuring “Woody Guthrie’s Song to Grow On” Performance?",
-        "answer": "October Family Day: Artmaking Workshops featuring “Woody Guthrie’s Song to Grow On” Performance starts Sunday, October 18 at 1:00 PM."
-      },
-      {
-        "question": "Where is October Family Day: Artmaking Workshops featuring “Woody Guthrie’s Song to Grow On” Performance?",
-        "answer": "Queens Museum, New York City Building, Flushing Meadows Corona Park, Queens, NY 11368."
-      },
-      {
-        "question": "How do I register for October Family Day: Artmaking Workshops featuring “Woody Guthrie’s Song to Grow On” Performance?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Museum, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_ff921225bdea19bf",
-    "slug": "printmaking-workshop-a-new-new-yorkers-program",
-    "title": "Printmaking Workshop: A New New Yorkers Program",
-    "description": "This free, adults-only class welcomes anyone interested in exploring the creative possibilities around printmaking techniques. No prior experience is needed; beginners and the simply curious are encouraged to drop in and experiment with a variety of hands‑on techniques.",
-    "startDate": "2026-10-18T18:00:00.000Z",
-    "endDate": "2026-10-18T20:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "arts-culture",
-      "community",
-      "technology"
-    ],
-    "tags": [],
-    "image": null,
-    "price": null,
-    "registrationUrl": "https://queensmuseum.org/visit/",
-    "venue": {
-      "name": "Queens Museum",
-      "address": "New York City Building, Flushing Meadows Corona Park, Queens, NY 11368",
-      "neighborhood": "Flushing Meadows–Corona Park",
-      "latitude": 40.7458,
-      "longitude": -73.8467
-    },
-    "organizer": {
-      "name": "Queens Museum",
-      "url": "https://queensmuseum.org/"
-    },
-    "source": {
-      "name": "Queens Museum",
-      "listingUrl": "https://queensmuseum.org/event/",
-      "canonicalUrl": "https://queensmuseum.org/event/printmaking-workshop-a-new-new-yorkers-program-10-18-2026/",
-      "retrievedAt": "2026-10-19T16:28:48.975Z",
-      "method": "html"
-    },
-    "weekKey": "2026-W42",
-    "answerSummary": "Printmaking Workshop: A New New Yorkers Program is happening Sunday, October 18 at 2:00 PM at Queens Museum in Flushing Meadows–Corona Park, Queens. This free, adults-only class welcomes anyone interested in exploring the creative possibilities around printmaking techniques. No prior experience is needed; beginners and the simply curious are encouraged to dr",
-    "faqs": [
-      {
-        "question": "When is Printmaking Workshop: A New New Yorkers Program?",
-        "answer": "Printmaking Workshop: A New New Yorkers Program starts Sunday, October 18 at 2:00 PM."
-      },
-      {
-        "question": "Where is Printmaking Workshop: A New New Yorkers Program?",
-        "answer": "Queens Museum, New York City Building, Flushing Meadows Corona Park, Queens, NY 11368."
-      },
-      {
-        "question": "How do I register for Printmaking Workshop: A New New Yorkers Program?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Museum, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_927fc400c0b1ef65",
-    "slug": "horticulture-community-volunteer-days-2026-queens-botanical-garden",
-    "title": "Horticulture Community Volunteer Days 2026 - Queens Botanical Garden",
-    "description": "Help keep QBG clean, green, and growing! Join QBG's horticulture staff in a variety of gardening activities.",
-    "startDate": "2026-10-19T00:00:00.000Z",
-    "endDate": "2026-10-29T00:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "parks-outdoors",
-      "family",
-      "community",
-      "arts-culture"
-    ],
-    "tags": [],
-    "image": "https://queensbotanical.org/wp-content/uploads/2026/05/3-1.webp",
-    "price": null,
-    "registrationUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/all/",
-    "venue": {
-      "name": "Queens Botanical Garden",
-      "address": "43-50 Main St, Flushing, NY 11355",
-      "neighborhood": "Flushing",
-      "latitude": 40.7516,
-      "longitude": -73.8268
-    },
-    "organizer": {
-      "name": "Queens Botanical Garden",
-      "url": "https://queensbotanical.org/"
-    },
-    "source": {
-      "name": "Queens Botanical Garden",
-      "listingUrl": "https://queensbotanical.org/calendar/",
-      "canonicalUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/all/",
-      "retrievedAt": "2026-10-19T16:29:25.572Z",
-      "method": "html"
-    },
-    "weekKey": "2026-W43",
-    "answerSummary": "Horticulture Community Volunteer Days 2026 - Queens Botanical Garden is happening Sunday, October 18 at 8:00 PM at Queens Botanical Garden in Flushing, Queens. Help keep QBG clean, green, and growing! Join QBG's horticulture staff in a variety of gardening activities.",
-    "faqs": [
-      {
-        "question": "When is Horticulture Community Volunteer Days 2026 - Queens Botanical Garden?",
-        "answer": "Horticulture Community Volunteer Days 2026 - Queens Botanical Garden starts Sunday, October 18 at 8:00 PM."
-      },
-      {
-        "question": "Where is Horticulture Community Volunteer Days 2026 - Queens Botanical Garden?",
-        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
-      },
-      {
-        "question": "How do I register for Horticulture Community Volunteer Days 2026 - Queens Botanical Garden?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_eee21de5f8d58e73",
-    "slug": "farm-stand-queens-botanical-garden",
-    "title": "Farm Stand - Queens Botanical Garden",
-    "description": "Visit our Farm Stand on the Terrace. All produce sold at the Stand is grown on-site at QBG using organic and regenerative practices, and is available on a sliding scale, donation basis!",
-    "startDate": "2026-10-19T00:00:00.000Z",
-    "endDate": "2026-10-21T00:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "parks-outdoors",
-      "family",
-      "community"
-    ],
-    "tags": [],
-    "image": "https://queensbotanical.org/wp-content/uploads/2025/11/IMG_5545-scaled.jpg",
-    "price": null,
-    "registrationUrl": "https://queensbotanical.org/event/farm-stand-2/all/",
-    "venue": {
-      "name": "Queens Botanical Garden",
-      "address": "43-50 Main St, Flushing, NY 11355",
-      "neighborhood": "Flushing",
-      "latitude": 40.7516,
-      "longitude": -73.8268
-    },
-    "organizer": {
-      "name": "Queens Botanical Garden",
-      "url": "https://queensbotanical.org/"
-    },
-    "source": {
-      "name": "Queens Botanical Garden",
-      "listingUrl": "https://queensbotanical.org/calendar/",
-      "canonicalUrl": "https://queensbotanical.org/event/farm-stand-2/all/",
-      "retrievedAt": "2026-10-19T16:29:25.708Z",
-      "method": "html"
-    },
-    "weekKey": "2026-W43",
-    "answerSummary": "Farm Stand - Queens Botanical Garden is happening Sunday, October 18 at 8:00 PM at Queens Botanical Garden in Flushing, Queens. Visit our Farm Stand on the Terrace. All produce sold at the Stand is grown on-site at QBG using organic and regenerative practices, and is available on a sliding scale, donation basis!",
-    "faqs": [
-      {
-        "question": "When is Farm Stand - Queens Botanical Garden?",
-        "answer": "Farm Stand - Queens Botanical Garden starts Sunday, October 18 at 8:00 PM."
-      },
-      {
-        "question": "Where is Farm Stand - Queens Botanical Garden?",
-        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
-      },
-      {
-        "question": "How do I register for Farm Stand - Queens Botanical Garden?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
-      }
-    ]
-  },
-  {
     "id": "qc_322dc7c7160109a6",
     "slug": "compost-build-community-volunteer-days-queens-botanical-garden",
     "title": "Compost Build Community Volunteer Days - Queens Botanical Garden",
     "description": "Join the QBG Compost Staff for our weekly on-site compost build and learn about processing community food scraps into nutrient rich compost. Register here",
-    "startDate": "2026-10-19T00:00:00.000Z",
+    "startDate": "2026-10-20T00:00:00.000Z",
     "endDate": "2026-10-26T00:00:00.000Z",
     "timezone": "America/New_York",
     "status": "scheduled",
@@ -251,15 +34,15 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/all/",
-      "retrievedAt": "2026-10-19T16:29:27.080Z",
+      "retrievedAt": "2026-10-20T14:19:48.633Z",
       "method": "html"
     },
     "weekKey": "2026-W43",
-    "answerSummary": "Compost Build Community Volunteer Days - Queens Botanical Garden is happening Sunday, October 18 at 8:00 PM at Queens Botanical Garden in Flushing, Queens. Join the QBG Compost Staff for our weekly on-site compost build and learn about processing community food scraps into nutrient rich compost. Register here",
+    "answerSummary": "Compost Build Community Volunteer Days - Queens Botanical Garden is happening Monday, October 19 at 8:00 PM at Queens Botanical Garden in Flushing, Queens. Join the QBG Compost Staff for our weekly on-site compost build and learn about processing community food scraps into nutrient rich compost. Register here",
     "faqs": [
       {
         "question": "When is Compost Build Community Volunteer Days - Queens Botanical Garden?",
-        "answer": "Compost Build Community Volunteer Days - Queens Botanical Garden starts Sunday, October 18 at 8:00 PM."
+        "answer": "Compost Build Community Volunteer Days - Queens Botanical Garden starts Monday, October 19 at 8:00 PM."
       },
       {
         "question": "Where is Compost Build Community Volunteer Days - Queens Botanical Garden?",
@@ -276,7 +59,7 @@
     "slug": "farm-open-hours-queens-botanical-garden",
     "title": "Farm Open Hours - Queens Botanical Garden",
     "description": "Come and explore the QBG Farm and learn about everything we are growing at our Farm Open Hours.",
-    "startDate": "2026-10-19T00:00:00.000Z",
+    "startDate": "2026-10-20T00:00:00.000Z",
     "endDate": "2026-10-22T00:00:00.000Z",
     "timezone": "America/New_York",
     "status": "scheduled",
@@ -305,15 +88,15 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/open-farm-hours-7/all/",
-      "retrievedAt": "2026-10-19T16:29:27.243Z",
+      "retrievedAt": "2026-10-20T14:19:48.740Z",
       "method": "html"
     },
     "weekKey": "2026-W43",
-    "answerSummary": "Farm Open Hours - Queens Botanical Garden is happening Sunday, October 18 at 8:00 PM at Queens Botanical Garden in Flushing, Queens. Come and explore the QBG Farm and learn about everything we are growing at our Farm Open Hours.",
+    "answerSummary": "Farm Open Hours - Queens Botanical Garden is happening Monday, October 19 at 8:00 PM at Queens Botanical Garden in Flushing, Queens. Come and explore the QBG Farm and learn about everything we are growing at our Farm Open Hours.",
     "faqs": [
       {
         "question": "When is Farm Open Hours - Queens Botanical Garden?",
-        "answer": "Farm Open Hours - Queens Botanical Garden starts Sunday, October 18 at 8:00 PM."
+        "answer": "Farm Open Hours - Queens Botanical Garden starts Monday, October 19 at 8:00 PM."
       },
       {
         "question": "Where is Farm Open Hours - Queens Botanical Garden?",
@@ -326,11 +109,66 @@
     ]
   },
   {
+    "id": "qc_927fc400c0b1ef65",
+    "slug": "horticulture-community-volunteer-days-2026-queens-botanical-garden",
+    "title": "Horticulture Community Volunteer Days 2026 - Queens Botanical Garden",
+    "description": "Help keep QBG clean, green, and growing! Join QBG's horticulture staff in a variety of gardening activities.",
+    "startDate": "2026-10-20T00:00:00.000Z",
+    "endDate": "2026-10-29T00:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community",
+      "arts-culture"
+    ],
+    "tags": [],
+    "image": "https://queensbotanical.org/wp-content/uploads/2026/05/3-1.webp",
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/all/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "https://queensbotanical.org/"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/all/",
+      "retrievedAt": "2026-10-20T14:19:48.877Z",
+      "method": "html"
+    },
+    "weekKey": "2026-W43",
+    "answerSummary": "Horticulture Community Volunteer Days 2026 - Queens Botanical Garden is happening Monday, October 19 at 8:00 PM at Queens Botanical Garden in Flushing, Queens. Help keep QBG clean, green, and growing! Join QBG's horticulture staff in a variety of gardening activities.",
+    "faqs": [
+      {
+        "question": "When is Horticulture Community Volunteer Days 2026 - Queens Botanical Garden?",
+        "answer": "Horticulture Community Volunteer Days 2026 - Queens Botanical Garden starts Monday, October 19 at 8:00 PM."
+      },
+      {
+        "question": "Where is Horticulture Community Volunteer Days 2026 - Queens Botanical Garden?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for Horticulture Community Volunteer Days 2026 - Queens Botanical Garden?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
+      }
+    ]
+  },
+  {
     "id": "qc_eb3f29b5fac0e38b",
     "slug": "compost-beautification-community-volunteer-days-queens-botanical-garden",
     "title": "Compost Beautification Community Volunteer Days - Queens Botanical Garden",
     "description": "Join the QBG Compost Staff to tour and care for our compost demo site by weeding, mulching, planting, applying compost and gardening.",
-    "startDate": "2026-10-19T00:00:00.000Z",
+    "startDate": "2026-10-20T00:00:00.000Z",
     "endDate": "2026-11-15T00:00:00.000Z",
     "timezone": "America/New_York",
     "status": "scheduled",
@@ -359,15 +197,15 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-beautification-community-volunteer-days-15/all/",
-      "retrievedAt": "2026-10-19T16:29:31.136Z",
+      "retrievedAt": "2026-10-20T14:19:49.651Z",
       "method": "html"
     },
     "weekKey": "2026-W43",
-    "answerSummary": "Compost Beautification Community Volunteer Days - Queens Botanical Garden is happening Sunday, October 18 at 8:00 PM at Queens Botanical Garden in Flushing, Queens. Join the QBG Compost Staff to tour and care for our compost demo site by weeding, mulching, planting, applying compost and gardening.",
+    "answerSummary": "Compost Beautification Community Volunteer Days - Queens Botanical Garden is happening Monday, October 19 at 8:00 PM at Queens Botanical Garden in Flushing, Queens. Join the QBG Compost Staff to tour and care for our compost demo site by weeding, mulching, planting, applying compost and gardening.",
     "faqs": [
       {
         "question": "When is Compost Beautification Community Volunteer Days - Queens Botanical Garden?",
-        "answer": "Compost Beautification Community Volunteer Days - Queens Botanical Garden starts Sunday, October 18 at 8:00 PM."
+        "answer": "Compost Beautification Community Volunteer Days - Queens Botanical Garden starts Monday, October 19 at 8:00 PM."
       },
       {
         "question": "Where is Compost Beautification Community Volunteer Days - Queens Botanical Garden?",
@@ -380,11 +218,65 @@
     ]
   },
   {
+    "id": "qc_eee21de5f8d58e73",
+    "slug": "farm-stand-queens-botanical-garden",
+    "title": "Farm Stand - Queens Botanical Garden",
+    "description": "Visit our Farm Stand on the Terrace. All produce sold at the Stand is grown on-site at QBG using organic and regenerative practices, and is available on a sliding scale, donation basis!",
+    "startDate": "2026-10-20T00:00:00.000Z",
+    "endDate": "2026-10-21T00:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community"
+    ],
+    "tags": [],
+    "image": "https://queensbotanical.org/wp-content/uploads/2025/11/IMG_5545-scaled.jpg",
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/farm-stand-2/all/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "https://queensbotanical.org/"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/farm-stand-2/all/",
+      "retrievedAt": "2026-10-20T14:19:49.918Z",
+      "method": "html"
+    },
+    "weekKey": "2026-W43",
+    "answerSummary": "Farm Stand - Queens Botanical Garden is happening Monday, October 19 at 8:00 PM at Queens Botanical Garden in Flushing, Queens. Visit our Farm Stand on the Terrace. All produce sold at the Stand is grown on-site at QBG using organic and regenerative practices, and is available on a sliding scale, donation basis!",
+    "faqs": [
+      {
+        "question": "When is Farm Stand - Queens Botanical Garden?",
+        "answer": "Farm Stand - Queens Botanical Garden starts Monday, October 19 at 8:00 PM."
+      },
+      {
+        "question": "Where is Farm Stand - Queens Botanical Garden?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for Farm Stand - Queens Botanical Garden?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
+      }
+    ]
+  },
+  {
     "id": "qc_dd8bc6bd32bc9c6a",
     "slug": "farm-community-volunteer-days-queens-botanical-garden",
     "title": "Farm Community Volunteer Days - Queens Botanical Garden",
     "description": "Help prepare the QBG Farm to grow produce that we distribute to food pantries to support our communities with food relief. Join QBG’s Farm staff for an engaging, educational event where you will learn gardening basics and work hands-on with plants. Make new friends and put your green thumb to good use in a variety of seasonal projects. Learn more […]",
-    "startDate": "2026-10-19T00:00:00.000Z",
+    "startDate": "2026-10-20T00:00:00.000Z",
     "endDate": "2026-10-20T00:00:00.000Z",
     "timezone": "America/New_York",
     "status": "scheduled",
@@ -414,15 +306,15 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-27/all/",
-      "retrievedAt": "2026-10-19T16:29:33.249Z",
+      "retrievedAt": "2026-10-20T14:19:51.346Z",
       "method": "html"
     },
     "weekKey": "2026-W43",
-    "answerSummary": "Farm Community Volunteer Days - Queens Botanical Garden is happening Sunday, October 18 at 8:00 PM at Queens Botanical Garden in Flushing, Queens. Help prepare the QBG Farm to grow produce that we distribute to food pantries to support our communities with food relief. Join QBG’s Farm staff for an engaging, educational event where you will learn gardening ba",
+    "answerSummary": "Farm Community Volunteer Days - Queens Botanical Garden is happening Monday, October 19 at 8:00 PM at Queens Botanical Garden in Flushing, Queens. Help prepare the QBG Farm to grow produce that we distribute to food pantries to support our communities with food relief. Join QBG’s Farm staff for an engaging, educational event where you will learn gardening ba",
     "faqs": [
       {
         "question": "When is Farm Community Volunteer Days - Queens Botanical Garden?",
-        "answer": "Farm Community Volunteer Days - Queens Botanical Garden starts Sunday, October 18 at 8:00 PM."
+        "answer": "Farm Community Volunteer Days - Queens Botanical Garden starts Monday, October 19 at 8:00 PM."
       },
       {
         "question": "Where is Farm Community Volunteer Days - Queens Botanical Garden?",
@@ -431,114 +323,6 @@
       {
         "question": "How do I register for Farm Community Volunteer Days - Queens Botanical Garden?",
         "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_b76b8acded5ae066",
-    "slug": "compost-build-community-volunteer-days-2026-10-19",
-    "title": "Compost Build Community Volunteer Days",
-    "description": "Join the QBG Compost Staff for our weekly on-site compost build and learn about processing community food scraps into nutrient-rich compost. Register here",
-    "startDate": "2026-10-19T13:30:00.000Z",
-    "endDate": "2026-10-19T16:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "parks-outdoors",
-      "family",
-      "community",
-      "food"
-    ],
-    "tags": [],
-    "image": null,
-    "price": null,
-    "registrationUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-10-19/",
-    "venue": {
-      "name": "Queens Botanical Garden",
-      "address": "43-50 Main St, Flushing, NY 11355",
-      "neighborhood": "Flushing",
-      "latitude": 40.7516,
-      "longitude": -73.8268
-    },
-    "organizer": {
-      "name": "Queens Botanical Garden",
-      "url": "https://queensbotanical.org/"
-    },
-    "source": {
-      "name": "Queens Botanical Garden",
-      "listingUrl": "https://queensbotanical.org/calendar/",
-      "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-10-19/",
-      "retrievedAt": "2026-10-19T16:29:33.048Z",
-      "method": "json-ld"
-    },
-    "weekKey": "2026-W43",
-    "answerSummary": "Compost Build Community Volunteer Days is happening Monday, October 19 at 9:30 AM at Queens Botanical Garden in Flushing, Queens. Join the QBG Compost Staff for our weekly on-site compost build and learn about processing community food scraps into nutrient-rich compost. Register here",
-    "faqs": [
-      {
-        "question": "When is Compost Build Community Volunteer Days?",
-        "answer": "Compost Build Community Volunteer Days starts Monday, October 19 at 9:30 AM."
-      },
-      {
-        "question": "Where is Compost Build Community Volunteer Days?",
-        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
-      },
-      {
-        "question": "How do I register for Compost Build Community Volunteer Days?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_7961dd0f8083729a",
-    "slug": "drawing-from-a-distance-2026-10-19",
-    "title": "Drawing from a Distance",
-    "description": "Registrants will be sent a link to participate through Zoom and should prepare to bring their own drawing tools and paper to the virtual session. Please email education@noguchi.org with questions about accessibility needs such as closed captioning, or high-resolution artwork images in advance of the program.",
-    "startDate": "2026-10-19T23:30:00.000Z",
-    "endDate": "2026-10-20T01:30:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "online",
-    "categories": [
-      "arts-culture",
-      "family"
-    ],
-    "tags": [],
-    "image": "https://www.noguchi.org/wp-content/uploads/2024/12/drawing-from-a-distance-sketch-by-luned-palmer-scaled.jpg",
-    "price": null,
-    "registrationUrl": "https://noguchieducation.wufoo.com/forms/drawing-from-a-distance-p1l5ebtt0jugxlx/",
-    "venue": {
-      "name": "The Noguchi Museum",
-      "address": "9-01 33rd Rd, Long Island City, NY 11106",
-      "neighborhood": "Long Island City",
-      "latitude": 40.7668,
-      "longitude": -73.9381
-    },
-    "organizer": {
-      "name": "The Noguchi Museum",
-      "url": "https://www.noguchi.org/"
-    },
-    "source": {
-      "name": "The Noguchi Museum",
-      "listingUrl": "https://www.noguchi.org/museum/calendar/",
-      "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-10-19-1930-drawing-from-a-distance/",
-      "retrievedAt": "2026-10-19T16:29:37.788Z",
-      "method": "html"
-    },
-    "weekKey": "2026-W43",
-    "answerSummary": "Drawing from a Distance is happening Monday, October 19 at 7:30 PM online. Registrants will be sent a link to participate through Zoom and should prepare to bring their own drawing tools and paper to the virtual session. Please email education@noguchi.org with questions about accessibility needs such as closed captioning, or high-resolution artwork images in",
-    "faqs": [
-      {
-        "question": "When is Drawing from a Distance?",
-        "answer": "Drawing from a Distance starts Monday, October 19 at 7:30 PM."
-      },
-      {
-        "question": "Where is Drawing from a Distance?",
-        "answer": "This event is online."
-      },
-      {
-        "question": "How do I register for Drawing from a Distance?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
       }
     ]
   },
@@ -577,7 +361,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-27/2026-10-20/",
-      "retrievedAt": "2026-10-19T16:29:33.144Z",
+      "retrievedAt": "2026-10-20T14:19:50.040Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W43",
@@ -601,7 +385,7 @@
     "id": "qc_418afad04ec8fc08",
     "slug": "farm-stand-2026-10-21",
     "title": "Farm Stand",
-    "description": "Visit our Farm Stand on the Terrace from 3 pm to 4:30 pm. All produce sold at the Stand is grown on-site at QBG using organic and regenerative practices, and is available on a sliding scale, donation basis!",
+    "description": "Farm Stand is back! Stop by the Visitor & Administration Building Terrace from 2 pm to 5 pm to see what we're harvesting this week.",
     "startDate": "2026-10-21T18:00:00.000Z",
     "endDate": "2026-10-21T21:00:00.000Z",
     "timezone": "America/New_York",
@@ -631,11 +415,11 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-stand-2/2026-10-21/",
-      "retrievedAt": "2026-10-19T16:29:34.031Z",
+      "retrievedAt": "2026-10-20T14:19:50.050Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W43",
-    "answerSummary": "Farm Stand is happening Wednesday, October 21 at 2:00 PM at Queens Botanical Garden in Flushing, Queens. Visit our Farm Stand on the Terrace from 3 pm to 4:30 pm. All produce sold at the Stand is grown on-site at QBG using organic and regenerative practices, and is available on a sliding scale, donation basis!",
+    "answerSummary": "Farm Stand is happening Wednesday, October 21 at 2:00 PM at Queens Botanical Garden in Flushing, Queens. Farm Stand is back! Stop by the Visitor & Administration Building Terrace from 2 pm to 5 pm to see what we're harvesting this week.",
     "faqs": [
       {
         "question": "When is Farm Stand?",
@@ -684,7 +468,7 @@
       "name": "City Parks Foundation",
       "listingUrl": "https://cityparksfoundation.org/calendar/month/",
       "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-46/",
-      "retrievedAt": "2026-10-19T16:29:18.472Z",
+      "retrievedAt": "2026-10-20T14:19:31.811Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W43",
@@ -738,7 +522,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/open-farm-hours-7/2026-10-22/",
-      "retrievedAt": "2026-10-19T16:29:34.312Z",
+      "retrievedAt": "2026-10-20T14:19:50.095Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W43",
@@ -791,7 +575,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-10-24-1030-art-for-families-nature/",
-      "retrievedAt": "2026-10-19T16:29:37.720Z",
+      "retrievedAt": "2026-10-20T14:19:52.717Z",
       "method": "html"
     },
     "weekKey": "2026-W43",
@@ -846,7 +630,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/autumn-garden-tour-with-our-horticulture-director/",
-      "retrievedAt": "2026-10-19T16:29:32.828Z",
+      "retrievedAt": "2026-10-20T14:19:50.140Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W43",
@@ -901,7 +685,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/cameron-russell-mei-tao-supremely-unequivocal-opening-day/",
-      "retrievedAt": "2026-10-19T16:29:34.932Z",
+      "retrievedAt": "2026-10-20T14:19:50.159Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W43",
@@ -954,7 +738,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-10-25-1030-stroller-tour/",
-      "retrievedAt": "2026-10-19T16:29:37.711Z",
+      "retrievedAt": "2026-10-20T14:19:53.713Z",
       "method": "html"
     },
     "weekKey": "2026-W43",
@@ -1009,7 +793,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/honey-bottling-workshop-with-beekeeper-helen-colhoun/",
-      "retrievedAt": "2026-10-19T16:29:33.196Z",
+      "retrievedAt": "2026-10-20T14:19:50.192Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W43",
@@ -1031,7 +815,7 @@
   },
   {
     "id": "qc_9c9bdb80a18ad549",
-    "slug": "compost-build-community-volunteer-days-2026-10-26",
+    "slug": "compost-build-community-volunteer-days",
     "title": "Compost Build Community Volunteer Days",
     "description": "Join the QBG Compost Staff for our weekly on-site compost build and learn about processing community food scraps into nutrient-rich compost. Register here",
     "startDate": "2026-10-26T13:30:00.000Z",
@@ -1064,7 +848,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-10-26/",
-      "retrievedAt": "2026-10-19T16:29:34.837Z",
+      "retrievedAt": "2026-10-20T14:19:50.249Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W44",
@@ -1119,7 +903,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-27/2026-10-27/",
-      "retrievedAt": "2026-10-19T16:29:33.336Z",
+      "retrievedAt": "2026-10-20T14:19:50.253Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W44",
@@ -1174,7 +958,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-10-29/",
-      "retrievedAt": "2026-10-19T16:29:35.047Z",
+      "retrievedAt": "2026-10-20T14:19:50.306Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W44",
@@ -1227,7 +1011,7 @@
       "name": "City Parks Foundation",
       "listingUrl": "https://cityparksfoundation.org/calendar/month/",
       "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-43/",
-      "retrievedAt": "2026-10-19T16:29:22.962Z",
+      "retrievedAt": "2026-10-20T14:19:37.422Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W44",
@@ -1281,7 +1065,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/open-farm-hours-7/2026-10-29/",
-      "retrievedAt": "2026-10-19T16:29:35.179Z",
+      "retrievedAt": "2026-10-20T14:19:50.370Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W44",
@@ -1334,7 +1118,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-10-31-1000-mindfulness-in-the-galleries/",
-      "retrievedAt": "2026-10-19T16:29:38.817Z",
+      "retrievedAt": "2026-10-20T14:19:53.800Z",
       "method": "html"
     },
     "weekKey": "2026-W44",
@@ -1389,7 +1173,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/halloween-at-the-garden-2026/",
-      "retrievedAt": "2026-10-19T16:29:34.158Z",
+      "retrievedAt": "2026-10-20T14:19:50.344Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W44",
@@ -1442,7 +1226,7 @@
       "name": "City Parks Foundation",
       "listingUrl": "https://cityparksfoundation.org/calendar/month/",
       "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-sitting-area-19/",
-      "retrievedAt": "2026-10-19T16:29:22.555Z",
+      "retrievedAt": "2026-10-20T14:19:46.179Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W44",
@@ -1466,7 +1250,7 @@
     "id": "qc_a2566a232afb296b",
     "slug": "farm-stand-2026-10-31",
     "title": "Farm Stand",
-    "description": "Visit our Farm Stand on the Terrace from 3 pm to 4:30 pm. All produce sold at the Stand is grown on-site at QBG using organic and regenerative practices, and is available on a sliding scale, donation basis!",
+    "description": "Farm Stand is back! Stop by the Visitor & Administration Building Terrace from 2 pm to 5 pm to see what we're harvesting this week.",
     "startDate": "2026-10-31T18:00:00.000Z",
     "endDate": "2026-10-31T21:00:00.000Z",
     "timezone": "America/New_York",
@@ -1496,11 +1280,11 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-stand-2/2026-10-31/",
-      "retrievedAt": "2026-10-19T16:29:34.291Z",
+      "retrievedAt": "2026-10-20T14:19:50.427Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W44",
-    "answerSummary": "Farm Stand is happening Saturday, October 31 at 2:00 PM at Queens Botanical Garden in Flushing, Queens. Visit our Farm Stand on the Terrace from 3 pm to 4:30 pm. All produce sold at the Stand is grown on-site at QBG using organic and regenerative practices, and is available on a sliding scale, donation basis!",
+    "answerSummary": "Farm Stand is happening Saturday, October 31 at 2:00 PM at Queens Botanical Garden in Flushing, Queens. Farm Stand is back! Stop by the Visitor & Administration Building Terrace from 2 pm to 5 pm to see what we're harvesting this week.",
     "faqs": [
       {
         "question": "When is Farm Stand?",
@@ -1549,7 +1333,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-06-1000-free-first-friday/",
-      "retrievedAt": "2026-10-19T16:29:38.713Z",
+      "retrievedAt": "2026-10-20T14:19:53.919Z",
       "method": "html"
     },
     "weekKey": "2026-W45",
@@ -1602,7 +1386,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-06-1300-tour-publico-museum-tour-in-spanish/",
-      "retrievedAt": "2026-10-19T16:29:38.632Z",
+      "retrievedAt": "2026-10-20T14:19:54.121Z",
       "method": "html"
     },
     "weekKey": "2026-W45",
@@ -1655,7 +1439,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-06-1430-gallery-kit/",
-      "retrievedAt": "2026-10-19T16:29:40.823Z",
+      "retrievedAt": "2026-10-20T14:19:54.302Z",
       "method": "html"
     },
     "weekKey": "2026-W45",
@@ -1708,7 +1492,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-14-1000-mindfulness-in-the-galleries-ikebana/",
-      "retrievedAt": "2026-10-19T16:29:40.724Z",
+      "retrievedAt": "2026-10-20T14:19:54.883Z",
       "method": "html"
     },
     "weekKey": "2026-W46",
@@ -1761,7 +1545,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-15-1100-open-studio-play-with-paper/",
-      "retrievedAt": "2026-10-19T16:29:40.747Z",
+      "retrievedAt": "2026-10-20T14:19:54.995Z",
       "method": "html"
     },
     "weekKey": "2026-W46",
@@ -1814,7 +1598,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-15-1500-hands-on-drawing/",
-      "retrievedAt": "2026-10-19T16:29:41.112Z",
+      "retrievedAt": "2026-10-20T14:19:55.048Z",
       "method": "html"
     },
     "weekKey": "2026-W46",
@@ -1867,7 +1651,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-15-1500-%e4%b8%ad%e6%96%87%e5%85%ac%e7%9c%be%e5%b0%8e%e8%a6%bd-museum-tour-in-mandarin-chinese/",
-      "retrievedAt": "2026-10-19T16:29:42.118Z",
+      "retrievedAt": "2026-10-20T14:19:55.304Z",
       "method": "html"
     },
     "weekKey": "2026-W46",
@@ -1920,7 +1704,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-16-1930-drawing-from-a-distance/",
-      "retrievedAt": "2026-10-19T16:29:42.525Z",
+      "retrievedAt": "2026-10-20T14:19:55.294Z",
       "method": "html"
     },
     "weekKey": "2026-W47",
@@ -1973,7 +1757,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-12-21-1930-drawing-from-a-distance/",
-      "retrievedAt": "2026-10-19T16:29:42.425Z",
+      "retrievedAt": "2026-10-20T14:19:55.585Z",
       "method": "html"
     },
     "weekKey": "2026-W52",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T16:29:48.540Z",
+  "generatedAt": "2026-10-20T14:20:05.826Z",
   "catalogStatus": "fresh",
   "sources": [
     {
@@ -7,42 +7,42 @@
       "name": "Queens Museum",
       "status": "ok",
       "discovered": 20,
-      "accepted": 2,
-      "rejected": 18,
+      "accepted": 0,
+      "rejected": 20,
       "rejections": [
+        {
+          "link": "https://queensmuseum.org/event/printmaking-workshop-a-new-new-yorkers-program-10-18-2026/",
+          "reasons": [
+            "outside rolling publication window (2026-10-18T18:00:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensmuseum.org/event/information-session-2-2027-28-qm-jerome-foundation-fellowship-for-emerging-artists/",
+          "reasons": [
+            "outside rolling publication window (2026-09-09T22:00:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensmuseum.org/event/information-session-1-2027-28-qm-jerome-foundation-fellowship-for-emerging-artists/",
+          "reasons": [
+            "outside rolling publication window (2026-07-16T22:00:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensmuseum.org/event/october-family-day-artmaking-workshops-featuring-woody-guthries-song-to-grow-on-performance/",
+          "reasons": [
+            "outside rolling publication window (2026-10-18T17:00:00.000Z)"
+          ]
+        },
         {
           "link": "https://queensmuseum.org/event/celebrating-hidden-altars-of-grief-and-remembrance-celebrando-altares-ocultos-de-duelo-y-memoria/",
           "reasons": [
             "outside rolling publication window (2026-10-11T17:00:00.000Z)"
           ]
-        },
-        {
-          "link": "https://queensmuseum.org/event/the-healing-museum-unga-healing-arts-week/",
-          "reasons": [
-            "outside rolling publication window (2026-09-23T20:30:00.000Z)"
-          ]
-        },
-        {
-          "link": "https://queensmuseum.org/event/september-family-day-legal-aid-for-venida-for-kalief/",
-          "reasons": [
-            "outside rolling publication window (2026-09-26T17:00:00.000Z)"
-          ]
-        },
-        {
-          "link": "https://queensmuseum.org/event/opening-celebration-a-green-carpet-for-everyone-weaving-nets/",
-          "reasons": [
-            "outside rolling publication window (2026-07-12T16:00:00.000Z)"
-          ]
-        },
-        {
-          "link": "https://queensmuseum.org/event/nyc-neighborhood-passport-program-already-home-fifa-world-cup-26/",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
         }
       ],
       "errors": [],
-      "durationMs": 3822
+      "durationMs": 1836
     },
     {
       "id": "city-parks-foundation",
@@ -59,13 +59,13 @@
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-sunset-park-120/",
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-stuyvesant-square-58/",
           "reasons": [
             "could not extract title/date from page"
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-stuyvesant-square-58/",
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-brower-park-25/",
           "reasons": [
             "could not extract title/date from page"
           ]
@@ -77,14 +77,14 @@
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-brower-park-25/",
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-sunset-park-120/",
           "reasons": [
             "could not extract title/date from page"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 33026
+      "durationMs": 46507
     },
     {
       "id": "museum-moving-image",
@@ -97,7 +97,7 @@
       "errors": [
         "HTTP 403"
       ],
-      "durationMs": 34
+      "durationMs": 656
     },
     {
       "id": "queens-public-library",
@@ -110,7 +110,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 260
+      "durationMs": 391
     },
     {
       "id": "flushing-town-hall",
@@ -123,32 +123,26 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 336
+      "durationMs": 631
     },
     {
       "id": "queens-botanical-garden",
       "name": "Queens Botanical Garden",
       "status": "ok",
       "discovered": 37,
-      "accepted": 19,
-      "rejected": 18,
+      "accepted": 18,
+      "rejected": 19,
       "rejections": [
+        {
+          "link": "https://queensbotanical.org/event/open-farm-hours-7/2026-10-01/",
+          "reasons": [
+            "outside rolling publication window (2026-10-01T14:00:00.000Z)"
+          ]
+        },
         {
           "link": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-10-01/",
           "reasons": [
             "outside rolling publication window (2026-10-01T12:45:00.000Z)"
-          ]
-        },
-        {
-          "link": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-09-28/",
-          "reasons": [
-            "outside rolling publication window (2026-09-28T13:30:00.000Z)"
-          ]
-        },
-        {
-          "link": "https://queensbotanical.org/event/farm-stand-2/2026-09-30/",
-          "reasons": [
-            "outside rolling publication window (2026-09-30T18:00:00.000Z)"
           ]
         },
         {
@@ -158,25 +152,31 @@
           ]
         },
         {
-          "link": "https://queensbotanical.org/event/open-farm-hours-7/2026-10-01/",
+          "link": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-10-05/",
           "reasons": [
-            "outside rolling publication window (2026-10-01T14:00:00.000Z)"
+            "outside rolling publication window (2026-10-05T13:30:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensbotanical.org/event/farm-stand-2/2026-10-07/",
+          "reasons": [
+            "outside rolling publication window (2026-10-07T18:00:00.000Z)"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 10320
+      "durationMs": 3490
     },
     {
       "id": "noguchi-museum",
       "name": "The Noguchi Museum",
       "status": "ok",
-      "discovered": 13,
-      "accepted": 13,
+      "discovered": 12,
+      "accepted": 12,
       "rejected": 0,
       "rejections": [],
       "errors": [],
-      "durationMs": 7347
+      "durationMs": 4238
     },
     {
       "id": "socrates-sculpture-park",
@@ -189,7 +189,7 @@
       "errors": [
         "HTTP 404"
       ],
-      "durationMs": 358
+      "durationMs": 418
     },
     {
       "id": "queens-theatre",
@@ -202,13 +202,13 @@
       "errors": [
         "fetch failed"
       ],
-      "durationMs": 5653
+      "durationMs": 9819
     }
   ],
   "totals": {
-    "discovered": 130,
-    "accepted": 37,
-    "published": 37,
-    "rejected": 93
+    "discovered": 129,
+    "accepted": 33,
+    "published": 33,
+    "rejected": 96
   }
 }
