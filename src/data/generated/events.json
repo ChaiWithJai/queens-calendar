@@ -1,11 +1,11 @@
 [
   {
-    "id": "qc_418afad04ec8fc08",
-    "slug": "farm-stand-2026-10-21",
-    "title": "Farm Stand",
-    "description": "Farm Stand is back! Stop by the Visitor & Administration Building Terrace from 2 pm to 5 pm to see what we're harvesting this week.",
-    "startDate": "2026-10-21T18:00:00.000Z",
-    "endDate": "2026-10-21T21:00:00.000Z",
+    "id": "qc_eee21de5f8d58e73",
+    "slug": "farm-stand-queens-botanical-garden",
+    "title": "Farm Stand - Queens Botanical Garden",
+    "description": "Visit our Farm Stand on the Terrace. All produce sold at the Stand is grown on-site at QBG using organic and regenerative practices, and is available on a sliding scale, donation basis!",
+    "startDate": "2026-10-24T00:00:00.000Z",
+    "endDate": "2026-10-31T00:00:00.000Z",
     "timezone": "America/New_York",
     "status": "scheduled",
     "attendanceMode": "offline",
@@ -15,9 +15,9 @@
       "community"
     ],
     "tags": [],
-    "image": null,
+    "image": "https://queensbotanical.org/wp-content/uploads/2025/11/IMG_5545-scaled.jpg",
     "price": null,
-    "registrationUrl": "https://queensbotanical.org/event/farm-stand-2/2026-10-21/",
+    "registrationUrl": "https://queensbotanical.org/event/farm-stand-2/all/",
     "venue": {
       "name": "Queens Botanical Garden",
       "address": "43-50 Main St, Flushing, NY 11355",
@@ -32,33 +32,33 @@
     "source": {
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
-      "canonicalUrl": "https://queensbotanical.org/event/farm-stand-2/2026-10-21/",
-      "retrievedAt": "2026-10-22T14:33:23.954Z",
-      "method": "json-ld"
+      "canonicalUrl": "https://queensbotanical.org/event/farm-stand-2/all/",
+      "retrievedAt": "2026-10-24T13:21:16.011Z",
+      "method": "html"
     },
     "weekKey": "2026-W43",
-    "answerSummary": "Farm Stand is happening Wednesday, October 21 at 2:00 PM at Queens Botanical Garden in Flushing, Queens. Farm Stand is back! Stop by the Visitor & Administration Building Terrace from 2 pm to 5 pm to see what we're harvesting this week.",
+    "answerSummary": "Farm Stand - Queens Botanical Garden is happening Friday, October 23 at 8:00 PM at Queens Botanical Garden in Flushing, Queens. Visit our Farm Stand on the Terrace. All produce sold at the Stand is grown on-site at QBG using organic and regenerative practices, and is available on a sliding scale, donation basis!",
     "faqs": [
       {
-        "question": "When is Farm Stand?",
-        "answer": "Farm Stand starts Wednesday, October 21 at 2:00 PM."
+        "question": "When is Farm Stand - Queens Botanical Garden?",
+        "answer": "Farm Stand - Queens Botanical Garden starts Friday, October 23 at 8:00 PM."
       },
       {
-        "question": "Where is Farm Stand?",
+        "question": "Where is Farm Stand - Queens Botanical Garden?",
         "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
       },
       {
-        "question": "How do I register for Farm Stand?",
+        "question": "How do I register for Farm Stand - Queens Botanical Garden?",
         "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
       }
     ]
   },
   {
-    "id": "qc_927fc400c0b1ef65",
-    "slug": "horticulture-community-volunteer-days-2026-queens-botanical-garden",
-    "title": "Horticulture Community Volunteer Days 2026 - Queens Botanical Garden",
-    "description": "Help keep QBG clean, green, and growing! Join QBG's horticulture staff in a variety of gardening activities.",
-    "startDate": "2026-10-22T00:00:00.000Z",
+    "id": "qc_bac08757c5cce5e5",
+    "slug": "farm-open-hours-queens-botanical-garden",
+    "title": "Farm Open Hours - Queens Botanical Garden",
+    "description": "Come and explore the QBG Farm and learn about everything we are growing at our Farm Open Hours.",
+    "startDate": "2026-10-24T00:00:00.000Z",
     "endDate": "2026-10-29T00:00:00.000Z",
     "timezone": "America/New_York",
     "status": "scheduled",
@@ -66,13 +66,12 @@
     "categories": [
       "parks-outdoors",
       "family",
-      "community",
-      "arts-culture"
+      "community"
     ],
     "tags": [],
-    "image": "https://queensbotanical.org/wp-content/uploads/2026/05/3-1.webp",
+    "image": "https://queensbotanical.org/wp-content/uploads/2022/07/2022.06.02_Farm-Open-Hours_CREDIT_Oliver-Lopez_-1-scaled.jpg",
     "price": null,
-    "registrationUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/all/",
+    "registrationUrl": "https://queensbotanical.org/event/open-farm-hours-7/all/",
     "venue": {
       "name": "Queens Botanical Garden",
       "address": "43-50 Main St, Flushing, NY 11355",
@@ -87,23 +86,23 @@
     "source": {
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
-      "canonicalUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/all/",
-      "retrievedAt": "2026-10-22T14:33:17.152Z",
+      "canonicalUrl": "https://queensbotanical.org/event/open-farm-hours-7/all/",
+      "retrievedAt": "2026-10-24T13:21:16.028Z",
       "method": "html"
     },
     "weekKey": "2026-W43",
-    "answerSummary": "Horticulture Community Volunteer Days 2026 - Queens Botanical Garden is happening Wednesday, October 21 at 8:00 PM at Queens Botanical Garden in Flushing, Queens. Help keep QBG clean, green, and growing! Join QBG's horticulture staff in a variety of gardening activities.",
+    "answerSummary": "Farm Open Hours - Queens Botanical Garden is happening Friday, October 23 at 8:00 PM at Queens Botanical Garden in Flushing, Queens. Come and explore the QBG Farm and learn about everything we are growing at our Farm Open Hours.",
     "faqs": [
       {
-        "question": "When is Horticulture Community Volunteer Days 2026 - Queens Botanical Garden?",
-        "answer": "Horticulture Community Volunteer Days 2026 - Queens Botanical Garden starts Wednesday, October 21 at 8:00 PM."
+        "question": "When is Farm Open Hours - Queens Botanical Garden?",
+        "answer": "Farm Open Hours - Queens Botanical Garden starts Friday, October 23 at 8:00 PM."
       },
       {
-        "question": "Where is Horticulture Community Volunteer Days 2026 - Queens Botanical Garden?",
+        "question": "Where is Farm Open Hours - Queens Botanical Garden?",
         "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
       },
       {
-        "question": "How do I register for Horticulture Community Volunteer Days 2026 - Queens Botanical Garden?",
+        "question": "How do I register for Farm Open Hours - Queens Botanical Garden?",
         "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
       }
     ]
@@ -113,7 +112,7 @@
     "slug": "compost-build-community-volunteer-days-queens-botanical-garden",
     "title": "Compost Build Community Volunteer Days - Queens Botanical Garden",
     "description": "Join the QBG Compost Staff for our weekly on-site compost build and learn about processing community food scraps into nutrient rich compost. Register here",
-    "startDate": "2026-10-22T00:00:00.000Z",
+    "startDate": "2026-10-24T00:00:00.000Z",
     "endDate": "2026-10-26T00:00:00.000Z",
     "timezone": "America/New_York",
     "status": "scheduled",
@@ -143,15 +142,15 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/all/",
-      "retrievedAt": "2026-10-22T14:33:18.365Z",
+      "retrievedAt": "2026-10-24T13:21:17.747Z",
       "method": "html"
     },
     "weekKey": "2026-W43",
-    "answerSummary": "Compost Build Community Volunteer Days - Queens Botanical Garden is happening Wednesday, October 21 at 8:00 PM at Queens Botanical Garden in Flushing, Queens. Join the QBG Compost Staff for our weekly on-site compost build and learn about processing community food scraps into nutrient rich compost. Register here",
+    "answerSummary": "Compost Build Community Volunteer Days - Queens Botanical Garden is happening Friday, October 23 at 8:00 PM at Queens Botanical Garden in Flushing, Queens. Join the QBG Compost Staff for our weekly on-site compost build and learn about processing community food scraps into nutrient rich compost. Register here",
     "faqs": [
       {
         "question": "When is Compost Build Community Volunteer Days - Queens Botanical Garden?",
-        "answer": "Compost Build Community Volunteer Days - Queens Botanical Garden starts Wednesday, October 21 at 8:00 PM."
+        "answer": "Compost Build Community Volunteer Days - Queens Botanical Garden starts Friday, October 23 at 8:00 PM."
       },
       {
         "question": "Where is Compost Build Community Volunteer Days - Queens Botanical Garden?",
@@ -164,119 +163,11 @@
     ]
   },
   {
-    "id": "qc_eee21de5f8d58e73",
-    "slug": "farm-stand-queens-botanical-garden",
-    "title": "Farm Stand - Queens Botanical Garden",
-    "description": "Visit our Farm Stand on the Terrace. All produce sold at the Stand is grown on-site at QBG using organic and regenerative practices, and is available on a sliding scale, donation basis!",
-    "startDate": "2026-10-22T00:00:00.000Z",
-    "endDate": "2026-10-31T00:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "parks-outdoors",
-      "family",
-      "community"
-    ],
-    "tags": [],
-    "image": "https://queensbotanical.org/wp-content/uploads/2025/11/IMG_5545-scaled.jpg",
-    "price": null,
-    "registrationUrl": "https://queensbotanical.org/event/farm-stand-2/all/",
-    "venue": {
-      "name": "Queens Botanical Garden",
-      "address": "43-50 Main St, Flushing, NY 11355",
-      "neighborhood": "Flushing",
-      "latitude": 40.7516,
-      "longitude": -73.8268
-    },
-    "organizer": {
-      "name": "Queens Botanical Garden",
-      "url": "https://queensbotanical.org/"
-    },
-    "source": {
-      "name": "Queens Botanical Garden",
-      "listingUrl": "https://queensbotanical.org/calendar/",
-      "canonicalUrl": "https://queensbotanical.org/event/farm-stand-2/all/",
-      "retrievedAt": "2026-10-22T14:33:18.705Z",
-      "method": "html"
-    },
-    "weekKey": "2026-W43",
-    "answerSummary": "Farm Stand - Queens Botanical Garden is happening Wednesday, October 21 at 8:00 PM at Queens Botanical Garden in Flushing, Queens. Visit our Farm Stand on the Terrace. All produce sold at the Stand is grown on-site at QBG using organic and regenerative practices, and is available on a sliding scale, donation basis!",
-    "faqs": [
-      {
-        "question": "When is Farm Stand - Queens Botanical Garden?",
-        "answer": "Farm Stand - Queens Botanical Garden starts Wednesday, October 21 at 8:00 PM."
-      },
-      {
-        "question": "Where is Farm Stand - Queens Botanical Garden?",
-        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
-      },
-      {
-        "question": "How do I register for Farm Stand - Queens Botanical Garden?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_bac08757c5cce5e5",
-    "slug": "farm-open-hours-queens-botanical-garden",
-    "title": "Farm Open Hours - Queens Botanical Garden",
-    "description": "Come and explore the QBG Farm and learn about everything we are growing at our Farm Open Hours.",
-    "startDate": "2026-10-22T00:00:00.000Z",
-    "endDate": "2026-10-22T00:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "parks-outdoors",
-      "family",
-      "community"
-    ],
-    "tags": [],
-    "image": "https://queensbotanical.org/wp-content/uploads/2022/07/2022.06.02_Farm-Open-Hours_CREDIT_Oliver-Lopez_-1-scaled.jpg",
-    "price": null,
-    "registrationUrl": "https://queensbotanical.org/event/open-farm-hours-7/all/",
-    "venue": {
-      "name": "Queens Botanical Garden",
-      "address": "43-50 Main St, Flushing, NY 11355",
-      "neighborhood": "Flushing",
-      "latitude": 40.7516,
-      "longitude": -73.8268
-    },
-    "organizer": {
-      "name": "Queens Botanical Garden",
-      "url": "https://queensbotanical.org/"
-    },
-    "source": {
-      "name": "Queens Botanical Garden",
-      "listingUrl": "https://queensbotanical.org/calendar/",
-      "canonicalUrl": "https://queensbotanical.org/event/open-farm-hours-7/all/",
-      "retrievedAt": "2026-10-22T14:33:18.809Z",
-      "method": "html"
-    },
-    "weekKey": "2026-W43",
-    "answerSummary": "Farm Open Hours - Queens Botanical Garden is happening Wednesday, October 21 at 8:00 PM at Queens Botanical Garden in Flushing, Queens. Come and explore the QBG Farm and learn about everything we are growing at our Farm Open Hours.",
-    "faqs": [
-      {
-        "question": "When is Farm Open Hours - Queens Botanical Garden?",
-        "answer": "Farm Open Hours - Queens Botanical Garden starts Wednesday, October 21 at 8:00 PM."
-      },
-      {
-        "question": "Where is Farm Open Hours - Queens Botanical Garden?",
-        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
-      },
-      {
-        "question": "How do I register for Farm Open Hours - Queens Botanical Garden?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
-      }
-    ]
-  },
-  {
     "id": "qc_eb3f29b5fac0e38b",
     "slug": "compost-beautification-community-volunteer-days-queens-botanical-garden",
     "title": "Compost Beautification Community Volunteer Days - Queens Botanical Garden",
     "description": "Join the QBG Compost Staff to tour and care for our compost demo site by weeding, mulching, planting, applying compost and gardening.",
-    "startDate": "2026-10-22T00:00:00.000Z",
+    "startDate": "2026-10-24T00:00:00.000Z",
     "endDate": "2026-11-15T00:00:00.000Z",
     "timezone": "America/New_York",
     "status": "scheduled",
@@ -305,15 +196,15 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-beautification-community-volunteer-days-15/all/",
-      "retrievedAt": "2026-10-22T14:33:22.728Z",
+      "retrievedAt": "2026-10-24T13:21:19.365Z",
       "method": "html"
     },
     "weekKey": "2026-W43",
-    "answerSummary": "Compost Beautification Community Volunteer Days - Queens Botanical Garden is happening Wednesday, October 21 at 8:00 PM at Queens Botanical Garden in Flushing, Queens. Join the QBG Compost Staff to tour and care for our compost demo site by weeding, mulching, planting, applying compost and gardening.",
+    "answerSummary": "Compost Beautification Community Volunteer Days - Queens Botanical Garden is happening Friday, October 23 at 8:00 PM at Queens Botanical Garden in Flushing, Queens. Join the QBG Compost Staff to tour and care for our compost demo site by weeding, mulching, planting, applying compost and gardening.",
     "faqs": [
       {
         "question": "When is Compost Beautification Community Volunteer Days - Queens Botanical Garden?",
-        "answer": "Compost Beautification Community Volunteer Days - Queens Botanical Garden starts Wednesday, October 21 at 8:00 PM."
+        "answer": "Compost Beautification Community Volunteer Days - Queens Botanical Garden starts Friday, October 23 at 8:00 PM."
       },
       {
         "question": "Where is Compost Beautification Community Volunteer Days - Queens Botanical Garden?",
@@ -326,170 +217,8 @@
     ]
   },
   {
-    "id": "qc_dd8bc6bd32bc9c6a",
-    "slug": "farm-community-volunteer-days-queens-botanical-garden",
-    "title": "Farm Community Volunteer Days - Queens Botanical Garden",
-    "description": "Help prepare the QBG Farm to grow produce that we distribute to food pantries to support our communities with food relief. Join QBG’s Farm staff for an engaging, educational event where you will learn gardening basics and work hands-on with plants. Make new friends and put your green thumb to good use in a variety of seasonal projects. Learn more […]",
-    "startDate": "2026-10-22T00:00:00.000Z",
-    "endDate": "2026-10-27T00:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "parks-outdoors",
-      "family",
-      "community",
-      "food"
-    ],
-    "tags": [],
-    "image": "https://queensbotanical.org/wp-content/uploads/2020/02/Farm-Compost-Volunteers-1.jpg",
-    "price": null,
-    "registrationUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-27/all/",
-    "venue": {
-      "name": "Queens Botanical Garden",
-      "address": "43-50 Main St, Flushing, NY 11355",
-      "neighborhood": "Flushing",
-      "latitude": 40.7516,
-      "longitude": -73.8268
-    },
-    "organizer": {
-      "name": "Queens Botanical Garden",
-      "url": "https://queensbotanical.org/"
-    },
-    "source": {
-      "name": "Queens Botanical Garden",
-      "listingUrl": "https://queensbotanical.org/calendar/",
-      "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-27/all/",
-      "retrievedAt": "2026-10-22T14:33:24.386Z",
-      "method": "html"
-    },
-    "weekKey": "2026-W43",
-    "answerSummary": "Farm Community Volunteer Days - Queens Botanical Garden is happening Wednesday, October 21 at 8:00 PM at Queens Botanical Garden in Flushing, Queens. Help prepare the QBG Farm to grow produce that we distribute to food pantries to support our communities with food relief. Join QBG’s Farm staff for an engaging, educational event where you will learn gardening",
-    "faqs": [
-      {
-        "question": "When is Farm Community Volunteer Days - Queens Botanical Garden?",
-        "answer": "Farm Community Volunteer Days - Queens Botanical Garden starts Wednesday, October 21 at 8:00 PM."
-      },
-      {
-        "question": "Where is Farm Community Volunteer Days - Queens Botanical Garden?",
-        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
-      },
-      {
-        "question": "How do I register for Farm Community Volunteer Days - Queens Botanical Garden?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_61beab10ff7e8022",
-    "slug": "it-s-my-park-at-hunter-s-point-south-park-2026-10-22",
-    "title": "It’s My Park at Hunter’s Point South Park",
-    "description": "Volunteer with Hunters Point Parks Conservancy to beautify Hunter's Point South Park.",
-    "startDate": "2026-10-22T14:00:00.000Z",
-    "endDate": "2026-10-22T16:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "community",
-      "arts-culture"
-    ],
-    "tags": [],
-    "image": "https://cityparksfoundation.org/wp-content/uploads/2025/02/IMP_widget_2023_centr_1-1-1-1-1-2-1-3-1-2-2-1-1-1-3-2-1-1-3-1-2-1-3-1-5-1-2-1-1-1-3-1-1-1-1-3-3-1-5-4-1-2-1-3.jpg",
-    "price": "0",
-    "registrationUrl": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-46/",
-    "venue": {
-      "name": "It’s My Park at Hunter’s Point South Park",
-      "address": "Long Island City, Queens, NY",
-      "neighborhood": "Long Island City",
-      "latitude": 40.7447,
-      "longitude": -73.9485
-    },
-    "organizer": {
-      "name": "Volunteer",
-      "url": "https://cityparksfoundation.org/"
-    },
-    "source": {
-      "name": "City Parks Foundation",
-      "listingUrl": "https://cityparksfoundation.org/calendar/month/",
-      "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-46/",
-      "retrievedAt": "2026-10-22T14:33:11.322Z",
-      "method": "json-ld"
-    },
-    "weekKey": "2026-W43",
-    "answerSummary": "It’s My Park at Hunter’s Point South Park is happening Thursday, October 22 at 10:00 AM at It’s My Park at Hunter’s Point South Park in Long Island City, Queens. Volunteer with Hunters Point Parks Conservancy to beautify Hunter's Point South Park.",
-    "faqs": [
-      {
-        "question": "When is It’s My Park at Hunter’s Point South Park?",
-        "answer": "It’s My Park at Hunter’s Point South Park starts Thursday, October 22 at 10:00 AM."
-      },
-      {
-        "question": "Where is It’s My Park at Hunter’s Point South Park?",
-        "answer": "It’s My Park at Hunter’s Point South Park, Long Island City, Queens, NY."
-      },
-      {
-        "question": "How do I register for It’s My Park at Hunter’s Point South Park?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Volunteer, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_e954ac85af74726c",
-    "slug": "farm-open-hours-2026-10-22",
-    "title": "Farm Open Hours",
-    "description": "Come and explore the QBG Farm and learn about everything we are growing at our Farm Open Hours.",
-    "startDate": "2026-10-22T14:00:00.000Z",
-    "endDate": "2026-10-22T16:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "parks-outdoors",
-      "family",
-      "community"
-    ],
-    "tags": [],
-    "image": null,
-    "price": null,
-    "registrationUrl": "https://queensbotanical.org/event/open-farm-hours-7/2026-10-22/",
-    "venue": {
-      "name": "Queens Botanical Garden",
-      "address": "43-50 Main St, Flushing, NY 11355",
-      "neighborhood": "Flushing",
-      "latitude": 40.7516,
-      "longitude": -73.8268
-    },
-    "organizer": {
-      "name": "Queens Botanical Garden",
-      "url": "https://queensbotanical.org/"
-    },
-    "source": {
-      "name": "Queens Botanical Garden",
-      "listingUrl": "https://queensbotanical.org/calendar/",
-      "canonicalUrl": "https://queensbotanical.org/event/open-farm-hours-7/2026-10-22/",
-      "retrievedAt": "2026-10-22T14:33:24.017Z",
-      "method": "json-ld"
-    },
-    "weekKey": "2026-W43",
-    "answerSummary": "Farm Open Hours is happening Thursday, October 22 at 10:00 AM at Queens Botanical Garden in Flushing, Queens. Come and explore the QBG Farm and learn about everything we are growing at our Farm Open Hours.",
-    "faqs": [
-      {
-        "question": "When is Farm Open Hours?",
-        "answer": "Farm Open Hours starts Thursday, October 22 at 10:00 AM."
-      },
-      {
-        "question": "Where is Farm Open Hours?",
-        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
-      },
-      {
-        "question": "How do I register for Farm Open Hours?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
-      }
-    ]
-  },
-  {
     "id": "qc_73d165ef60f71460",
-    "slug": "art-for-families",
+    "slug": "art-for-families-2026-10-24",
     "title": "Art for Families",
     "description": "Space is limited and advance registration is required. The program registration includes Museum admission. Family programs are free for members at the Family level and above, SNAP benefits recipients with EBT card or WIC card, and members of Cool Culture.",
     "startDate": "2026-10-24T14:30:00.000Z",
@@ -520,7 +249,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-10-24-1030-art-for-families-nature/",
-      "retrievedAt": "2026-10-22T14:33:26.624Z",
+      "retrievedAt": "2026-10-24T13:21:20.904Z",
       "method": "html"
     },
     "weekKey": "2026-W43",
@@ -575,7 +304,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/autumn-garden-tour-with-our-horticulture-director/",
-      "retrievedAt": "2026-10-22T14:33:24.053Z",
+      "retrievedAt": "2026-10-24T13:21:18.035Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W43",
@@ -630,7 +359,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/cameron-russell-mei-tao-supremely-unequivocal-opening-day/",
-      "retrievedAt": "2026-10-22T14:33:24.124Z",
+      "retrievedAt": "2026-10-24T13:21:18.051Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W43",
@@ -683,7 +412,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-10-25-1030-stroller-tour/",
-      "retrievedAt": "2026-10-22T14:33:28.069Z",
+      "retrievedAt": "2026-10-24T13:21:21.190Z",
       "method": "html"
     },
     "weekKey": "2026-W43",
@@ -738,7 +467,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/honey-bottling-workshop-with-beekeeper-helen-colhoun/",
-      "retrievedAt": "2026-10-22T14:33:24.490Z",
+      "retrievedAt": "2026-10-24T13:21:18.076Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W43",
@@ -793,7 +522,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-10-26/",
-      "retrievedAt": "2026-10-22T14:33:24.263Z",
+      "retrievedAt": "2026-10-24T13:21:18.060Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W44",
@@ -848,7 +577,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-27/2026-10-27/",
-      "retrievedAt": "2026-10-22T14:33:24.269Z",
+      "retrievedAt": "2026-10-24T13:21:18.070Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W44",
@@ -903,7 +632,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-10-29/",
-      "retrievedAt": "2026-10-22T14:33:24.279Z",
+      "retrievedAt": "2026-10-24T13:21:18.093Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W44",
@@ -925,7 +654,7 @@
   },
   {
     "id": "qc_aee4ac03f44f98bd",
-    "slug": "it-s-my-park-at-hunter-s-point-south-park-2026-10-29",
+    "slug": "it-s-my-park-at-hunter-s-point-south-park",
     "title": "It’s My Park at Hunter’s Point South Park",
     "description": "Volunteer with Hunters Point Parks Conservancy to beautify Hunter's Point South Park.",
     "startDate": "2026-10-29T14:00:00.000Z",
@@ -956,7 +685,7 @@
       "name": "City Parks Foundation",
       "listingUrl": "https://cityparksfoundation.org/calendar/month/",
       "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-43/",
-      "retrievedAt": "2026-10-22T14:33:14.612Z",
+      "retrievedAt": "2026-10-24T13:21:11.211Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W44",
@@ -978,7 +707,7 @@
   },
   {
     "id": "qc_6e541f6224cd8c95",
-    "slug": "farm-open-hours-2026-10-29",
+    "slug": "farm-open-hours",
     "title": "Farm Open Hours",
     "description": "Come and explore the QBG Farm and learn about everything we are growing at our Farm Open Hours.",
     "startDate": "2026-10-29T14:00:00.000Z",
@@ -1010,7 +739,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/open-farm-hours-7/2026-10-29/",
-      "retrievedAt": "2026-10-22T14:33:24.351Z",
+      "retrievedAt": "2026-10-24T13:21:18.099Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W44",
@@ -1063,7 +792,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-10-31-1000-mindfulness-in-the-galleries/",
-      "retrievedAt": "2026-10-22T14:33:28.673Z",
+      "retrievedAt": "2026-10-24T13:21:21.818Z",
       "method": "html"
     },
     "weekKey": "2026-W44",
@@ -1118,7 +847,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/halloween-at-the-garden-2026/",
-      "retrievedAt": "2026-10-22T14:33:24.391Z",
+      "retrievedAt": "2026-10-24T13:21:18.119Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W44",
@@ -1171,7 +900,7 @@
       "name": "City Parks Foundation",
       "listingUrl": "https://cityparksfoundation.org/calendar/month/",
       "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-sitting-area-19/",
-      "retrievedAt": "2026-10-22T14:33:11.962Z",
+      "retrievedAt": "2026-10-24T13:21:11.424Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W44",
@@ -1193,7 +922,7 @@
   },
   {
     "id": "qc_a2566a232afb296b",
-    "slug": "farm-stand-2026-10-31",
+    "slug": "farm-stand",
     "title": "Farm Stand",
     "description": "Farm Stand is back! Stop by the Visitor & Administration Building Terrace from 2 pm to 5 pm to see what we're harvesting this week.",
     "startDate": "2026-10-31T18:00:00.000Z",
@@ -1225,7 +954,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-stand-2/2026-10-31/",
-      "retrievedAt": "2026-10-22T14:33:24.372Z",
+      "retrievedAt": "2026-10-24T13:21:18.112Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W44",
@@ -1278,7 +1007,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-01-1200-education-resource-room-dia-de-los-muertos/",
-      "retrievedAt": "2026-10-22T14:33:28.467Z",
+      "retrievedAt": "2026-10-24T13:21:21.697Z",
       "method": "html"
     },
     "weekKey": "2026-W44",
@@ -1300,7 +1029,7 @@
   },
   {
     "id": "qc_321de1caae5c6776",
-    "slug": "free-first-friday",
+    "slug": "free-first-friday-2026-11-06",
     "title": "Free First Friday",
     "description": "On the first Friday of every month, Museum admission is free. Advance reservations are not required.",
     "startDate": "2026-11-06T14:00:00.000Z",
@@ -1331,7 +1060,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-06-1000-free-first-friday/",
-      "retrievedAt": "2026-10-22T14:33:28.087Z",
+      "retrievedAt": "2026-10-24T13:21:21.706Z",
       "method": "html"
     },
     "weekKey": "2026-W45",
@@ -1353,7 +1082,7 @@
   },
   {
     "id": "qc_744e9d6e8ef149c7",
-    "slug": "tour-publico-museum-tour-in-spanish",
+    "slug": "tour-publico-museum-tour-in-spanish-2026-11-06",
     "title": "Tour Público Museum Tour in Spanish",
     "description": "Tours are conversational and explore select works in the Museum’s collection while introducing the vision of Isamu Noguchi. In keeping with Noguchi’s interest in the visitor’s personal experience of the Museum, groups will be encouraged to share their observations and interpretations throughout the course of the tour.",
     "startDate": "2026-11-06T17:00:00.000Z",
@@ -1384,7 +1113,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-06-1300-tour-publico-museum-tour-in-spanish/",
-      "retrievedAt": "2026-10-22T14:33:28.478Z",
+      "retrievedAt": "2026-10-24T13:21:22.294Z",
       "method": "html"
     },
     "weekKey": "2026-W45",
@@ -1406,7 +1135,7 @@
   },
   {
     "id": "qc_4ce7e58d342d0c85",
-    "slug": "gallery-kit",
+    "slug": "gallery-kit-2026-11-06",
     "title": "Gallery Kit",
     "description": "Visitors are invited to explore Isamu Noguchi’s work and current exhibitions through art-making in the galleries. Each session begins with a motivating question, guiding participants through a creative exploration of materials and ideas.",
     "startDate": "2026-11-06T18:30:00.000Z",
@@ -1437,7 +1166,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-06-1430-gallery-kit/",
-      "retrievedAt": "2026-10-22T14:33:28.369Z",
+      "retrievedAt": "2026-10-24T13:21:22.802Z",
       "method": "html"
     },
     "weekKey": "2026-W45",
@@ -1446,6 +1175,59 @@
       {
         "question": "When is Gallery Kit?",
         "answer": "Gallery Kit starts Friday, November 6 at 1:30 PM."
+      },
+      {
+        "question": "Where is Gallery Kit?",
+        "answer": "The Noguchi Museum, 9-01 33rd Rd, Long Island City, NY 11106."
+      },
+      {
+        "question": "How do I register for Gallery Kit?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_a9ea5a66a795bcdc",
+    "slug": "gallery-kit-2026-11-07",
+    "title": "Gallery Kit",
+    "description": "Visitors are invited to explore Isamu Noguchi’s work and current exhibitions through art-making in the galleries. Each session begins with a motivating question, guiding participants through a creative exploration of materials and ideas.",
+    "startDate": "2026-11-07T19:00:00.000Z",
+    "endDate": "2026-11-07T21:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "arts-culture",
+      "family"
+    ],
+    "tags": [],
+    "image": "https://www.noguchi.org/wp-content/uploads/2025/02/LICLNY25_Noguchi-Museum_Gallery-Kit_20250207_REIZ0023.jpg",
+    "price": null,
+    "registrationUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-07-1500-gallery-kit/",
+    "venue": {
+      "name": "The Noguchi Museum",
+      "address": "9-01 33rd Rd, Long Island City, NY 11106",
+      "neighborhood": "Long Island City",
+      "latitude": 40.7668,
+      "longitude": -73.9381
+    },
+    "organizer": {
+      "name": "The Noguchi Museum",
+      "url": "https://www.noguchi.org/"
+    },
+    "source": {
+      "name": "The Noguchi Museum",
+      "listingUrl": "https://www.noguchi.org/museum/calendar/",
+      "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-07-1500-gallery-kit/",
+      "retrievedAt": "2026-10-24T13:21:22.704Z",
+      "method": "html"
+    },
+    "weekKey": "2026-W45",
+    "answerSummary": "Gallery Kit is happening Saturday, November 7 at 2:00 PM at The Noguchi Museum in Long Island City, Queens. Visitors are invited to explore Isamu Noguchi’s work and current exhibitions through art-making in the galleries. Each session begins with a motivating question, guiding participants through a creative exploration of materials and ideas.",
+    "faqs": [
+      {
+        "question": "When is Gallery Kit?",
+        "answer": "Gallery Kit starts Saturday, November 7 at 2:00 PM."
       },
       {
         "question": "Where is Gallery Kit?",
@@ -1490,7 +1272,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-14-1000-mindfulness-in-the-galleries-ikebana/",
-      "retrievedAt": "2026-10-22T14:33:29.796Z",
+      "retrievedAt": "2026-10-24T13:21:24.004Z",
       "method": "html"
     },
     "weekKey": "2026-W46",
@@ -1543,7 +1325,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-15-1100-open-studio-play-with-paper/",
-      "retrievedAt": "2026-10-22T14:33:29.593Z",
+      "retrievedAt": "2026-10-24T13:21:23.191Z",
       "method": "html"
     },
     "weekKey": "2026-W46",
@@ -1596,7 +1378,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-15-1500-hands-on-drawing/",
-      "retrievedAt": "2026-10-22T14:33:29.764Z",
+      "retrievedAt": "2026-10-24T13:21:23.298Z",
       "method": "html"
     },
     "weekKey": "2026-W46",
@@ -1649,7 +1431,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-15-1500-%e4%b8%ad%e6%96%87%e5%85%ac%e7%9c%be%e5%b0%8e%e8%a6%bd-museum-tour-in-mandarin-chinese/",
-      "retrievedAt": "2026-10-22T14:33:29.861Z",
+      "retrievedAt": "2026-10-24T13:21:23.602Z",
       "method": "html"
     },
     "weekKey": "2026-W46",
@@ -1702,7 +1484,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-16-1930-drawing-from-a-distance/",
-      "retrievedAt": "2026-10-22T14:33:29.930Z",
+      "retrievedAt": "2026-10-24T13:21:23.990Z",
       "method": "html"
     },
     "weekKey": "2026-W47",
@@ -1718,6 +1500,377 @@
       },
       {
         "question": "How do I register for Drawing from a Distance?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_7b364e1680e0806b",
+    "slug": "art-for-families-2026-11-21",
+    "title": "Art for Families",
+    "description": "Space is limited and advance registration is required. The program registration includes Museum admission. Family programs are free for members at the Family level and above, SNAP benefits recipients with EBT card or WIC card, and members of Cool Culture.",
+    "startDate": "2026-11-21T14:30:00.000Z",
+    "endDate": "2026-11-21T16:30:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "arts-culture",
+      "family"
+    ],
+    "tags": [],
+    "image": "https://www.noguchi.org/wp-content/uploads/2025/10/Art-for-Families-Wufoo-1.png",
+    "price": null,
+    "registrationUrl": "https://noguchieducation.wufoo.com/forms/xj795l00f59lrn/",
+    "venue": {
+      "name": "The Noguchi Museum",
+      "address": "9-01 33rd Rd, Long Island City, NY 11106",
+      "neighborhood": "Long Island City",
+      "latitude": 40.7668,
+      "longitude": -73.9381
+    },
+    "organizer": {
+      "name": "The Noguchi Museum",
+      "url": "https://www.noguchi.org/"
+    },
+    "source": {
+      "name": "The Noguchi Museum",
+      "listingUrl": "https://www.noguchi.org/museum/calendar/",
+      "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-21-1030-art-for-families-continuity/",
+      "retrievedAt": "2026-10-24T13:21:24.285Z",
+      "method": "html"
+    },
+    "weekKey": "2026-W47",
+    "answerSummary": "Art for Families is happening Saturday, November 21 at 9:30 AM at The Noguchi Museum in Long Island City, Queens. Space is limited and advance registration is required. The program registration includes Museum admission. Family programs are free for members at the Family level and above, SNAP benefits recipients with EBT card or WIC card, and members of Cool",
+    "faqs": [
+      {
+        "question": "When is Art for Families?",
+        "answer": "Art for Families starts Saturday, November 21 at 9:30 AM."
+      },
+      {
+        "question": "Where is Art for Families?",
+        "answer": "The Noguchi Museum, 9-01 33rd Rd, Long Island City, NY 11106."
+      },
+      {
+        "question": "How do I register for Art for Families?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_a4bd24ebf6101d71",
+    "slug": "art-for-tots-ages-3-4-light",
+    "title": "Art for Tots (Ages 3–4): Light",
+    "description": "Space is limited and advance registration is required. The program fee includes Museum admission. Family programs are free for members at the Family level and above, SNAP benefits recipients with EBT card or WIC card, and members of Cool Culture.",
+    "startDate": "2026-11-22T14:30:00.000Z",
+    "endDate": "2026-11-22T16:30:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "arts-culture",
+      "family"
+    ],
+    "tags": [],
+    "image": "https://www.noguchi.org/wp-content/uploads/2020/01/Family-Program-at-The-Noguchi-Museum-4-Photo-Katherine-Abbott.jpg",
+    "price": null,
+    "registrationUrl": "https://noguchieducation.wufoo.com/forms/x1uabwj518pu37l/",
+    "venue": {
+      "name": "The Noguchi Museum",
+      "address": "9-01 33rd Rd, Long Island City, NY 11106",
+      "neighborhood": "Long Island City",
+      "latitude": 40.7668,
+      "longitude": -73.9381
+    },
+    "organizer": {
+      "name": "The Noguchi Museum",
+      "url": "https://www.noguchi.org/"
+    },
+    "source": {
+      "name": "The Noguchi Museum",
+      "listingUrl": "https://www.noguchi.org/museum/calendar/",
+      "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-22-1030-art-for-tots-ages-3-4-light/",
+      "retrievedAt": "2026-10-24T13:21:24.583Z",
+      "method": "html"
+    },
+    "weekKey": "2026-W47",
+    "answerSummary": "Art for Tots (Ages 3–4): Light is happening Sunday, November 22 at 9:30 AM at The Noguchi Museum in Long Island City, Queens. Space is limited and advance registration is required. The program fee includes Museum admission. Family programs are free for members at the Family level and above, SNAP benefits recipients with EBT card or WIC card, and members of C",
+    "faqs": [
+      {
+        "question": "When is Art for Tots (Ages 3–4): Light?",
+        "answer": "Art for Tots (Ages 3–4): Light starts Sunday, November 22 at 9:30 AM."
+      },
+      {
+        "question": "Where is Art for Tots (Ages 3–4): Light?",
+        "answer": "The Noguchi Museum, 9-01 33rd Rd, Long Island City, NY 11106."
+      },
+      {
+        "question": "How do I register for Art for Tots (Ages 3–4): Light?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_69af9cb709b57717",
+    "slug": "art-for-tots-ages-1-2-light",
+    "title": "Art for Tots (Ages 1–2): Light",
+    "description": "Space is limited and advance registration is required. The program fee includes Museum admission. Family programs are free for members at the Family level and above, SNAP benefits recipients with EBT card or WIC card, and members of Cool Culture.",
+    "startDate": "2026-11-24T14:30:00.000Z",
+    "endDate": "2026-11-24T16:30:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "arts-culture",
+      "family"
+    ],
+    "tags": [],
+    "image": "https://www.noguchi.org/wp-content/uploads/2020/01/Family-Program-at-The-Noguchi-Museum-4-Photo-Katherine-Abbott.jpg",
+    "price": null,
+    "registrationUrl": "https://noguchieducation.wufoo.com/forms/xmmnsrg0kjxyn8/",
+    "venue": {
+      "name": "The Noguchi Museum",
+      "address": "9-01 33rd Rd, Long Island City, NY 11106",
+      "neighborhood": "Long Island City",
+      "latitude": 40.7668,
+      "longitude": -73.9381
+    },
+    "organizer": {
+      "name": "The Noguchi Museum",
+      "url": "https://www.noguchi.org/"
+    },
+    "source": {
+      "name": "The Noguchi Museum",
+      "listingUrl": "https://www.noguchi.org/museum/calendar/",
+      "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-24-1030-art-for-tots-ages-1-2-light/",
+      "retrievedAt": "2026-10-24T13:21:24.606Z",
+      "method": "html"
+    },
+    "weekKey": "2026-W48",
+    "answerSummary": "Art for Tots (Ages 1–2): Light is happening Tuesday, November 24 at 9:30 AM at The Noguchi Museum in Long Island City, Queens. Space is limited and advance registration is required. The program fee includes Museum admission. Family programs are free for members at the Family level and above, SNAP benefits recipients with EBT card or WIC card, and members of ",
+    "faqs": [
+      {
+        "question": "When is Art for Tots (Ages 1–2): Light?",
+        "answer": "Art for Tots (Ages 1–2): Light starts Tuesday, November 24 at 9:30 AM."
+      },
+      {
+        "question": "Where is Art for Tots (Ages 1–2): Light?",
+        "answer": "The Noguchi Museum, 9-01 33rd Rd, Long Island City, NY 11106."
+      },
+      {
+        "question": "How do I register for Art for Tots (Ages 1–2): Light?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_b91fde2c7d345e72",
+    "slug": "free-first-friday-2026-12-04",
+    "title": "Free First Friday",
+    "description": "On the first Friday of every month, Museum admission is free. Advance reservations are not required.",
+    "startDate": "2026-12-04T14:00:00.000Z",
+    "endDate": "2026-12-04T16:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "arts-culture",
+      "family"
+    ],
+    "tags": [],
+    "image": "https://www.noguchi.org/wp-content/uploads/2019/09/The-Noguchi-Museum-Area-7-Photo-Nicholas-Knight-INFGM-ARS.jpg",
+    "price": null,
+    "registrationUrl": "https://www.noguchi.org/museum/calendar/event/2026-12-04-1000-free-first-friday/",
+    "venue": {
+      "name": "The Noguchi Museum",
+      "address": "9-01 33rd Rd, Long Island City, NY 11106",
+      "neighborhood": "Long Island City",
+      "latitude": 40.7668,
+      "longitude": -73.9381
+    },
+    "organizer": {
+      "name": "The Noguchi Museum",
+      "url": "https://www.noguchi.org/"
+    },
+    "source": {
+      "name": "The Noguchi Museum",
+      "listingUrl": "https://www.noguchi.org/museum/calendar/",
+      "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-12-04-1000-free-first-friday/",
+      "retrievedAt": "2026-10-24T13:21:24.911Z",
+      "method": "html"
+    },
+    "weekKey": "2026-W49",
+    "answerSummary": "Free First Friday is happening Friday, December 4 at 9:00 AM at The Noguchi Museum in Long Island City, Queens. On the first Friday of every month, Museum admission is free. Advance reservations are not required.",
+    "faqs": [
+      {
+        "question": "When is Free First Friday?",
+        "answer": "Free First Friday starts Friday, December 4 at 9:00 AM."
+      },
+      {
+        "question": "Where is Free First Friday?",
+        "answer": "The Noguchi Museum, 9-01 33rd Rd, Long Island City, NY 11106."
+      },
+      {
+        "question": "How do I register for Free First Friday?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_75cd525319649429",
+    "slug": "tour-publico-museum-tour-in-spanish-2026-12-04",
+    "title": "Tour Público Museum Tour in Spanish",
+    "description": "Tours are conversational and explore select works in the Museum’s collection while introducing the vision of Isamu Noguchi. In keeping with Noguchi’s interest in the visitor’s personal experience of the Museum, groups will be encouraged to share their observations and interpretations throughout the course of the tour.",
+    "startDate": "2026-12-04T17:00:00.000Z",
+    "endDate": "2026-12-04T19:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "arts-culture",
+      "family"
+    ],
+    "tags": [],
+    "image": "https://www.noguchi.org/wp-content/uploads/2025/06/spanish-tour-2025-05-11-40th-Anniversary-Celebration-Photo-Chanel-Matsunami-Govreau-3-1.jpg",
+    "price": null,
+    "registrationUrl": "https://www.noguchi.org/museum/calendar/event/2026-12-04-1300-tour-publico-museum-tour-in-spanish/",
+    "venue": {
+      "name": "The Noguchi Museum",
+      "address": "9-01 33rd Rd, Long Island City, NY 11106",
+      "neighborhood": "Long Island City",
+      "latitude": 40.7668,
+      "longitude": -73.9381
+    },
+    "organizer": {
+      "name": "The Noguchi Museum",
+      "url": "https://www.noguchi.org/"
+    },
+    "source": {
+      "name": "The Noguchi Museum",
+      "listingUrl": "https://www.noguchi.org/museum/calendar/",
+      "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-12-04-1300-tour-publico-museum-tour-in-spanish/",
+      "retrievedAt": "2026-10-24T13:21:25.119Z",
+      "method": "html"
+    },
+    "weekKey": "2026-W49",
+    "answerSummary": "Tour Público Museum Tour in Spanish is happening Friday, December 4 at 12:00 PM at The Noguchi Museum in Long Island City, Queens. Tours are conversational and explore select works in the Museum’s collection while introducing the vision of Isamu Noguchi. In keeping with Noguchi’s interest in the visitor’s personal experience of the Museum, groups will be enc",
+    "faqs": [
+      {
+        "question": "When is Tour Público Museum Tour in Spanish?",
+        "answer": "Tour Público Museum Tour in Spanish starts Friday, December 4 at 12:00 PM."
+      },
+      {
+        "question": "Where is Tour Público Museum Tour in Spanish?",
+        "answer": "The Noguchi Museum, 9-01 33rd Rd, Long Island City, NY 11106."
+      },
+      {
+        "question": "How do I register for Tour Público Museum Tour in Spanish?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_8fdbf5caec824d41",
+    "slug": "gallery-kit-2026-12-04",
+    "title": "Gallery Kit",
+    "description": "Visitors are invited to explore Isamu Noguchi’s work and current exhibitions through art-making in the galleries. Each session begins with a motivating question, guiding participants through a creative exploration of materials and ideas.",
+    "startDate": "2026-12-04T18:30:00.000Z",
+    "endDate": "2026-12-04T20:30:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "arts-culture",
+      "family"
+    ],
+    "tags": [],
+    "image": "https://www.noguchi.org/wp-content/uploads/2025/02/LICLNY25_Noguchi-Museum_Gallery-Kit_20250207_REIZ0023.jpg",
+    "price": null,
+    "registrationUrl": "https://www.noguchi.org/museum/calendar/event/2026-12-04-1430-gallery-kit/",
+    "venue": {
+      "name": "The Noguchi Museum",
+      "address": "9-01 33rd Rd, Long Island City, NY 11106",
+      "neighborhood": "Long Island City",
+      "latitude": 40.7668,
+      "longitude": -73.9381
+    },
+    "organizer": {
+      "name": "The Noguchi Museum",
+      "url": "https://www.noguchi.org/"
+    },
+    "source": {
+      "name": "The Noguchi Museum",
+      "listingUrl": "https://www.noguchi.org/museum/calendar/",
+      "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-12-04-1430-gallery-kit/",
+      "retrievedAt": "2026-10-24T13:21:25.223Z",
+      "method": "html"
+    },
+    "weekKey": "2026-W49",
+    "answerSummary": "Gallery Kit is happening Friday, December 4 at 1:30 PM at The Noguchi Museum in Long Island City, Queens. Visitors are invited to explore Isamu Noguchi’s work and current exhibitions through art-making in the galleries. Each session begins with a motivating question, guiding participants through a creative exploration of materials and ideas.",
+    "faqs": [
+      {
+        "question": "When is Gallery Kit?",
+        "answer": "Gallery Kit starts Friday, December 4 at 1:30 PM."
+      },
+      {
+        "question": "Where is Gallery Kit?",
+        "answer": "The Noguchi Museum, 9-01 33rd Rd, Long Island City, NY 11106."
+      },
+      {
+        "question": "How do I register for Gallery Kit?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_9fca895aae14e890",
+    "slug": "museum-tour-in-japanese",
+    "title": "日本語でのツアー Museum Tour in Japanese",
+    "description": "Tours are conversational and explore select works in the Museum’s collection and exhibitions while introducing the life and vision of Isamu Noguchi. In keeping with Noguchi’s interest in the visitor’s personal experience of the Museum, groups will be encouraged to share their observations and interpretations throughout the course of the tour.",
+    "startDate": "2026-12-05T19:00:00.000Z",
+    "endDate": "2026-12-05T21:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "arts-culture",
+      "family"
+    ],
+    "tags": [],
+    "image": "https://www.noguchi.org/wp-content/uploads/2022/06/Noguchi-Museum-Tours-Public-Programs-4-photo-Katherine-Abbott.jpg",
+    "price": null,
+    "registrationUrl": "https://www.noguchi.org/museum/calendar/event/2026-12-05-1500-%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%81%a7%e3%81%ae%e3%83%84%e3%82%a2%e3%83%bc-museum-tour-in-japanese/",
+    "venue": {
+      "name": "The Noguchi Museum",
+      "address": "9-01 33rd Rd, Long Island City, NY 11106",
+      "neighborhood": "Long Island City",
+      "latitude": 40.7668,
+      "longitude": -73.9381
+    },
+    "organizer": {
+      "name": "The Noguchi Museum",
+      "url": "https://www.noguchi.org/"
+    },
+    "source": {
+      "name": "The Noguchi Museum",
+      "listingUrl": "https://www.noguchi.org/museum/calendar/",
+      "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-12-05-1500-%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%81%a7%e3%81%ae%e3%83%84%e3%82%a2%e3%83%bc-museum-tour-in-japanese/",
+      "retrievedAt": "2026-10-24T13:21:25.322Z",
+      "method": "html"
+    },
+    "weekKey": "2026-W49",
+    "answerSummary": "日本語でのツアー Museum Tour in Japanese is happening Saturday, December 5 at 2:00 PM at The Noguchi Museum in Long Island City, Queens. Tours are conversational and explore select works in the Museum’s collection and exhibitions while introducing the life and vision of Isamu Noguchi. In keeping with Noguchi’s interest in the visitor’s personal experience of the Mus",
+    "faqs": [
+      {
+        "question": "When is 日本語でのツアー Museum Tour in Japanese?",
+        "answer": "日本語でのツアー Museum Tour in Japanese starts Saturday, December 5 at 2:00 PM."
+      },
+      {
+        "question": "Where is 日本語でのツアー Museum Tour in Japanese?",
+        "answer": "The Noguchi Museum, 9-01 33rd Rd, Long Island City, NY 11106."
+      },
+      {
+        "question": "How do I register for 日本語でのツアー Museum Tour in Japanese?",
         "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
       }
     ]
@@ -1755,7 +1908,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-12-21-1930-drawing-from-a-distance/",
-      "retrievedAt": "2026-10-22T14:33:29.988Z",
+      "retrievedAt": "2026-10-24T13:21:25.379Z",
       "method": "html"
     },
     "weekKey": "2026-W52",
