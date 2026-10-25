@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T13:21:30.915Z",
+  "generatedAt": "2026-10-25T13:44:19.756Z",
   "catalogStatus": "fresh",
   "sources": [
     {
@@ -17,15 +17,15 @@
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/october-family-day-artmaking-workshops-featuring-woody-guthries-song-to-grow-on-performance/",
+          "link": "https://queensmuseum.org/event/information-session-2-2027-28-qm-jerome-foundation-fellowship-for-emerging-artists/",
           "reasons": [
-            "outside rolling publication window (2026-10-18T17:00:00.000Z)"
+            "outside rolling publication window (2026-09-09T22:00:00.000Z)"
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/celebrating-hidden-altars-of-grief-and-remembrance-celebrando-altares-ocultos-de-duelo-y-memoria/",
+          "link": "https://queensmuseum.org/event/information-session-1-2027-28-qm-jerome-foundation-fellowship-for-emerging-artists/",
           "reasons": [
-            "outside rolling publication window (2026-10-11T17:00:00.000Z)"
+            "outside rolling publication window (2026-07-16T22:00:00.000Z)"
           ]
         },
         {
@@ -35,14 +35,14 @@
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/information-session-2-2027-28-qm-jerome-foundation-fellowship-for-emerging-artists/",
+          "link": "https://queensmuseum.org/event/printmaking-workshop-a-new-new-yorkers-program-062026/",
           "reasons": [
-            "outside rolling publication window (2026-09-09T22:00:00.000Z)"
+            "outside rolling publication window (2026-06-21T18:00:00.000Z)"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 1725
+      "durationMs": 1560
     },
     {
       "id": "city-parks-foundation",
@@ -71,20 +71,20 @@
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-brower-park-25/",
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-ralph-bunche-park-30/",
           "reasons": [
             "could not extract title/date from page"
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-alexander-hamilton-playground/",
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-brower-park-25/",
           "reasons": [
             "could not extract title/date from page"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 38072
+      "durationMs": 43533
     },
     {
       "id": "museum-moving-image",
@@ -97,7 +97,7 @@
       "errors": [
         "HTTP 403"
       ],
-      "durationMs": 29
+      "durationMs": 266
     },
     {
       "id": "queens-public-library",
@@ -110,7 +110,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 194
+      "durationMs": 392
     },
     {
       "id": "flushing-town-hall",
@@ -123,16 +123,22 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 901
+      "durationMs": 375
     },
     {
       "id": "queens-botanical-garden",
       "name": "Queens Botanical Garden",
       "status": "ok",
       "discovered": 38,
-      "accepted": 13,
-      "rejected": 25,
+      "accepted": 14,
+      "rejected": 24,
       "rejections": [
+        {
+          "link": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/all/",
+          "reasons": [
+            "outside rolling publication window (2026-10-24T00:00:00.000Z)"
+          ]
+        },
         {
           "link": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-09-28/",
           "reasons": [
@@ -140,15 +146,9 @@
           ]
         },
         {
-          "link": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/all/",
+          "link": "https://queensbotanical.org/event/farm-stand-2/2026-09-30/",
           "reasons": [
-            "outside rolling publication window (2026-10-23T00:00:00.000Z)"
-          ]
-        },
-        {
-          "link": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-10-01/",
-          "reasons": [
-            "outside rolling publication window (2026-10-01T12:45:00.000Z)"
+            "outside rolling publication window (2026-09-30T18:00:00.000Z)"
           ]
         },
         {
@@ -165,18 +165,18 @@
         }
       ],
       "errors": [],
-      "durationMs": 3544
+      "durationMs": 3666
     },
     {
       "id": "noguchi-museum",
       "name": "The Noguchi Museum",
       "status": "ok",
-      "discovered": 21,
-      "accepted": 21,
+      "discovered": 20,
+      "accepted": 20,
       "rejected": 0,
       "rejections": [],
       "errors": [],
-      "durationMs": 6014
+      "durationMs": 7110
     },
     {
       "id": "socrates-sculpture-park",
@@ -189,7 +189,7 @@
       "errors": [
         "HTTP 404"
       ],
-      "durationMs": 463
+      "durationMs": 591
     },
     {
       "id": "queens-theatre",
@@ -202,13 +202,13 @@
       "errors": [
         "fetch failed"
       ],
-      "durationMs": 5069
+      "durationMs": 4775
     }
   ],
   "totals": {
-    "discovered": 139,
+    "discovered": 138,
     "accepted": 36,
     "published": 36,
-    "rejected": 103
+    "rejected": 102
   }
 }
