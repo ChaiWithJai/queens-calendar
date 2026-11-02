@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T16:03:47.386Z",
+  "generatedAt": "2026-11-02T19:30:34.168Z",
   "catalogStatus": "fresh",
   "sources": [
     {
@@ -7,9 +7,15 @@
       "name": "Queens Museum",
       "status": "ok",
       "discovered": 20,
-      "accepted": 5,
-      "rejected": 15,
+      "accepted": 6,
+      "rejected": 14,
       "rejections": [
+        {
+          "link": "https://queensmuseum.org/event/celebrating-hidden-altars-of-grief-and-remembrance-celebrando-altares-ocultos-de-duelo-y-memoria/",
+          "reasons": [
+            "outside rolling publication window (2026-10-11T17:00:00.000Z)"
+          ]
+        },
         {
           "link": "https://queensmuseum.org/event/printmaking-workshop-a-new-new-yorkers-program-10-18-2026/",
           "reasons": [
@@ -29,20 +35,14 @@
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/information-session-2-2027-28-qm-jerome-foundation-fellowship-for-emerging-artists/",
+          "link": "https://queensmuseum.org/event/the-healing-museum-unga-healing-arts-week/",
           "reasons": [
-            "outside rolling publication window (2026-09-09T22:00:00.000Z)"
-          ]
-        },
-        {
-          "link": "https://queensmuseum.org/event/nyc-neighborhood-passport-program-already-home-fifa-world-cup-26/",
-          "reasons": [
-            "could not extract title/date from page"
+            "outside rolling publication window (2026-09-23T20:30:00.000Z)"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 1103
+      "durationMs": 3217
     },
     {
       "id": "city-parks-foundation",
@@ -50,10 +50,16 @@
       "status": "ok",
       "discovered": 14,
       "accepted": 2,
-      "rejected": 12,
+      "rejected": 13,
       "rejections": [
         {
           "link": "https://cityparksfoundation.org/events/funk-flex-birthday-rb-picnic/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
+        {
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-brust-park-9/",
           "reasons": [
             "could not extract title/date from page"
           ]
@@ -65,26 +71,20 @@
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-westerleigh-park-35/",
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-wnyc-transmitter-park-22/",
           "reasons": [
             "could not extract title/date from page"
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-43/",
-          "reasons": [
-            "outside rolling publication window (2026-10-29T14:00:00.000Z)"
-          ]
-        },
-        {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-henry-hudson-park-24/",
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-westerleigh-park-36/",
           "reasons": [
             "could not extract title/date from page"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 4313
+      "durationMs": 2253
     },
     {
       "id": "museum-moving-image",
@@ -97,7 +97,7 @@
       "errors": [
         "HTTP 403"
       ],
-      "durationMs": 195
+      "durationMs": 65
     },
     {
       "id": "queens-public-library",
@@ -110,7 +110,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 291
+      "durationMs": 380
     },
     {
       "id": "flushing-town-hall",
@@ -123,29 +123,42 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 660
+      "durationMs": 429
     },
     {
       "id": "queens-botanical-garden",
       "name": "Queens Botanical Garden",
       "status": "ok",
-      "discovered": 38,
-      "accepted": 38,
-      "rejected": 0,
-      "rejections": [],
+      "discovered": 64,
+      "accepted": 62,
+      "rejected": 2,
+      "rejections": [
+        {
+          "link": "https://queensbotanical.org/event/christmas-day-garden-is-closed-2/2027-12-25/",
+          "reasons": [
+            "outside rolling publication window (2027-12-25T05:00:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensbotanical.org/event/new-years-day-garden-is-closed-2/2028-01-01/",
+          "reasons": [
+            "outside rolling publication window (2028-01-01T05:00:00.000Z)"
+          ]
+        }
+      ],
       "errors": [],
-      "durationMs": 2717
+      "durationMs": 12647
     },
     {
       "id": "noguchi-museum",
       "name": "The Noguchi Museum",
       "status": "ok",
-      "discovered": 19,
-      "accepted": 19,
+      "discovered": 18,
+      "accepted": 18,
       "rejected": 0,
       "rejections": [],
       "errors": [],
-      "durationMs": 5849
+      "durationMs": 6767
     },
     {
       "id": "socrates-sculpture-park",
@@ -158,7 +171,7 @@
       "errors": [
         "HTTP 404"
       ],
-      "durationMs": 412
+      "durationMs": 657
     },
     {
       "id": "queens-theatre",
@@ -169,15 +182,15 @@
       "rejected": 0,
       "rejections": [],
       "errors": [
-        "The operation was aborted due to timeout"
+        "fetch failed"
       ],
-      "durationMs": 20003
+      "durationMs": 5223
     }
   ],
   "totals": {
-    "discovered": 91,
-    "accepted": 64,
-    "published": 64,
-    "rejected": 27
+    "discovered": 116,
+    "accepted": 88,
+    "published": 87,
+    "rejected": 29
   }
 }
