@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T17:04:34.514Z",
+  "generatedAt": "2026-11-05T17:25:43.509Z",
   "catalogStatus": "fresh",
   "sources": [
     {
@@ -23,9 +23,9 @@
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/october-family-day-artmaking-workshops-featuring-woody-guthries-song-to-grow-on-performance/",
+          "link": "https://queensmuseum.org/event/guardians-of-flushing-bays-saturbay-celebration/",
           "reasons": [
-            "outside rolling publication window (2026-10-18T17:00:00.000Z)"
+            "outside rolling publication window (2026-10-31T15:00:00.000Z)"
           ]
         },
         {
@@ -42,7 +42,7 @@
         }
       ],
       "errors": [],
-      "durationMs": 1152
+      "durationMs": 1687
     },
     {
       "id": "city-parks-foundation",
@@ -71,20 +71,20 @@
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-westerleigh-park-36/",
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-henry-hudson-park-24/",
           "reasons": [
             "could not extract title/date from page"
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-brust-park-8/",
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-sitting-area-19/",
           "reasons": [
-            "could not extract title/date from page"
+            "outside rolling publication window (2026-10-31T16:30:00.000Z)"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 3392
+      "durationMs": 3510
     },
     {
       "id": "museum-moving-image",
@@ -97,7 +97,7 @@
       "errors": [
         "HTTP 403"
       ],
-      "durationMs": 165
+      "durationMs": 107
     },
     {
       "id": "queens-public-library",
@@ -110,7 +110,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 343
+      "durationMs": 293
     },
     {
       "id": "flushing-town-hall",
@@ -123,37 +123,43 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 711
+      "durationMs": 390
     },
     {
       "id": "queens-botanical-garden",
       "name": "Queens Botanical Garden",
       "status": "ok",
-      "discovered": 64,
-      "accepted": 61,
-      "rejected": 3,
+      "discovered": 41,
+      "accepted": 37,
+      "rejected": 4,
       "rejections": [
         {
-          "link": "https://queensbotanical.org/event/christmas-day-garden-is-closed-2/2027-12-25/",
+          "link": "https://queensbotanical.org/event/farm-community-volunteer-days-27/2026-11-03/",
           "reasons": [
-            "outside rolling publication window (2027-12-25T05:00:00.000Z)"
+            "outside rolling publication window (2026-11-03T14:30:00.000Z)"
           ]
         },
         {
-          "link": "https://queensbotanical.org/event/martin-luther-king-jr-day-garden-is-open-2/2028-01-17/",
+          "link": "https://queensbotanical.org/event/e-waste-textiles-and-paint-collection-with-lower-east-side-ecology-center-3/",
           "reasons": [
-            "outside rolling publication window (2028-01-17T05:00:00.000Z)"
+            "outside rolling publication window (2026-11-01T15:00:00.000Z)"
           ]
         },
         {
-          "link": "https://queensbotanical.org/event/new-years-day-garden-is-closed-2/2028-01-01/",
+          "link": "https://queensbotanical.org/event/pumpkin-smash-2026/",
           "reasons": [
-            "outside rolling publication window (2028-01-01T05:00:00.000Z)"
+            "outside rolling publication window (2026-11-01T16:00:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-11-02/",
+          "reasons": [
+            "outside rolling publication window (2026-11-02T14:30:00.000Z)"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 1995
+      "durationMs": 8236
     },
     {
       "id": "noguchi-museum",
@@ -164,7 +170,7 @@
       "rejected": 0,
       "rejections": [],
       "errors": [],
-      "durationMs": 5616
+      "durationMs": 6765
     },
     {
       "id": "socrates-sculpture-park",
@@ -177,7 +183,7 @@
       "errors": [
         "HTTP 404"
       ],
-      "durationMs": 542
+      "durationMs": 535
     },
     {
       "id": "queens-theatre",
@@ -190,13 +196,13 @@
       "errors": [
         "fetch failed"
       ],
-      "durationMs": 3844
+      "durationMs": 4789
     }
   ],
   "totals": {
-    "discovered": 117,
-    "accepted": 88,
-    "published": 87,
-    "rejected": 30
+    "discovered": 94,
+    "accepted": 64,
+    "published": 63,
+    "rejected": 31
   }
 }
