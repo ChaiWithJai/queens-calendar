@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T16:46:45.010Z",
+  "generatedAt": "2026-11-07T15:40:37.075Z",
   "catalogStatus": "fresh",
   "sources": [
     {
@@ -23,15 +23,15 @@
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/the-healing-museum-unga-healing-arts-week/",
-          "reasons": [
-            "outside rolling publication window (2026-09-23T20:30:00.000Z)"
-          ]
-        },
-        {
           "link": "https://queensmuseum.org/event/guardians-of-flushing-bays-saturbay-celebration/",
           "reasons": [
             "outside rolling publication window (2026-10-31T15:00:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensmuseum.org/event/october-family-day-artmaking-workshops-featuring-woody-guthries-song-to-grow-on-performance/",
+          "reasons": [
+            "outside rolling publication window (2026-10-18T17:00:00.000Z)"
           ]
         },
         {
@@ -42,7 +42,7 @@
         }
       ],
       "errors": [],
-      "durationMs": 1434
+      "durationMs": 1517
     },
     {
       "id": "city-parks-foundation",
@@ -65,7 +65,7 @@
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-westerleigh-park-35/",
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-brust-park-9/",
           "reasons": [
             "could not extract title/date from page"
           ]
@@ -84,7 +84,7 @@
         }
       ],
       "errors": [],
-      "durationMs": 3021
+      "durationMs": 2980
     },
     {
       "id": "museum-moving-image",
@@ -97,7 +97,7 @@
       "errors": [
         "HTTP 403"
       ],
-      "durationMs": 73
+      "durationMs": 76
     },
     {
       "id": "queens-public-library",
@@ -110,7 +110,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 251
+      "durationMs": 383
     },
     {
       "id": "flushing-town-hall",
@@ -123,7 +123,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 511
+      "durationMs": 280
     },
     {
       "id": "queens-botanical-garden",
@@ -140,15 +140,15 @@
           ]
         },
         {
-          "link": "https://queensbotanical.org/event/farm-community-volunteer-days-27/2026-11-03/",
-          "reasons": [
-            "outside rolling publication window (2026-11-03T14:30:00.000Z)"
-          ]
-        },
-        {
           "link": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-11-02/",
           "reasons": [
             "outside rolling publication window (2026-11-02T14:30:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensbotanical.org/event/pumpkin-smash-2026/",
+          "reasons": [
+            "outside rolling publication window (2026-11-01T16:00:00.000Z)"
           ]
         },
         {
@@ -158,25 +158,25 @@
           ]
         },
         {
-          "link": "https://queensbotanical.org/event/math-in-bloom-community-art-fibonacci-stepping-stone-creation/2026-11-04/",
+          "link": "https://queensbotanical.org/event/farm-community-volunteer-days-27/2026-11-03/",
           "reasons": [
-            "outside rolling publication window (2026-11-04T20:00:00.000Z)"
+            "outside rolling publication window (2026-11-03T14:30:00.000Z)"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 1841
+      "durationMs": 2188
     },
     {
       "id": "noguchi-museum",
       "name": "The Noguchi Museum",
       "status": "ok",
-      "discovered": 18,
-      "accepted": 18,
+      "discovered": 15,
+      "accepted": 15,
       "rejected": 0,
       "rejections": [],
       "errors": [],
-      "durationMs": 6100
+      "durationMs": 4858
     },
     {
       "id": "socrates-sculpture-park",
@@ -189,7 +189,7 @@
       "errors": [
         "HTTP 404"
       ],
-      "durationMs": 721
+      "durationMs": 659
     },
     {
       "id": "queens-theatre",
@@ -202,13 +202,13 @@
       "errors": [
         "fetch failed"
       ],
-      "durationMs": 4963
+      "durationMs": 4571
     }
   ],
   "totals": {
-    "discovered": 93,
-    "accepted": 59,
-    "published": 58,
+    "discovered": 90,
+    "accepted": 56,
+    "published": 55,
     "rejected": 35
   }
 }
