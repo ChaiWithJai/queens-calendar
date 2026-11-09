@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:59:16.596Z",
+  "generatedAt": "2026-11-09T19:50:49.426Z",
   "catalogStatus": "fresh",
   "sources": [
     {
@@ -7,13 +7,25 @@
       "name": "Queens Museum",
       "status": "ok",
       "discovered": 20,
-      "accepted": 6,
-      "rejected": 14,
+      "accepted": 5,
+      "rejected": 15,
       "rejections": [
+        {
+          "link": "https://queensmuseum.org/event/day-of-the-dead-celebration-crossing-dreams-celebracion-de-dia-de-muertos-cruzando-ensuenos-2026/",
+          "reasons": [
+            "outside rolling publication window (2026-11-07T16:00:00.000Z)"
+          ]
+        },
         {
           "link": "https://queensmuseum.org/event/printmaking-workshop-a-new-new-yorkers-program-10-18-2026/",
           "reasons": [
             "outside rolling publication window (2026-10-18T18:00:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensmuseum.org/event/guardians-of-flushing-bays-saturbay-celebration/",
+          "reasons": [
+            "outside rolling publication window (2026-10-31T15:00:00.000Z)"
           ]
         },
         {
@@ -23,26 +35,14 @@
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/the-healing-museum-unga-healing-arts-week/",
-          "reasons": [
-            "outside rolling publication window (2026-09-23T20:30:00.000Z)"
-          ]
-        },
-        {
           "link": "https://queensmuseum.org/event/september-family-day-legal-aid-for-venida-for-kalief/",
           "reasons": [
             "outside rolling publication window (2026-09-26T17:00:00.000Z)"
           ]
-        },
-        {
-          "link": "https://queensmuseum.org/event/information-session-2-2027-28-qm-jerome-foundation-fellowship-for-emerging-artists/",
-          "reasons": [
-            "outside rolling publication window (2026-09-09T22:00:00.000Z)"
-          ]
         }
       ],
       "errors": [],
-      "durationMs": 976
+      "durationMs": 1567
     },
     {
       "id": "city-parks-foundation",
@@ -59,21 +59,21 @@
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-westerleigh-park-35/",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
           "link": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-43/",
           "reasons": [
             "outside rolling publication window (2026-10-29T14:00:00.000Z)"
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-westerleigh-park-36/",
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-henry-hudson-park-24/",
           "reasons": [
             "could not extract title/date from page"
+          ]
+        },
+        {
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-sitting-area-19/",
+          "reasons": [
+            "outside rolling publication window (2026-10-31T16:30:00.000Z)"
           ]
         },
         {
@@ -84,7 +84,7 @@
         }
       ],
       "errors": [],
-      "durationMs": 3607
+      "durationMs": 3644
     },
     {
       "id": "museum-moving-image",
@@ -97,7 +97,7 @@
       "errors": [
         "HTTP 403"
       ],
-      "durationMs": 101
+      "durationMs": 85
     },
     {
       "id": "queens-public-library",
@@ -110,7 +110,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 284
+      "durationMs": 338
     },
     {
       "id": "flushing-town-hall",
@@ -123,32 +123,20 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 507
+      "durationMs": 464
     },
     {
       "id": "queens-botanical-garden",
       "name": "Queens Botanical Garden",
       "status": "ok",
       "discovered": 41,
-      "accepted": 32,
-      "rejected": 9,
+      "accepted": 28,
+      "rejected": 13,
       "rejections": [
-        {
-          "link": "https://queensbotanical.org/event/farm-community-volunteer-days-27/2026-11-03/",
-          "reasons": [
-            "outside rolling publication window (2026-11-03T14:30:00.000Z)"
-          ]
-        },
         {
           "link": "https://queensbotanical.org/event/e-waste-textiles-and-paint-collection-with-lower-east-side-ecology-center-3/",
           "reasons": [
             "outside rolling publication window (2026-11-01T15:00:00.000Z)"
-          ]
-        },
-        {
-          "link": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-11-02/",
-          "reasons": [
-            "outside rolling publication window (2026-11-02T14:30:00.000Z)"
           ]
         },
         {
@@ -158,14 +146,26 @@
           ]
         },
         {
-          "link": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-11-05/",
+          "link": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-11-02/",
           "reasons": [
-            "outside rolling publication window (2026-11-05T13:45:00.000Z)"
+            "outside rolling publication window (2026-11-02T14:30:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensbotanical.org/event/farm-community-volunteer-days-27/2026-11-03/",
+          "reasons": [
+            "outside rolling publication window (2026-11-03T14:30:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensbotanical.org/event/pumpkin-smash-2026/",
+          "reasons": [
+            "outside rolling publication window (2026-11-01T16:00:00.000Z)"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 2787
+      "durationMs": 2757
     },
     {
       "id": "noguchi-museum",
@@ -176,7 +176,7 @@
       "rejected": 0,
       "rejections": [],
       "errors": [],
-      "durationMs": 4784
+      "durationMs": 4906
     },
     {
       "id": "socrates-sculpture-park",
@@ -189,7 +189,7 @@
       "errors": [
         "HTTP 404"
       ],
-      "durationMs": 380
+      "durationMs": 804
     },
     {
       "id": "queens-theatre",
@@ -202,13 +202,13 @@
       "errors": [
         "fetch failed"
       ],
-      "durationMs": 4914
+      "durationMs": 4882
     }
   ],
   "totals": {
     "discovered": 89,
-    "accepted": 52,
-    "published": 52,
-    "rejected": 37
+    "accepted": 47,
+    "published": 47,
+    "rejected": 42
   }
 }
