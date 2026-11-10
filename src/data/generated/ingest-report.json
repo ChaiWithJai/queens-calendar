@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T19:50:49.426Z",
+  "generatedAt": "2026-11-10T17:03:54.632Z",
   "catalogStatus": "fresh",
   "sources": [
     {
@@ -7,25 +7,19 @@
       "name": "Queens Museum",
       "status": "ok",
       "discovered": 20,
-      "accepted": 5,
-      "rejected": 15,
+      "accepted": 6,
+      "rejected": 14,
       "rejections": [
-        {
-          "link": "https://queensmuseum.org/event/day-of-the-dead-celebration-crossing-dreams-celebracion-de-dia-de-muertos-cruzando-ensuenos-2026/",
-          "reasons": [
-            "outside rolling publication window (2026-11-07T16:00:00.000Z)"
-          ]
-        },
-        {
-          "link": "https://queensmuseum.org/event/printmaking-workshop-a-new-new-yorkers-program-10-18-2026/",
-          "reasons": [
-            "outside rolling publication window (2026-10-18T18:00:00.000Z)"
-          ]
-        },
         {
           "link": "https://queensmuseum.org/event/guardians-of-flushing-bays-saturbay-celebration/",
           "reasons": [
             "outside rolling publication window (2026-10-31T15:00:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensmuseum.org/event/day-of-the-dead-celebration-crossing-dreams-celebracion-de-dia-de-muertos-cruzando-ensuenos-2026/",
+          "reasons": [
+            "outside rolling publication window (2026-11-07T16:00:00.000Z)"
           ]
         },
         {
@@ -35,25 +29,37 @@
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/september-family-day-legal-aid-for-venida-for-kalief/",
+          "link": "https://queensmuseum.org/event/information-session-2-2027-28-qm-jerome-foundation-fellowship-for-emerging-artists/",
           "reasons": [
-            "outside rolling publication window (2026-09-26T17:00:00.000Z)"
+            "outside rolling publication window (2026-09-09T22:00:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensmuseum.org/event/information-session-1-2027-28-qm-jerome-foundation-fellowship-for-emerging-artists/",
+          "reasons": [
+            "outside rolling publication window (2026-07-16T22:00:00.000Z)"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 1567
+      "durationMs": 981
     },
     {
       "id": "city-parks-foundation",
       "name": "City Parks Foundation",
       "status": "ok",
-      "discovered": 14,
-      "accepted": 0,
-      "rejected": 14,
+      "discovered": 43,
+      "accepted": 4,
+      "rejected": 39,
       "rejections": [
         {
-          "link": "https://cityparksfoundation.org/events/funk-flex-birthday-rb-picnic/",
+          "link": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-53/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
+        {
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-westerleigh-park-35/",
           "reasons": [
             "could not extract title/date from page"
           ]
@@ -65,26 +71,20 @@
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-henry-hudson-park-24/",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
           "link": "https://cityparksfoundation.org/events/its-my-park-at-sitting-area-19/",
           "reasons": [
             "outside rolling publication window (2026-10-31T16:30:00.000Z)"
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-53/",
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-henry-hudson-park-24/",
           "reasons": [
             "could not extract title/date from page"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 3644
+      "durationMs": 5926
     },
     {
       "id": "museum-moving-image",
@@ -97,7 +97,7 @@
       "errors": [
         "HTTP 403"
       ],
-      "durationMs": 85
+      "durationMs": 178
     },
     {
       "id": "queens-public-library",
@@ -110,7 +110,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 338
+      "durationMs": 277
     },
     {
       "id": "flushing-town-hall",
@@ -123,20 +123,26 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 464
+      "durationMs": 492
     },
     {
       "id": "queens-botanical-garden",
       "name": "Queens Botanical Garden",
       "status": "ok",
       "discovered": 41,
-      "accepted": 28,
-      "rejected": 13,
+      "accepted": 27,
+      "rejected": 14,
       "rejections": [
         {
           "link": "https://queensbotanical.org/event/e-waste-textiles-and-paint-collection-with-lower-east-side-ecology-center-3/",
           "reasons": [
             "outside rolling publication window (2026-11-01T15:00:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensbotanical.org/event/pumpkin-smash-2026/",
+          "reasons": [
+            "outside rolling publication window (2026-11-01T16:00:00.000Z)"
           ]
         },
         {
@@ -146,26 +152,20 @@
           ]
         },
         {
-          "link": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-11-02/",
-          "reasons": [
-            "outside rolling publication window (2026-11-02T14:30:00.000Z)"
-          ]
-        },
-        {
           "link": "https://queensbotanical.org/event/farm-community-volunteer-days-27/2026-11-03/",
           "reasons": [
             "outside rolling publication window (2026-11-03T14:30:00.000Z)"
           ]
         },
         {
-          "link": "https://queensbotanical.org/event/pumpkin-smash-2026/",
+          "link": "https://queensbotanical.org/event/math-in-bloom-community-art-fibonacci-stepping-stone-creation/2026-11-04/",
           "reasons": [
-            "outside rolling publication window (2026-11-01T16:00:00.000Z)"
+            "outside rolling publication window (2026-11-04T20:00:00.000Z)"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 2757
+      "durationMs": 857
     },
     {
       "id": "noguchi-museum",
@@ -176,7 +176,7 @@
       "rejected": 0,
       "rejections": [],
       "errors": [],
-      "durationMs": 4906
+      "durationMs": 4521
     },
     {
       "id": "socrates-sculpture-park",
@@ -189,7 +189,7 @@
       "errors": [
         "HTTP 404"
       ],
-      "durationMs": 804
+      "durationMs": 383
     },
     {
       "id": "queens-theatre",
@@ -202,13 +202,13 @@
       "errors": [
         "fetch failed"
       ],
-      "durationMs": 4882
+      "durationMs": 3963
     }
   ],
   "totals": {
-    "discovered": 89,
-    "accepted": 47,
-    "published": 47,
-    "rejected": 42
+    "discovered": 118,
+    "accepted": 51,
+    "published": 51,
+    "rejected": 67
   }
 }
