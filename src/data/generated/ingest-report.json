@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T17:09:44.219Z",
+  "generatedAt": "2026-11-12T17:37:00.056Z",
   "catalogStatus": "fresh",
   "sources": [
     {
@@ -10,6 +10,12 @@
       "accepted": 7,
       "rejected": 13,
       "rejections": [
+        {
+          "link": "https://queensmuseum.org/event/queens-museum-holiday-market-2026/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
         {
           "link": "https://queensmuseum.org/event/guardians-of-flushing-bays-saturbay-celebration/",
           "reasons": [
@@ -29,12 +35,6 @@
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/printmaking-workshop-a-new-new-yorkers-program-10-18-2026/",
-          "reasons": [
-            "outside rolling publication window (2026-10-18T18:00:00.000Z)"
-          ]
-        },
-        {
           "link": "https://queensmuseum.org/event/october-family-day-artmaking-workshops-featuring-woody-guthries-song-to-grow-on-performance/",
           "reasons": [
             "outside rolling publication window (2026-10-18T17:00:00.000Z)"
@@ -42,7 +42,7 @@
         }
       ],
       "errors": [],
-      "durationMs": 827
+      "durationMs": 1052
     },
     {
       "id": "city-parks-foundation",
@@ -59,15 +59,15 @@
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-brust-park-9/",
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-43/",
           "reasons": [
-            "could not extract title/date from page"
+            "outside rolling publication window (2026-10-29T14:00:00.000Z)"
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-sitting-area-19/",
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-brust-park-9/",
           "reasons": [
-            "outside rolling publication window (2026-10-31T16:30:00.000Z)"
+            "could not extract title/date from page"
           ]
         },
         {
@@ -77,14 +77,14 @@
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-53/",
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-henry-hudson-park-24/",
           "reasons": [
             "could not extract title/date from page"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 12365
+      "durationMs": 18893
     },
     {
       "id": "museum-moving-image",
@@ -97,7 +97,7 @@
       "errors": [
         "HTTP 403"
       ],
-      "durationMs": 160
+      "durationMs": 139
     },
     {
       "id": "queens-public-library",
@@ -110,7 +110,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 244
+      "durationMs": 364
     },
     {
       "id": "flushing-town-hall",
@@ -123,7 +123,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 756
+      "durationMs": 440
     },
     {
       "id": "queens-botanical-garden",
@@ -133,18 +133,6 @@
       "accepted": 26,
       "rejected": 15,
       "rejections": [
-        {
-          "link": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-11-02/",
-          "reasons": [
-            "outside rolling publication window (2026-11-02T14:30:00.000Z)"
-          ]
-        },
-        {
-          "link": "https://queensbotanical.org/event/farm-community-volunteer-days-27/2026-11-03/",
-          "reasons": [
-            "outside rolling publication window (2026-11-03T14:30:00.000Z)"
-          ]
-        },
         {
           "link": "https://queensbotanical.org/event/e-waste-textiles-and-paint-collection-with-lower-east-side-ecology-center-3/",
           "reasons": [
@@ -158,14 +146,26 @@
           ]
         },
         {
-          "link": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/2026-11-05/",
+          "link": "https://queensbotanical.org/event/farm-community-volunteer-days-27/2026-11-03/",
           "reasons": [
-            "outside rolling publication window (2026-11-05T13:45:00.000Z)"
+            "outside rolling publication window (2026-11-03T14:30:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensbotanical.org/event/farm-stand-2/2026-11-04/",
+          "reasons": [
+            "outside rolling publication window (2026-11-04T19:00:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensbotanical.org/event/wellness-at-the-garden-mindful-movement-with-urbanyoga-foundation-2/",
+          "reasons": [
+            "outside rolling publication window (2026-11-07T15:00:00.000Z)"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 2482
+      "durationMs": 3190
     },
     {
       "id": "noguchi-museum",
@@ -176,7 +176,7 @@
       "rejected": 0,
       "rejections": [],
       "errors": [],
-      "durationMs": 4730
+      "durationMs": 5270
     },
     {
       "id": "socrates-sculpture-park",
@@ -189,7 +189,7 @@
       "errors": [
         "HTTP 404"
       ],
-      "durationMs": 567
+      "durationMs": 592
     },
     {
       "id": "queens-theatre",
@@ -202,7 +202,7 @@
       "errors": [
         "fetch failed"
       ],
-      "durationMs": 3541
+      "durationMs": 4420
     }
   ],
   "totals": {
