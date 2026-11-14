@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T17:13:41.456Z",
+  "generatedAt": "2026-11-14T15:49:57.412Z",
   "catalogStatus": "fresh",
   "sources": [
     {
@@ -17,15 +17,9 @@
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/guardians-of-flushing-bays-saturbay-celebration/",
+          "link": "https://queensmuseum.org/event/day-of-the-dead-celebration-crossing-dreams-celebracion-de-dia-de-muertos-cruzando-ensuenos-2026/",
           "reasons": [
-            "outside rolling publication window (2026-10-31T15:00:00.000Z)"
-          ]
-        },
-        {
-          "link": "https://queensmuseum.org/event/celebrating-hidden-altars-of-grief-and-remembrance-celebrando-altares-ocultos-de-duelo-y-memoria/",
-          "reasons": [
-            "outside rolling publication window (2026-10-11T17:00:00.000Z)"
+            "outside rolling publication window (2026-11-07T16:00:00.000Z)"
           ]
         },
         {
@@ -35,14 +29,20 @@
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/october-family-day-artmaking-workshops-featuring-woody-guthries-song-to-grow-on-performance/",
+          "link": "https://queensmuseum.org/event/celebrating-hidden-altars-of-grief-and-remembrance-celebrando-altares-ocultos-de-duelo-y-memoria/",
           "reasons": [
-            "outside rolling publication window (2026-10-18T17:00:00.000Z)"
+            "outside rolling publication window (2026-10-11T17:00:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensmuseum.org/event/the-healing-museum-unga-healing-arts-week/",
+          "reasons": [
+            "outside rolling publication window (2026-09-23T20:30:00.000Z)"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 892
+      "durationMs": 940
     },
     {
       "id": "city-parks-foundation",
@@ -59,19 +59,19 @@
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-53/",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
           "link": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-43/",
           "reasons": [
             "outside rolling publication window (2026-10-29T14:00:00.000Z)"
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-wnyc-transmitter-park-22/",
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-westerleigh-park-35/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
+        {
+          "link": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-53/",
           "reasons": [
             "could not extract title/date from page"
           ]
@@ -84,7 +84,7 @@
         }
       ],
       "errors": [],
-      "durationMs": 9678
+      "durationMs": 9862
     },
     {
       "id": "museum-moving-image",
@@ -97,7 +97,7 @@
       "errors": [
         "HTTP 403"
       ],
-      "durationMs": 123
+      "durationMs": 134
     },
     {
       "id": "queens-public-library",
@@ -110,7 +110,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 313
+      "durationMs": 307
     },
     {
       "id": "flushing-town-hall",
@@ -123,7 +123,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 410
+      "durationMs": 535
     },
     {
       "id": "queens-botanical-garden",
@@ -134,15 +134,9 @@
       "rejected": 17,
       "rejections": [
         {
-          "link": "https://queensbotanical.org/event/farm-community-volunteer-days-27/2026-11-03/",
+          "link": "https://queensbotanical.org/event/e-waste-textiles-and-paint-collection-with-lower-east-side-ecology-center-3/",
           "reasons": [
-            "outside rolling publication window (2026-11-03T14:30:00.000Z)"
-          ]
-        },
-        {
-          "link": "https://queensbotanical.org/event/pumpkin-smash-2026/",
-          "reasons": [
-            "outside rolling publication window (2026-11-01T16:00:00.000Z)"
+            "outside rolling publication window (2026-11-01T15:00:00.000Z)"
           ]
         },
         {
@@ -162,10 +156,16 @@
           "reasons": [
             "outside rolling publication window (2026-11-04T20:00:00.000Z)"
           ]
+        },
+        {
+          "link": "https://queensbotanical.org/event/pumpkin-smash-2026/",
+          "reasons": [
+            "outside rolling publication window (2026-11-01T16:00:00.000Z)"
+          ]
         }
       ],
       "errors": [],
-      "durationMs": 1709
+      "durationMs": 1398
     },
     {
       "id": "noguchi-museum",
@@ -176,7 +176,7 @@
       "rejected": 0,
       "rejections": [],
       "errors": [],
-      "durationMs": 4817
+      "durationMs": 5084
     },
     {
       "id": "socrates-sculpture-park",
@@ -189,7 +189,7 @@
       "errors": [
         "HTTP 404"
       ],
-      "durationMs": 485
+      "durationMs": 488
     },
     {
       "id": "queens-theatre",
@@ -202,7 +202,7 @@
       "errors": [
         "fetch failed"
       ],
-      "durationMs": 4968
+      "durationMs": 4734
     }
   ],
   "totals": {
