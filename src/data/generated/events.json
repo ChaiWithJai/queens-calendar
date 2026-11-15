@@ -1,119 +1,10 @@
 [
   {
-    "id": "qc_eee21de5f8d58e73",
-    "slug": "farm-stand-queens-botanical-garden",
-    "title": "Farm Stand - Queens Botanical Garden",
-    "description": "Visit our Farm Stand on the Terrace. All produce sold at the Stand is grown on-site at QBG using organic and regenerative practices, and is available on a sliding scale, donation basis!",
-    "startDate": "2026-11-14T00:00:00.000Z",
-    "endDate": "2026-11-18T00:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "parks-outdoors",
-      "family",
-      "community"
-    ],
-    "tags": [],
-    "image": "https://queensbotanical.org/wp-content/uploads/2025/11/IMG_5545-scaled.jpg",
-    "price": null,
-    "registrationUrl": "https://queensbotanical.org/event/farm-stand-2/all/",
-    "venue": {
-      "name": "Queens Botanical Garden",
-      "address": "43-50 Main St, Flushing, NY 11355",
-      "neighborhood": "Flushing",
-      "latitude": 40.7516,
-      "longitude": -73.8268
-    },
-    "organizer": {
-      "name": "Queens Botanical Garden",
-      "url": "https://queensbotanical.org/"
-    },
-    "source": {
-      "name": "Queens Botanical Garden",
-      "listingUrl": "https://queensbotanical.org/calendar/",
-      "canonicalUrl": "https://queensbotanical.org/event/farm-stand-2/all/",
-      "retrievedAt": "2026-11-14T15:49:46.123Z",
-      "method": "html"
-    },
-    "weekKey": "2026-W46",
-    "answerSummary": "Farm Stand - Queens Botanical Garden is happening Friday, November 13 at 7:00 PM at Queens Botanical Garden in Flushing, Queens. Visit our Farm Stand on the Terrace. All produce sold at the Stand is grown on-site at QBG using organic and regenerative practices, and is available on a sliding scale, donation basis!",
-    "faqs": [
-      {
-        "question": "When is Farm Stand - Queens Botanical Garden?",
-        "answer": "Farm Stand - Queens Botanical Garden starts Friday, November 13 at 7:00 PM."
-      },
-      {
-        "question": "Where is Farm Stand - Queens Botanical Garden?",
-        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
-      },
-      {
-        "question": "How do I register for Farm Stand - Queens Botanical Garden?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_dd8bc6bd32bc9c6a",
-    "slug": "farm-community-volunteer-days-queens-botanical-garden",
-    "title": "Farm Community Volunteer Days - Queens Botanical Garden",
-    "description": "Help prepare the QBG Farm to grow produce that we distribute to food pantries to support our communities with food relief. Join QBG’s Farm staff for an engaging, educational event where you will learn gardening basics and work hands-on with plants. Make new friends and put your green thumb to good use in a variety of seasonal projects. Learn more […]",
-    "startDate": "2026-11-14T00:00:00.000Z",
-    "endDate": "2026-11-17T00:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "parks-outdoors",
-      "family",
-      "community",
-      "food"
-    ],
-    "tags": [],
-    "image": "https://queensbotanical.org/wp-content/uploads/2020/02/Farm-Compost-Volunteers-1.jpg",
-    "price": null,
-    "registrationUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-27/all/",
-    "venue": {
-      "name": "Queens Botanical Garden",
-      "address": "43-50 Main St, Flushing, NY 11355",
-      "neighborhood": "Flushing",
-      "latitude": 40.7516,
-      "longitude": -73.8268
-    },
-    "organizer": {
-      "name": "Queens Botanical Garden",
-      "url": "https://queensbotanical.org/"
-    },
-    "source": {
-      "name": "Queens Botanical Garden",
-      "listingUrl": "https://queensbotanical.org/calendar/",
-      "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-27/all/",
-      "retrievedAt": "2026-11-14T15:49:46.139Z",
-      "method": "html"
-    },
-    "weekKey": "2026-W46",
-    "answerSummary": "Farm Community Volunteer Days - Queens Botanical Garden is happening Friday, November 13 at 7:00 PM at Queens Botanical Garden in Flushing, Queens. Help prepare the QBG Farm to grow produce that we distribute to food pantries to support our communities with food relief. Join QBG’s Farm staff for an engaging, educational event where you will learn gardening b",
-    "faqs": [
-      {
-        "question": "When is Farm Community Volunteer Days - Queens Botanical Garden?",
-        "answer": "Farm Community Volunteer Days - Queens Botanical Garden starts Friday, November 13 at 7:00 PM."
-      },
-      {
-        "question": "Where is Farm Community Volunteer Days - Queens Botanical Garden?",
-        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
-      },
-      {
-        "question": "How do I register for Farm Community Volunteer Days - Queens Botanical Garden?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
-      }
-    ]
-  },
-  {
     "id": "qc_322dc7c7160109a6",
     "slug": "compost-build-community-volunteer-days-queens-botanical-garden",
     "title": "Compost Build Community Volunteer Days - Queens Botanical Garden",
     "description": "Join the QBG Compost Staff for our weekly on-site compost build and learn about processing community food scraps into nutrient rich compost. Register here",
-    "startDate": "2026-11-14T00:00:00.000Z",
+    "startDate": "2026-11-15T00:00:00.000Z",
     "endDate": "2026-11-16T00:00:00.000Z",
     "timezone": "America/New_York",
     "status": "scheduled",
@@ -143,15 +34,15 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/all/",
-      "retrievedAt": "2026-11-14T15:49:46.149Z",
+      "retrievedAt": "2026-11-15T16:22:32.103Z",
       "method": "html"
     },
     "weekKey": "2026-W46",
-    "answerSummary": "Compost Build Community Volunteer Days - Queens Botanical Garden is happening Friday, November 13 at 7:00 PM at Queens Botanical Garden in Flushing, Queens. Join the QBG Compost Staff for our weekly on-site compost build and learn about processing community food scraps into nutrient rich compost. Register here",
+    "answerSummary": "Compost Build Community Volunteer Days - Queens Botanical Garden is happening Saturday, November 14 at 7:00 PM at Queens Botanical Garden in Flushing, Queens. Join the QBG Compost Staff for our weekly on-site compost build and learn about processing community food scraps into nutrient rich compost. Register here",
     "faqs": [
       {
         "question": "When is Compost Build Community Volunteer Days - Queens Botanical Garden?",
-        "answer": "Compost Build Community Volunteer Days - Queens Botanical Garden starts Friday, November 13 at 7:00 PM."
+        "answer": "Compost Build Community Volunteer Days - Queens Botanical Garden starts Saturday, November 14 at 7:00 PM."
       },
       {
         "question": "Where is Compost Build Community Volunteer Days - Queens Botanical Garden?",
@@ -168,7 +59,7 @@
     "slug": "math-in-bloom-community-art-fibonacci-stepping-stone-creation-queens-botanical-garden",
     "title": "Math in Bloom: Community Art: Fibonacci Stepping Stone Creation - Queens Botanical Garden",
     "description": "Join Queens Botanical Garden for a hands-on afternoon of community art making!Thanks to the generous support of the Simon Foundation, neighbors of all ages are invited to create a one-of-a-kind stepping stone using natural garden materials. Each participant will add their own color, texture, and story to the project.",
-    "startDate": "2026-11-14T00:00:00.000Z",
+    "startDate": "2026-11-15T00:00:00.000Z",
     "endDate": "2026-11-15T00:00:00.000Z",
     "timezone": "America/New_York",
     "status": "scheduled",
@@ -198,15 +89,15 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/math-in-bloom-community-art-fibonacci-stepping-stone-creation/all/",
-      "retrievedAt": "2026-11-14T15:49:46.204Z",
+      "retrievedAt": "2026-11-15T16:22:32.169Z",
       "method": "html"
     },
     "weekKey": "2026-W46",
-    "answerSummary": "Math in Bloom: Community Art: Fibonacci Stepping Stone Creation - Queens Botanical Garden is happening Friday, November 13 at 7:00 PM at Queens Botanical Garden in Flushing, Queens. Join Queens Botanical Garden for a hands-on afternoon of community art making!Thanks to the generous support of the Simon Foundation, neighbors of all ages are invited to create ",
+    "answerSummary": "Math in Bloom: Community Art: Fibonacci Stepping Stone Creation - Queens Botanical Garden is happening Saturday, November 14 at 7:00 PM at Queens Botanical Garden in Flushing, Queens. Join Queens Botanical Garden for a hands-on afternoon of community art making!Thanks to the generous support of the Simon Foundation, neighbors of all ages are invited to creat",
     "faqs": [
       {
         "question": "When is Math in Bloom: Community Art: Fibonacci Stepping Stone Creation - Queens Botanical Garden?",
-        "answer": "Math in Bloom: Community Art: Fibonacci Stepping Stone Creation - Queens Botanical Garden starts Friday, November 13 at 7:00 PM."
+        "answer": "Math in Bloom: Community Art: Fibonacci Stepping Stone Creation - Queens Botanical Garden starts Saturday, November 14 at 7:00 PM."
       },
       {
         "question": "Where is Math in Bloom: Community Art: Fibonacci Stepping Stone Creation - Queens Botanical Garden?",
@@ -219,65 +110,11 @@
     ]
   },
   {
-    "id": "qc_bac08757c5cce5e5",
-    "slug": "farm-open-hours-queens-botanical-garden",
-    "title": "Farm Open Hours - Queens Botanical Garden",
-    "description": "Come and explore the QBG Farm and learn about everything we are growing at our Farm Open Hours.",
-    "startDate": "2026-11-14T00:00:00.000Z",
-    "endDate": "2026-11-19T00:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "parks-outdoors",
-      "family",
-      "community"
-    ],
-    "tags": [],
-    "image": "https://queensbotanical.org/wp-content/uploads/2022/07/2022.06.02_Farm-Open-Hours_CREDIT_Oliver-Lopez_-1-scaled.jpg",
-    "price": null,
-    "registrationUrl": "https://queensbotanical.org/event/open-farm-hours-7/all/",
-    "venue": {
-      "name": "Queens Botanical Garden",
-      "address": "43-50 Main St, Flushing, NY 11355",
-      "neighborhood": "Flushing",
-      "latitude": 40.7516,
-      "longitude": -73.8268
-    },
-    "organizer": {
-      "name": "Queens Botanical Garden",
-      "url": "https://queensbotanical.org/"
-    },
-    "source": {
-      "name": "Queens Botanical Garden",
-      "listingUrl": "https://queensbotanical.org/calendar/",
-      "canonicalUrl": "https://queensbotanical.org/event/open-farm-hours-7/all/",
-      "retrievedAt": "2026-11-14T15:49:46.290Z",
-      "method": "html"
-    },
-    "weekKey": "2026-W46",
-    "answerSummary": "Farm Open Hours - Queens Botanical Garden is happening Friday, November 13 at 7:00 PM at Queens Botanical Garden in Flushing, Queens. Come and explore the QBG Farm and learn about everything we are growing at our Farm Open Hours.",
-    "faqs": [
-      {
-        "question": "When is Farm Open Hours - Queens Botanical Garden?",
-        "answer": "Farm Open Hours - Queens Botanical Garden starts Friday, November 13 at 7:00 PM."
-      },
-      {
-        "question": "Where is Farm Open Hours - Queens Botanical Garden?",
-        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
-      },
-      {
-        "question": "How do I register for Farm Open Hours - Queens Botanical Garden?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
-      }
-    ]
-  },
-  {
     "id": "qc_eb3f29b5fac0e38b",
     "slug": "compost-beautification-community-volunteer-days-queens-botanical-garden",
     "title": "Compost Beautification Community Volunteer Days - Queens Botanical Garden",
     "description": "Join the QBG Compost Staff to tour and care for our compost demo site by weeding, mulching, planting, applying compost and gardening.",
-    "startDate": "2026-11-14T00:00:00.000Z",
+    "startDate": "2026-11-15T00:00:00.000Z",
     "endDate": "2026-11-15T00:00:00.000Z",
     "timezone": "America/New_York",
     "status": "scheduled",
@@ -306,15 +143,15 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-beautification-community-volunteer-days-15/all/",
-      "retrievedAt": "2026-11-14T15:49:46.612Z",
+      "retrievedAt": "2026-11-15T16:22:32.214Z",
       "method": "html"
     },
     "weekKey": "2026-W46",
-    "answerSummary": "Compost Beautification Community Volunteer Days - Queens Botanical Garden is happening Friday, November 13 at 7:00 PM at Queens Botanical Garden in Flushing, Queens. Join the QBG Compost Staff to tour and care for our compost demo site by weeding, mulching, planting, applying compost and gardening.",
+    "answerSummary": "Compost Beautification Community Volunteer Days - Queens Botanical Garden is happening Saturday, November 14 at 7:00 PM at Queens Botanical Garden in Flushing, Queens. Join the QBG Compost Staff to tour and care for our compost demo site by weeding, mulching, planting, applying compost and gardening.",
     "faqs": [
       {
         "question": "When is Compost Beautification Community Volunteer Days - Queens Botanical Garden?",
-        "answer": "Compost Beautification Community Volunteer Days - Queens Botanical Garden starts Friday, November 13 at 7:00 PM."
+        "answer": "Compost Beautification Community Volunteer Days - Queens Botanical Garden starts Saturday, November 14 at 7:00 PM."
       },
       {
         "question": "Where is Compost Beautification Community Volunteer Days - Queens Botanical Garden?",
@@ -327,25 +164,24 @@
     ]
   },
   {
-    "id": "qc_927fc400c0b1ef65",
-    "slug": "horticulture-community-volunteer-days-2026-queens-botanical-garden",
-    "title": "Horticulture Community Volunteer Days 2026 - Queens Botanical Garden",
-    "description": "Help keep QBG clean, green, and growing! Join QBG's horticulture staff in a variety of gardening activities.",
-    "startDate": "2026-11-14T00:00:00.000Z",
-    "endDate": "2026-11-14T00:00:00.000Z",
+    "id": "qc_bac08757c5cce5e5",
+    "slug": "farm-open-hours-queens-botanical-garden",
+    "title": "Farm Open Hours - Queens Botanical Garden",
+    "description": "Come and explore the QBG Farm and learn about everything we are growing at our Farm Open Hours.",
+    "startDate": "2026-11-15T00:00:00.000Z",
+    "endDate": "2026-11-19T00:00:00.000Z",
     "timezone": "America/New_York",
     "status": "scheduled",
     "attendanceMode": "offline",
     "categories": [
       "parks-outdoors",
       "family",
-      "community",
-      "arts-culture"
+      "community"
     ],
     "tags": [],
-    "image": "https://queensbotanical.org/wp-content/uploads/2026/05/3-1.webp",
+    "image": "https://queensbotanical.org/wp-content/uploads/2022/07/2022.06.02_Farm-Open-Hours_CREDIT_Oliver-Lopez_-1-scaled.jpg",
     "price": null,
-    "registrationUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/all/",
+    "registrationUrl": "https://queensbotanical.org/event/open-farm-hours-7/all/",
     "venue": {
       "name": "Queens Botanical Garden",
       "address": "43-50 Main St, Flushing, NY 11355",
@@ -360,23 +196,132 @@
     "source": {
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
-      "canonicalUrl": "https://queensbotanical.org/event/horticulture-community-volunteer-days-2026/all/",
-      "retrievedAt": "2026-11-14T15:49:46.832Z",
+      "canonicalUrl": "https://queensbotanical.org/event/open-farm-hours-7/all/",
+      "retrievedAt": "2026-11-15T16:22:32.327Z",
       "method": "html"
     },
     "weekKey": "2026-W46",
-    "answerSummary": "Horticulture Community Volunteer Days 2026 - Queens Botanical Garden is happening Friday, November 13 at 7:00 PM at Queens Botanical Garden in Flushing, Queens. Help keep QBG clean, green, and growing! Join QBG's horticulture staff in a variety of gardening activities.",
+    "answerSummary": "Farm Open Hours - Queens Botanical Garden is happening Saturday, November 14 at 7:00 PM at Queens Botanical Garden in Flushing, Queens. Come and explore the QBG Farm and learn about everything we are growing at our Farm Open Hours.",
     "faqs": [
       {
-        "question": "When is Horticulture Community Volunteer Days 2026 - Queens Botanical Garden?",
-        "answer": "Horticulture Community Volunteer Days 2026 - Queens Botanical Garden starts Friday, November 13 at 7:00 PM."
+        "question": "When is Farm Open Hours - Queens Botanical Garden?",
+        "answer": "Farm Open Hours - Queens Botanical Garden starts Saturday, November 14 at 7:00 PM."
       },
       {
-        "question": "Where is Horticulture Community Volunteer Days 2026 - Queens Botanical Garden?",
+        "question": "Where is Farm Open Hours - Queens Botanical Garden?",
         "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
       },
       {
-        "question": "How do I register for Horticulture Community Volunteer Days 2026 - Queens Botanical Garden?",
+        "question": "How do I register for Farm Open Hours - Queens Botanical Garden?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_dd8bc6bd32bc9c6a",
+    "slug": "farm-community-volunteer-days-queens-botanical-garden",
+    "title": "Farm Community Volunteer Days - Queens Botanical Garden",
+    "description": "Help prepare the QBG Farm to grow produce that we distribute to food pantries to support our communities with food relief. Join QBG’s Farm staff for an engaging, educational event where you will learn gardening basics and work hands-on with plants. Make new friends and put your green thumb to good use in a variety of seasonal projects. Learn more […]",
+    "startDate": "2026-11-15T00:00:00.000Z",
+    "endDate": "2026-11-17T00:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community",
+      "food"
+    ],
+    "tags": [],
+    "image": "https://queensbotanical.org/wp-content/uploads/2020/02/Farm-Compost-Volunteers-1.jpg",
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-27/all/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "https://queensbotanical.org/"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-27/all/",
+      "retrievedAt": "2026-11-15T16:22:32.871Z",
+      "method": "html"
+    },
+    "weekKey": "2026-W46",
+    "answerSummary": "Farm Community Volunteer Days - Queens Botanical Garden is happening Saturday, November 14 at 7:00 PM at Queens Botanical Garden in Flushing, Queens. Help prepare the QBG Farm to grow produce that we distribute to food pantries to support our communities with food relief. Join QBG’s Farm staff for an engaging, educational event where you will learn gardening",
+    "faqs": [
+      {
+        "question": "When is Farm Community Volunteer Days - Queens Botanical Garden?",
+        "answer": "Farm Community Volunteer Days - Queens Botanical Garden starts Saturday, November 14 at 7:00 PM."
+      },
+      {
+        "question": "Where is Farm Community Volunteer Days - Queens Botanical Garden?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for Farm Community Volunteer Days - Queens Botanical Garden?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_eee21de5f8d58e73",
+    "slug": "farm-stand-queens-botanical-garden",
+    "title": "Farm Stand - Queens Botanical Garden",
+    "description": "Visit our Farm Stand on the Terrace. All produce sold at the Stand is grown on-site at QBG using organic and regenerative practices, and is available on a sliding scale, donation basis!",
+    "startDate": "2026-11-15T00:00:00.000Z",
+    "endDate": "2026-11-18T00:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community"
+    ],
+    "tags": [],
+    "image": "https://queensbotanical.org/wp-content/uploads/2025/11/IMG_5545-scaled.jpg",
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/farm-stand-2/all/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "https://queensbotanical.org/"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/farm-stand-2/all/",
+      "retrievedAt": "2026-11-15T16:22:32.890Z",
+      "method": "html"
+    },
+    "weekKey": "2026-W46",
+    "answerSummary": "Farm Stand - Queens Botanical Garden is happening Saturday, November 14 at 7:00 PM at Queens Botanical Garden in Flushing, Queens. Visit our Farm Stand on the Terrace. All produce sold at the Stand is grown on-site at QBG using organic and regenerative practices, and is available on a sliding scale, donation basis!",
+    "faqs": [
+      {
+        "question": "When is Farm Stand - Queens Botanical Garden?",
+        "answer": "Farm Stand - Queens Botanical Garden starts Saturday, November 14 at 7:00 PM."
+      },
+      {
+        "question": "Where is Farm Stand - Queens Botanical Garden?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for Farm Stand - Queens Botanical Garden?",
         "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
       }
     ]
@@ -386,7 +331,7 @@
     "slug": "thanksgiving-day-garden-is-closed-queens-botanical-garden",
     "title": "Thanksgiving Day - Garden is CLOSED - Queens Botanical Garden",
     "description": "Happy Thanksgiving! The Garden is closed on Thanksgiving Day.",
-    "startDate": "2026-11-14T00:00:00.000Z",
+    "startDate": "2026-11-15T00:00:00.000Z",
     "endDate": "2026-11-26T00:00:00.000Z",
     "timezone": "America/New_York",
     "status": "scheduled",
@@ -415,15 +360,15 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/thanksgiving-day-garden-is-closed-3/all/",
-      "retrievedAt": "2026-11-14T15:49:46.995Z",
+      "retrievedAt": "2026-11-15T16:22:33.187Z",
       "method": "html"
     },
     "weekKey": "2026-W46",
-    "answerSummary": "Thanksgiving Day - Garden is CLOSED - Queens Botanical Garden is happening Friday, November 13 at 7:00 PM at Queens Botanical Garden in Flushing, Queens. Happy Thanksgiving! The Garden is closed on Thanksgiving Day.",
+    "answerSummary": "Thanksgiving Day - Garden is CLOSED - Queens Botanical Garden is happening Saturday, November 14 at 7:00 PM at Queens Botanical Garden in Flushing, Queens. Happy Thanksgiving! The Garden is closed on Thanksgiving Day.",
     "faqs": [
       {
         "question": "When is Thanksgiving Day - Garden is CLOSED - Queens Botanical Garden?",
-        "answer": "Thanksgiving Day - Garden is CLOSED - Queens Botanical Garden starts Friday, November 13 at 7:00 PM."
+        "answer": "Thanksgiving Day - Garden is CLOSED - Queens Botanical Garden starts Saturday, November 14 at 7:00 PM."
       },
       {
         "question": "Where is Thanksgiving Day - Garden is CLOSED - Queens Botanical Garden?",
@@ -436,171 +381,174 @@
     ]
   },
   {
-    "id": "qc_1da46002ced3f872",
-    "slug": "it-s-my-park-at-phil-scooter-rizzuto-park",
-    "title": "It’s My Park at Phil “Scooter” Rizzuto Park",
-    "description": "Volunteer with Friends of Smokey (Phil Rizzuto) Park to steward at Phil \"Scooter\" Rizzuto Park.",
-    "startDate": "2026-11-14T14:00:00.000Z",
-    "endDate": "2026-11-14T18:00:00.000Z",
+    "id": "qc_67ff4d53f9da5d0e",
+    "slug": "christmas-day-garden-is-closed-queens-botanical-garden",
+    "title": "Christmas Day - Garden is CLOSED - Queens Botanical Garden",
+    "description": "Queens Botanical Garden is closed on Christmas Day.",
+    "startDate": "2026-11-15T00:00:00.000Z",
+    "endDate": "2026-12-25T00:00:00.000Z",
     "timezone": "America/New_York",
     "status": "scheduled",
     "attendanceMode": "offline",
     "categories": [
-      "community",
-      "arts-culture"
-    ],
-    "tags": [],
-    "image": "https://cityparksfoundation.org/wp-content/uploads/2025/02/IMP_widget_2023_centr_2-1-3-1-3-1-1-1-2-2-1-1-2-2-1-1-3-1-2-1-2-1-5-1-2-1-1-1-3-1-1-2-2-5-1-1-5-3-1-3-1-1.jpg",
-    "price": "0",
-    "registrationUrl": "https://cityparksfoundation.org/events/its-my-park-at-phil-scooter-rizzuto-park-3/",
-    "venue": {
-      "name": "It’s My Park at Phil “Scooter” Rizzuto Park",
-      "address": "Queens, Queens, NY",
-      "neighborhood": "Queens",
-      "latitude": 40.7282,
-      "longitude": -73.7949
-    },
-    "organizer": {
-      "name": "Volunteer",
-      "url": "https://cityparksfoundation.org/"
-    },
-    "source": {
-      "name": "City Parks Foundation",
-      "listingUrl": "https://cityparksfoundation.org/calendar/month/",
-      "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-phil-scooter-rizzuto-park-3/",
-      "retrievedAt": "2026-11-14T15:49:38.412Z",
-      "method": "json-ld"
-    },
-    "weekKey": "2026-W46",
-    "answerSummary": "It’s My Park at Phil “Scooter” Rizzuto Park is happening Saturday, November 14 at 9:00 AM at It’s My Park at Phil “Scooter” Rizzuto Park in Queens, Queens. Volunteer with Friends of Smokey (Phil Rizzuto) Park to steward at Phil \"Scooter\" Rizzuto Park.",
-    "faqs": [
-      {
-        "question": "When is It’s My Park at Phil “Scooter” Rizzuto Park?",
-        "answer": "It’s My Park at Phil “Scooter” Rizzuto Park starts Saturday, November 14 at 9:00 AM."
-      },
-      {
-        "question": "Where is It’s My Park at Phil “Scooter” Rizzuto Park?",
-        "answer": "It’s My Park at Phil “Scooter” Rizzuto Park, Queens, Queens, NY."
-      },
-      {
-        "question": "How do I register for It’s My Park at Phil “Scooter” Rizzuto Park?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Volunteer, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_502ffec59c6d7bd3",
-    "slug": "mindfulness-in-the-galleries-ikebana",
-    "title": "Mindfulness in the Galleries: Ikebana",
-    "description": "Anjie Cho is a mindful ikebana teacher. She has studied ikebana since 2015 and holds the rank of Level 11 Kako Assistant Professor in the Ikenobo School of Ikebana. Anjie has served as an Ikenobo NYC Chapter board member since 2021. Anjie also teaches feng shui and is the author of Holistic Spaces, Mindful Homes, and co-author of Mindful Living. Learn more about Anjie Cho at anjiecho.com @anjie.ikebana",
-    "startDate": "2026-11-14T14:00:00.000Z",
-    "endDate": "2026-11-14T16:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "arts-culture",
-      "family"
-    ],
-    "tags": [],
-    "image": "https://www.noguchi.org/wp-content/uploads/2025/09/Noguchi-Meditation-10-scaled-e1758916912647.jpg",
-    "price": null,
-    "registrationUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-14-1000-mindfulness-in-the-galleries-ikebana/",
-    "venue": {
-      "name": "The Noguchi Museum",
-      "address": "9-01 33rd Rd, Long Island City, NY 11106",
-      "neighborhood": "Long Island City",
-      "latitude": 40.7668,
-      "longitude": -73.9381
-    },
-    "organizer": {
-      "name": "The Noguchi Museum",
-      "url": "https://www.noguchi.org/"
-    },
-    "source": {
-      "name": "The Noguchi Museum",
-      "listingUrl": "https://www.noguchi.org/museum/calendar/",
-      "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-14-1000-mindfulness-in-the-galleries-ikebana/",
-      "retrievedAt": "2026-11-14T15:49:48.758Z",
-      "method": "html"
-    },
-    "weekKey": "2026-W46",
-    "answerSummary": "Mindfulness in the Galleries: Ikebana is happening Saturday, November 14 at 9:00 AM at The Noguchi Museum in Long Island City, Queens. Anjie Cho is a mindful ikebana teacher. She has studied ikebana since 2015 and holds the rank of Level 11 Kako Assistant Professor in the Ikenobo School of Ikebana. Anjie has served as an Ikenobo NYC Chapter board member sinc",
-    "faqs": [
-      {
-        "question": "When is Mindfulness in the Galleries: Ikebana?",
-        "answer": "Mindfulness in the Galleries: Ikebana starts Saturday, November 14 at 9:00 AM."
-      },
-      {
-        "question": "Where is Mindfulness in the Galleries: Ikebana?",
-        "answer": "The Noguchi Museum, 9-01 33rd Rd, Long Island City, NY 11106."
-      },
-      {
-        "question": "How do I register for Mindfulness in the Galleries: Ikebana?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_fab84c7dc04c5d74",
-    "slug": "artaccess-open-studios-estudio-abierto-2026-11-14",
-    "title": "ArtAccess: Open Studios / Estudio Abierto",
-    "description": "Los programas brindan oportunidades para que niñas, niños,adolescentes y adultos con discapacidades interactúen con sus compañeros y amplíen sus intereses a través de actividades de creación artística mientras exploran las exhibiciones. Habra un tema nuevo y actividades diferentes cada mes.",
-    "startDate": "2026-11-14T15:30:00.000Z",
-    "endDate": "2026-11-14T20:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "arts-culture",
+      "parks-outdoors",
+      "family",
       "community"
     ],
     "tags": [],
     "image": null,
     "price": null,
-    "registrationUrl": "https://queensmuseum.org/visit/",
+    "registrationUrl": "https://queensbotanical.org/event/christmas-day-garden-is-closed-2/all/",
     "venue": {
-      "name": "Queens Museum",
-      "address": "New York City Building, Flushing Meadows Corona Park, Queens, NY 11368",
-      "neighborhood": "Flushing Meadows–Corona Park",
-      "latitude": 40.7458,
-      "longitude": -73.8467
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
     },
     "organizer": {
-      "name": "Queens Museum",
-      "url": "https://queensmuseum.org/"
+      "name": "Queens Botanical Garden",
+      "url": "https://queensbotanical.org/"
     },
     "source": {
-      "name": "Queens Museum",
-      "listingUrl": "https://queensmuseum.org/event/",
-      "canonicalUrl": "https://queensmuseum.org/event/artaccess-open-studios-estudio-abierto-november-14-2026/",
-      "retrievedAt": "2026-11-14T15:49:34.795Z",
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/christmas-day-garden-is-closed-2/all/",
+      "retrievedAt": "2026-11-15T16:22:34.617Z",
       "method": "html"
     },
     "weekKey": "2026-W46",
-    "answerSummary": "ArtAccess: Open Studios / Estudio Abierto is happening Saturday, November 14 at 10:30 AM at Queens Museum in Flushing Meadows–Corona Park, Queens. Los programas brindan oportunidades para que niñas, niños,adolescentes y adultos con discapacidades interactúen con sus compañeros y amplíen sus intereses a través de actividades de creación artística mientras exp",
+    "answerSummary": "Christmas Day - Garden is CLOSED - Queens Botanical Garden is happening Saturday, November 14 at 7:00 PM at Queens Botanical Garden in Flushing, Queens. Queens Botanical Garden is closed on Christmas Day.",
     "faqs": [
       {
-        "question": "When is ArtAccess: Open Studios / Estudio Abierto?",
-        "answer": "ArtAccess: Open Studios / Estudio Abierto starts Saturday, November 14 at 10:30 AM."
+        "question": "When is Christmas Day - Garden is CLOSED - Queens Botanical Garden?",
+        "answer": "Christmas Day - Garden is CLOSED - Queens Botanical Garden starts Saturday, November 14 at 7:00 PM."
       },
       {
-        "question": "Where is ArtAccess: Open Studios / Estudio Abierto?",
-        "answer": "Queens Museum, New York City Building, Flushing Meadows Corona Park, Queens, NY 11368."
+        "question": "Where is Christmas Day - Garden is CLOSED - Queens Botanical Garden?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
       },
       {
-        "question": "How do I register for ArtAccess: Open Studios / Estudio Abierto?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Museum, the event source."
+        "question": "How do I register for Christmas Day - Garden is CLOSED - Queens Botanical Garden?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
       }
     ]
   },
   {
-    "id": "qc_c65514a3bf911603",
-    "slug": "ankhlave-indigenous-mural-project-unveiling",
-    "title": "AnkhLave Indigenous Mural Project Unveiling",
-    "description": "Celebrate the launch of new murals at our Education Center construction site as part of AnkhLave Arts Alliance’s African Mural Project. This edition, curated by Dario Mohr, features the work of Amado Alfadni from Egypt (Nubia) and Med Amine Serhane from Morocco. The murals reflect the rich histories, landscapes, and living traditions of their regions while imagining shared futures of […]",
-    "startDate": "2026-11-14T19:00:00.000Z",
-    "endDate": "2026-11-14T20:00:00.000Z",
+    "id": "qc_57ddb3b2e0b50d86",
+    "slug": "presidents-day-garden-is-open-queens-botanical-garden",
+    "title": "Presidents' Day - Garden is OPEN - Queens Botanical Garden",
+    "description": "Queens Botanical Garden is OPEN on Presidents' Day.",
+    "startDate": "2026-11-15T00:00:00.000Z",
+    "endDate": "2027-02-15T00:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community"
+    ],
+    "tags": [],
+    "image": null,
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/presidents-day-garden-is-open-2/all/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "https://queensbotanical.org/"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/presidents-day-garden-is-open-2/all/",
+      "retrievedAt": "2026-11-15T16:22:34.773Z",
+      "method": "html"
+    },
+    "weekKey": "2026-W46",
+    "answerSummary": "Presidents' Day - Garden is OPEN - Queens Botanical Garden is happening Saturday, November 14 at 7:00 PM at Queens Botanical Garden in Flushing, Queens. Queens Botanical Garden is OPEN on Presidents' Day.",
+    "faqs": [
+      {
+        "question": "When is Presidents' Day - Garden is OPEN - Queens Botanical Garden?",
+        "answer": "Presidents' Day - Garden is OPEN - Queens Botanical Garden starts Saturday, November 14 at 7:00 PM."
+      },
+      {
+        "question": "Where is Presidents' Day - Garden is OPEN - Queens Botanical Garden?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for Presidents' Day - Garden is OPEN - Queens Botanical Garden?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_9da58f5ed12fc1c2",
+    "slug": "new-year-s-day-garden-is-closed-queens-botanical-garden",
+    "title": "New Year's Day - Garden is CLOSED - Queens Botanical Garden",
+    "description": "Happy New Year! Queens Botanical Garden is closed on New Year's Day.",
+    "startDate": "2026-11-15T00:00:00.000Z",
+    "endDate": "2027-01-01T00:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community"
+    ],
+    "tags": [],
+    "image": null,
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/new-years-day-garden-is-closed-2/all/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "https://queensbotanical.org/"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/new-years-day-garden-is-closed-2/all/",
+      "retrievedAt": "2026-11-15T16:22:34.932Z",
+      "method": "html"
+    },
+    "weekKey": "2026-W46",
+    "answerSummary": "New Year's Day - Garden is CLOSED - Queens Botanical Garden is happening Saturday, November 14 at 7:00 PM at Queens Botanical Garden in Flushing, Queens. Happy New Year! Queens Botanical Garden is closed on New Year's Day.",
+    "faqs": [
+      {
+        "question": "When is New Year's Day - Garden is CLOSED - Queens Botanical Garden?",
+        "answer": "New Year's Day - Garden is CLOSED - Queens Botanical Garden starts Saturday, November 14 at 7:00 PM."
+      },
+      {
+        "question": "Where is New Year's Day - Garden is CLOSED - Queens Botanical Garden?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for New Year's Day - Garden is CLOSED - Queens Botanical Garden?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_65479786dd504423",
+    "slug": "martin-luther-king-jr-day-garden-is-open-queens-botanical-garden",
+    "title": "Martin Luther King Jr. Day - Garden is OPEN - Queens Botanical Garden",
+    "description": "Queens Botanical Garden is OPEN on Martin Luther King Jr. Day",
+    "startDate": "2026-11-15T00:00:00.000Z",
+    "endDate": "2027-01-18T00:00:00.000Z",
     "timezone": "America/New_York",
     "status": "scheduled",
     "attendanceMode": "offline",
@@ -613,7 +561,7 @@
     "tags": [],
     "image": null,
     "price": null,
-    "registrationUrl": "https://queensbotanical.org/event/ankhlave-indigenous-mural-project-unveiling/",
+    "registrationUrl": "https://queensbotanical.org/event/martin-luther-king-jr-day-garden-is-open-2/all/",
     "venue": {
       "name": "Queens Botanical Garden",
       "address": "43-50 Main St, Flushing, NY 11355",
@@ -623,28 +571,136 @@
     },
     "organizer": {
       "name": "Queens Botanical Garden",
-      "url": "http://www.queensbotanical.org"
+      "url": "https://queensbotanical.org/"
     },
     "source": {
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
-      "canonicalUrl": "https://queensbotanical.org/event/ankhlave-indigenous-mural-project-unveiling/",
-      "retrievedAt": "2026-11-14T15:49:46.536Z",
-      "method": "json-ld"
+      "canonicalUrl": "https://queensbotanical.org/event/martin-luther-king-jr-day-garden-is-open-2/all/",
+      "retrievedAt": "2026-11-15T16:22:35.096Z",
+      "method": "html"
     },
     "weekKey": "2026-W46",
-    "answerSummary": "AnkhLave Indigenous Mural Project Unveiling is happening Saturday, November 14 at 2:00 PM at Queens Botanical Garden in Flushing, Queens. Celebrate the launch of new murals at our Education Center construction site as part of AnkhLave Arts Alliance’s African Mural Project. This edition, curated by Dario Mohr, features the work of Amado Alfadni from Egypt (Nu",
+    "answerSummary": "Martin Luther King Jr. Day - Garden is OPEN - Queens Botanical Garden is happening Saturday, November 14 at 7:00 PM at Queens Botanical Garden in Flushing, Queens. Queens Botanical Garden is OPEN on Martin Luther King Jr. Day",
     "faqs": [
       {
-        "question": "When is AnkhLave Indigenous Mural Project Unveiling?",
-        "answer": "AnkhLave Indigenous Mural Project Unveiling starts Saturday, November 14 at 2:00 PM."
+        "question": "When is Martin Luther King Jr. Day - Garden is OPEN - Queens Botanical Garden?",
+        "answer": "Martin Luther King Jr. Day - Garden is OPEN - Queens Botanical Garden starts Saturday, November 14 at 7:00 PM."
       },
       {
-        "question": "Where is AnkhLave Indigenous Mural Project Unveiling?",
+        "question": "Where is Martin Luther King Jr. Day - Garden is OPEN - Queens Botanical Garden?",
         "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
       },
       {
-        "question": "How do I register for AnkhLave Indigenous Mural Project Unveiling?",
+        "question": "How do I register for Martin Luther King Jr. Day - Garden is OPEN - Queens Botanical Garden?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_1b770e0b8dbac897",
+    "slug": "memorial-day-garden-is-open-queens-botanical-garden",
+    "title": "Memorial Day - Garden is Open - Queens Botanical Garden",
+    "description": "Queens Botanical Garden is OPEN on Memorial Day.",
+    "startDate": "2026-11-15T00:00:00.000Z",
+    "endDate": "2027-05-31T00:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community"
+    ],
+    "tags": [],
+    "image": null,
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/memorial-day-garden-is-open-2/all/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "https://queensbotanical.org/"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/memorial-day-garden-is-open-2/all/",
+      "retrievedAt": "2026-11-15T16:22:36.124Z",
+      "method": "html"
+    },
+    "weekKey": "2026-W46",
+    "answerSummary": "Memorial Day - Garden is Open - Queens Botanical Garden is happening Saturday, November 14 at 7:00 PM at Queens Botanical Garden in Flushing, Queens. Queens Botanical Garden is OPEN on Memorial Day.",
+    "faqs": [
+      {
+        "question": "When is Memorial Day - Garden is Open - Queens Botanical Garden?",
+        "answer": "Memorial Day - Garden is Open - Queens Botanical Garden starts Saturday, November 14 at 7:00 PM."
+      },
+      {
+        "question": "Where is Memorial Day - Garden is Open - Queens Botanical Garden?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for Memorial Day - Garden is Open - Queens Botanical Garden?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_09400b5cbae667ba",
+    "slug": "independence-day-garden-is-open-queens-botanical-garden",
+    "title": "Independence Day - Garden is Open - Queens Botanical Garden",
+    "description": "Queens Botanical Garden is closed on Independence Day.",
+    "startDate": "2026-11-15T00:00:00.000Z",
+    "endDate": "2027-07-04T00:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community"
+    ],
+    "tags": [],
+    "image": null,
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/independence-day-garden-is-closed/all/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "https://queensbotanical.org/"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/independence-day-garden-is-closed/all/",
+      "retrievedAt": "2026-11-15T16:22:36.443Z",
+      "method": "html"
+    },
+    "weekKey": "2026-W46",
+    "answerSummary": "Independence Day - Garden is Open - Queens Botanical Garden is happening Saturday, November 14 at 7:00 PM at Queens Botanical Garden in Flushing, Queens. Queens Botanical Garden is closed on Independence Day.",
+    "faqs": [
+      {
+        "question": "When is Independence Day - Garden is Open - Queens Botanical Garden?",
+        "answer": "Independence Day - Garden is Open - Queens Botanical Garden starts Saturday, November 14 at 7:00 PM."
+      },
+      {
+        "question": "Where is Independence Day - Garden is Open - Queens Botanical Garden?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for Independence Day - Garden is Open - Queens Botanical Garden?",
         "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
       }
     ]
@@ -684,7 +740,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/math-in-bloom-community-art-fibonacci-stepping-stone-creation/2026-11-15/",
-      "retrievedAt": "2026-11-14T15:49:46.530Z",
+      "retrievedAt": "2026-11-15T16:22:32.038Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W46",
@@ -706,7 +762,7 @@
   },
   {
     "id": "qc_90c66aac93d6369b",
-    "slug": "compost-beautification-community-volunteer-days",
+    "slug": "compost-beautification-community-volunteer-days-2026-11-15",
     "title": "Compost Beautification Community Volunteer Days",
     "description": "Join the QBG Compost Staff to tour and care for our compost demo site by weeding, mulching, planting, applying compost and gardening.",
     "startDate": "2026-11-15T14:30:00.000Z",
@@ -738,7 +794,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-beautification-community-volunteer-days-15/2026-11-15/",
-      "retrievedAt": "2026-11-14T15:49:46.626Z",
+      "retrievedAt": "2026-11-15T16:22:32.047Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W46",
@@ -791,7 +847,7 @@
       "name": "Queens Museum",
       "listingUrl": "https://queensmuseum.org/event/",
       "canonicalUrl": "https://queensmuseum.org/event/about-us-community-archiving-day-112026/",
-      "retrievedAt": "2026-11-14T15:49:34.643Z",
+      "retrievedAt": "2026-11-15T16:22:21.293Z",
       "method": "html"
     },
     "weekKey": "2026-W46",
@@ -844,7 +900,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-15-1100-open-studio-play-with-paper/",
-      "retrievedAt": "2026-11-14T15:49:49.757Z",
+      "retrievedAt": "2026-11-15T16:22:38.984Z",
       "method": "html"
     },
     "weekKey": "2026-W46",
@@ -866,7 +922,7 @@
   },
   {
     "id": "qc_e02eabf987dfefea",
-    "slug": "artaccess-open-studios-estudio-abierto-2026-11-15",
+    "slug": "artaccess-open-studios-estudio-abierto",
     "title": "ArtAccess: Open Studios / Estudio Abierto",
     "description": "Los programas brindan oportunidades para que niñas, niños,adolescentes y adultos con discapacidades interactúen con sus compañeros y amplíen sus intereses a través de actividades de creación artística mientras exploran las exhibiciones. Habra un tema nuevo y actividades diferentes cada mes.",
     "startDate": "2026-11-15T15:30:00.000Z",
@@ -881,7 +937,7 @@
     "tags": [],
     "image": null,
     "price": null,
-    "registrationUrl": "https://queensmuseum.ticketing.veevartapp.com/tickets/view/list/art-access-open-studios",
+    "registrationUrl": "https://queensmuseum.org/visit/",
     "venue": {
       "name": "Queens Museum",
       "address": "New York City Building, Flushing Meadows Corona Park, Queens, NY 11368",
@@ -897,7 +953,7 @@
       "name": "Queens Museum",
       "listingUrl": "https://queensmuseum.org/event/",
       "canonicalUrl": "https://queensmuseum.org/event/artaccess-open-studios-estudio-abierto-november-15-2026/",
-      "retrievedAt": "2026-11-14T15:49:34.603Z",
+      "retrievedAt": "2026-11-15T16:22:21.308Z",
       "method": "html"
     },
     "weekKey": "2026-W46",
@@ -951,7 +1007,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-site-tour-13/",
-      "retrievedAt": "2026-11-14T15:49:46.718Z",
+      "retrievedAt": "2026-11-15T16:22:32.198Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W46",
@@ -968,59 +1024,6 @@
       {
         "question": "How do I register for Compost Site Tour?",
         "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_b154a194e3ae1b78",
-    "slug": "museum-tour-in-mandarin-chinese",
-    "title": "中文公眾導覽 Museum Tour in Mandarin Chinese",
-    "description": "Tours are approximately one hour long, are conversational, and explore works in the Museum’s collection and exhibitions while introducing the life and vision of Isamu Noguchi. Free with admission, no advance registration is required.",
-    "startDate": "2026-11-15T19:00:00.000Z",
-    "endDate": "2026-11-15T21:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "arts-culture",
-      "family"
-    ],
-    "tags": [],
-    "image": "https://www.noguchi.org/wp-content/uploads/2022/06/Noguchi-Museum-Tours-Public-Programs-4-photo-Katherine-Abbott.jpg",
-    "price": null,
-    "registrationUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-15-1500-%e4%b8%ad%e6%96%87%e5%85%ac%e7%9c%be%e5%b0%8e%e8%a6%bd-museum-tour-in-mandarin-chinese/",
-    "venue": {
-      "name": "The Noguchi Museum",
-      "address": "9-01 33rd Rd, Long Island City, NY 11106",
-      "neighborhood": "Long Island City",
-      "latitude": 40.7668,
-      "longitude": -73.9381
-    },
-    "organizer": {
-      "name": "The Noguchi Museum",
-      "url": "https://www.noguchi.org/"
-    },
-    "source": {
-      "name": "The Noguchi Museum",
-      "listingUrl": "https://www.noguchi.org/museum/calendar/",
-      "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-15-1500-%e4%b8%ad%e6%96%87%e5%85%ac%e7%9c%be%e5%b0%8e%e8%a6%bd-museum-tour-in-mandarin-chinese/",
-      "retrievedAt": "2026-11-14T15:49:49.851Z",
-      "method": "html"
-    },
-    "weekKey": "2026-W46",
-    "answerSummary": "中文公眾導覽 Museum Tour in Mandarin Chinese is happening Sunday, November 15 at 2:00 PM at The Noguchi Museum in Long Island City, Queens. Tours are approximately one hour long, are conversational, and explore works in the Museum’s collection and exhibitions while introducing the life and vision of Isamu Noguchi. Free with admission, no advance registration is re",
-    "faqs": [
-      {
-        "question": "When is 中文公眾導覽 Museum Tour in Mandarin Chinese?",
-        "answer": "中文公眾導覽 Museum Tour in Mandarin Chinese starts Sunday, November 15 at 2:00 PM."
-      },
-      {
-        "question": "Where is 中文公眾導覽 Museum Tour in Mandarin Chinese?",
-        "answer": "The Noguchi Museum, 9-01 33rd Rd, Long Island City, NY 11106."
-      },
-      {
-        "question": "How do I register for 中文公眾導覽 Museum Tour in Mandarin Chinese?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
       }
     ]
   },
@@ -1057,7 +1060,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-15-1500-hands-on-drawing/",
-      "retrievedAt": "2026-11-14T15:49:50.472Z",
+      "retrievedAt": "2026-11-15T16:22:39.991Z",
       "method": "html"
     },
     "weekKey": "2026-W46",
@@ -1073,6 +1076,59 @@
       },
       {
         "question": "How do I register for Hands-On: Drawing?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_b154a194e3ae1b78",
+    "slug": "museum-tour-in-mandarin-chinese",
+    "title": "中文公眾導覽 Museum Tour in Mandarin Chinese",
+    "description": "Tours are approximately one hour long, are conversational, and explore works in the Museum’s collection and exhibitions while introducing the life and vision of Isamu Noguchi. Free with admission, no advance registration is required.",
+    "startDate": "2026-11-15T19:00:00.000Z",
+    "endDate": "2026-11-15T21:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "arts-culture",
+      "family"
+    ],
+    "tags": [],
+    "image": "https://www.noguchi.org/wp-content/uploads/2022/06/Noguchi-Museum-Tours-Public-Programs-4-photo-Katherine-Abbott.jpg",
+    "price": null,
+    "registrationUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-15-1500-%e4%b8%ad%e6%96%87%e5%85%ac%e7%9c%be%e5%b0%8e%e8%a6%bd-museum-tour-in-mandarin-chinese/",
+    "venue": {
+      "name": "The Noguchi Museum",
+      "address": "9-01 33rd Rd, Long Island City, NY 11106",
+      "neighborhood": "Long Island City",
+      "latitude": 40.7668,
+      "longitude": -73.9381
+    },
+    "organizer": {
+      "name": "The Noguchi Museum",
+      "url": "https://www.noguchi.org/"
+    },
+    "source": {
+      "name": "The Noguchi Museum",
+      "listingUrl": "https://www.noguchi.org/museum/calendar/",
+      "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-15-1500-%e4%b8%ad%e6%96%87%e5%85%ac%e7%9c%be%e5%b0%8e%e8%a6%bd-museum-tour-in-mandarin-chinese/",
+      "retrievedAt": "2026-11-15T16:22:39.998Z",
+      "method": "html"
+    },
+    "weekKey": "2026-W46",
+    "answerSummary": "中文公眾導覽 Museum Tour in Mandarin Chinese is happening Sunday, November 15 at 2:00 PM at The Noguchi Museum in Long Island City, Queens. Tours are approximately one hour long, are conversational, and explore works in the Museum’s collection and exhibitions while introducing the life and vision of Isamu Noguchi. Free with admission, no advance registration is re",
+    "faqs": [
+      {
+        "question": "When is 中文公眾導覽 Museum Tour in Mandarin Chinese?",
+        "answer": "中文公眾導覽 Museum Tour in Mandarin Chinese starts Sunday, November 15 at 2:00 PM."
+      },
+      {
+        "question": "Where is 中文公眾導覽 Museum Tour in Mandarin Chinese?",
+        "answer": "The Noguchi Museum, 9-01 33rd Rd, Long Island City, NY 11106."
+      },
+      {
+        "question": "How do I register for 中文公眾導覽 Museum Tour in Mandarin Chinese?",
         "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
       }
     ]
@@ -1112,7 +1168,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-11-16/",
-      "retrievedAt": "2026-11-14T15:49:46.707Z",
+      "retrievedAt": "2026-11-15T16:22:32.064Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W47",
@@ -1165,7 +1221,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-16-1930-drawing-from-a-distance/",
-      "retrievedAt": "2026-11-14T15:49:50.161Z",
+      "retrievedAt": "2026-11-15T16:22:40.165Z",
       "method": "html"
     },
     "weekKey": "2026-W47",
@@ -1220,7 +1276,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-27/2026-11-17/",
-      "retrievedAt": "2026-11-14T15:49:46.737Z",
+      "retrievedAt": "2026-11-15T16:22:32.115Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W47",
@@ -1274,7 +1330,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-stand-2/2026-11-18/",
-      "retrievedAt": "2026-11-14T15:49:46.792Z",
+      "retrievedAt": "2026-11-15T16:22:32.917Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W47",
@@ -1329,7 +1385,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/math-in-bloom-community-art-fibonacci-stepping-stone-creation/2026-11-18/",
-      "retrievedAt": "2026-11-14T15:49:46.797Z",
+      "retrievedAt": "2026-11-15T16:22:32.238Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W47",
@@ -1382,7 +1438,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-18-1800-noguchi-talksalanna-heiss-and-martin-puryeartwo-american-sculptors-in-the-venice-biennale/",
-      "retrievedAt": "2026-11-14T15:49:50.170Z",
+      "retrievedAt": "2026-11-15T16:22:39.981Z",
       "method": "html"
     },
     "weekKey": "2026-W47",
@@ -1437,7 +1493,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/rain-garden-stewardship-volunteer-days-4/",
-      "retrievedAt": "2026-11-14T15:49:46.810Z",
+      "retrievedAt": "2026-11-15T16:22:32.280Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W47",
@@ -1491,7 +1547,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/open-farm-hours-7/2026-11-19/",
-      "retrievedAt": "2026-11-14T15:49:46.869Z",
+      "retrievedAt": "2026-11-15T16:22:32.343Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W47",
@@ -1544,7 +1600,7 @@
       "name": "City Parks Foundation",
       "listingUrl": "https://cityparksfoundation.org/calendar/month/",
       "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-moore-homestead-playground-3/",
-      "retrievedAt": "2026-11-14T15:49:42.057Z",
+      "retrievedAt": "2026-11-15T16:22:28.466Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W47",
@@ -1597,7 +1653,7 @@
       "name": "City Parks Foundation",
       "listingUrl": "https://cityparksfoundation.org/calendar/month/",
       "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-glenwood-landing-3/",
-      "retrievedAt": "2026-11-14T15:49:39.530Z",
+      "retrievedAt": "2026-11-15T16:22:28.737Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W47",
@@ -1650,7 +1706,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-21-1030-art-for-families-continuity/",
-      "retrievedAt": "2026-11-14T15:49:50.360Z",
+      "retrievedAt": "2026-11-15T16:22:40.888Z",
       "method": "html"
     },
     "weekKey": "2026-W47",
@@ -1705,7 +1761,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/math-in-bloom-fibonacci-community-volunteer-day/",
-      "retrievedAt": "2026-11-14T15:49:46.892Z",
+      "retrievedAt": "2026-11-15T16:22:32.386Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W47",
@@ -1761,7 +1817,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-cooking-workshop-pickling/",
-      "retrievedAt": "2026-11-14T15:49:46.885Z",
+      "retrievedAt": "2026-11-15T16:22:32.410Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W47",
@@ -1814,7 +1870,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-22-1030-art-for-tots-ages-3-4-light/",
-      "retrievedAt": "2026-11-14T15:49:51.252Z",
+      "retrievedAt": "2026-11-15T16:22:40.782Z",
       "method": "html"
     },
     "weekKey": "2026-W47",
@@ -1868,7 +1924,7 @@
       "name": "Queens Museum",
       "listingUrl": "https://queensmuseum.org/event/",
       "canonicalUrl": "https://queensmuseum.org/event/printmaking-workshop-a-new-new-yorkers-program-11-22-2026/",
-      "retrievedAt": "2026-11-14T15:49:34.540Z",
+      "retrievedAt": "2026-11-15T16:22:21.201Z",
       "method": "html"
     },
     "weekKey": "2026-W47",
@@ -1923,7 +1979,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-11-23/",
-      "retrievedAt": "2026-11-14T15:49:46.901Z",
+      "retrievedAt": "2026-11-15T16:22:33.152Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W48",
@@ -1978,7 +2034,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-27/2026-11-24/",
-      "retrievedAt": "2026-11-14T15:49:46.945Z",
+      "retrievedAt": "2026-11-15T16:22:33.219Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W48",
@@ -2031,7 +2087,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-24-1030-art-for-tots-ages-1-2-light/",
-      "retrievedAt": "2026-11-14T15:49:51.444Z",
+      "retrievedAt": "2026-11-15T16:22:41.469Z",
       "method": "html"
     },
     "weekKey": "2026-W48",
@@ -2053,7 +2109,7 @@
   },
   {
     "id": "qc_fe65f9300a09d0b0",
-    "slug": "thanksgiving-day-garden-is-closed",
+    "slug": "thanksgiving-day-garden-is-closed-2026-11-26",
     "title": "Thanksgiving Day – Garden is CLOSED",
     "description": "Happy Thanksgiving! The Garden is closed on Thanksgiving Day.",
     "startDate": "2026-11-26T05:00:00.000Z",
@@ -2085,7 +2141,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/thanksgiving-day-garden-is-closed-3/2026-11-26/",
-      "retrievedAt": "2026-11-14T15:49:46.961Z",
+      "retrievedAt": "2026-11-15T16:22:32.497Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W48",
@@ -2138,7 +2194,7 @@
       "name": "City Parks Foundation",
       "listingUrl": "https://cityparksfoundation.org/calendar/month/",
       "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-brookville-park-4/",
-      "retrievedAt": "2026-11-14T15:49:42.208Z",
+      "retrievedAt": "2026-11-15T16:22:29.813Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W48",
@@ -2193,7 +2249,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-11-30/",
-      "retrievedAt": "2026-11-14T15:49:46.982Z",
+      "retrievedAt": "2026-11-15T16:22:32.954Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W49",
@@ -2248,7 +2304,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-27/2026-12-01/",
-      "retrievedAt": "2026-11-14T15:49:47.016Z",
+      "retrievedAt": "2026-11-15T16:22:33.719Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W49",
@@ -2301,7 +2357,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-12-03-1800-members-holiday-workshop-kumiko-with-resobox/",
-      "retrievedAt": "2026-11-14T15:49:51.584Z",
+      "retrievedAt": "2026-11-15T16:22:41.474Z",
       "method": "html"
     },
     "weekKey": "2026-W49",
@@ -2354,7 +2410,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-12-04-1000-free-first-friday/",
-      "retrievedAt": "2026-11-14T15:49:51.752Z",
+      "retrievedAt": "2026-11-15T16:22:41.377Z",
       "method": "html"
     },
     "weekKey": "2026-W49",
@@ -2407,7 +2463,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-12-04-1300-tour-publico-museum-tour-in-spanish/",
-      "retrievedAt": "2026-11-14T15:49:51.767Z",
+      "retrievedAt": "2026-11-15T16:22:41.595Z",
       "method": "html"
     },
     "weekKey": "2026-W49",
@@ -2460,7 +2516,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-12-04-1430-gallery-kit/",
-      "retrievedAt": "2026-11-14T15:49:51.947Z",
+      "retrievedAt": "2026-11-15T16:22:41.921Z",
       "method": "html"
     },
     "weekKey": "2026-W49",
@@ -2513,7 +2569,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-12-05-1500-%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%81%a7%e3%81%ae%e3%83%84%e3%82%a2%e3%83%bc-museum-tour-in-japanese/",
-      "retrievedAt": "2026-11-14T15:49:52.150Z",
+      "retrievedAt": "2026-11-15T16:22:41.957Z",
       "method": "html"
     },
     "weekKey": "2026-W49",
@@ -2566,7 +2622,7 @@
       "name": "Queens Museum",
       "listingUrl": "https://queensmuseum.org/event/",
       "canonicalUrl": "https://queensmuseum.org/event/day-without-art-2026-seeds-in-a-dying-colony/",
-      "retrievedAt": "2026-11-14T15:49:34.585Z",
+      "retrievedAt": "2026-11-15T16:22:21.273Z",
       "method": "html"
     },
     "weekKey": "2026-W49",
@@ -2620,7 +2676,7 @@
       "name": "Queens Museum",
       "listingUrl": "https://queensmuseum.org/event/",
       "canonicalUrl": "https://queensmuseum.org/event/printmaking-workshop-a-new-new-yorkers-program-12-06-2026/",
-      "retrievedAt": "2026-11-14T15:49:34.466Z",
+      "retrievedAt": "2026-11-15T16:22:21.134Z",
       "method": "html"
     },
     "weekKey": "2026-W49",
@@ -2637,6 +2693,335 @@
       {
         "question": "How do I register for Printmaking Workshop: A New New Yorkers Program?",
         "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Museum, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_d95fbd24d5beac90",
+    "slug": "winter-wonder",
+    "title": "Winter Wonder",
+    "description": "Celebrate the season at Winter Wonder at Queens Botanical Garden with live music, crafts, and festive shopping. Snap photos with Santa and Mrs. Claus, take selfies among the beautiful evergreen displays in the Garden, and enjoy seasonal drinks from the Holiday Bar.",
+    "startDate": "2026-12-06T19:00:00.000Z",
+    "endDate": "2026-12-06T22:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community",
+      "arts-culture"
+    ],
+    "tags": [],
+    "image": null,
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/winter-wonder-2026/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "https://queensbotanical.org/"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/winter-wonder-2026/",
+      "retrievedAt": "2026-11-15T16:22:32.975Z",
+      "method": "json-ld"
+    },
+    "weekKey": "2026-W49",
+    "answerSummary": "Winter Wonder is happening Sunday, December 6 at 2:00 PM at Queens Botanical Garden in Flushing, Queens. Celebrate the season at Winter Wonder at Queens Botanical Garden with live music, crafts, and festive shopping. Snap photos with Santa and Mrs. Claus, take selfies among the beautiful evergreen displays in the Garden, and enjoy seasonal drinks from the Ho",
+    "faqs": [
+      {
+        "question": "When is Winter Wonder?",
+        "answer": "Winter Wonder starts Sunday, December 6 at 2:00 PM."
+      },
+      {
+        "question": "Where is Winter Wonder?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for Winter Wonder?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_d870cea5a68117b0",
+    "slug": "compost-build-community-volunteer-days-2026-12-07",
+    "title": "Compost Build Community Volunteer Days",
+    "description": "Join the QBG Compost Staff for our weekly on-site compost build and learn about processing community food scraps into nutrient-rich compost. Register here",
+    "startDate": "2026-12-07T14:30:00.000Z",
+    "endDate": "2026-12-07T17:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community",
+      "food"
+    ],
+    "tags": [],
+    "image": null,
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-12-07/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "https://queensbotanical.org/"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-12-07/",
+      "retrievedAt": "2026-11-15T16:22:33.892Z",
+      "method": "json-ld"
+    },
+    "weekKey": "2026-W50",
+    "answerSummary": "Compost Build Community Volunteer Days is happening Monday, December 7 at 9:30 AM at Queens Botanical Garden in Flushing, Queens. Join the QBG Compost Staff for our weekly on-site compost build and learn about processing community food scraps into nutrient-rich compost. Register here",
+    "faqs": [
+      {
+        "question": "When is Compost Build Community Volunteer Days?",
+        "answer": "Compost Build Community Volunteer Days starts Monday, December 7 at 9:30 AM."
+      },
+      {
+        "question": "Where is Compost Build Community Volunteer Days?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for Compost Build Community Volunteer Days?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_87f676f9299bb718",
+    "slug": "farm-community-volunteer-days-2026-12-08",
+    "title": "Farm Community Volunteer Days",
+    "description": "Help prepare the QBG Farm to grow produce that we distribute to food pantries to support our communities with food relief. Join QBG’s Farm staff for an engaging, educational event where you will learn gardening basics and work hands-on with plants. Make new friends and put your green thumb to good use in a variety of seasonal projects. Learn more […]",
+    "startDate": "2026-12-08T14:30:00.000Z",
+    "endDate": "2026-12-08T17:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community",
+      "food"
+    ],
+    "tags": [],
+    "image": null,
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-27/2026-12-08/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "http://www.queensbotanical.org"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-27/2026-12-08/",
+      "retrievedAt": "2026-11-15T16:22:33.933Z",
+      "method": "json-ld"
+    },
+    "weekKey": "2026-W50",
+    "answerSummary": "Farm Community Volunteer Days is happening Tuesday, December 8 at 9:30 AM at Queens Botanical Garden in Flushing, Queens. Help prepare the QBG Farm to grow produce that we distribute to food pantries to support our communities with food relief. Join QBG’s Farm staff for an engaging, educational event where you will learn gardening basics and work hands-on wi",
+    "faqs": [
+      {
+        "question": "When is Farm Community Volunteer Days?",
+        "answer": "Farm Community Volunteer Days starts Tuesday, December 8 at 9:30 AM."
+      },
+      {
+        "question": "Where is Farm Community Volunteer Days?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for Farm Community Volunteer Days?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_fbd4fbf3fd25af3f",
+    "slug": "compost-build-community-volunteer-days-2026-12-14",
+    "title": "Compost Build Community Volunteer Days",
+    "description": "Join the QBG Compost Staff for our weekly on-site compost build and learn about processing community food scraps into nutrient-rich compost. Register here",
+    "startDate": "2026-12-14T14:30:00.000Z",
+    "endDate": "2026-12-14T17:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community",
+      "food"
+    ],
+    "tags": [],
+    "image": null,
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-12-14/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "https://queensbotanical.org/"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-12-14/",
+      "retrievedAt": "2026-11-15T16:22:34.133Z",
+      "method": "json-ld"
+    },
+    "weekKey": "2026-W51",
+    "answerSummary": "Compost Build Community Volunteer Days is happening Monday, December 14 at 9:30 AM at Queens Botanical Garden in Flushing, Queens. Join the QBG Compost Staff for our weekly on-site compost build and learn about processing community food scraps into nutrient-rich compost. Register here",
+    "faqs": [
+      {
+        "question": "When is Compost Build Community Volunteer Days?",
+        "answer": "Compost Build Community Volunteer Days starts Monday, December 14 at 9:30 AM."
+      },
+      {
+        "question": "Where is Compost Build Community Volunteer Days?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for Compost Build Community Volunteer Days?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_19e357de5421dd69",
+    "slug": "compost-beautification-community-volunteer-days-2026-12-20",
+    "title": "Compost Beautification Community Volunteer Days",
+    "description": "Join the QBG Compost Staff to tour and care for our compost demo site by weeding, mulching, planting, applying compost and gardening.",
+    "startDate": "2026-12-20T14:30:00.000Z",
+    "endDate": "2026-12-20T17:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community"
+    ],
+    "tags": [],
+    "image": null,
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/compost-beautification-community-volunteer-days-15/2026-12-20/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "http://www.queensbotanical.org"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/compost-beautification-community-volunteer-days-15/2026-12-20/",
+      "retrievedAt": "2026-11-15T16:22:34.166Z",
+      "method": "json-ld"
+    },
+    "weekKey": "2026-W51",
+    "answerSummary": "Compost Beautification Community Volunteer Days is happening Sunday, December 20 at 9:30 AM at Queens Botanical Garden in Flushing, Queens. Join the QBG Compost Staff to tour and care for our compost demo site by weeding, mulching, planting, applying compost and gardening.",
+    "faqs": [
+      {
+        "question": "When is Compost Beautification Community Volunteer Days?",
+        "answer": "Compost Beautification Community Volunteer Days starts Sunday, December 20 at 9:30 AM."
+      },
+      {
+        "question": "Where is Compost Beautification Community Volunteer Days?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for Compost Beautification Community Volunteer Days?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_4f799a7664292564",
+    "slug": "compost-build-community-volunteer-days-2026-12-21",
+    "title": "Compost Build Community Volunteer Days",
+    "description": "Join the QBG Compost Staff for our weekly on-site compost build and learn about processing community food scraps into nutrient-rich compost. Register here",
+    "startDate": "2026-12-21T14:30:00.000Z",
+    "endDate": "2026-12-21T17:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community",
+      "food"
+    ],
+    "tags": [],
+    "image": null,
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-12-21/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "https://queensbotanical.org/"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-12-21/",
+      "retrievedAt": "2026-11-15T16:22:34.174Z",
+      "method": "json-ld"
+    },
+    "weekKey": "2026-W52",
+    "answerSummary": "Compost Build Community Volunteer Days is happening Monday, December 21 at 9:30 AM at Queens Botanical Garden in Flushing, Queens. Join the QBG Compost Staff for our weekly on-site compost build and learn about processing community food scraps into nutrient-rich compost. Register here",
+    "faqs": [
+      {
+        "question": "When is Compost Build Community Volunteer Days?",
+        "answer": "Compost Build Community Volunteer Days starts Monday, December 21 at 9:30 AM."
+      },
+      {
+        "question": "Where is Compost Build Community Volunteer Days?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for Compost Build Community Volunteer Days?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
       }
     ]
   },
@@ -2673,7 +3058,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-12-21-1930-drawing-from-a-distance/",
-      "retrievedAt": "2026-11-14T15:49:52.186Z",
+      "retrievedAt": "2026-11-15T16:22:42.125Z",
       "method": "html"
     },
     "weekKey": "2026-W52",
@@ -2690,6 +3075,169 @@
       {
         "question": "How do I register for Drawing from a Distance?",
         "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_ea8671a9517f0758",
+    "slug": "christmas-day-garden-is-closed",
+    "title": "Christmas Day – Garden is CLOSED",
+    "description": "Queens Botanical Garden is closed on this day.",
+    "startDate": "2026-12-25T05:00:00.000Z",
+    "endDate": "2026-12-26T04:59:59.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community"
+    ],
+    "tags": [],
+    "image": null,
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/christmas-day-garden-is-closed-2/2026-12-25/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "http://www.queensbotanical.org"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/christmas-day-garden-is-closed-2/2026-12-25/",
+      "retrievedAt": "2026-11-15T16:22:34.421Z",
+      "method": "json-ld"
+    },
+    "weekKey": "2026-W52",
+    "answerSummary": "Christmas Day – Garden is CLOSED is happening Friday, December 25 at 12:00 AM at Queens Botanical Garden in Flushing, Queens. Queens Botanical Garden is closed on this day.",
+    "faqs": [
+      {
+        "question": "When is Christmas Day – Garden is CLOSED?",
+        "answer": "Christmas Day – Garden is CLOSED starts Friday, December 25 at 12:00 AM."
+      },
+      {
+        "question": "Where is Christmas Day – Garden is CLOSED?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for Christmas Day – Garden is CLOSED?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_71abe8bdef6ba677",
+    "slug": "compost-build-community-volunteer-days-2026-12-28",
+    "title": "Compost Build Community Volunteer Days",
+    "description": "Join the QBG Compost Staff for our weekly on-site compost build and learn about processing community food scraps into nutrient-rich compost. Register here",
+    "startDate": "2026-12-28T14:30:00.000Z",
+    "endDate": "2026-12-28T17:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community",
+      "food"
+    ],
+    "tags": [],
+    "image": null,
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-12-28/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "https://queensbotanical.org/"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-12-28/",
+      "retrievedAt": "2026-11-15T16:22:34.686Z",
+      "method": "json-ld"
+    },
+    "weekKey": "2026-W53",
+    "answerSummary": "Compost Build Community Volunteer Days is happening Monday, December 28 at 9:30 AM at Queens Botanical Garden in Flushing, Queens. Join the QBG Compost Staff for our weekly on-site compost build and learn about processing community food scraps into nutrient-rich compost. Register here",
+    "faqs": [
+      {
+        "question": "When is Compost Build Community Volunteer Days?",
+        "answer": "Compost Build Community Volunteer Days starts Monday, December 28 at 9:30 AM."
+      },
+      {
+        "question": "Where is Compost Build Community Volunteer Days?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for Compost Build Community Volunteer Days?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_3e7aeda395f3b5c8",
+    "slug": "new-year-s-day-garden-is-closed",
+    "title": "New Year’s Day – Garden is CLOSED",
+    "description": "Happy New Year! Queens Botanical Garden is closed on New Year’s Day.",
+    "startDate": "2027-01-01T05:00:00.000Z",
+    "endDate": "2027-01-02T04:59:59.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community"
+    ],
+    "tags": [],
+    "image": null,
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/new-years-day-garden-is-closed-2/2027-01-01/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "http://www.queensbotanical.org"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/new-years-day-garden-is-closed-2/2027-01-01/",
+      "retrievedAt": "2026-11-15T16:22:34.928Z",
+      "method": "json-ld"
+    },
+    "weekKey": "2026-W53",
+    "answerSummary": "New Year’s Day – Garden is CLOSED is happening Friday, January 1 at 12:00 AM at Queens Botanical Garden in Flushing, Queens. Happy New Year! Queens Botanical Garden is closed on New Year’s Day.",
+    "faqs": [
+      {
+        "question": "When is New Year’s Day – Garden is CLOSED?",
+        "answer": "New Year’s Day – Garden is CLOSED starts Friday, January 1 at 12:00 AM."
+      },
+      {
+        "question": "Where is New Year’s Day – Garden is CLOSED?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for New Year’s Day – Garden is CLOSED?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
       }
     ]
   },
@@ -2727,7 +3275,7 @@
       "name": "Queens Museum",
       "listingUrl": "https://queensmuseum.org/event/",
       "canonicalUrl": "https://queensmuseum.org/event/from-joy-to-justice-celebrating-community-at-january-family-day-legal-aid-society/",
-      "retrievedAt": "2026-11-14T15:49:34.710Z",
+      "retrievedAt": "2026-11-15T16:22:21.250Z",
       "method": "html"
     },
     "weekKey": "2027-W02",
@@ -2744,6 +3292,603 @@
       {
         "question": "How do I register for From Joy to Justice: Celebrating Community at January Family Day?",
         "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Museum, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_20a2ab6cb7a606e3",
+    "slug": "compost-beautification-community-volunteer-days-2027-01-17",
+    "title": "Compost Beautification Community Volunteer Days",
+    "description": "Join the QBG Compost Staff to tour and care for our compost demo site by weeding, mulching, planting, applying compost and gardening.",
+    "startDate": "2027-01-17T14:30:00.000Z",
+    "endDate": "2027-01-17T17:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community"
+    ],
+    "tags": [],
+    "image": null,
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/compost-beautification-community-volunteer-days-15/2027-01-17/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "http://www.queensbotanical.org"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/compost-beautification-community-volunteer-days-15/2027-01-17/",
+      "retrievedAt": "2026-11-15T16:22:34.231Z",
+      "method": "json-ld"
+    },
+    "weekKey": "2027-W02",
+    "answerSummary": "Compost Beautification Community Volunteer Days is happening Sunday, January 17 at 9:30 AM at Queens Botanical Garden in Flushing, Queens. Join the QBG Compost Staff to tour and care for our compost demo site by weeding, mulching, planting, applying compost and gardening.",
+    "faqs": [
+      {
+        "question": "When is Compost Beautification Community Volunteer Days?",
+        "answer": "Compost Beautification Community Volunteer Days starts Sunday, January 17 at 9:30 AM."
+      },
+      {
+        "question": "Where is Compost Beautification Community Volunteer Days?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for Compost Beautification Community Volunteer Days?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_7225087a5255f04c",
+    "slug": "martin-luther-king-jr-day-garden-is-open",
+    "title": "Martin Luther King Jr. Day – Garden is OPEN",
+    "description": "Queens Botanical Garden is OPEN on Martin Luther King Jr. Day",
+    "startDate": "2027-01-18T05:00:00.000Z",
+    "endDate": "2027-01-19T04:59:59.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community",
+      "arts-culture"
+    ],
+    "tags": [],
+    "image": null,
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/martin-luther-king-jr-day-garden-is-open-2/2027-01-18/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "http://www.queensbotanical.org"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/martin-luther-king-jr-day-garden-is-open-2/2027-01-18/",
+      "retrievedAt": "2026-11-15T16:22:35.071Z",
+      "method": "json-ld"
+    },
+    "weekKey": "2027-W03",
+    "answerSummary": "Martin Luther King Jr. Day – Garden is OPEN is happening Monday, January 18 at 12:00 AM at Queens Botanical Garden in Flushing, Queens. Queens Botanical Garden is OPEN on Martin Luther King Jr. Day",
+    "faqs": [
+      {
+        "question": "When is Martin Luther King Jr. Day – Garden is OPEN?",
+        "answer": "Martin Luther King Jr. Day – Garden is OPEN starts Monday, January 18 at 12:00 AM."
+      },
+      {
+        "question": "Where is Martin Luther King Jr. Day – Garden is OPEN?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for Martin Luther King Jr. Day – Garden is OPEN?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_a394f8ad393c96c5",
+    "slug": "farm-cooking-workshop-preserving-elderberries",
+    "title": "Farm Cooking Workshop: Preserving Elderberries",
+    "description": "Join us in making elderberry syrup using QBG Farm elderberries, QBG honey, and other QBG-grown herbs! Learn about the beneficial and medicinal uses of elderberries as well, as other medicinal products we grow at the QBG Farm. All participants will take home some freshly made elderberry syrup.",
+    "startDate": "2027-01-24T14:30:00.000Z",
+    "endDate": "2027-01-24T17:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community",
+      "arts-culture",
+      "food"
+    ],
+    "tags": [],
+    "image": null,
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/farm-cooking-workshop-preserving-elderberries/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "http://www.queensbotanical.org"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/farm-cooking-workshop-preserving-elderberries/",
+      "retrievedAt": "2026-11-15T16:22:34.683Z",
+      "method": "json-ld"
+    },
+    "weekKey": "2027-W03",
+    "answerSummary": "Farm Cooking Workshop: Preserving Elderberries is happening Sunday, January 24 at 9:30 AM at Queens Botanical Garden in Flushing, Queens. Join us in making elderberry syrup using QBG Farm elderberries, QBG honey, and other QBG-grown herbs! Learn about the beneficial and medicinal uses of elderberries as well, as other medicinal products we grow at the QBG Fa",
+    "faqs": [
+      {
+        "question": "When is Farm Cooking Workshop: Preserving Elderberries?",
+        "answer": "Farm Cooking Workshop: Preserving Elderberries starts Sunday, January 24 at 9:30 AM."
+      },
+      {
+        "question": "Where is Farm Cooking Workshop: Preserving Elderberries?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for Farm Cooking Workshop: Preserving Elderberries?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_0bcaf0f88f62aeb4",
+    "slug": "presidents-day-garden-is-open",
+    "title": "Presidents’ Day – Garden is OPEN",
+    "description": "Queens Botanical Garden is OPEN on Presidents’ Day.",
+    "startDate": "2027-02-15T05:00:00.000Z",
+    "endDate": "2027-02-16T04:59:59.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community"
+    ],
+    "tags": [],
+    "image": null,
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/presidents-day-garden-is-open-2/2027-02-15/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "http://www.queensbotanical.org"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/presidents-day-garden-is-open-2/2027-02-15/",
+      "retrievedAt": "2026-11-15T16:22:35.406Z",
+      "method": "json-ld"
+    },
+    "weekKey": "2027-W07",
+    "answerSummary": "Presidents’ Day – Garden is OPEN is happening Monday, February 15 at 12:00 AM at Queens Botanical Garden in Flushing, Queens. Queens Botanical Garden is OPEN on Presidents’ Day.",
+    "faqs": [
+      {
+        "question": "When is Presidents’ Day – Garden is OPEN?",
+        "answer": "Presidents’ Day – Garden is OPEN starts Monday, February 15 at 12:00 AM."
+      },
+      {
+        "question": "Where is Presidents’ Day – Garden is OPEN?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for Presidents’ Day – Garden is OPEN?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_34f8dd8efa2872c4",
+    "slug": "compost-beautification-community-volunteer-days-2027-02-21",
+    "title": "Compost Beautification Community Volunteer Days",
+    "description": "Join the QBG Compost Staff to tour and care for our compost demo site by weeding, mulching, planting, applying compost and gardening.",
+    "startDate": "2027-02-21T14:30:00.000Z",
+    "endDate": "2027-02-21T17:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community"
+    ],
+    "tags": [],
+    "image": null,
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/compost-beautification-community-volunteer-days-15/2027-02-21/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "http://www.queensbotanical.org"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/compost-beautification-community-volunteer-days-15/2027-02-21/",
+      "retrievedAt": "2026-11-15T16:22:35.671Z",
+      "method": "json-ld"
+    },
+    "weekKey": "2027-W07",
+    "answerSummary": "Compost Beautification Community Volunteer Days is happening Sunday, February 21 at 9:30 AM at Queens Botanical Garden in Flushing, Queens. Join the QBG Compost Staff to tour and care for our compost demo site by weeding, mulching, planting, applying compost and gardening.",
+    "faqs": [
+      {
+        "question": "When is Compost Beautification Community Volunteer Days?",
+        "answer": "Compost Beautification Community Volunteer Days starts Sunday, February 21 at 9:30 AM."
+      },
+      {
+        "question": "Where is Compost Beautification Community Volunteer Days?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for Compost Beautification Community Volunteer Days?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_d94d8360f43b41ed",
+    "slug": "compost-beautification-community-volunteer-days-2027-03-21",
+    "title": "Compost Beautification Community Volunteer Days",
+    "description": "Join the QBG Compost Staff to tour and care for our compost demo site by weeding, mulching, planting, applying compost and gardening.",
+    "startDate": "2027-03-21T13:30:00.000Z",
+    "endDate": "2027-03-21T16:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community"
+    ],
+    "tags": [],
+    "image": null,
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/compost-beautification-community-volunteer-days-15/2027-03-21/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "http://www.queensbotanical.org"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/compost-beautification-community-volunteer-days-15/2027-03-21/",
+      "retrievedAt": "2026-11-15T16:22:35.914Z",
+      "method": "json-ld"
+    },
+    "weekKey": "2027-W11",
+    "answerSummary": "Compost Beautification Community Volunteer Days is happening Sunday, March 21 at 9:30 AM at Queens Botanical Garden in Flushing, Queens. Join the QBG Compost Staff to tour and care for our compost demo site by weeding, mulching, planting, applying compost and gardening.",
+    "faqs": [
+      {
+        "question": "When is Compost Beautification Community Volunteer Days?",
+        "answer": "Compost Beautification Community Volunteer Days starts Sunday, March 21 at 9:30 AM."
+      },
+      {
+        "question": "Where is Compost Beautification Community Volunteer Days?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for Compost Beautification Community Volunteer Days?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_feba1966317422e5",
+    "slug": "compost-beautification-community-volunteer-days-2027-04-18",
+    "title": "Compost Beautification Community Volunteer Days",
+    "description": "Join the QBG Compost Staff to tour and care for our compost demo site by weeding, mulching, planting, applying compost and gardening.",
+    "startDate": "2027-04-18T13:30:00.000Z",
+    "endDate": "2027-04-18T16:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community"
+    ],
+    "tags": [],
+    "image": null,
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/compost-beautification-community-volunteer-days-15/2027-04-18/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "http://www.queensbotanical.org"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/compost-beautification-community-volunteer-days-15/2027-04-18/",
+      "retrievedAt": "2026-11-15T16:22:35.974Z",
+      "method": "json-ld"
+    },
+    "weekKey": "2027-W15",
+    "answerSummary": "Compost Beautification Community Volunteer Days is happening Sunday, April 18 at 9:30 AM at Queens Botanical Garden in Flushing, Queens. Join the QBG Compost Staff to tour and care for our compost demo site by weeding, mulching, planting, applying compost and gardening.",
+    "faqs": [
+      {
+        "question": "When is Compost Beautification Community Volunteer Days?",
+        "answer": "Compost Beautification Community Volunteer Days starts Sunday, April 18 at 9:30 AM."
+      },
+      {
+        "question": "Where is Compost Beautification Community Volunteer Days?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for Compost Beautification Community Volunteer Days?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_d2456727938a5607",
+    "slug": "compost-beautification-community-volunteer-days-2027-05-16",
+    "title": "Compost Beautification Community Volunteer Days",
+    "description": "Join the QBG Compost Staff to tour and care for our compost demo site by weeding, mulching, planting, applying compost and gardening.",
+    "startDate": "2027-05-16T13:30:00.000Z",
+    "endDate": "2027-05-16T16:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community"
+    ],
+    "tags": [],
+    "image": null,
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/compost-beautification-community-volunteer-days-15/2027-05-16/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "http://www.queensbotanical.org"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/compost-beautification-community-volunteer-days-15/2027-05-16/",
+      "retrievedAt": "2026-11-15T16:22:35.177Z",
+      "method": "json-ld"
+    },
+    "weekKey": "2027-W19",
+    "answerSummary": "Compost Beautification Community Volunteer Days is happening Sunday, May 16 at 9:30 AM at Queens Botanical Garden in Flushing, Queens. Join the QBG Compost Staff to tour and care for our compost demo site by weeding, mulching, planting, applying compost and gardening.",
+    "faqs": [
+      {
+        "question": "When is Compost Beautification Community Volunteer Days?",
+        "answer": "Compost Beautification Community Volunteer Days starts Sunday, May 16 at 9:30 AM."
+      },
+      {
+        "question": "Where is Compost Beautification Community Volunteer Days?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for Compost Beautification Community Volunteer Days?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_c35d37aca4fd1900",
+    "slug": "memorial-day-garden-is-open",
+    "title": "Memorial Day – Garden is Open",
+    "description": "Queens Botanical Garden is open on Memorial Day.",
+    "startDate": "2027-05-31T04:00:00.000Z",
+    "endDate": "2027-06-01T03:59:59.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community"
+    ],
+    "tags": [],
+    "image": null,
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/memorial-day-garden-is-open-2/2027-05-31/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "http://www.queensbotanical.org"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/memorial-day-garden-is-open-2/2027-05-31/",
+      "retrievedAt": "2026-11-15T16:22:36.096Z",
+      "method": "json-ld"
+    },
+    "weekKey": "2027-W22",
+    "answerSummary": "Memorial Day – Garden is Open is happening Monday, May 31 at 12:00 AM at Queens Botanical Garden in Flushing, Queens. Queens Botanical Garden is open on Memorial Day.",
+    "faqs": [
+      {
+        "question": "When is Memorial Day – Garden is Open?",
+        "answer": "Memorial Day – Garden is Open starts Monday, May 31 at 12:00 AM."
+      },
+      {
+        "question": "Where is Memorial Day – Garden is Open?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for Memorial Day – Garden is Open?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_3f23bb85452c933b",
+    "slug": "independence-day-garden-is-open",
+    "title": "Independence Day – Garden is Open",
+    "description": "Queens Botanical Garden is closed on Independence Day.",
+    "startDate": "2027-07-04T04:00:00.000Z",
+    "endDate": "2027-07-05T03:59:59.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community"
+    ],
+    "tags": [],
+    "image": null,
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/independence-day-garden-is-closed/2027-07-04/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "http://www.queensbotanical.org"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/independence-day-garden-is-closed/2027-07-04/",
+      "retrievedAt": "2026-11-15T16:22:36.295Z",
+      "method": "json-ld"
+    },
+    "weekKey": "2027-W26",
+    "answerSummary": "Independence Day – Garden is Open is happening Sunday, July 4 at 12:00 AM at Queens Botanical Garden in Flushing, Queens. Queens Botanical Garden is closed on Independence Day.",
+    "faqs": [
+      {
+        "question": "When is Independence Day – Garden is Open?",
+        "answer": "Independence Day – Garden is Open starts Sunday, July 4 at 12:00 AM."
+      },
+      {
+        "question": "Where is Independence Day – Garden is Open?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for Independence Day – Garden is Open?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_fd827fab09d28798",
+    "slug": "thanksgiving-day-garden-is-closed-2027-11-25",
+    "title": "Thanksgiving Day – Garden is CLOSED",
+    "description": "Happy Thanksgiving! The Garden is closed on Thanksgiving Day.",
+    "startDate": "2027-11-25T05:00:00.000Z",
+    "endDate": "2027-11-26T04:59:59.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community"
+    ],
+    "tags": [],
+    "image": null,
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/thanksgiving-day-garden-is-closed-3/2027-11-25/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "http://www.queensbotanical.org"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/thanksgiving-day-garden-is-closed-3/2027-11-25/",
+      "retrievedAt": "2026-11-15T16:22:36.681Z",
+      "method": "json-ld"
+    },
+    "weekKey": "2027-W47",
+    "answerSummary": "Thanksgiving Day – Garden is CLOSED is happening Thursday, November 25 at 12:00 AM at Queens Botanical Garden in Flushing, Queens. Happy Thanksgiving! The Garden is closed on Thanksgiving Day.",
+    "faqs": [
+      {
+        "question": "When is Thanksgiving Day – Garden is CLOSED?",
+        "answer": "Thanksgiving Day – Garden is CLOSED starts Thursday, November 25 at 12:00 AM."
+      },
+      {
+        "question": "Where is Thanksgiving Day – Garden is CLOSED?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for Thanksgiving Day – Garden is CLOSED?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
       }
     ]
   }
