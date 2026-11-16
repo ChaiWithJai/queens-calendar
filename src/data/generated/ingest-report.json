@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T16:22:47.272Z",
+  "generatedAt": "2026-11-16T19:37:44.991Z",
   "catalogStatus": "fresh",
   "sources": [
     {
@@ -7,8 +7,8 @@
       "name": "Queens Museum",
       "status": "ok",
       "discovered": 20,
-      "accepted": 6,
-      "rejected": 14,
+      "accepted": 4,
+      "rejected": 16,
       "rejections": [
         {
           "link": "https://queensmuseum.org/event/queens-museum-holiday-market-2026/",
@@ -17,9 +17,9 @@
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/printmaking-workshop-a-new-new-yorkers-program-10-18-2026/",
+          "link": "https://queensmuseum.org/event/day-of-the-dead-celebration-crossing-dreams-celebracion-de-dia-de-muertos-cruzando-ensuenos-2026/",
           "reasons": [
-            "outside rolling publication window (2026-10-18T18:00:00.000Z)"
+            "outside rolling publication window (2026-11-07T16:00:00.000Z)"
           ]
         },
         {
@@ -29,20 +29,20 @@
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/guardians-of-flushing-bays-saturbay-celebration/",
+          "link": "https://queensmuseum.org/event/about-us-community-archiving-day-112026/",
           "reasons": [
-            "outside rolling publication window (2026-10-31T15:00:00.000Z)"
+            "outside rolling publication window (2026-11-15T15:00:00.000Z)"
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/day-of-the-dead-celebration-crossing-dreams-celebracion-de-dia-de-muertos-cruzando-ensuenos-2026/",
+          "link": "https://queensmuseum.org/event/printmaking-workshop-a-new-new-yorkers-program-10-18-2026/",
           "reasons": [
-            "outside rolling publication window (2026-11-07T16:00:00.000Z)"
+            "outside rolling publication window (2026-10-18T18:00:00.000Z)"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 944
+      "durationMs": 925
     },
     {
       "id": "city-parks-foundation",
@@ -59,9 +59,9 @@
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-43/",
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-brust-park-9/",
           "reasons": [
-            "outside rolling publication window (2026-10-29T14:00:00.000Z)"
+            "could not extract title/date from page"
           ]
         },
         {
@@ -77,14 +77,14 @@
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-53/",
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-westerleigh-park-36/",
           "reasons": [
             "could not extract title/date from page"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 9078
+      "durationMs": 7198
     },
     {
       "id": "museum-moving-image",
@@ -97,7 +97,7 @@
       "errors": [
         "HTTP 403"
       ],
-      "durationMs": 193
+      "durationMs": 270
     },
     {
       "id": "queens-public-library",
@@ -110,7 +110,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 277
+      "durationMs": 311
     },
     {
       "id": "flushing-town-hall",
@@ -123,60 +123,60 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 450
+      "durationMs": 622
     },
     {
       "id": "queens-botanical-garden",
       "name": "Queens Botanical Garden",
       "status": "ok",
-      "discovered": 55,
-      "accepted": 49,
-      "rejected": 6,
+      "discovered": 42,
+      "accepted": 21,
+      "rejected": 21,
       "rejections": [
         {
-          "link": "https://queensbotanical.org/event/memorial-day-garden-is-open-2/2028-05-29/",
+          "link": "https://queensbotanical.org/event/e-waste-textiles-and-paint-collection-with-lower-east-side-ecology-center-3/",
           "reasons": [
-            "outside rolling publication window (2028-05-29T04:00:00.000Z)"
+            "outside rolling publication window (2026-11-01T15:00:00.000Z)"
           ]
         },
         {
-          "link": "https://queensbotanical.org/event/christmas-day-garden-is-closed-2/2027-12-25/",
+          "link": "https://queensbotanical.org/event/compost-build-community-volunteer-days-34/2026-11-02/",
           "reasons": [
-            "outside rolling publication window (2027-12-25T05:00:00.000Z)"
+            "outside rolling publication window (2026-11-02T14:30:00.000Z)"
           ]
         },
         {
-          "link": "https://queensbotanical.org/event/martin-luther-king-jr-day-garden-is-open-2/2028-01-17/",
+          "link": "https://queensbotanical.org/event/pumpkin-smash-2026/",
           "reasons": [
-            "outside rolling publication window (2028-01-17T05:00:00.000Z)"
+            "outside rolling publication window (2026-11-01T16:00:00.000Z)"
           ]
         },
         {
-          "link": "https://queensbotanical.org/event/presidents-day-garden-is-open-2/2028-02-21/",
+          "link": "https://queensbotanical.org/event/farm-community-volunteer-days-27/2026-11-03/",
           "reasons": [
-            "outside rolling publication window (2028-02-21T05:00:00.000Z)"
+            "outside rolling publication window (2026-11-03T14:30:00.000Z)"
           ]
         },
         {
-          "link": "https://queensbotanical.org/event/independence-day-garden-is-closed/2028-07-04/",
+          "link": "https://queensbotanical.org/event/farm-stand-2/2026-11-04/",
           "reasons": [
-            "outside rolling publication window (2028-07-04T04:00:00.000Z)"
+            "outside rolling publication window (2026-11-04T19:00:00.000Z)"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 5823
+      "durationMs": 3360
     },
     {
       "id": "noguchi-museum",
       "name": "The Noguchi Museum",
       "status": "ok",
-      "discovered": 14,
-      "accepted": 14,
+      "discovered": 18,
+      "accepted": 18,
       "rejected": 0,
       "rejections": [],
       "errors": [],
-      "durationMs": 4660
+      "durationMs": 5736
     },
     {
       "id": "socrates-sculpture-park",
@@ -189,7 +189,7 @@
       "errors": [
         "HTTP 404"
       ],
-      "durationMs": 504
+      "durationMs": 460
     },
     {
       "id": "queens-theatre",
@@ -202,13 +202,13 @@
       "errors": [
         "fetch failed"
       ],
-      "durationMs": 4640
+      "durationMs": 4001
     }
   ],
   "totals": {
-    "discovered": 135,
-    "accepted": 72,
-    "published": 72,
-    "rejected": 63
+    "discovered": 126,
+    "accepted": 46,
+    "published": 46,
+    "rejected": 80
   }
 }
