@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T18:35:59.421Z",
+  "generatedAt": "2026-11-18T18:06:09.176Z",
   "catalogStatus": "fresh",
   "sources": [
     {
@@ -17,12 +17,6 @@
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/artaccess-open-studios-estudio-abierto-november-15-2026/",
-          "reasons": [
-            "outside rolling publication window (2026-11-15T15:30:00.000Z)"
-          ]
-        },
-        {
           "link": "https://queensmuseum.org/event/guardians-of-flushing-bays-saturbay-celebration/",
           "reasons": [
             "outside rolling publication window (2026-10-31T15:00:00.000Z)"
@@ -35,37 +29,31 @@
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/celebrating-hidden-altars-of-grief-and-remembrance-celebrando-altares-ocultos-de-duelo-y-memoria/",
+          "link": "https://queensmuseum.org/event/artaccess-open-studios-estudio-abierto-november-15-2026/",
           "reasons": [
-            "outside rolling publication window (2026-10-11T17:00:00.000Z)"
+            "outside rolling publication window (2026-11-15T15:30:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensmuseum.org/event/day-of-the-dead-celebration-crossing-dreams-celebracion-de-dia-de-muertos-cruzando-ensuenos-2026/",
+          "reasons": [
+            "outside rolling publication window (2026-11-07T16:00:00.000Z)"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 824
+      "durationMs": 2085
     },
     {
       "id": "city-parks-foundation",
       "name": "City Parks Foundation",
       "status": "ok",
-      "discovered": 45,
-      "accepted": 3,
-      "rejected": 42,
+      "discovered": 49,
+      "accepted": 4,
+      "rejected": 45,
       "rejections": [
         {
           "link": "https://cityparksfoundation.org/events/funk-flex-birthday-rb-picnic/",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
-          "link": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-53/",
-          "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-westerleigh-park-35/",
           "reasons": [
             "could not extract title/date from page"
           ]
@@ -77,14 +65,26 @@
           ]
         },
         {
+          "link": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-53/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
+        {
           "link": "https://cityparksfoundation.org/events/its-my-park-at-sitting-area-19/",
           "reasons": [
             "outside rolling publication window (2026-10-31T16:30:00.000Z)"
           ]
+        },
+        {
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-westerleigh-park-35/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
         }
       ],
       "errors": [],
-      "durationMs": 11049
+      "durationMs": 14949
     },
     {
       "id": "museum-moving-image",
@@ -97,7 +97,7 @@
       "errors": [
         "HTTP 403"
       ],
-      "durationMs": 71
+      "durationMs": 633
     },
     {
       "id": "queens-public-library",
@@ -110,7 +110,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 226
+      "durationMs": 558
     },
     {
       "id": "flushing-town-hall",
@@ -123,7 +123,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 617
+      "durationMs": 1003
     },
     {
       "id": "queens-botanical-garden",
@@ -134,7 +134,7 @@
       "rejected": 0,
       "rejections": [],
       "errors": [],
-      "durationMs": 14364
+      "durationMs": 2489
     },
     {
       "id": "noguchi-museum",
@@ -145,7 +145,7 @@
       "rejected": 0,
       "rejections": [],
       "errors": [],
-      "durationMs": 5114
+      "durationMs": 6219
     },
     {
       "id": "socrates-sculpture-park",
@@ -158,7 +158,7 @@
       "errors": [
         "HTTP 404"
       ],
-      "durationMs": 540
+      "durationMs": 946
     },
     {
       "id": "queens-theatre",
@@ -171,13 +171,13 @@
       "errors": [
         "fetch failed"
       ],
-      "durationMs": 3722
+      "durationMs": 6738
     }
   ],
   "totals": {
-    "discovered": 94,
-    "accepted": 36,
-    "published": 36,
-    "rejected": 58
+    "discovered": 98,
+    "accepted": 37,
+    "published": 37,
+    "rejected": 61
   }
 }
