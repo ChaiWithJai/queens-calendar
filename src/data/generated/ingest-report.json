@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T18:06:09.176Z",
+  "generatedAt": "2026-11-19T18:18:09.814Z",
   "catalogStatus": "fresh",
   "sources": [
     {
@@ -17,15 +17,9 @@
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/guardians-of-flushing-bays-saturbay-celebration/",
+          "link": "https://queensmuseum.org/event/day-of-the-dead-celebration-crossing-dreams-celebracion-de-dia-de-muertos-cruzando-ensuenos-2026/",
           "reasons": [
-            "outside rolling publication window (2026-10-31T15:00:00.000Z)"
-          ]
-        },
-        {
-          "link": "https://queensmuseum.org/event/about-us-community-archiving-day-112026/",
-          "reasons": [
-            "outside rolling publication window (2026-11-15T15:00:00.000Z)"
+            "outside rolling publication window (2026-11-07T16:00:00.000Z)"
           ]
         },
         {
@@ -35,14 +29,20 @@
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/day-of-the-dead-celebration-crossing-dreams-celebracion-de-dia-de-muertos-cruzando-ensuenos-2026/",
+          "link": "https://queensmuseum.org/event/guardians-of-flushing-bays-saturbay-celebration/",
           "reasons": [
-            "outside rolling publication window (2026-11-07T16:00:00.000Z)"
+            "outside rolling publication window (2026-10-31T15:00:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensmuseum.org/event/artaccess-open-studios-estudio-abierto-november-14-2026/",
+          "reasons": [
+            "outside rolling publication window (2026-11-14T15:30:00.000Z)"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 2085
+      "durationMs": 2021
     },
     {
       "id": "city-parks-foundation",
@@ -59,13 +59,7 @@
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-43/",
-          "reasons": [
-            "outside rolling publication window (2026-10-29T14:00:00.000Z)"
-          ]
-        },
-        {
-          "link": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-53/",
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-westerleigh-park-35/",
           "reasons": [
             "could not extract title/date from page"
           ]
@@ -77,14 +71,20 @@
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-westerleigh-park-35/",
+          "link": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-53/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
+        {
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-henry-hudson-park-24/",
           "reasons": [
             "could not extract title/date from page"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 14949
+      "durationMs": 12005
     },
     {
       "id": "museum-moving-image",
@@ -97,7 +97,7 @@
       "errors": [
         "HTTP 403"
       ],
-      "durationMs": 633
+      "durationMs": 181
     },
     {
       "id": "queens-public-library",
@@ -110,7 +110,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 558
+      "durationMs": 395
     },
     {
       "id": "flushing-town-hall",
@@ -123,7 +123,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 1003
+      "durationMs": 355
     },
     {
       "id": "queens-botanical-garden",
@@ -134,7 +134,7 @@
       "rejected": 0,
       "rejections": [],
       "errors": [],
-      "durationMs": 2489
+      "durationMs": 1253
     },
     {
       "id": "noguchi-museum",
@@ -145,7 +145,7 @@
       "rejected": 0,
       "rejections": [],
       "errors": [],
-      "durationMs": 6219
+      "durationMs": 6013
     },
     {
       "id": "socrates-sculpture-park",
@@ -158,7 +158,7 @@
       "errors": [
         "HTTP 404"
       ],
-      "durationMs": 946
+      "durationMs": 678
     },
     {
       "id": "queens-theatre",
@@ -171,7 +171,7 @@
       "errors": [
         "fetch failed"
       ],
-      "durationMs": 6738
+      "durationMs": 4722
     }
   ],
   "totals": {

@@ -1,220 +1,5 @@
 [
   {
-    "id": "qc_edd26832d8902b62",
-    "slug": "akari-holiday-sale-2026-11-18",
-    "title": "Akari Holiday Sale",
-    "description": "Museum members save even more with an additional 10% off during the holiday sale. Members will receive a discount code by email on November 18. To receive this discount and other exclusive offers on Shop items throughout the year, consider becoming a member.",
-    "startDate": "2026-11-18T14:00:00.000Z",
-    "endDate": "2026-11-18T16:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "arts-culture",
-      "family"
-    ],
-    "tags": [],
-    "image": "https://www.noguchi.org/wp-content/uploads/2021/07/6-Shop-Noguchi-Museum-Photo-by-Nicholas-Knight-INFGM-ARS.jpg",
-    "price": null,
-    "registrationUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-18-1000-akari-holiday-sale/",
-    "venue": {
-      "name": "The Noguchi Museum",
-      "address": "9-01 33rd Rd, Long Island City, NY 11106",
-      "neighborhood": "Long Island City",
-      "latitude": 40.7668,
-      "longitude": -73.9381
-    },
-    "organizer": {
-      "name": "The Noguchi Museum",
-      "url": "https://www.noguchi.org/"
-    },
-    "source": {
-      "name": "The Noguchi Museum",
-      "listingUrl": "https://www.noguchi.org/museum/calendar/",
-      "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-18-1000-akari-holiday-sale/",
-      "retrievedAt": "2026-11-18T18:05:57.306Z",
-      "method": "html"
-    },
-    "weekKey": "2026-W47",
-    "answerSummary": "Akari Holiday Sale is happening Wednesday, November 18 at 9:00 AM at The Noguchi Museum in Long Island City, Queens. Museum members save even more with an additional 10% off during the holiday sale. Members will receive a discount code by email on November 18. To receive this discount and other exclusive offers on Shop items throughout the year, consider bec",
-    "faqs": [
-      {
-        "question": "When is Akari Holiday Sale?",
-        "answer": "Akari Holiday Sale starts Wednesday, November 18 at 9:00 AM."
-      },
-      {
-        "question": "Where is Akari Holiday Sale?",
-        "answer": "The Noguchi Museum, 9-01 33rd Rd, Long Island City, NY 11106."
-      },
-      {
-        "question": "How do I register for Akari Holiday Sale?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_4d734a045d0492b5",
-    "slug": "farm-stand",
-    "title": "Farm Stand",
-    "description": "Farm Stand is back! Stop by the Visitor & Administration Building Terrace from 2 pm to 5 pm to see what we're harvesting this week.",
-    "startDate": "2026-11-18T19:00:00.000Z",
-    "endDate": "2026-11-18T22:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "parks-outdoors",
-      "family",
-      "community"
-    ],
-    "tags": [],
-    "image": null,
-    "price": null,
-    "registrationUrl": "https://queensbotanical.org/event/farm-stand-23/",
-    "venue": {
-      "name": "Queens Botanical Garden",
-      "address": "43-50 Main St, Flushing, NY 11355",
-      "neighborhood": "Flushing",
-      "latitude": 40.7516,
-      "longitude": -73.8268
-    },
-    "organizer": {
-      "name": "Queens Botanical Garden",
-      "url": "https://queensbotanical.org/"
-    },
-    "source": {
-      "name": "Queens Botanical Garden",
-      "listingUrl": "https://queensbotanical.org/calendar/",
-      "canonicalUrl": "https://queensbotanical.org/event/farm-stand-23/",
-      "retrievedAt": "2026-11-18T18:05:54.232Z",
-      "method": "json-ld"
-    },
-    "weekKey": "2026-W47",
-    "answerSummary": "Farm Stand is happening Wednesday, November 18 at 2:00 PM at Queens Botanical Garden in Flushing, Queens. Farm Stand is back! Stop by the Visitor & Administration Building Terrace from 2 pm to 5 pm to see what we're harvesting this week.",
-    "faqs": [
-      {
-        "question": "When is Farm Stand?",
-        "answer": "Farm Stand starts Wednesday, November 18 at 2:00 PM."
-      },
-      {
-        "question": "Where is Farm Stand?",
-        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
-      },
-      {
-        "question": "How do I register for Farm Stand?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_441fe97bbce77821",
-    "slug": "math-in-bloom-community-art-fibonacci-stepping-stone-creation",
-    "title": "Math in Bloom: Community Art: Fibonacci Stepping Stone Creation",
-    "description": "Join Queens Botanical Garden for a hands-on afternoon of community art making! Thanks to the generous support of the Simon Foundation, neighbors of all ages are invited to create a one-of-a-kind stepping stone using natural garden materials. Each participant will add their own color, texture, and story to the project.",
-    "startDate": "2026-11-18T20:00:00.000Z",
-    "endDate": "2026-11-18T21:30:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "parks-outdoors",
-      "family",
-      "community",
-      "arts-culture"
-    ],
-    "tags": [],
-    "image": null,
-    "price": null,
-    "registrationUrl": "https://queensbotanical.org/event/math-in-bloom-community-art-fibonacci-stepping-stone-creation-2/",
-    "venue": {
-      "name": "Queens Botanical Garden",
-      "address": "43-50 Main St, Flushing, NY 11355",
-      "neighborhood": "Flushing",
-      "latitude": 40.7516,
-      "longitude": -73.8268
-    },
-    "organizer": {
-      "name": "Queens Botanical Garden",
-      "url": "https://queensbotanical.org/"
-    },
-    "source": {
-      "name": "Queens Botanical Garden",
-      "listingUrl": "https://queensbotanical.org/calendar/",
-      "canonicalUrl": "https://queensbotanical.org/event/math-in-bloom-community-art-fibonacci-stepping-stone-creation-2/",
-      "retrievedAt": "2026-11-18T18:05:54.469Z",
-      "method": "json-ld"
-    },
-    "weekKey": "2026-W47",
-    "answerSummary": "Math in Bloom: Community Art: Fibonacci Stepping Stone Creation is happening Wednesday, November 18 at 3:00 PM at Queens Botanical Garden in Flushing, Queens. Join Queens Botanical Garden for a hands-on afternoon of community art making! Thanks to the generous support of the Simon Foundation, neighbors of all ages are invited to create a one-of-a-kind steppi",
-    "faqs": [
-      {
-        "question": "When is Math in Bloom: Community Art: Fibonacci Stepping Stone Creation?",
-        "answer": "Math in Bloom: Community Art: Fibonacci Stepping Stone Creation starts Wednesday, November 18 at 3:00 PM."
-      },
-      {
-        "question": "Where is Math in Bloom: Community Art: Fibonacci Stepping Stone Creation?",
-        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
-      },
-      {
-        "question": "How do I register for Math in Bloom: Community Art: Fibonacci Stepping Stone Creation?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_4e4ac61357f0f603",
-    "slug": "noguchi-talks-alanna-heiss-and-martin-puryeartwo-american-sculptors-in-the-venice-biennale",
-    "title": "Noguchi Talks:Alanna Heiss and Martin PuryearTwo American Sculptors in the Venice Biennale",
-    "description": "On the occasion of the 40th anniversary of Isamu Noguchi’s presentation at the United States Pavilion at the 1986 Venice Biennale, this conversation brings together Alanna Heiss, who commissioned Noguchi’s landmark exhibition What Is Sculpture?, and Martin Puryear, who represented the United States at the 2019 Venice Biennale with his highly acclaimed exhibition Liberty/Libertà.",
-    "startDate": "2026-11-18T22:00:00.000Z",
-    "endDate": "2026-11-19T00:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "arts-culture",
-      "family"
-    ],
-    "tags": [],
-    "image": "https://www.noguchi.org/wp-content/uploads/2026/10/01–Isamu-Noguchi–Slide-Mantra–144050_Photo-Shigeo-Anzai-INFGM-ARS-square-2.jpg",
-    "price": null,
-    "registrationUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-18-1800-noguchi-talksalanna-heiss-and-martin-puryeartwo-american-sculptors-in-the-venice-biennale/",
-    "venue": {
-      "name": "The Noguchi Museum",
-      "address": "9-01 33rd Rd, Long Island City, NY 11106",
-      "neighborhood": "Long Island City",
-      "latitude": 40.7668,
-      "longitude": -73.9381
-    },
-    "organizer": {
-      "name": "The Noguchi Museum",
-      "url": "https://www.noguchi.org/"
-    },
-    "source": {
-      "name": "The Noguchi Museum",
-      "listingUrl": "https://www.noguchi.org/museum/calendar/",
-      "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-18-1800-noguchi-talksalanna-heiss-and-martin-puryeartwo-american-sculptors-in-the-venice-biennale/",
-      "retrievedAt": "2026-11-18T18:05:58.771Z",
-      "method": "html"
-    },
-    "weekKey": "2026-W47",
-    "answerSummary": "Noguchi Talks:Alanna Heiss and Martin PuryearTwo American Sculptors in the Venice Biennale is happening Wednesday, November 18 at 5:00 PM at The Noguchi Museum in Long Island City, Queens. On the occasion of the 40th anniversary of Isamu Noguchi’s presentation at the United States Pavilion at the 1986 Venice Biennale, this conversation brings together Alanna",
-    "faqs": [
-      {
-        "question": "When is Noguchi Talks:Alanna Heiss and Martin PuryearTwo American Sculptors in the Venice Biennale?",
-        "answer": "Noguchi Talks:Alanna Heiss and Martin PuryearTwo American Sculptors in the Venice Biennale starts Wednesday, November 18 at 5:00 PM."
-      },
-      {
-        "question": "Where is Noguchi Talks:Alanna Heiss and Martin PuryearTwo American Sculptors in the Venice Biennale?",
-        "answer": "The Noguchi Museum, 9-01 33rd Rd, Long Island City, NY 11106."
-      },
-      {
-        "question": "How do I register for Noguchi Talks:Alanna Heiss and Martin PuryearTwo American Sculptors in the Venice Biennale?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
-      }
-    ]
-  },
-  {
     "id": "qc_f04c02337fe7c74b",
     "slug": "akari-holiday-sale-2026-11-19",
     "title": "Akari Holiday Sale",
@@ -247,7 +32,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-19-1000-akari-holiday-sale/",
-      "retrievedAt": "2026-11-18T18:05:58.757Z",
+      "retrievedAt": "2026-11-19T18:18:00.293Z",
       "method": "html"
     },
     "weekKey": "2026-W47",
@@ -302,7 +87,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/rain-garden-stewardship-volunteer-days-4/",
-      "retrievedAt": "2026-11-18T18:05:54.431Z",
+      "retrievedAt": "2026-11-19T18:17:57.841Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W47",
@@ -356,7 +141,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-open-hours-34/",
-      "retrievedAt": "2026-11-18T18:05:54.241Z",
+      "retrievedAt": "2026-11-19T18:17:57.823Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W47",
@@ -409,7 +194,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-20-1000-akari-holiday-sale/",
-      "retrievedAt": "2026-11-18T18:05:58.746Z",
+      "retrievedAt": "2026-11-19T18:18:01.590Z",
       "method": "html"
     },
     "weekKey": "2026-W47",
@@ -426,59 +211,6 @@
       {
         "question": "How do I register for Akari Holiday Sale?",
         "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
-      }
-    ]
-  },
-  {
-    "id": "qc_bc0e8352eeb38eae",
-    "slug": "it-s-my-park-at-baisley-pond-park",
-    "title": "It’s My Park at Baisley Pond Park",
-    "description": "Volunteer with Next Day After, Inc to plant daffodils in Baisley Pond Park.",
-    "startDate": "2026-11-21T14:00:00.000Z",
-    "endDate": "2026-11-21T17:00:00.000Z",
-    "timezone": "America/New_York",
-    "status": "scheduled",
-    "attendanceMode": "offline",
-    "categories": [
-      "community",
-      "arts-culture"
-    ],
-    "tags": [],
-    "image": "https://cityparksfoundation.org/wp-content/uploads/2025/02/IMP_widget_2023_rt_3-2-1-2-1-1-1-1-1-1-2-1-1-1-2-1-1-1-1-8-1-2-1-1-1-5-1-2-1-1-1-3-1-2-1-1-3-3-1-2-4-2-2-3.jpg",
-    "price": "0",
-    "registrationUrl": "https://cityparksfoundation.org/events/its-my-park-at-baisley-pond-park-3/",
-    "venue": {
-      "name": "It’s My Park at Baisley Pond Park",
-      "address": "Queens, Queens, NY",
-      "neighborhood": "Queens",
-      "latitude": 40.7282,
-      "longitude": -73.7949
-    },
-    "organizer": {
-      "name": "Volunteer",
-      "url": "https://cityparksfoundation.org/"
-    },
-    "source": {
-      "name": "City Parks Foundation",
-      "listingUrl": "https://cityparksfoundation.org/calendar/month/",
-      "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-baisley-pond-park-3/",
-      "retrievedAt": "2026-11-18T18:05:46.462Z",
-      "method": "json-ld"
-    },
-    "weekKey": "2026-W47",
-    "answerSummary": "It’s My Park at Baisley Pond Park is happening Saturday, November 21 at 9:00 AM at It’s My Park at Baisley Pond Park in Queens, Queens. Volunteer with Next Day After, Inc to plant daffodils in Baisley Pond Park.",
-    "faqs": [
-      {
-        "question": "When is It’s My Park at Baisley Pond Park?",
-        "answer": "It’s My Park at Baisley Pond Park starts Saturday, November 21 at 9:00 AM."
-      },
-      {
-        "question": "Where is It’s My Park at Baisley Pond Park?",
-        "answer": "It’s My Park at Baisley Pond Park, Queens, Queens, NY."
-      },
-      {
-        "question": "How do I register for It’s My Park at Baisley Pond Park?",
-        "answer": "Use the organizer's registration link. Queens Calendar links directly to Volunteer, the event source."
       }
     ]
   },
@@ -515,7 +247,7 @@
       "name": "City Parks Foundation",
       "listingUrl": "https://cityparksfoundation.org/calendar/month/",
       "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-moore-homestead-playground-3/",
-      "retrievedAt": "2026-11-18T18:05:46.962Z",
+      "retrievedAt": "2026-11-19T18:17:51.838Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W47",
@@ -531,6 +263,59 @@
       },
       {
         "question": "How do I register for It’s My Park at Moore Homestead Playground?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Volunteer, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_bc0e8352eeb38eae",
+    "slug": "it-s-my-park-at-baisley-pond-park",
+    "title": "It’s My Park at Baisley Pond Park",
+    "description": "Volunteer with Next Day After, Inc to plant daffodils in Baisley Pond Park.",
+    "startDate": "2026-11-21T14:00:00.000Z",
+    "endDate": "2026-11-21T17:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "community",
+      "arts-culture"
+    ],
+    "tags": [],
+    "image": "https://cityparksfoundation.org/wp-content/uploads/2025/02/IMP_widget_2023_rt_3-2-1-2-1-1-1-1-1-1-2-1-1-1-2-1-1-1-1-8-1-2-1-1-1-5-1-2-1-1-1-3-1-2-1-1-3-3-1-2-4-2-2-3.jpg",
+    "price": "0",
+    "registrationUrl": "https://cityparksfoundation.org/events/its-my-park-at-baisley-pond-park-3/",
+    "venue": {
+      "name": "It’s My Park at Baisley Pond Park",
+      "address": "Queens, Queens, NY",
+      "neighborhood": "Queens",
+      "latitude": 40.7282,
+      "longitude": -73.7949
+    },
+    "organizer": {
+      "name": "Volunteer",
+      "url": "https://cityparksfoundation.org/"
+    },
+    "source": {
+      "name": "City Parks Foundation",
+      "listingUrl": "https://cityparksfoundation.org/calendar/month/",
+      "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-baisley-pond-park-3/",
+      "retrievedAt": "2026-11-19T18:17:53.874Z",
+      "method": "json-ld"
+    },
+    "weekKey": "2026-W47",
+    "answerSummary": "It’s My Park at Baisley Pond Park is happening Saturday, November 21 at 9:00 AM at It’s My Park at Baisley Pond Park in Queens, Queens. Volunteer with Next Day After, Inc to plant daffodils in Baisley Pond Park.",
+    "faqs": [
+      {
+        "question": "When is It’s My Park at Baisley Pond Park?",
+        "answer": "It’s My Park at Baisley Pond Park starts Saturday, November 21 at 9:00 AM."
+      },
+      {
+        "question": "Where is It’s My Park at Baisley Pond Park?",
+        "answer": "It’s My Park at Baisley Pond Park, Queens, Queens, NY."
+      },
+      {
+        "question": "How do I register for It’s My Park at Baisley Pond Park?",
         "answer": "Use the organizer's registration link. Queens Calendar links directly to Volunteer, the event source."
       }
     ]
@@ -568,7 +353,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-21-1000-akari-holiday-sale/",
-      "retrievedAt": "2026-11-18T18:05:58.782Z",
+      "retrievedAt": "2026-11-19T18:18:00.980Z",
       "method": "html"
     },
     "weekKey": "2026-W47",
@@ -590,7 +375,7 @@
   },
   {
     "id": "qc_7b364e1680e0806b",
-    "slug": "art-for-families",
+    "slug": "art-for-families-2026-11-21",
     "title": "Art for Families",
     "description": "Space is limited and advance registration is required. The program registration includes Museum admission. Family programs are free for members at the Family level and above, SNAP benefits recipients with EBT card or WIC card, and members of Cool Culture.",
     "startDate": "2026-11-21T14:30:00.000Z",
@@ -621,7 +406,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-21-1030-art-for-families-continuity/",
-      "retrievedAt": "2026-11-18T18:05:58.797Z",
+      "retrievedAt": "2026-11-19T18:18:01.200Z",
       "method": "html"
     },
     "weekKey": "2026-W47",
@@ -676,7 +461,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/math-in-bloom-fibonacci-community-volunteer-day/",
-      "retrievedAt": "2026-11-18T18:05:54.073Z",
+      "retrievedAt": "2026-11-19T18:17:57.942Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W47",
@@ -729,7 +514,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-22-1000-akari-holiday-sale/",
-      "retrievedAt": "2026-11-18T18:06:00.459Z",
+      "retrievedAt": "2026-11-19T18:18:01.377Z",
       "method": "html"
     },
     "weekKey": "2026-W47",
@@ -785,7 +570,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-cooking-workshop-pickling-2/",
-      "retrievedAt": "2026-11-18T18:05:54.451Z",
+      "retrievedAt": "2026-11-19T18:17:58.098Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W47",
@@ -838,7 +623,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-22-1030-art-for-tots-ages-3-4-light/",
-      "retrievedAt": "2026-11-18T18:05:59.309Z",
+      "retrievedAt": "2026-11-19T18:18:01.703Z",
       "method": "html"
     },
     "weekKey": "2026-W47",
@@ -892,7 +677,7 @@
       "name": "Queens Museum",
       "listingUrl": "https://queensmuseum.org/event/",
       "canonicalUrl": "https://queensmuseum.org/event/printmaking-workshop-a-new-new-yorkers-program-11-22-2026/",
-      "retrievedAt": "2026-11-18T18:05:34.860Z",
+      "retrievedAt": "2026-11-19T18:17:43.004Z",
       "method": "html"
     },
     "weekKey": "2026-W47",
@@ -945,7 +730,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-23-1000-akari-holiday-sale/",
-      "retrievedAt": "2026-11-18T18:06:00.180Z",
+      "retrievedAt": "2026-11-19T18:18:02.299Z",
       "method": "html"
     },
     "weekKey": "2026-W48",
@@ -1000,7 +785,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-39-33/",
-      "retrievedAt": "2026-11-18T18:05:54.660Z",
+      "retrievedAt": "2026-11-19T18:17:58.109Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W48",
@@ -1053,7 +838,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-24-1000-akari-holiday-sale/",
-      "retrievedAt": "2026-11-18T18:06:00.357Z",
+      "retrievedAt": "2026-11-19T18:18:02.573Z",
       "method": "html"
     },
     "weekKey": "2026-W48",
@@ -1108,7 +893,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-27-68/",
-      "retrievedAt": "2026-11-18T18:05:55.182Z",
+      "retrievedAt": "2026-11-19T18:17:57.910Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W48",
@@ -1161,7 +946,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-11-24-1030-art-for-tots-ages-1-2-light/",
-      "retrievedAt": "2026-11-18T18:06:00.200Z",
+      "retrievedAt": "2026-11-19T18:18:02.589Z",
       "method": "html"
     },
     "weekKey": "2026-W48",
@@ -1215,7 +1000,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/thanksgiving-day-garden-is-closed-4-3/",
-      "retrievedAt": "2026-11-18T18:05:55.270Z",
+      "retrievedAt": "2026-11-19T18:17:57.955Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W48",
@@ -1268,7 +1053,7 @@
       "name": "City Parks Foundation",
       "listingUrl": "https://cityparksfoundation.org/calendar/month/",
       "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-brookville-park-4/",
-      "retrievedAt": "2026-11-18T18:05:48.384Z",
+      "retrievedAt": "2026-11-19T18:17:54.352Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W48",
@@ -1323,7 +1108,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-39-108/",
-      "retrievedAt": "2026-11-18T18:05:55.058Z",
+      "retrievedAt": "2026-11-19T18:17:57.973Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W49",
@@ -1378,7 +1163,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/farm-community-volunteer-days-27-67/",
-      "retrievedAt": "2026-11-18T18:05:54.952Z",
+      "retrievedAt": "2026-11-19T18:17:58.352Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W49",
@@ -1431,7 +1216,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-12-03-1800-members-holiday-workshop-kumiko-with-resobox/",
-      "retrievedAt": "2026-11-18T18:06:00.451Z",
+      "retrievedAt": "2026-11-19T18:18:02.639Z",
       "method": "html"
     },
     "weekKey": "2026-W49",
@@ -1484,7 +1269,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-12-04-1000-free-first-friday/",
-      "retrievedAt": "2026-11-18T18:06:00.908Z",
+      "retrievedAt": "2026-11-19T18:18:03.713Z",
       "method": "html"
     },
     "weekKey": "2026-W49",
@@ -1537,7 +1322,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-12-04-1300-tour-publico-museum-tour-in-spanish/",
-      "retrievedAt": "2026-11-18T18:06:01.174Z",
+      "retrievedAt": "2026-11-19T18:18:03.090Z",
       "method": "html"
     },
     "weekKey": "2026-W49",
@@ -1590,7 +1375,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-12-04-1430-gallery-kit/",
-      "retrievedAt": "2026-11-18T18:06:01.353Z",
+      "retrievedAt": "2026-11-19T18:18:03.794Z",
       "method": "html"
     },
     "weekKey": "2026-W49",
@@ -1643,7 +1428,7 @@
       "name": "City Parks Foundation",
       "listingUrl": "https://cityparksfoundation.org/calendar/month/",
       "canonicalUrl": "https://cityparksfoundation.org/events/its-my-park-at-moore-homestead-playground-4/",
-      "retrievedAt": "2026-11-18T18:05:49.980Z",
+      "retrievedAt": "2026-11-19T18:17:55.221Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W49",
@@ -1660,6 +1445,59 @@
       {
         "question": "How do I register for It’s My Park at Moore Homestead Playground?",
         "answer": "Use the organizer's registration link. Queens Calendar links directly to Volunteer, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_66f7259ffc4dc0dc",
+    "slug": "open-studio-shape-to-pattern",
+    "title": "Open Studio: Shape to Pattern",
+    "description": "Families with children of all ages are invited to explore the galleries and engage in a related art-making activity in the Education Studio (Level C). Families are encouraged to work together to explore themes connected to the art on view. This month, explore repeating shapes in the Museum galleries and create a geometric pattern of your own design. Free with admission; advance registration is not required.",
+    "startDate": "2026-12-05T15:00:00.000Z",
+    "endDate": "2026-12-05T17:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "arts-culture",
+      "family"
+    ],
+    "tags": [],
+    "image": "https://www.noguchi.org/wp-content/uploads/2025/12/9-2024-04-06-Open-Studio-Photo-Chanel-Matsunami.jpg",
+    "price": null,
+    "registrationUrl": "https://www.noguchi.org/museum/calendar/event/2026-12-05-1100-open-studio-shape-to-pattern/",
+    "venue": {
+      "name": "The Noguchi Museum",
+      "address": "9-01 33rd Rd, Long Island City, NY 11106",
+      "neighborhood": "Long Island City",
+      "latitude": 40.7668,
+      "longitude": -73.9381
+    },
+    "organizer": {
+      "name": "The Noguchi Museum",
+      "url": "https://www.noguchi.org/"
+    },
+    "source": {
+      "name": "The Noguchi Museum",
+      "listingUrl": "https://www.noguchi.org/museum/calendar/",
+      "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-12-05-1100-open-studio-shape-to-pattern/",
+      "retrievedAt": "2026-11-19T18:18:04.155Z",
+      "method": "html"
+    },
+    "weekKey": "2026-W49",
+    "answerSummary": "Open Studio: Shape to Pattern is happening Saturday, December 5 at 10:00 AM at The Noguchi Museum in Long Island City, Queens. Families with children of all ages are invited to explore the galleries and engage in a related art-making activity in the Education Studio (Level C). Families are encouraged to work together to explore themes connected to the art on",
+    "faqs": [
+      {
+        "question": "When is Open Studio: Shape to Pattern?",
+        "answer": "Open Studio: Shape to Pattern starts Saturday, December 5 at 10:00 AM."
+      },
+      {
+        "question": "Where is Open Studio: Shape to Pattern?",
+        "answer": "The Noguchi Museum, 9-01 33rd Rd, Long Island City, NY 11106."
+      },
+      {
+        "question": "How do I register for Open Studio: Shape to Pattern?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
       }
     ]
   },
@@ -1696,7 +1534,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-12-05-1500-%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%81%a7%e3%81%ae%e3%83%84%e3%82%a2%e3%83%bc-museum-tour-in-japanese/",
-      "retrievedAt": "2026-11-18T18:06:01.367Z",
+      "retrievedAt": "2026-11-19T18:18:03.993Z",
       "method": "html"
     },
     "weekKey": "2026-W49",
@@ -1749,7 +1587,7 @@
       "name": "Queens Museum",
       "listingUrl": "https://queensmuseum.org/event/",
       "canonicalUrl": "https://queensmuseum.org/event/day-without-art-2026-seeds-in-a-dying-colony/",
-      "retrievedAt": "2026-11-18T18:05:35.026Z",
+      "retrievedAt": "2026-11-19T18:17:43.090Z",
       "method": "html"
     },
     "weekKey": "2026-W49",
@@ -1803,7 +1641,7 @@
       "name": "Queens Museum",
       "listingUrl": "https://queensmuseum.org/event/",
       "canonicalUrl": "https://queensmuseum.org/event/printmaking-workshop-a-new-new-yorkers-program-12-06-2026/",
-      "retrievedAt": "2026-11-18T18:05:34.688Z",
+      "retrievedAt": "2026-11-19T18:17:42.873Z",
       "method": "html"
     },
     "weekKey": "2026-W49",
@@ -1858,7 +1696,7 @@
       "name": "Queens Botanical Garden",
       "listingUrl": "https://queensbotanical.org/calendar/",
       "canonicalUrl": "https://queensbotanical.org/event/winter-wonder-2026/",
-      "retrievedAt": "2026-11-18T18:05:54.690Z",
+      "retrievedAt": "2026-11-19T18:17:58.045Z",
       "method": "json-ld"
     },
     "weekKey": "2026-W49",
@@ -1874,6 +1712,169 @@
       },
       {
         "question": "How do I register for Winter Wonder?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_96d5eb4f89e206e4",
+    "slug": "compost-build-community-volunteer-days-2026-12-07",
+    "title": "Compost Build Community Volunteer Days",
+    "description": "Join the QBG Compost Staff for our weekly on-site compost build and learn about processing community food scraps into nutrient-rich compost. Register here",
+    "startDate": "2026-12-07T14:30:00.000Z",
+    "endDate": "2026-12-07T17:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community",
+      "food"
+    ],
+    "tags": [],
+    "image": null,
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-39-107/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "https://queensbotanical.org/"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-39-107/",
+      "retrievedAt": "2026-11-19T18:17:58.084Z",
+      "method": "json-ld"
+    },
+    "weekKey": "2026-W50",
+    "answerSummary": "Compost Build Community Volunteer Days is happening Monday, December 7 at 9:30 AM at Queens Botanical Garden in Flushing, Queens. Join the QBG Compost Staff for our weekly on-site compost build and learn about processing community food scraps into nutrient-rich compost. Register here",
+    "faqs": [
+      {
+        "question": "When is Compost Build Community Volunteer Days?",
+        "answer": "Compost Build Community Volunteer Days starts Monday, December 7 at 9:30 AM."
+      },
+      {
+        "question": "Where is Compost Build Community Volunteer Days?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for Compost Build Community Volunteer Days?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_1a7022a40306d8e6",
+    "slug": "art-for-families-2026-12-13",
+    "title": "Art for Families",
+    "description": "Space is limited and advance registration is required. The program registration includes Museum admission. Family programs are free for members at the Family level and above, SNAP benefits recipients with EBT card or WIC card, and members of Cool Culture.",
+    "startDate": "2026-12-13T14:30:00.000Z",
+    "endDate": "2026-12-13T16:30:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "arts-culture",
+      "family"
+    ],
+    "tags": [],
+    "image": "https://www.noguchi.org/wp-content/uploads/2025/10/Art-for-Families-Wufoo-1.png",
+    "price": null,
+    "registrationUrl": "https://noguchieducation.wufoo.com/forms/x33up3l11g9l1r/",
+    "venue": {
+      "name": "The Noguchi Museum",
+      "address": "9-01 33rd Rd, Long Island City, NY 11106",
+      "neighborhood": "Long Island City",
+      "latitude": 40.7668,
+      "longitude": -73.9381
+    },
+    "organizer": {
+      "name": "The Noguchi Museum",
+      "url": "https://www.noguchi.org/"
+    },
+    "source": {
+      "name": "The Noguchi Museum",
+      "listingUrl": "https://www.noguchi.org/museum/calendar/",
+      "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-12-13-1030-art-for-families-relationships/",
+      "retrievedAt": "2026-11-19T18:18:04.090Z",
+      "method": "html"
+    },
+    "weekKey": "2026-W50",
+    "answerSummary": "Art for Families is happening Sunday, December 13 at 9:30 AM at The Noguchi Museum in Long Island City, Queens. Space is limited and advance registration is required. The program registration includes Museum admission. Family programs are free for members at the Family level and above, SNAP benefits recipients with EBT card or WIC card, and members of Cool C",
+    "faqs": [
+      {
+        "question": "When is Art for Families?",
+        "answer": "Art for Families starts Sunday, December 13 at 9:30 AM."
+      },
+      {
+        "question": "Where is Art for Families?",
+        "answer": "The Noguchi Museum, 9-01 33rd Rd, Long Island City, NY 11106."
+      },
+      {
+        "question": "How do I register for Art for Families?",
+        "answer": "Use the organizer's registration link. Queens Calendar links directly to The Noguchi Museum, the event source."
+      }
+    ]
+  },
+  {
+    "id": "qc_976891533e203a39",
+    "slug": "compost-build-community-volunteer-days-2026-12-14",
+    "title": "Compost Build Community Volunteer Days",
+    "description": "Join the QBG Compost Staff for our weekly on-site compost build and learn about processing community food scraps into nutrient-rich compost. Register here",
+    "startDate": "2026-12-14T14:30:00.000Z",
+    "endDate": "2026-12-14T17:00:00.000Z",
+    "timezone": "America/New_York",
+    "status": "scheduled",
+    "attendanceMode": "offline",
+    "categories": [
+      "parks-outdoors",
+      "family",
+      "community",
+      "food"
+    ],
+    "tags": [],
+    "image": null,
+    "price": null,
+    "registrationUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-39-106/",
+    "venue": {
+      "name": "Queens Botanical Garden",
+      "address": "43-50 Main St, Flushing, NY 11355",
+      "neighborhood": "Flushing",
+      "latitude": 40.7516,
+      "longitude": -73.8268
+    },
+    "organizer": {
+      "name": "Queens Botanical Garden",
+      "url": "https://queensbotanical.org/"
+    },
+    "source": {
+      "name": "Queens Botanical Garden",
+      "listingUrl": "https://queensbotanical.org/calendar/",
+      "canonicalUrl": "https://queensbotanical.org/event/compost-build-community-volunteer-days-39-106/",
+      "retrievedAt": "2026-11-19T18:17:58.398Z",
+      "method": "json-ld"
+    },
+    "weekKey": "2026-W51",
+    "answerSummary": "Compost Build Community Volunteer Days is happening Monday, December 14 at 9:30 AM at Queens Botanical Garden in Flushing, Queens. Join the QBG Compost Staff for our weekly on-site compost build and learn about processing community food scraps into nutrient-rich compost. Register here",
+    "faqs": [
+      {
+        "question": "When is Compost Build Community Volunteer Days?",
+        "answer": "Compost Build Community Volunteer Days starts Monday, December 14 at 9:30 AM."
+      },
+      {
+        "question": "Where is Compost Build Community Volunteer Days?",
+        "answer": "Queens Botanical Garden, 43-50 Main St, Flushing, NY 11355."
+      },
+      {
+        "question": "How do I register for Compost Build Community Volunteer Days?",
         "answer": "Use the organizer's registration link. Queens Calendar links directly to Queens Botanical Garden, the event source."
       }
     ]
@@ -1911,7 +1912,7 @@
       "name": "The Noguchi Museum",
       "listingUrl": "https://www.noguchi.org/museum/calendar/",
       "canonicalUrl": "https://www.noguchi.org/museum/calendar/event/2026-12-21-1930-drawing-from-a-distance/",
-      "retrievedAt": "2026-11-18T18:06:01.488Z",
+      "retrievedAt": "2026-11-19T18:18:04.410Z",
       "method": "html"
     },
     "weekKey": "2026-W52",
@@ -1965,7 +1966,7 @@
       "name": "Queens Museum",
       "listingUrl": "https://queensmuseum.org/event/",
       "canonicalUrl": "https://queensmuseum.org/event/from-joy-to-justice-celebrating-community-at-january-family-day-legal-aid-society/",
-      "retrievedAt": "2026-11-18T18:05:35.011Z",
+      "retrievedAt": "2026-11-19T18:17:43.117Z",
       "method": "html"
     },
     "weekKey": "2027-W02",
