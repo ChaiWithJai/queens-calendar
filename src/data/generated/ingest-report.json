@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T17:10:26.601Z",
+  "generatedAt": "2026-11-23T21:27:36.357Z",
   "catalogStatus": "fresh",
   "sources": [
     {
@@ -7,13 +7,25 @@
       "name": "Queens Museum",
       "status": "ok",
       "discovered": 20,
-      "accepted": 4,
-      "rejected": 16,
+      "accepted": 3,
+      "rejected": 17,
       "rejections": [
         {
           "link": "https://queensmuseum.org/event/world-aids-day-intervention-interpretation-station-2026/",
           "reasons": [
             "could not extract title/date from page"
+          ]
+        },
+        {
+          "link": "https://queensmuseum.org/event/artaccess-open-studios-estudio-abierto-november-14-2026/",
+          "reasons": [
+            "outside rolling publication window (2026-11-14T15:30:00.000Z)"
+          ]
+        },
+        {
+          "link": "https://queensmuseum.org/event/day-of-the-dead-celebration-crossing-dreams-celebracion-de-dia-de-muertos-cruzando-ensuenos-2026/",
+          "reasons": [
+            "outside rolling publication window (2026-11-07T16:00:00.000Z)"
           ]
         },
         {
@@ -23,26 +35,14 @@
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/guardians-of-flushing-bays-saturbay-celebration/",
+          "link": "https://queensmuseum.org/event/printmaking-workshop-a-new-new-yorkers-program-11-22-2026/",
           "reasons": [
-            "outside rolling publication window (2026-10-31T15:00:00.000Z)"
-          ]
-        },
-        {
-          "link": "https://queensmuseum.org/event/about-us-community-archiving-day-112026/",
-          "reasons": [
-            "outside rolling publication window (2026-11-15T15:00:00.000Z)"
-          ]
-        },
-        {
-          "link": "https://queensmuseum.org/event/artaccess-open-studios-estudio-abierto-november-14-2026/",
-          "reasons": [
-            "outside rolling publication window (2026-11-14T15:30:00.000Z)"
+            "outside rolling publication window (2026-11-22T18:00:00.000Z)"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 914
+      "durationMs": 1645
     },
     {
       "id": "city-parks-foundation",
@@ -54,6 +54,12 @@
       "rejections": [
         {
           "link": "https://cityparksfoundation.org/events/funk-flex-birthday-rb-picnic/",
+          "reasons": [
+            "could not extract title/date from page"
+          ]
+        },
+        {
+          "link": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-53/",
           "reasons": [
             "could not extract title/date from page"
           ]
@@ -71,20 +77,14 @@
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-brust-park-9/",
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-sitting-area-19/",
           "reasons": [
-            "could not extract title/date from page"
-          ]
-        },
-        {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-westerleigh-park-35/",
-          "reasons": [
-            "could not extract title/date from page"
+            "outside rolling publication window (2026-10-31T16:30:00.000Z)"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 12564
+      "durationMs": 10528
     },
     {
       "id": "museum-moving-image",
@@ -97,7 +97,7 @@
       "errors": [
         "HTTP 403"
       ],
-      "durationMs": 201
+      "durationMs": 159
     },
     {
       "id": "queens-public-library",
@@ -110,7 +110,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 199
+      "durationMs": 285
     },
     {
       "id": "flushing-town-hall",
@@ -123,7 +123,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 663
+      "durationMs": 243
     },
     {
       "id": "queens-botanical-garden",
@@ -134,18 +134,18 @@
       "rejected": 0,
       "rejections": [],
       "errors": [],
-      "durationMs": 784
+      "durationMs": 994
     },
     {
       "id": "noguchi-museum",
       "name": "The Noguchi Museum",
       "status": "ok",
-      "discovered": 15,
-      "accepted": 15,
+      "discovered": 13,
+      "accepted": 13,
       "rejected": 0,
       "rejections": [],
       "errors": [],
-      "durationMs": 5332
+      "durationMs": 4997
     },
     {
       "id": "socrates-sculpture-park",
@@ -158,7 +158,7 @@
       "errors": [
         "HTTP 404"
       ],
-      "durationMs": 406
+      "durationMs": 628
     },
     {
       "id": "queens-theatre",
@@ -171,13 +171,13 @@
       "errors": [
         "fetch failed"
       ],
-      "durationMs": 4082
+      "durationMs": 5100
     }
   ],
   "totals": {
-    "discovered": 96,
-    "accepted": 33,
-    "published": 33,
-    "rejected": 63
+    "discovered": 94,
+    "accepted": 30,
+    "published": 30,
+    "rejected": 64
   }
 }
