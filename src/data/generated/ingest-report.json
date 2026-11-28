@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T19:00:15.194Z",
+  "generatedAt": "2026-11-28T17:34:21.560Z",
   "catalogStatus": "fresh",
   "sources": [
     {
@@ -11,9 +11,9 @@
       "rejected": 15,
       "rejections": [
         {
-          "link": "https://queensmuseum.org/event/world-aids-day-intervention-interpretation-station-2026/",
+          "link": "https://queensmuseum.org/event/day-of-the-dead-celebration-crossing-dreams-celebracion-de-dia-de-muertos-cruzando-ensuenos-2026/",
           "reasons": [
-            "could not extract title/date from page"
+            "outside rolling publication window (2026-11-07T16:00:00.000Z)"
           ]
         },
         {
@@ -23,33 +23,33 @@
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/printmaking-workshop-a-new-new-yorkers-program-11-22-2026/",
+          "link": "https://queensmuseum.org/event/world-aids-day-intervention-interpretation-station-2026/",
           "reasons": [
-            "outside rolling publication window (2026-11-22T18:00:00.000Z)"
+            "could not extract title/date from page"
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/guardians-of-flushing-bays-saturbay-celebration/",
+          "link": "https://queensmuseum.org/event/artaccess-open-studios-estudio-abierto-november-15-2026/",
           "reasons": [
-            "outside rolling publication window (2026-10-31T15:00:00.000Z)"
+            "outside rolling publication window (2026-11-15T15:30:00.000Z)"
           ]
         },
         {
-          "link": "https://queensmuseum.org/event/about-us-community-archiving-day-112026/",
+          "link": "https://queensmuseum.org/event/artaccess-open-studios-estudio-abierto-november-14-2026/",
           "reasons": [
-            "outside rolling publication window (2026-11-15T15:00:00.000Z)"
+            "outside rolling publication window (2026-11-14T15:30:00.000Z)"
           ]
         }
       ],
       "errors": [],
-      "durationMs": 774
+      "durationMs": 785
     },
     {
       "id": "city-parks-foundation",
       "name": "City Parks Foundation",
       "status": "ok",
       "discovered": 52,
-      "accepted": 2,
+      "accepted": 3,
       "rejected": 50,
       "rejections": [
         {
@@ -65,9 +65,9 @@
           ]
         },
         {
-          "link": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-43/",
+          "link": "https://cityparksfoundation.org/events/its-my-park-at-westerleigh-park-35/",
           "reasons": [
-            "outside rolling publication window (2026-10-29T14:00:00.000Z)"
+            "could not extract title/date from page"
           ]
         },
         {
@@ -84,7 +84,7 @@
         }
       ],
       "errors": [],
-      "durationMs": 12527
+      "durationMs": 11551
     },
     {
       "id": "museum-moving-image",
@@ -97,7 +97,7 @@
       "errors": [
         "HTTP 403"
       ],
-      "durationMs": 246
+      "durationMs": 194
     },
     {
       "id": "queens-public-library",
@@ -110,7 +110,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 441
+      "durationMs": 300
     },
     {
       "id": "flushing-town-hall",
@@ -123,7 +123,7 @@
       "errors": [
         "No matching event detail links discovered"
       ],
-      "durationMs": 636
+      "durationMs": 629
     },
     {
       "id": "queens-botanical-garden",
@@ -134,7 +134,7 @@
       "rejected": 0,
       "rejections": [],
       "errors": [],
-      "durationMs": 1156
+      "durationMs": 447
     },
     {
       "id": "noguchi-museum",
@@ -145,7 +145,7 @@
       "rejected": 0,
       "rejections": [],
       "errors": [],
-      "durationMs": 5641
+      "durationMs": 3937
     },
     {
       "id": "socrates-sculpture-park",
@@ -158,7 +158,7 @@
       "errors": [
         "HTTP 404"
       ],
-      "durationMs": 372
+      "durationMs": 312
     },
     {
       "id": "queens-theatre",
@@ -171,12 +171,12 @@
       "errors": [
         "fetch failed"
       ],
-      "durationMs": 3925
+      "durationMs": 3741
     }
   ],
   "totals": {
     "discovered": 94,
-    "accepted": 29,
+    "accepted": 30,
     "published": 29,
     "rejected": 65
   }
